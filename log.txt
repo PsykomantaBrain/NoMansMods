@@ -1,0 +1,2909 @@
+  Thu 03/17/2022 13:18:56.60 AMUMSS starting!
+
+  [7m[1;31m[1m                                                                                   [0m
+  [7m >>> Note: Please make sure you do not have any accented characters in AMUMSS path [0m
+  [7m[1;31m[1m                                                                                   [0m
+
+[1;32m[1m  AMUMSS v3.9.5.98W[0m
+[1;32m[1m  Lua 5.3[0m
+[1;32m[1m  Windows 10 Pro 64bit, Build: 19043.1586 with 16 logical CPUs (cp437)[0m
+[1;32m[1m  BUILDMOD v1.1[0m
+
+>>>  Starting in F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W
+
+>>>  Checking Path to NMS_FOLDER...
+
+ [7;93m Path to NMS_FOLDER is >>> GOOD <<< game files found [0m
+
+>>>  Updating NMS_FOLDER.txt
+   "F:\SteamF\steamapps\common\No Man's Sky"
+
+[1;31m[1m ============================================================================[0m
+ [7m[NOTE] EXCEPT when saying: 'Opening User Lua Script, Please wait...'        [0m
+ [7m       When AMUMSS seems to freeze and stop processing for > 60 seconds     [0m
+ [7m       probably means it cannot delete some files in a working directories. [0m
+ [7m    Please 'close' all AMUMSS files you have opened in other apps           [0m
+ [7m   (Files opened in Notepad++, for example, will not cause this problem)    [0m
+[1;31m[1m ============================================================================[0m
+
+>>> Your current MBINCompiler is version: [1;32m[1m3.82.0.2[0m
+        [1;32m[1m ==> is up-to-date[0m
+
+>>> INDIVIDUAL PAKs may or may not work together depending on the EXML files they change
+    If they modify the same original EXML files, the last one loaded will win and the other changes will be lost...
+
+    You may use INDIVIDUAL PAKs when they don't interfere with each other
+
+>>> COMBINED PAKs will try to keep, as much as possible, all changes made to a particular EXML file by re-using it during PAK creation
+    Only changes made to the same exact values of an EXML will reflect only the last mod
+
+[7;93m ??? Do you want to create a COMBINED mod[Y] or INDIVIDUAL mod(s)[N] [0m [Y,N]?Y
+
+>>> A COMPOSITE combined MOD name has a length limit of less than 106 characters (excess will be truncated)
+    It would be...
+      "Fast Actions 4.1+IntroLogoSkip+LearnMoreWords+Long Range Freighters 4.0+Natural Steering 1.2+NaturalFlight.pak"
+               ...in this case
+[7;93m ??? Do you want to use a COMPOSITE combined MOD named just like that [0m [Y,N]?N
+
+>>> A COMBINED MOD name can be like CombinedMod_(x).pak (where x is 0 to 9)
+                         ...or like CombinedMod_DATE-TIME.pak...
+
+[7;93m ??? Do you want to use a NUMERIC suffix[Y] or the current DATE-TIME[N] to differentiate your mod name [0m [Y,N]?Y
+
+[7;93m ??? Would you like or [N]ot to COPY [S]ome or [A]ll Created Mod PAKs to your game folder and DELETE [DISABLEMODS.TXT] [0m [N,S,A]?A
+
+>>> Getting list of files from NMS MODS PAK file(s)...
+  - _DeepSpace.pak
+
+  [1;32m[1mWe will check 31 possible conflicting files[0m
+
+>>> Checking NMS PCBANKS PAK file list existence...
+>>> NMS PAK file list is up-to-date, no need to re-create the list
+
+---------------------------------------------------------
+>>> So, we are making one or more DISTINCT COMBINED MOD PAK...	
+>>>      and ALL will be copied to NMS MOD folder
+---------------------------------------------------------
+
+>>>  Number of scripts to build: 14
+
+[7;93m >>> Starting to process script #1 of 14 [Fast Actions 4.1.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-31 (found 12 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> GCUIGLOBALS.GLOBAL.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting GCUIGLOBALS.GLOBAL.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] GCUIGLOBALS.GLOBAL.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> GCUIGLOBALS.GLOBAL.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 5231
+
+    Looking for >>> [RefinerPadStartTime] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 3 to 5231...
+      [1;32m[1m-- On line 1547[0m, exchanged:    [<Property name="RefinerPadStartTime" value="1" />]        with:     [<Property name="RefinerPadStartTime" value="0.5" />]
+
+    Looking for >>> [FrontendConfirmTimeMouseMultiplier] New value will be >>> [[1.0]] of type [NUMBER]
+                >>> Searching in lines 3 to 5231...
+      [1;32m[1m-- On line 4137[0m, exchanged:    [<Property name="FrontendConfirmTimeMouseMultiplier" value="0.5" />]    with:     [<Property name="FrontendConfirmTimeMouseMultiplier" value="1.0" />]
+
+    Looking for >>> [FrontendConfirmTime] New value will be >>> [[0.35]] of type [NUMBER]
+                >>> Searching in lines 3 to 5231...
+      [1;32m[1m-- On line 4139[0m, exchanged:    [<Property name="FrontendConfirmTime" value="0.7" />]      with:     [<Property name="FrontendConfirmTime" value="0.35" />]
+
+    Looking for >>> [FrontendConfirmTimeSlow] New value will be >>> [[0.7]] of type [NUMBER]
+                >>> Searching in lines 3 to 5231...
+      [1;32m[1m-- On line 4140[0m, exchanged:    [<Property name="FrontendConfirmTimeSlow" value="1.6" />]    with:     [<Property name="FrontendConfirmTimeSlow" value="0.7" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 4 CHANGE(s) made
+    >>>>> Ended with a total of 4 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 4 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 1[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #2 of 14 [IntroLogoSkip.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-29 (found 10 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> GCDEBUGOPTIONS.GLOBAL.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting GCDEBUGOPTIONS.GLOBAL.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] GCDEBUGOPTIONS.GLOBAL.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> GCDEBUGOPTIONS.GLOBAL.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 430
+
+    Looking for >>> [SkipIntro] New value will be >>> [[True]] of type [STRING]
+                >>> Searching in lines 3 to 430...
+      [1;32m[1m-- On line 10[0m, exchanged:    [<Property name="SkipIntro" value="False" />]                with:     [<Property name="SkipIntro" value="True" />]
+
+    Looking for >>> [SkipLogos] New value will be >>> [[True]] of type [STRING]
+                >>> Searching in lines 3 to 430...
+      [1;32m[1m-- On line 11[0m, exchanged:    [<Property name="SkipLogos" value="False" />]                with:     [<Property name="SkipLogos" value="True" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 2 CHANGE(s) made
+    >>>>> Ended with a total of 2 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 2 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 2[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #3 of 14 [LearnMoreWords.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 35-185 (found 51 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> METADATA\REALITY\TABLES\REWARDTABLE.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting METADATA\REALITY\TABLES\REWARDTABLE.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] METADATA\REALITY\TABLES\REWARDTABLE.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> METADATA\REALITY\TABLES\REWARDTABLE.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","WORD"}, {"PercentageChance","IGNORE"}, <<< 
+
+      Section(s) found: 
+                            2440 - 2454 (2441)
+
+    Looking to >>> add some text <<< after SECTION with Property name [PercentageChance] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 2455 - 2514[0m ADDED using text in ["ADD"]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TRA_WORD"}, {"PercentageChance","IGNORE"}, <<< 
+
+      Section(s) found: 
+                            16013 - 16027 (16014)
+
+    Looking to >>> add some text <<< after SECTION with Property name [PercentageChance] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 16028 - 16087[0m ADDED using text in ["ADD"]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[3], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TRA_WORD"}, <<< 
+
+      Section(s) found: 
+                            16007 - 16090 (16008)
+
+    Looking for >>> [AlienRace] New value will be >>> [[Traders]] of type [STRING]
+                >>> Replace operation is [ALL]
+                >>> Searching in lines 16007 to 16090...
+      [1;32m[1m-- On line 16017[0m, exchanged:    [<Property name="AlienRace" value="Traders" />]           with:     [<Property name="AlienRace" value="Traders" />]
+      [1;32m[1m-- On line 16032[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Traders" />]
+      [1;32m[1m-- On line 16047[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Traders" />]
+      [1;32m[1m-- On line 16062[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Traders" />]
+      [1;32m[1m-- On line 16077[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Traders" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[4], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","EXP_WORD"}, {"PercentageChance","IGNORE"}, <<< 
+
+      Section(s) found: 
+                            16097 - 16111 (16098)
+
+    Looking to >>> add some text <<< after SECTION with Property name [PercentageChance] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 16112 - 16171[0m ADDED using text in ["ADD"]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[5], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","EXP_WORD"}, <<< 
+
+      Section(s) found: 
+                            16091 - 16174 (16092)
+
+    Looking for >>> [AlienRace] New value will be >>> [[Explorers]] of type [STRING]
+                >>> Replace operation is [ALL]
+                >>> Searching in lines 16091 to 16174...
+      [1;32m[1m-- On line 16101[0m, exchanged:    [<Property name="AlienRace" value="Explorers" />]         with:     [<Property name="AlienRace" value="Explorers" />]
+      [1;32m[1m-- On line 16116[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Explorers" />]
+      [1;32m[1m-- On line 16131[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Explorers" />]
+      [1;32m[1m-- On line 16146[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Explorers" />]
+      [1;32m[1m-- On line 16161[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Explorers" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[6], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","WAR_WORD"}, {"PercentageChance","IGNORE"}, <<< 
+
+      Section(s) found: 
+                            16181 - 16195 (16182)
+
+    Looking to >>> add some text <<< after SECTION with Property name [PercentageChance] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 16196 - 16255[0m ADDED using text in ["ADD"]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[7], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","WAR_WORD"}, <<< 
+
+      Section(s) found: 
+                            16175 - 16258 (16176)
+
+    Looking for >>> [AlienRace] New value will be >>> [[Warriors]] of type [STRING]
+                >>> Replace operation is [ALL]
+                >>> Searching in lines 16175 to 16258...
+      [1;32m[1m-- On line 16185[0m, exchanged:    [<Property name="AlienRace" value="Warriors" />]          with:     [<Property name="AlienRace" value="Warriors" />]
+      [1;32m[1m-- On line 16200[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Warriors" />]
+      [1;32m[1m-- On line 16215[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Warriors" />]
+      [1;32m[1m-- On line 16230[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Warriors" />]
+      [1;32m[1m-- On line 16245[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Warriors" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[8], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TEACHWORD_EXP"}, {"PercentageChance","IGNORE"}, <<< 
+
+      Section(s) found: 
+                            17635 - 17649 (17636)
+
+    Looking to >>> add some text <<< after SECTION with Property name [PercentageChance] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 17650 - 17709[0m ADDED using text in ["ADD"]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[9], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TEACHWORD_EXP"}, <<< 
+
+      Section(s) found: 
+                            17629 - 17712 (17630)
+
+    Looking for >>> [AlienRace] New value will be >>> [[Explorers]] of type [STRING]
+                >>> Replace operation is [ALL]
+                >>> Searching in lines 17629 to 17712...
+      [1;32m[1m-- On line 17639[0m, exchanged:    [<Property name="AlienRace" value="Explorers" />]         with:     [<Property name="AlienRace" value="Explorers" />]
+      [1;32m[1m-- On line 17654[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Explorers" />]
+      [1;32m[1m-- On line 17669[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Explorers" />]
+      [1;32m[1m-- On line 17684[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Explorers" />]
+      [1;32m[1m-- On line 17699[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Explorers" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[10], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TEACHWORD_TRA"}, {"PercentageChance","IGNORE"}, <<< 
+
+      Section(s) found: 
+                            17719 - 17733 (17720)
+
+    Looking to >>> add some text <<< after SECTION with Property name [PercentageChance] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 17734 - 17793[0m ADDED using text in ["ADD"]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[11], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TEACHWORD_TRA"}, <<< 
+
+      Section(s) found: 
+                            17713 - 17796 (17714)
+
+    Looking for >>> [AlienRace] New value will be >>> [[Traders]] of type [STRING]
+                >>> Replace operation is [ALL]
+                >>> Searching in lines 17713 to 17796...
+      [1;32m[1m-- On line 17723[0m, exchanged:    [<Property name="AlienRace" value="Traders" />]           with:     [<Property name="AlienRace" value="Traders" />]
+      [1;32m[1m-- On line 17738[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Traders" />]
+      [1;32m[1m-- On line 17753[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Traders" />]
+      [1;32m[1m-- On line 17768[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Traders" />]
+      [1;32m[1m-- On line 17783[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Traders" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[12], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TEACHWORD_WAR"}, {"PercentageChance","IGNORE"}, <<< 
+
+      Section(s) found: 
+                            17803 - 17817 (17804)
+
+    Looking to >>> add some text <<< after SECTION with Property name [PercentageChance] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 17818 - 17877[0m ADDED using text in ["ADD"]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[13], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TEACHWORD_WAR"}, <<< 
+
+      Section(s) found: 
+                            17797 - 17880 (17798)
+
+    Looking for >>> [AlienRace] New value will be >>> [[Warriors]] of type [STRING]
+                >>> Replace operation is [ALL]
+                >>> Searching in lines 17797 to 17880...
+      [1;32m[1m-- On line 17807[0m, exchanged:    [<Property name="AlienRace" value="Warriors" />]          with:     [<Property name="AlienRace" value="Warriors" />]
+      [1;32m[1m-- On line 17822[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Warriors" />]
+      [1;32m[1m-- On line 17837[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Warriors" />]
+      [1;32m[1m-- On line 17852[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Warriors" />]
+      [1;32m[1m-- On line 17867[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Warriors" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[14], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TEACHWORD_ATLAS"}, {"PercentageChance","IGNORE"}, <<< 
+
+      Section(s) found: 
+                            18194 - 18208 (18195)
+
+    Looking to >>> add some text <<< after SECTION with Property name [PercentageChance] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 18209 - 18268[0m ADDED using text in ["ADD"]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[15], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TEACHWORD_ATLAS"}, <<< 
+
+      Section(s) found: 
+                            18188 - 18271 (18189)
+
+    Looking for >>> [AlienRace] New value will be >>> [[Atlas]] of type [STRING]
+                >>> Replace operation is [ALL]
+                >>> Searching in lines 18188 to 18271...
+      [1;32m[1m-- On line 18198[0m, exchanged:    [<Property name="AlienRace" value="Atlas" />]             with:     [<Property name="AlienRace" value="Atlas" />]
+      [1;32m[1m-- On line 18213[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Atlas" />]
+      [1;32m[1m-- On line 18228[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Atlas" />]
+      [1;32m[1m-- On line 18243[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Atlas" />]
+      [1;32m[1m-- On line 18258[0m, exchanged:    [<Property name="AlienRace" value="None" />]              with:     [<Property name="AlienRace" value="Atlas" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 8 ADD(s) made
+    >>>>> 35 CHANGE(s) made
+    >>>>> Ended with a total of 43 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 43 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 3[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #4 of 14 [Long Range Freighters 4.0.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-130 (found 67 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.MBIN
+
+>>> METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","F_HYPERDRIVE"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            6939 - 6945 (6941)
+
+    Looking for >>> [Bonus] New value will be >>> [[1000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 6938 as base...
+                >>> Searching in lines 6939 to 6945...
+      [1;32m[1m-- On line 6943[0m, exchanged:    [<Property name="Bonus" value="100" />]                    with:     [<Property name="Bonus" value="1000" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","F_HDRIVEBOOST1"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            7073 - 7079 (7075)
+
+    Looking for >>> [Bonus] New value will be >>> [[2000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 7072 as base...
+                >>> Searching in lines 7073 to 7079...
+      [1;32m[1m-- On line 7077[0m, exchanged:    [<Property name="Bonus" value="200" />]                    with:     [<Property name="Bonus" value="2000" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[3], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","F_HDRIVEBOOST2"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            7193 - 7199 (7195)
+
+    Looking for >>> [Bonus] New value will be >>> [[4000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 7192 as base...
+                >>> Searching in lines 7193 to 7199...
+      [1;32m[1m-- On line 7197[0m, exchanged:    [<Property name="Bonus" value="300" />]                    with:     [<Property name="Bonus" value="4000" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[4], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","F_HDRIVEBOOST3"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            7313 - 7319 (7315)
+
+    Looking for >>> [Bonus] New value will be >>> [[8000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 7312 as base...
+                >>> Searching in lines 7313 to 7319...
+      [1;32m[1m-- On line 7317[0m, exchanged:    [<Property name="Bonus" value="800" />]                    with:     [<Property name="Bonus" value="8000" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[5], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","F_HACCESS1"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            7433 - 7439 (7435)
+
+    Looking for >>> [Bonus] New value will be >>> [[500]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 7432 as base...
+                >>> Searching in lines 7433 to 7439...
+      [1;32m[1m-- On line 7437[0m, exchanged:    [<Property name="Bonus" value="50" />]                     with:     [<Property name="Bonus" value="500" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[6], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","F_HACCESS2"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            7553 - 7559 (7555)
+
+    Looking for >>> [Bonus] New value will be >>> [[500]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 7552 as base...
+                >>> Searching in lines 7553 to 7559...
+      [1;32m[1m-- On line 7557[0m, exchanged:    [<Property name="Bonus" value="50" />]                     with:     [<Property name="Bonus" value="500" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[7], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","F_HACCESS3"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            7673 - 7679 (7675)
+
+    Looking for >>> [Bonus] New value will be >>> [[500]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 7672 as base...
+                >>> Searching in lines 7673 to 7679...
+      [1;32m[1m-- On line 7677[0m, exchanged:    [<Property name="Bonus" value="50" />]                     with:     [<Property name="Bonus" value="500" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 7 CHANGE(s) made
+    >>>>> Ended with a total of 7 action(s) made
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","UP_FRHYP1"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            11307 - 11317 (11309)
+
+    Looking for >>> [ValueMin] New value will be >>> [[500]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11306 as base...
+                >>> Searching in lines 11307 to 11317...
+      [1;32m[1m-- On line 11311[0m, exchanged:    [<Property name="ValueMin" value="50" />]                 with:     [<Property name="ValueMin" value="500" />]
+
+    Looking for >>> [ValueMax] New value will be >>> [[1000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11306 as base...
+                >>> Searching in lines 11307 to 11317...
+      [1;32m[1m-- On line 11312[0m, exchanged:    [<Property name="ValueMax" value="100" />]                with:     [<Property name="ValueMax" value="1000" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","UP_FRHYP2"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            11350 - 11360 (11352)
+
+    Looking for >>> [ValueMin] New value will be >>> [[1000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11349 as base...
+                >>> Searching in lines 11350 to 11360...
+      [1;32m[1m-- On line 11354[0m, exchanged:    [<Property name="ValueMin" value="100" />]                with:     [<Property name="ValueMin" value="1000" />]
+
+    Looking for >>> [ValueMax] New value will be >>> [[1500]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11349 as base...
+                >>> Searching in lines 11350 to 11360...
+      [1;32m[1m-- On line 11355[0m, exchanged:    [<Property name="ValueMax" value="150" />]                with:     [<Property name="ValueMax" value="1500" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[3], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","UP_FRHYP3"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            11393 - 11403 (11395)
+
+    Looking for >>> [ValueMin] New value will be >>> [[1500]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11392 as base...
+                >>> Searching in lines 11393 to 11403...
+      [1;32m[1m-- On line 11397[0m, exchanged:    [<Property name="ValueMin" value="150" />]                with:     [<Property name="ValueMin" value="1500" />]
+
+    Looking for >>> [ValueMax] New value will be >>> [[2000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11392 as base...
+                >>> Searching in lines 11393 to 11403...
+      [1;32m[1m-- On line 11398[0m, exchanged:    [<Property name="ValueMax" value="200" />]                with:     [<Property name="ValueMax" value="2000" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[4], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","UP_FRHYP4"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
+    -- Going UP 1 parent section after all keywords...
+
+      Section(s) found: 
+                            11447 - 11457 (11449)
+
+    Looking for >>> [ValueMin] New value will be >>> [[2000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11446 as base...
+                >>> Searching in lines 11447 to 11457...
+      [1;32m[1m-- On line 11451[0m, exchanged:    [<Property name="ValueMin" value="200" />]                with:     [<Property name="ValueMin" value="2000" />]
+
+    Looking for >>> [ValueMax] New value will be >>> [[2500]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11446 as base...
+                >>> Searching in lines 11447 to 11457...
+      [1;32m[1m-- On line 11452[0m, exchanged:    [<Property name="ValueMax" value="250" />]                with:     [<Property name="ValueMax" value="2500" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][2][0m
+    >>>>> 8 CHANGE(s) made
+    >>>>> Ended with a total of 8 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 15 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 4[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #5 of 14 [Natural Steering 1.2.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-29 (found 9 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> GCVEHICLEGLOBALS.GLOBAL.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting GCVEHICLEGLOBALS.GLOBAL.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] GCVEHICLEGLOBALS.GLOBAL.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> GCVEHICLEGLOBALS.GLOBAL.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 3776
+
+    Looking for >>> [VehicleAltControlScheme] New value will be >>> [[True]] of type [STRING]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 3776...
+      [1;32m[1m-- On line 611[0m, exchanged:    [<Property name="VehicleAltControlScheme" value="False" />]    with:     [<Property name="VehicleAltControlScheme" value="True" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 1 CHANGE(s) made
+    >>>>> Ended with a total of 1 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 1 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 5[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #6 of 14 [NaturalFlight.hrv.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-401 (found 244 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> GCSPACESHIPGLOBALS.GLOBAL.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting GCSPACESHIPGLOBALS.GLOBAL.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] GCSPACESHIPGLOBALS.GLOBAL.MBIN
+
+>>> GCSOLARGENERATIONGLOBALS.GLOBAL.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting GCSOLARGENERATIONGLOBALS.GLOBAL.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] GCSOLARGENERATIONGLOBALS.GLOBAL.MBIN
+
+>>> GCGAMEPLAYGLOBALS.GLOBAL.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting GCGAMEPLAYGLOBALS.GLOBAL.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] GCGAMEPLAYGLOBALS.GLOBAL.MBIN
+
+>>> METADATA\PROJECTILES\PROJECTILETABLE.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting METADATA\PROJECTILES\PROJECTILETABLE.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] METADATA\PROJECTILES\PROJECTILETABLE.MBIN
+
+>>> METADATA\REALITY\TABLES\DAMAGETABLE.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] METADATA\REALITY\TABLES\DAMAGETABLE.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> GCSPACESHIPGLOBALS.GLOBAL.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 1263
+
+    Looking for >>> [TakeOffCost] New value will be >>> [[80]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 1001[0m, exchanged:    [<Property name="TakeOffCost" value="100" />]              with:     [<Property name="TakeOffCost" value="80" />]
+
+    Looking for >>> [KBThrustSmoothTime] New value will be >>> [[0.3]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 325[0m, exchanged:    [<Property name="KBThrustSmoothTime" value="0.2" />]        with:     [<Property name="KBThrustSmoothTime" value="0.3" />]
+
+    Looking for >>> [LandingMaxSpeed] New value will be >>> [[10]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 12[0m, exchanged:    [<Property name="LandingMaxSpeed" value="80" />]             with:     [<Property name="LandingMaxSpeed" value="10" />]
+
+    Looking for >>> [DockingAttractAlign] New value will be >>> [[4]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 107[0m, exchanged:    [<Property name="DockingAttractAlign" value="3" />]         with:     [<Property name="DockingAttractAlign" value="4" />]
+
+    Looking for >>> [DockingAttractAlignRange] New value will be >>> [[30]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 108[0m, exchanged:    [<Property name="DockingAttractAlignRange" value="1000" />]    with:     [<Property name="DockingAttractAlignRange" value="30" />]
+
+    Looking for >>> [OutpostDockSpeedAlignMinDistance] New value will be >>> [[20]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 136[0m, exchanged:    [<Property name="OutpostDockSpeedAlignMinDistance" value="100" />]    with:     [<Property name="OutpostDockSpeedAlignMinDistance" value="20" />]
+
+    Looking for >>> [OutpostDockSpeedAlignRange] New value will be >>> [[30]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 137[0m, exchanged:    [<Property name="OutpostDockSpeedAlignRange" value="300" />]    with:     [<Property name="OutpostDockSpeedAlignRange" value="30" />]
+
+    Looking for >>> [PulseDrivePlanetApproachHeight] New value will be >>> [[1000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 226[0m, exchanged:    [<Property name="PulseDrivePlanetApproachHeight" value="6000" />]    with:     [<Property name="PulseDrivePlanetApproachHeight" value="1000" />]
+
+    Looking for >>> [HoverSpeedFactor] New value will be >>> [[0]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 331[0m, exchanged:    [<Property name="HoverSpeedFactor" value="20" />]           with:     [<Property name="HoverSpeedFactor" value="0" />]
+
+    Looking for >>> [NoBoostAnomalyDistance] New value will be >>> [[2000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 803[0m, exchanged:    [<Property name="NoBoostAnomalyDistance" value="3000" />]    with:     [<Property name="NoBoostAnomalyDistance" value="2000" />]
+
+    Looking for >>> [HitAsteroidDamage] New value will be >>> [[1000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 818[0m, exchanged:    [<Property name="HitAsteroidDamage" value="10000" />]       with:     [<Property name="HitAsteroidDamage" value="1000" />]
+
+    Looking for >>> [CruiseHeight] New value will be >>> [[0]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 896[0m, exchanged:    [<Property name="CruiseHeight" value="250" />]              with:     [<Property name="CruiseHeight" value="0" />]
+
+    Looking for >>> [HoverMaxSpeed] New value will be >>> [[600]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 901[0m, exchanged:    [<Property name="HoverMaxSpeed" value="150" />]             with:     [<Property name="HoverMaxSpeed" value="600" />]
+
+    Looking for >>> [MiniWarpLinesNum] New value will be >>> [[1]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 924[0m, exchanged:    [<Property name="MiniWarpLinesNum" value="4" />]            with:     [<Property name="MiniWarpLinesNum" value="1" />]
+
+    Looking for >>> [AimDistanceRange] New value will be >>> [[10]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 955[0m, exchanged:    [<Property name="AimDistanceRange" value="1" />]            with:     [<Property name="AimDistanceRange" value="10" />]
+
+    Looking for >>> [MiniWarpStationRadius] New value will be >>> [[500]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 1022[0m, exchanged:    [<Property name="MiniWarpStationRadius" value="700" />]    with:     [<Property name="MiniWarpStationRadius" value="500" />]
+
+    Looking for >>> [MiniWarpExitSpeed] New value will be >>> [[4000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 1034[0m, exchanged:    [<Property name="MiniWarpExitSpeed" value="1000" />]       with:     [<Property name="MiniWarpExitSpeed" value="4000" />]
+
+    Looking for >>> [MiniWarpExitSpeedStation] New value will be >>> [[3000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 1035[0m, exchanged:    [<Property name="MiniWarpExitSpeedStation" value="500" />]    with:     [<Property name="MiniWarpExitSpeedStation" value="3000" />]
+
+    Looking for >>> [AnomalyStationMaxApproachSpeed] New value will be >>> [[3000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 1070[0m, exchanged:    [<Property name="AnomalyStationMaxApproachSpeed" value="60" />]    with:     [<Property name="AnomalyStationMaxApproachSpeed" value="3000" />]
+
+    Looking for >>> [CollisionDistance] New value will be >>> [[20]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 1095[0m, exchanged:    [<Property name="CollisionDistance" value="200" />]        with:     [<Property name="CollisionDistance" value="20" />]
+
+    Looking for >>> [DeflectDistance] New value will be >>> [[1000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 1100[0m, exchanged:    [<Property name="DeflectDistance" value="150" />]          with:     [<Property name="DeflectDistance" value="1000" />]
+
+    Looking for >>> [CollisionRadiusMultiplier] New value will be >>> [[0.9]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 1106[0m, exchanged:    [<Property name="CollisionRadiusMultiplier" value="1.1" />]    with:     [<Property name="CollisionRadiusMultiplier" value="0.9" />]
+
+    Looking for >>> [ShipPlanetBrakeForce] New value will be >>> [[30]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 493[0m, exchanged:    [<Property name="ShipPlanetBrakeForce" value="50" />]       with:     [<Property name="ShipPlanetBrakeForce" value="30" />]
+
+    Looking for >>> [StickyTurnMinAngle] New value will be >>> [[0]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 910[0m, exchanged:    [<Property name="StickyTurnMinAngle" value="10" />]         with:     [<Property name="StickyTurnMinAngle" value="0" />]
+
+    Looking for >>> [StickyTurnAngleRange] New value will be >>> [[0]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 911[0m, exchanged:    [<Property name="StickyTurnAngleRange" value="60" />]       with:     [<Property name="StickyTurnAngleRange" value="0" />]
+
+    Looking for >>> [StickyTurnLow] New value will be >>> [[1200]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 912[0m, exchanged:    [<Property name="StickyTurnLow" value="1.2" />]             with:     [<Property name="StickyTurnLow" value="1200" />]
+
+    Looking for >>> [StickyTurnHigh] New value will be >>> [[0]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 913[0m, exchanged:    [<Property name="StickyTurnHigh" value="0.5" />]            with:     [<Property name="StickyTurnHigh" value="0" />]
+
+    Looking for >>> [StickyStickAngle] New value will be >>> [[180]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 914[0m, exchanged:    [<Property name="StickyStickAngle" value="30" />]           with:     [<Property name="StickyStickAngle" value="180" />]
+
+    Looking for >>> [ShipMotionDeadZone] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1263...
+      [1;32m[1m-- On line 915[0m, exchanged:    [<Property name="ShipMotionDeadZone" value="0.2" />]        with:     [<Property name="ShipMotionDeadZone" value="0.01" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"Control","SpaceEngine"}, <<< 
+
+      Section(s) found: 
+                            402 - 425 (402)
+
+    Looking for >>> [ThrustForce] New value will be >>> [[50]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 403[0m, exchanged:    [<Property name="ThrustForce" value="40" />]                with:     [<Property name="ThrustForce" value="50" />]
+
+    Looking for >>> [MaxSpeed] New value will be >>> [[1500]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 404[0m, exchanged:    [<Property name="MaxSpeed" value="180" />]                  with:     [<Property name="MaxSpeed" value="1500" />]
+
+    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 405[0m, exchanged:    [<Property name="MinSpeed" value="1" />]                    with:     [<Property name="MinSpeed" value="0" />]
+
+    Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 406[0m, exchanged:    [<Property name="Falloff" value="0.7" />]                   with:     [<Property name="Falloff" value="0" />]
+
+    Looking for >>> [MinSpeedForce] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 407[0m, exchanged:    [<Property name="MinSpeedForce" value="5" />]               with:     [<Property name="MinSpeedForce" value="0" />]
+
+    Looking for >>> [BoostThrustForce] New value will be >>> [[200]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 408[0m, exchanged:    [<Property name="BoostThrustForce" value="500" />]          with:     [<Property name="BoostThrustForce" value="200" />]
+
+    Looking for >>> [BoostMaxSpeed] New value will be >>> [[1500]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 409[0m, exchanged:    [<Property name="BoostMaxSpeed" value="1200" />]            with:     [<Property name="BoostMaxSpeed" value="1500" />]
+
+    Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 410[0m, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
+
+    Looking for >>> [DirectionBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+[1;31m[1m>>> [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)[0m
+      [1;32m[1m-- On line 412[0m, exchanged:    [<Property name="DirectionBrakeMin" value="1" />]           with:     [<Property name="DirectionBrakeMin" value="0.5" />]
+
+    Looking for >>> [DirectionBrake] New value will be >>> [[0.7]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 413[0m, exchanged:    [<Property name="DirectionBrake" value="1.5" />]            with:     [<Property name="DirectionBrake" value="0.7" />]
+
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.2]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 414[0m, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.2" />]
+
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 415[0m, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
+
+    Looking for >>> [TurnBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+[1;31m[1m>>> [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)[0m
+      [1;32m[1m-- On line 417[0m, exchanged:    [<Property name="TurnBrakeMin" value="1" />]                with:     [<Property name="TurnBrakeMin" value="0.5" />]
+
+    Looking for >>> [TurnBrakeMax] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 418[0m, exchanged:    [<Property name="TurnBrakeMax" value="2" />]                with:     [<Property name="TurnBrakeMax" value="1" />]
+
+    Looking for >>> [RollAutoTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 402 to 425...
+      [1;32m[1m-- On line 422[0m, exchanged:    [<Property name="RollAutoTime" value="2" />]                with:     [<Property name="RollAutoTime" value="84600" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[3], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"Control","PlanetEngine"}, <<< 
+
+      Section(s) found: 
+                            426 - 449 (426)
+
+    Looking for >>> [ThrustForce] New value will be >>> [[40]] of type [NUMBER]
+                >>> Searching in lines 426 to 449...
+      [1;32m[1m-- On line 427[0m, exchanged:    [<Property name="ThrustForce" value="20" />]                with:     [<Property name="ThrustForce" value="40" />]
+
+    Looking for >>> [MaxSpeed] New value will be >>> [[225]] of type [NUMBER]
+                >>> Searching in lines 426 to 449...
+      [1;32m[1m-- On line 428[0m, exchanged:    [<Property name="MaxSpeed" value="125" />]                  with:     [<Property name="MaxSpeed" value="225" />]
+
+    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 426 to 449...
+      [1;32m[1m-- On line 429[0m, exchanged:    [<Property name="MinSpeed" value="20" />]                   with:     [<Property name="MinSpeed" value="0" />]
+
+    Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 426 to 449...
+      [1;32m[1m-- On line 430[0m, exchanged:    [<Property name="Falloff" value="0.5" />]                   with:     [<Property name="Falloff" value="0" />]
+
+    Looking for >>> [BoostMaxSpeed] New value will be >>> [[355]] of type [NUMBER]
+                >>> Searching in lines 426 to 449...
+      [1;32m[1m-- On line 433[0m, exchanged:    [<Property name="BoostMaxSpeed" value="155" />]             with:     [<Property name="BoostMaxSpeed" value="355" />]
+
+    Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 426 to 449...
+      [1;32m[1m-- On line 434[0m, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
+
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 426 to 449...
+      [1;32m[1m-- On line 439[0m, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
+
+    Looking for >>> [RollAutoTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 426 to 449...
+      [1;32m[1m-- On line 446[0m, exchanged:    [<Property name="RollAutoTime" value="0.5" />]              with:     [<Property name="RollAutoTime" value="84600" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[4], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"ControlLight","SpaceEngine"}, <<< 
+
+      Section(s) found: 
+                            499 - 522 (499)
+
+    Looking for >>> [ThrustForce] New value will be >>> [[50]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 500[0m, exchanged:    [<Property name="ThrustForce" value="80" />]                with:     [<Property name="ThrustForce" value="50" />]
+
+    Looking for >>> [MaxSpeed] New value will be >>> [[1600]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 501[0m, exchanged:    [<Property name="MaxSpeed" value="180" />]                  with:     [<Property name="MaxSpeed" value="1600" />]
+
+    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 502[0m, exchanged:    [<Property name="MinSpeed" value="1" />]                    with:     [<Property name="MinSpeed" value="0" />]
+
+    Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 503[0m, exchanged:    [<Property name="Falloff" value="0.7" />]                   with:     [<Property name="Falloff" value="0" />]
+
+    Looking for >>> [MinSpeedForce] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 504[0m, exchanged:    [<Property name="MinSpeedForce" value="5" />]               with:     [<Property name="MinSpeedForce" value="0" />]
+
+    Looking for >>> [BoostThrustForce] New value will be >>> [[100]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 505[0m, exchanged:    [<Property name="BoostThrustForce" value="500" />]          with:     [<Property name="BoostThrustForce" value="100" />]
+
+    Looking for >>> [BoostMaxSpeed] New value will be >>> [[2600]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 506[0m, exchanged:    [<Property name="BoostMaxSpeed" value="1300" />]            with:     [<Property name="BoostMaxSpeed" value="2600" />]
+
+    Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 507[0m, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
+
+    Looking for >>> [DirectionBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 509[0m, exchanged:    [<Property name="DirectionBrakeMin" value="0.8" />]         with:     [<Property name="DirectionBrakeMin" value="0.5" />]
+
+    Looking for >>> [DirectionBrake] New value will be >>> [[0.7]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 510[0m, exchanged:    [<Property name="DirectionBrake" value="1.2" />]            with:     [<Property name="DirectionBrake" value="0.7" />]
+
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 511[0m, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.01" />]
+
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 512[0m, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
+
+    Looking for >>> [TurnBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+[1;31m[1m>>> [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)[0m
+      [1;32m[1m-- On line 514[0m, exchanged:    [<Property name="TurnBrakeMin" value="1" />]                with:     [<Property name="TurnBrakeMin" value="0.5" />]
+
+    Looking for >>> [TurnBrakeMax] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 515[0m, exchanged:    [<Property name="TurnBrakeMax" value="3" />]                with:     [<Property name="TurnBrakeMax" value="1" />]
+
+    Looking for >>> [RollAutoTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 499 to 522...
+      [1;32m[1m-- On line 519[0m, exchanged:    [<Property name="RollAutoTime" value="2" />]                with:     [<Property name="RollAutoTime" value="84600" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[5], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"ControlLight","PlanetEngine"}, <<< 
+
+      Section(s) found: 
+                            523 - 546 (523)
+
+    Looking for >>> [ThrustForce] New value will be >>> [[50]] of type [NUMBER]
+                >>> Searching in lines 523 to 546...
+      [1;32m[1m-- On line 524[0m, exchanged:    [<Property name="ThrustForce" value="40" />]                with:     [<Property name="ThrustForce" value="50" />]
+
+    Looking for >>> [BoostThrustForce] New value will be >>> [[200]] of type [NUMBER]
+                >>> Searching in lines 523 to 546...
+      [1;32m[1m-- On line 529[0m, exchanged:    [<Property name="BoostThrustForce" value="200" />]          with:     [<Property name="BoostThrustForce" value="200" />]
+
+    Looking for >>> [MaxSpeed] New value will be >>> [[228]] of type [NUMBER]
+                >>> Searching in lines 523 to 546...
+      [1;32m[1m-- On line 525[0m, exchanged:    [<Property name="MaxSpeed" value="125" />]                  with:     [<Property name="MaxSpeed" value="228" />]
+
+    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 523 to 546...
+      [1;32m[1m-- On line 526[0m, exchanged:    [<Property name="MinSpeed" value="20" />]                   with:     [<Property name="MinSpeed" value="0" />]
+
+    Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 523 to 546...
+      [1;32m[1m-- On line 527[0m, exchanged:    [<Property name="Falloff" value="0.5" />]                   with:     [<Property name="Falloff" value="0" />]
+
+    Looking for >>> [BoostMaxSpeed] New value will be >>> [[375]] of type [NUMBER]
+                >>> Searching in lines 523 to 546...
+      [1;32m[1m-- On line 530[0m, exchanged:    [<Property name="BoostMaxSpeed" value="150" />]             with:     [<Property name="BoostMaxSpeed" value="375" />]
+
+    Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 523 to 546...
+      [1;32m[1m-- On line 531[0m, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
+
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.4]] of type [NUMBER]
+                >>> Searching in lines 523 to 546...
+[1;31m[1m>>> [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)[0m
+      [1;32m[1m-- On line 535[0m, exchanged:    [<Property name="ReverseBrake" value="1" />]                with:     [<Property name="ReverseBrake" value="0.4" />]
+
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 523 to 546...
+      [1;32m[1m-- On line 536[0m, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
+
+    Looking for >>> [RollAutoTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 523 to 546...
+      [1;32m[1m-- On line 543[0m, exchanged:    [<Property name="RollAutoTime" value="0.5" />]              with:     [<Property name="RollAutoTime" value="84600" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[6], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"ControlHeavy","SpaceEngine"}, <<< 
+
+      Section(s) found: 
+                            596 - 619 (596)
+
+    Looking for >>> [ThrustForce] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 597[0m, exchanged:    [<Property name="ThrustForce" value="40" />]                with:     [<Property name="ThrustForce" value="20" />]
+
+    Looking for >>> [MaxSpeed] New value will be >>> [[1280]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 598[0m, exchanged:    [<Property name="MaxSpeed" value="180" />]                  with:     [<Property name="MaxSpeed" value="1280" />]
+
+    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 599[0m, exchanged:    [<Property name="MinSpeed" value="1" />]                    with:     [<Property name="MinSpeed" value="0" />]
+
+    Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 600[0m, exchanged:    [<Property name="Falloff" value="0.7" />]                   with:     [<Property name="Falloff" value="0" />]
+
+    Looking for >>> [MinSpeedForce] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 601[0m, exchanged:    [<Property name="MinSpeedForce" value="5" />]               with:     [<Property name="MinSpeedForce" value="0" />]
+
+    Looking for >>> [BoostThrustForce] New value will be >>> [[100]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 602[0m, exchanged:    [<Property name="BoostThrustForce" value="500" />]          with:     [<Property name="BoostThrustForce" value="100" />]
+
+    Looking for >>> [BoostMaxSpeed] New value will be >>> [[1600]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 603[0m, exchanged:    [<Property name="BoostMaxSpeed" value="1100" />]            with:     [<Property name="BoostMaxSpeed" value="1600" />]
+
+    Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 604[0m, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
+
+    Looking for >>> [DirectionBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+[1;31m[1m>>> [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)[0m
+      [1;32m[1m-- On line 606[0m, exchanged:    [<Property name="DirectionBrakeMin" value="1" />]           with:     [<Property name="DirectionBrakeMin" value="0.5" />]
+
+    Looking for >>> [DirectionBrake] New value will be >>> [[0.7]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 607[0m, exchanged:    [<Property name="DirectionBrake" value="1.5" />]            with:     [<Property name="DirectionBrake" value="0.7" />]
+
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 608[0m, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.01" />]
+
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 609[0m, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
+
+    Looking for >>> [TurnBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+[1;31m[1m>>> [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)[0m
+      [1;32m[1m-- On line 611[0m, exchanged:    [<Property name="TurnBrakeMin" value="1" />]                with:     [<Property name="TurnBrakeMin" value="0.5" />]
+
+    Looking for >>> [TurnBrakeMax] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 612[0m, exchanged:    [<Property name="TurnBrakeMax" value="3" />]                with:     [<Property name="TurnBrakeMax" value="1" />]
+
+    Looking for >>> [RollAutoTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+      [1;32m[1m-- On line 616[0m, exchanged:    [<Property name="RollAutoTime" value="2" />]                with:     [<Property name="RollAutoTime" value="84600" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[7], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"ControlHeavy","PlanetEngine"}, <<< 
+
+      Section(s) found: 
+                            620 - 643 (620)
+
+    Looking for >>> [ThrustForce] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 620 to 643...
+      [1;32m[1m-- On line 621[0m, exchanged:    [<Property name="ThrustForce" value="20" />]                with:     [<Property name="ThrustForce" value="10" />]
+
+    Looking for >>> [MaxSpeed] New value will be >>> [[230]] of type [NUMBER]
+                >>> Searching in lines 620 to 643...
+      [1;32m[1m-- On line 622[0m, exchanged:    [<Property name="MaxSpeed" value="130" />]                  with:     [<Property name="MaxSpeed" value="230" />]
+
+    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 620 to 643...
+      [1;32m[1m-- On line 623[0m, exchanged:    [<Property name="MinSpeed" value="20" />]                   with:     [<Property name="MinSpeed" value="0" />]
+
+    Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 620 to 643...
+      [1;32m[1m-- On line 624[0m, exchanged:    [<Property name="Falloff" value="0.5" />]                   with:     [<Property name="Falloff" value="0" />]
+
+    Looking for >>> [BoostThrustForce] New value will be >>> [[180]] of type [NUMBER]
+                >>> Searching in lines 620 to 643...
+      [1;32m[1m-- On line 626[0m, exchanged:    [<Property name="BoostThrustForce" value="20" />]           with:     [<Property name="BoostThrustForce" value="180" />]
+
+    Looking for >>> [BoostMaxSpeed] New value will be >>> [[400]] of type [NUMBER]
+                >>> Searching in lines 620 to 643...
+      [1;32m[1m-- On line 627[0m, exchanged:    [<Property name="BoostMaxSpeed" value="185" />]             with:     [<Property name="BoostMaxSpeed" value="400" />]
+
+    Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 620 to 643...
+      [1;32m[1m-- On line 628[0m, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
+
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 620 to 643...
+      [1;32m[1m-- On line 633[0m, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
+
+    Looking for >>> [RollAutoTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 620 to 643...
+      [1;32m[1m-- On line 640[0m, exchanged:    [<Property name="RollAutoTime" value="0.5" />]              with:     [<Property name="RollAutoTime" value="84600" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[8], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"GunOffsetLeft2"}, <<< 
+
+      Section(s) found: 
+                            1135 - 1139 (1135)
+
+    Looking for >>> [x] New value will be >>> [[-14.5]] of type [NUMBER]
+                >>> Searching in lines 1135 to 1139...
+      [1;32m[1m-- On line 1136[0m, exchanged:    [<Property name="x" value="-4.5" />]                       with:     [<Property name="x" value="-14.5" />]
+
+    Looking for >>> [y] New value will be >>> [[-20]] of type [NUMBER]
+                >>> Searching in lines 1135 to 1139...
+      [1;32m[1m-- On line 1137[0m, exchanged:    [<Property name="y" value="-2" />]                         with:     [<Property name="y" value="-20" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[9], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"GunOffsetRight2"}, <<< 
+
+      Section(s) found: 
+                            1140 - 1144 (1140)
+
+    Looking for >>> [x] New value will be >>> [[14.5]] of type [NUMBER]
+                >>> Searching in lines 1140 to 1144...
+      [1;32m[1m-- On line 1141[0m, exchanged:    [<Property name="x" value="4.5" />]                        with:     [<Property name="x" value="14.5" />]
+
+    Looking for >>> [y] New value will be >>> [[-20]] of type [NUMBER]
+                >>> Searching in lines 1140 to 1144...
+      [1;32m[1m-- On line 1142[0m, exchanged:    [<Property name="y" value="-2" />]                         with:     [<Property name="y" value="-20" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[10], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"LaserAimArray"}, <<< 
+
+      Section(s) found: 
+                            948 - 973 (948)
+
+    Looking for >>> [AimDistanceRange] New value will be >>> [[10]] of type [NUMBER] with a LINE_OFFSET of [+8] at [LaserAimArray]
+                >>> Searching in lines 948 to 973...
+                >>> Current line is 955
+                >>> LINE_OFFSET of [+8] forces to look starting at line 963
+      [1;32m[1m-- On line 963[0m, exchanged:    [<Property name="AimDistanceRange" value="1" />]            with:     [<Property name="AimDistanceRange" value="10" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[11], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"LaserAimArray"}, <<< 
+
+      Section(s) found: 
+                            948 - 973 (948)
+
+    Looking for >>> [AimDistanceRange] New value will be >>> [[10]] of type [NUMBER] with a LINE_OFFSET of [+16] at [LaserAimArray]
+                >>> Searching in lines 948 to 973...
+                >>> Current line is 955
+                >>> LINE_OFFSET of [+16] forces to look starting at line 971
+      [1;32m[1m-- On line 971[0m, exchanged:    [<Property name="AimDistanceRange" value="1" />]            with:     [<Property name="AimDistanceRange" value="10" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 107 CHANGE(s) made
+    >>>>> Ended with a total of 107 action(s) made
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> GCSOLARGENERATIONGLOBALS.GLOBAL.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"AsteroidScaleVariance"}, <<< 
+
+      Section(s) found: 
+                            51 - 54 (51)
+
+    Looking for >>> [x] New value will be >>> [[0.05]] of type [NUMBER]
+                >>> Searching in lines 51 to 54...
+      [1;32m[1m-- On line 52[0m, exchanged:    [<Property name="x" value="0.5" />]                          with:     [<Property name="x" value="0.05" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 290
+
+    Looking for >>> [AsteroidFadeTime] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 55[0m, exchanged:    [<Property name="AsteroidFadeTime" value="2" />]             with:     [<Property name="AsteroidFadeTime" value="5" />]
+
+    Looking for >>> [AsteroidLotsOfRaresOdds] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 77[0m, exchanged:    [<Property name="AsteroidLotsOfRaresOdds" value="0.9" />]    with:     [<Property name="AsteroidLotsOfRaresOdds" value="0.5" />]
+
+    Looking for >>> [AsteroidFadeRangeMin] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 78[0m, exchanged:    [<Property name="AsteroidFadeRangeMin" value="1000" />]      with:     [<Property name="AsteroidFadeRangeMin" value="10000" />]
+
+    Looking for >>> [AsteroidFadeRangeMax] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 79[0m, exchanged:    [<Property name="AsteroidFadeRangeMax" value="2000" />]      with:     [<Property name="AsteroidFadeRangeMax" value="10000" />]
+
+    Looking for >>> [AsteroidSpacing] New value will be >>> [[8000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 80[0m, exchanged:    [<Property name="AsteroidSpacing" value="1000" />]           with:     [<Property name="AsteroidSpacing" value="8000" />]
+
+    Looking for >>> [RareAsteroidMinResources] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 82[0m, exchanged:    [<Property name="RareAsteroidMinResources" value="5" />]     with:     [<Property name="RareAsteroidMinResources" value="20" />]
+
+    Looking for >>> [RareAsteroidMaxResources] New value will be >>> [[100]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 83[0m, exchanged:    [<Property name="RareAsteroidMaxResources" value="10" />]    with:     [<Property name="RareAsteroidMaxResources" value="100" />]
+
+    Looking for >>> [RareAsteroidHealth] New value will be >>> [[600]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 85[0m, exchanged:    [<Property name="RareAsteroidHealth" value="1000" />]        with:     [<Property name="RareAsteroidHealth" value="600" />]
+
+    Looking for >>> [CommonAsteroidScale] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 86[0m, exchanged:    [<Property name="CommonAsteroidScale" value="0.3" />]        with:     [<Property name="CommonAsteroidScale" value="0.1" />]
+
+    Looking for >>> [CommonAsteroidMinResources] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 87[0m, exchanged:    [<Property name="CommonAsteroidMinResources" value="3" />]    with:     [<Property name="CommonAsteroidMinResources" value="5" />]
+
+    Looking for >>> [CommonAsteroidMaxResources] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 88[0m, exchanged:    [<Property name="CommonAsteroidMaxResources" value="5" />]    with:     [<Property name="CommonAsteroidMaxResources" value="20" />]
+
+    Looking for >>> [CommonAsteroidHealth] New value will be >>> [[300]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 101[0m, exchanged:    [<Property name="CommonAsteroidHealth" value="400" />]      with:     [<Property name="CommonAsteroidHealth" value="300" />]
+
+    Looking for >>> [LargeAsteroidSpacing] New value will be >>> [[30000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 102[0m, exchanged:    [<Property name="LargeAsteroidSpacing" value="3000" />]     with:     [<Property name="LargeAsteroidSpacing" value="30000" />]
+
+    Looking for >>> [LargeAsteroidFadeTime] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 103[0m, exchanged:    [<Property name="LargeAsteroidFadeTime" value="0.1" />]     with:     [<Property name="LargeAsteroidFadeTime" value="0.5" />]
+
+    Looking for >>> [LargeAsteroidFadeRangeMin] New value will be >>> [[100000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 104[0m, exchanged:    [<Property name="LargeAsteroidFadeRangeMin" value="4000" />]    with:     [<Property name="LargeAsteroidFadeRangeMin" value="100000" />]
+
+    Looking for >>> [LargeAsteroidFadeRangeMax] New value will be >>> [[100000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 105[0m, exchanged:    [<Property name="LargeAsteroidFadeRangeMax" value="4000" />]    with:     [<Property name="LargeAsteroidFadeRangeMax" value="100000" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][2][0m
+    >>>>> 17 CHANGE(s) made
+    >>>>> Ended with a total of 17 action(s) made
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> GCGAMEPLAYGLOBALS.GLOBAL.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 1810
+
+    Looking for >>> [AtmosphereEntryTime] New value will be >>> [[1.5]] of type [NUMBER]
+                >>> Searching in lines 3 to 1810...
+[1;31m[1m>>> [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)[0m
+      [1;32m[1m-- On line 397[0m, exchanged:    [<Property name="AtmosphereEntryTime" value="1" />]         with:     [<Property name="AtmosphereEntryTime" value="1.5" />]
+
+    Looking for >>> [AtmosphereEntryFadeTimeFactor] New value will be >>> [[0.0]] of type [NUMBER]
+                >>> Searching in lines 3 to 1810...
+      [1;32m[1m-- On line 398[0m, exchanged:    [<Property name="AtmosphereEntryFadeTimeFactor" value="0.25" />]    with:     [<Property name="AtmosphereEntryFadeTimeFactor" value="0.0" />]
+
+    Looking for >>> [AtmosphereEntryOffset] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 1810...
+      [1;32m[1m-- On line 399[0m, exchanged:    [<Property name="AtmosphereEntryOffset" value="150" />]     with:     [<Property name="AtmosphereEntryOffset" value="0" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[2][1][0m
+    >>>>> 3 CHANGE(s) made
+    >>>>> Ended with a total of 3 action(s) made
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> METADATA\PROJECTILES\PROJECTILETABLE.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","MELEE"}, <<< 
+
+      Section(s) found: 
+                            5 - 110 (6)
+
+    Looking for >>> [PlayerDamage] New value will be >>> [[BASICDAMAGE]] of type [STRING]
+                >>> Searching in lines 5 to 110...
+      [1;32m[1m-- On line 49[0m, exchanged:    [<Property name="PlayerDamage" value="MPPLAYER" />]          with:     [<Property name="PlayerDamage" value="BASICDAMAGE" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","MELEE_KICK"}, <<< 
+
+      Section(s) found: 
+                            111 - 216 (112)
+
+    Looking for >>> [PlayerDamage] New value will be >>> [[MELEE_KICK]] of type [STRING]
+                >>> Searching in lines 111 to 216...
+      [1;32m[1m-- On line 155[0m, exchanged:    [<Property name="PlayerDamage" value="MPPLAYER" />]         with:     [<Property name="PlayerDamage" value="MELEE_KICK" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[3], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SHIPGUN"}, <<< 
+
+      Section(s) found: 
+                            1932 - 2044 (1933)
+
+    Looking for >>> [Scale] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1932 to 2044...
+      [1;32m[1m-- On line 1954[0m, exchanged:    [<Property name="Scale" value="60" />]                     with:     [<Property name="Scale" value="20" />]
+
+    Looking for >>> [Radius] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1932 to 2044...
+      [1;32m[1m-- On line 1957[0m, exchanged:    [<Property name="Radius" value="15" />]                    with:     [<Property name="Radius" value="20" />]
+
+    Looking for >>> [Speed] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Searching in lines 1932 to 2044...
+
+    Looking for >>> [BulletGlowWidthTime] New value will be >>> [[0.3]] of type [NUMBER]
+                >>> Searching in lines 1932 to 2044...
+      [1;32m[1m-- On line 1982[0m, exchanged:    [<Property name="BulletGlowWidthTime" value="0.15" />]     with:     [<Property name="BulletGlowWidthTime" value="0.3" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[4], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SHIPSHOTGUN"}, <<< 
+
+      Section(s) found: 
+                            2045 - 2157 (2046)
+
+    Looking for >>> [Speed] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Searching in lines 2045 to 2157...
+
+[1;31m[1m>>> [WARNING] No action done![0m
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[5], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SHIPMINIGUN"}, <<< 
+
+      Section(s) found: 
+                            2158 - 2270 (2159)
+
+    Looking for >>> [Speed] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Searching in lines 2158 to 2270...
+
+[1;31m[1m>>> [WARNING] No action done![0m
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[6], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SHIPPLASMAGUN"}, <<< 
+
+      Section(s) found: 
+                            2271 - 2383 (2272)
+
+    Looking for >>> [Speed] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Searching in lines 2271 to 2383...
+
+[1;31m[1m>>> [WARNING] No action done![0m
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[7], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","TRADERGUN"}, <<< 
+
+      Section(s) found: 
+                            2384 - 2482 (2385)
+
+    Looking for >>> [Speed] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Searching in lines 2384 to 2482...
+
+[1;31m[1m>>> [WARNING] No action done![0m
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[3][1][0m
+    >>>>> 5 CHANGE(s) made
+    >>>>> Ended with a total of 5 action(s) made
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> METADATA\REALITY\TABLES\DAMAGETABLE.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","IMPACTDAMAGE"}, <<< 
+
+      Section(s) found: 
+                            194 - 220 (195)
+
+    Looking for >>> [Damage] New value will be >>> [[600]] of type [NUMBER]
+                >>> Searching in lines 194 to 220...
+      [1;32m[1m-- On line 210[0m, exchanged:    [<Property name="Damage" value="10" />]                     with:     [<Property name="Damage" value="600" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","IMPACTGROUND"}, <<< 
+
+      Section(s) found: 
+                            221 - 247 (222)
+
+    Looking for >>> [Damage] New value will be >>> [[1000]] of type [NUMBER]
+                >>> Searching in lines 221 to 247...
+      [1;32m[1m-- On line 237[0m, exchanged:    [<Property name="Damage" value="10" />]                     with:     [<Property name="Damage" value="1000" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[3], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","IMPACTINSTANCE"}, <<< 
+
+      Section(s) found: 
+                            248 - 274 (249)
+
+    Looking for >>> [Damage] New value will be >>> [[600]] of type [NUMBER]
+                >>> Searching in lines 248 to 274...
+      [1;32m[1m-- On line 264[0m, exchanged:    [<Property name="Damage" value="30" />]                     with:     [<Property name="Damage" value="600" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[4], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SMALLASTEROID"}, <<< 
+
+      Section(s) found: 
+                            1031 - 1057 (1032)
+
+    Looking for >>> [Damage] New value will be >>> [[50]] of type [NUMBER]
+                >>> Searching in lines 1031 to 1057...
+      [1;32m[1m-- On line 1047[0m, exchanged:    [<Property name="Damage" value="5" />]                     with:     [<Property name="Damage" value="50" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[5], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","MEDIUMASTEROID"}, <<< 
+
+      Section(s) found: 
+                            1058 - 1084 (1059)
+
+    Looking for >>> [Damage] New value will be >>> [[100]] of type [NUMBER]
+                >>> Searching in lines 1058 to 1084...
+      [1;32m[1m-- On line 1074[0m, exchanged:    [<Property name="Damage" value="15" />]                    with:     [<Property name="Damage" value="100" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[6], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","LARGEASTEROID"}, <<< 
+
+      Section(s) found: 
+                            1085 - 1111 (1086)
+
+    Looking for >>> [Damage] New value will be >>> [[400]] of type [NUMBER]
+                >>> Searching in lines 1085 to 1111...
+      [1;32m[1m-- On line 1101[0m, exchanged:    [<Property name="Damage" value="40" />]                    with:     [<Property name="Damage" value="400" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[7], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","LANDING"}, <<< 
+
+      Section(s) found: 
+                            1112 - 1138 (1113)
+
+    Looking for >>> [Damage] New value will be >>> [[100]] of type [NUMBER]
+                >>> Searching in lines 1112 to 1138...
+      [1;32m[1m-- On line 1128[0m, exchanged:    [<Property name="Damage" value="80" />]                    with:     [<Property name="Damage" value="100" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[8], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","MPPLAYER_SHIP"}, <<< 
+
+      Section(s) found: 
+                            1382 - 1408 (1383)
+
+    Looking for >>> [Damage] New value will be >>> [[100]] of type [NUMBER]
+                >>> Searching in lines 1382 to 1408...
+      [1;32m[1m-- On line 1398[0m, exchanged:    [<Property name="Damage" value="45" />]                    with:     [<Property name="Damage" value="100" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[4][1][0m
+    >>>>> 8 CHANGE(s) made
+    >>>>> Ended with a total of 8 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 140 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 6[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #7 of 14 [No Black Bars 2.4.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-26 (found 10 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> UI\COMPONENTS\INTERACTION\CINEMATICBARS.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting UI\COMPONENTS\INTERACTION\CINEMATICBARS.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] UI\COMPONENTS\INTERACTION\CINEMATICBARS.MBIN
+
+>>> UI\HUD\HUDBARS.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting UI\HUD\HUDBARS.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] UI\HUD\HUDBARS.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> UI\COMPONENTS\INTERACTION\CINEMATICBARS.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 639
+
+    Looking for >>> [IsHidden] New value will be >>> [[True]] of type [STRING]
+                >>> Replace operation is [ALL]
+                >>> Searching in lines 3 to 639...
+      [1;32m[1m-- On line 7[0m, exchanged:    [<Property name="IsHidden" value="False" />]                  with:     [<Property name="IsHidden" value="True" />]
+      [1;32m[1m-- On line 216[0m, exchanged:    [<Property name="IsHidden" value="False" />]                with:     [<Property name="IsHidden" value="True" />]
+      [1;32m[1m-- On line 428[0m, exchanged:    [<Property name="IsHidden" value="False" />]                with:     [<Property name="IsHidden" value="True" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 3 CHANGE(s) made
+    >>>>> Ended with a total of 3 action(s) made
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> UI\HUD\HUDBARS.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 1390
+
+    Looking for >>> [IsHidden] New value will be >>> [[True]] of type [STRING]
+                >>> Replace operation is [ALL]
+                >>> Searching in lines 3 to 1390...
+      [1;32m[1m-- On line 7[0m, exchanged:    [<Property name="IsHidden" value="False" />]                  with:     [<Property name="IsHidden" value="True" />]
+      [1;32m[1m-- On line 216[0m, exchanged:    [<Property name="IsHidden" value="False" />]                with:     [<Property name="IsHidden" value="True" />]
+      [1;32m[1m-- On line 425[0m, exchanged:    [<Property name="IsHidden" value="False" />]                with:     [<Property name="IsHidden" value="True" />]
+      [1;32m[1m-- On line 637[0m, exchanged:    [<Property name="IsHidden" value="False" />]                with:     [<Property name="IsHidden" value="True" />]
+      [1;32m[1m-- On line 853[0m, exchanged:    [<Property name="IsHidden" value="True" />]                 with:     [<Property name="IsHidden" value="True" />]
+      [1;32m[1m-- On line 1179[0m, exchanged:    [<Property name="IsHidden" value="True" />]                with:     [<Property name="IsHidden" value="True" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 6 CHANGE(s) made
+    >>>>> Ended with a total of 6 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 9 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 7[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #8 of 14 [No Space Dust 1.3.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-23 (found 9 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 60
+
+    Looking for >>> [NumberOfParticles] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 60...
+      [1;32m[1m-- On line 5[0m, exchanged:    [<Property name="NumberOfParticles" value="500" />]           with:     [<Property name="NumberOfParticles" value="0" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 1 CHANGE(s) made
+    >>>>> Ended with a total of 1 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 1 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 8[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #9 of 14 [No Speed Halo 1.5 - Almost.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-28 (found 10 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Name","gMaterialColourVec4"}, <<< 
+
+      Section(s) found: 
+                            37 - 46 (38)
+
+    Looking for >>> [t] New value will be >>> [[0.06]] of type [NUMBER]
+                >>> Searching in lines 37 to 46...
+[1;31m[1m>>> [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)[0m
+      [1;32m[1m-- On line 43[0m, exchanged:    [<Property name="t" value="1" />]                            with:     [<Property name="t" value="0.06" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 1 CHANGE(s) made
+    >>>>> Ended with a total of 1 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 1 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 9[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #10 of 14 [No Speed Lines 1.5.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-41 (found 17 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Name","NormalLines1"}, <<< 
+
+      Section(s) found: 
+                            20 - 43 (21)
+
+    Looking to >>> remove SECTION <<< at Property name [Name] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 20 - 43[0m REMOVED
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Name","NormalLines2"}, <<< 
+
+      Section(s) found: 
+                            20 - 43 (21)
+
+    Looking to >>> remove SECTION <<< at Property name [Name] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 20 - 43[0m REMOVED
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[3], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Name","BigLines"}, <<< 
+
+      Section(s) found: 
+                            20 - 43 (21)
+
+    Looking to >>> remove SECTION <<< at Property name [Name] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 20 - 43[0m REMOVED
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[4], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Name","MiniJump2"}, <<< 
+
+      Section(s) found: 
+                            20 - 43 (21)
+
+    Looking to >>> remove SECTION <<< at Property name [Name] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 20 - 43[0m REMOVED
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[5], please wait...[0m
+
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Name","MiniJump1"}, <<< 
+
+      Section(s) found: 
+                            20 - 43 (21)
+
+    Looking to >>> remove SECTION <<< at Property name [Name] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 20 - 43[0m REMOVED
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 5 REMOVE(s) made
+    >>>>> Ended with a total of 5 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 5 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 10[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #11 of 14 [Quick Crates 1.7.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-3190 (found 14 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.EXML does not yet exist in MODBUILDER\MOD
+
+   >>> Getting MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.MBIN from NMS source PAKs
+   >>>  MBINCompiler working...
+        [INFO] MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.MBIN
+
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 359
+
+    Looking for >>> [AnimType] New value will be >>> [[OneShot]] of type [STRING]
+                >>> Searching in lines 3 to 359...
+      [1;32m[1m-- On line 134[0m, exchanged:    [<Property name="AnimType" value="Loop" />]                 with:     [<Property name="AnimType" value="OneShot" />]
+
+    Looking for >>> [Active] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 3 to 359...
+      [1;32m[1m-- On line 149[0m, exchanged:    [<Property name="Active" value="True" />]                   with:     [<Property name="Active" value="False" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"GcMaintenanceComponentData.xml"}, <<< 
+
+      Section(s) found: 
+                            226 - 350 (226)
+
+    Looking to >>> remove SECTION <<< at Property name [GcMaintenanceComponentData.xml] and value [IGNORE] of type [STRING]
+[1;32m[1m    -- Lines 226 - 350[0m REMOVED
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 1 REMOVE(s) made
+    >>>>> 2 CHANGE(s) made
+    >>>>> Ended with a total of 3 action(s) made
+
+
+>>> Adding files:
+     create file in: F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE.ANIM.EXML
+
+    >>>>> Ended with 1 files added <<<<<
+
+
+*************************************************************************
+    >>>>> Ended all with 3 action(s) made and 1 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 11[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #12 of 14 [Skip's Asteroid Megamod 1.0.0-PRISMS.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-128 (found 78 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> GCSOLARGENERATIONGLOBALS.GLOBAL.EXML already exist in MOD and will be COMBINED
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> GCSOLARGENERATIONGLOBALS.GLOBAL.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"AsteroidNoiseRange"}, <<< 
+
+      Section(s) found: 
+                            56 - 59 (56)
+
+    Looking for >>> [x] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 56 to 59...
+      [1;32m[1m-- On line 57[0m, exchanged:    [<Property name="x" value="0.4" />]                          with:     [<Property name="x" value="0.1" />]
+
+    Looking for >>> [y] New value will be >>> [[0.2]] of type [NUMBER]
+                >>> Searching in lines 56 to 59...
+      [1;32m[1m-- On line 58[0m, exchanged:    [<Property name="y" value="0.55" />]                         with:     [<Property name="y" value="0.2" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"LargeAsteroidNoiseRange"}, <<< 
+
+      Section(s) found: 
+                            60 - 63 (60)
+
+    Looking for >>> [x] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 60 to 63...
+      [1;32m[1m-- On line 61[0m, exchanged:    [<Property name="x" value="0.3" />]                          with:     [<Property name="x" value="0.1" />]
+
+    Looking for >>> [y] New value will be >>> [[0.3]] of type [NUMBER]
+                >>> Searching in lines 60 to 63...
+      [1;32m[1m-- On line 62[0m, exchanged:    [<Property name="y" value="0.6" />]                          with:     [<Property name="y" value="0.3" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[3], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"RareAsteroidNoiseRangeFewRares"}, <<< 
+
+      Section(s) found: 
+                            64 - 67 (64)
+
+    Looking for >>> [x] New value will be >>> [[0.15]] of type [NUMBER]
+                >>> Searching in lines 64 to 67...
+      [1;32m[1m-- On line 65[0m, exchanged:    [<Property name="x" value="0.512" />]                        with:     [<Property name="x" value="0.15" />]
+
+    Looking for >>> [y] New value will be >>> [[0.25]] of type [NUMBER]
+                >>> Searching in lines 64 to 67...
+      [1;32m[1m-- On line 66[0m, exchanged:    [<Property name="y" value="0.52" />]                         with:     [<Property name="y" value="0.25" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[4], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"RareAsteroidNoiseRangeSomeRares"}, <<< 
+
+      Section(s) found: 
+                            68 - 71 (68)
+
+    Looking for >>> [x] New value will be >>> [[0.10]] of type [NUMBER]
+                >>> Searching in lines 68 to 71...
+      [1;32m[1m-- On line 69[0m, exchanged:    [<Property name="x" value="0.505" />]                        with:     [<Property name="x" value="0.10" />]
+
+    Looking for >>> [y] New value will be >>> [[0.25]] of type [NUMBER]
+                >>> Searching in lines 68 to 71...
+      [1;32m[1m-- On line 70[0m, exchanged:    [<Property name="y" value="0.52" />]                         with:     [<Property name="y" value="0.25" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[5], please wait...[0m
+
+-> Based on PRECEDING_KEY_WORDS: >>> {"RareAsteroidNoiseRangeLotsOfRares"}, <<< 
+
+      Section(s) found: 
+                            72 - 75 (72)
+
+    Looking for >>> [x] New value will be >>> [[0.05]] of type [NUMBER]
+                >>> Searching in lines 72 to 75...
+      [1;32m[1m-- On line 73[0m, exchanged:    [<Property name="x" value="0.45" />]                         with:     [<Property name="x" value="0.05" />]
+
+    Looking for >>> [y] New value will be >>> [[0.25]] of type [NUMBER]
+                >>> Searching in lines 72 to 75...
+      [1;32m[1m-- On line 74[0m, exchanged:    [<Property name="y" value="0.52" />]                         with:     [<Property name="y" value="0.25" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[6], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 290
+
+    Looking for >>> [AsteroidFadeRangeMin] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 78[0m, exchanged:    [<Property name="AsteroidFadeRangeMin" value="10000" />]     with:     [<Property name="AsteroidFadeRangeMin" value="0" />]
+
+    Looking for >>> [AsteroidFadeRangeMax] New value will be >>> [[5000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 79[0m, exchanged:    [<Property name="AsteroidFadeRangeMax" value="10000" />]     with:     [<Property name="AsteroidFadeRangeMax" value="5000" />]
+
+    Looking for >>> [LargeAsteroidFadeRangeMin] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 104[0m, exchanged:    [<Property name="LargeAsteroidFadeRangeMin" value="100000" />]    with:     [<Property name="LargeAsteroidFadeRangeMin" value="0" />]
+
+    Looking for >>> [LargeAsteroidFadeRangeMax] New value will be >>> [[20000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 105[0m, exchanged:    [<Property name="LargeAsteroidFadeRangeMax" value="100000" />]    with:     [<Property name="LargeAsteroidFadeRangeMax" value="20000" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[7], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 290
+
+    Looking for >>> [AsteroidSpacing] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 80[0m, exchanged:    [<Property name="AsteroidSpacing" value="8000" />]           with:     [<Property name="AsteroidSpacing" value="10000" />]
+
+    Looking for >>> [LargeAsteroidSpacing] New value will be >>> [[60000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 102[0m, exchanged:    [<Property name="LargeAsteroidSpacing" value="30000" />]    with:     [<Property name="LargeAsteroidSpacing" value="60000" />]
+
+    Looking for >>> [AsteroidMaxNumGenerates] New value will be >>> [[3500]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 111[0m, exchanged:    [<Property name="AsteroidMaxNumGenerates" value="50000" />]    with:     [<Property name="AsteroidMaxNumGenerates" value="3500" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[8], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 290
+
+    Looking for >>> [AsteroidSpaceStationAvoidRadius] New value will be >>> [[1000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 113[0m, exchanged:    [<Property name="AsteroidSpaceStationAvoidRadius" value="5000" />]    with:     [<Property name="AsteroidSpaceStationAvoidRadius" value="1000" />]
+
+    Looking for >>> [AsteroidAnomalyAvoidRadius] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 114[0m, exchanged:    [<Property name="AsteroidAnomalyAvoidRadius" value="5000" />]    with:     [<Property name="AsteroidAnomalyAvoidRadius" value="10000" />]
+
+    Looking for >>> [AsteroidWarpInAreaAvoidRadius] New value will be >>> [[1000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 115[0m, exchanged:    [<Property name="AsteroidWarpInAreaAvoidRadius" value="5000" />]    with:     [<Property name="AsteroidWarpInAreaAvoidRadius" value="1000" />]
+
+    Looking for >>> [PlanetInvalidAsteroidZone] New value will be >>> [[50000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 41[0m, exchanged:    [<Property name="PlanetInvalidAsteroidZone" value="10000" />]    with:     [<Property name="PlanetInvalidAsteroidZone" value="50000" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[9], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 290
+
+    Looking for >>> [CommonAsteroidHealth] New value will be >>> [[2000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 101[0m, exchanged:    [<Property name="CommonAsteroidHealth" value="300" />]      with:     [<Property name="CommonAsteroidHealth" value="2000" />]
+
+    Looking for >>> [RareAsteroidHealth] New value will be >>> [[5000]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 85[0m, exchanged:    [<Property name="RareAsteroidHealth" value="600" />]         with:     [<Property name="RareAsteroidHealth" value="5000" />]
+
+    Looking for >>> [CommonAsteroidScale] New value will be >>> [[0.4]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 86[0m, exchanged:    [<Property name="CommonAsteroidScale" value="0.1" />]        with:     [<Property name="CommonAsteroidScale" value="0.4" />]
+
+    Looking for >>> [RareAsteroidScale] New value will be >>> [[2.0]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 81[0m, exchanged:    [<Property name="RareAsteroidScale" value="1.6" />]          with:     [<Property name="RareAsteroidScale" value="2.0" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[10], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 290
+
+    Looking for >>> [CommonAsteroidResourceMain] New value will be >>> [[SAND1]] of type [STRING]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 93[0m, exchanged:    [<Property name="CommonAsteroidResourceMain" value="ASTEROID1" />]    with:     [<Property name="CommonAsteroidResourceMain" value="SAND1" />]
+
+    Looking for >>> [CommonAsteroidResourceSecondary] New value will be >>> [[ROCKETSUB]] of type [STRING]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 94[0m, exchanged:    [<Property name="CommonAsteroidResourceSecondary" value="ASTEROID2" />]    with:     [<Property name="CommonAsteroidResourceSecondary" value="ROCKETSUB" />]
+
+    Looking for >>> [CommonAsteroidResourceFuel] New value will be >>> [[LAND1]] of type [STRING]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 90[0m, exchanged:    [<Property name="CommonAsteroidResourceFuel" value="ROCKETSUB" />]    with:     [<Property name="CommonAsteroidResourceFuel" value="LAND1" />]
+
+    Looking for >>> [CommonAsteroidResourceProduct] New value will be >>> [[GEODE_LAND]] of type [STRING]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 92[0m, exchanged:    [<Property name="CommonAsteroidResourceProduct" value="GEODE_ASTEROID" />]    with:     [<Property name="CommonAsteroidResourceProduct" value="GEODE_LAND" />]
+
+    Looking for >>> [RareAsteroidResource] New value will be >>> [[GEODE_SPACE]] of type [STRING]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 84[0m, exchanged:    [<Property name="RareAsteroidResource" value="ASTEROID3" />]    with:     [<Property name="RareAsteroidResource" value="GEODE_SPACE" />]
+
+    Looking for >>> [RareAsteroidResourceFuel] New value will be >>> [[GEODE_CRYSTAL]] of type [STRING]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 91[0m, exchanged:    [<Property name="RareAsteroidResourceFuel" value="GEODE_SPACE" />]    with:     [<Property name="RareAsteroidResourceFuel" value="GEODE_CRYSTAL" />]
+
+    Looking for >>> [RareAsteroidDataProduct] New value will be >>> [[GEODE_RARE]] of type [STRING]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 95[0m, exchanged:    [<Property name="RareAsteroidDataProduct" value="POI_LOCATOR" />]    with:     [<Property name="RareAsteroidDataProduct" value="GEODE_RARE" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[11], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 290
+
+    Looking for >>> [CommonAsteroidResourceFuelOdds] New value will be >>> [[0.2]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 96[0m, exchanged:    [<Property name="CommonAsteroidResourceFuelOdds" value="0.5" />]    with:     [<Property name="CommonAsteroidResourceFuelOdds" value="0.2" />]
+
+    Looking for >>> [CommonAsteroidResourceFuelMultiplier] New value will be >>> [[3]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 89[0m, exchanged:    [<Property name="CommonAsteroidResourceFuelMultiplier" value="5" />]    with:     [<Property name="CommonAsteroidResourceFuelMultiplier" value="3" />]
+
+    Looking for >>> [CommonAsteroidResourceProductOdds] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 98[0m, exchanged:    [<Property name="CommonAsteroidResourceProductOdds" value="0.2" />]    with:     [<Property name="CommonAsteroidResourceProductOdds" value="0.1" />]
+
+    Looking for >>> [CommonAsteroidResourceSecondaryOdds] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 100[0m, exchanged:    [<Property name="CommonAsteroidResourceSecondaryOdds" value="0.2" />]    with:     [<Property name="CommonAsteroidResourceSecondaryOdds" value="0.5" />]
+
+    Looking for >>> [RareAsteroidResourceFuelOdds] New value will be >>> [[0.2]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 97[0m, exchanged:    [<Property name="RareAsteroidResourceFuelOdds" value="0.2" />]    with:     [<Property name="RareAsteroidResourceFuelOdds" value="0.2" />]
+
+    Looking for >>> [RareAsteroidDataProductOdds] New value will be >>> [[.05]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 99[0m, exchanged:    [<Property name="RareAsteroidDataProductOdds" value="0.005" />]    with:     [<Property name="RareAsteroidDataProductOdds" value=".05" />]
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[12], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 290
+
+    Looking for >>> [CommonAsteroidMinResources] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 87[0m, exchanged:    [<Property name="CommonAsteroidMinResources" value="5" />]    with:     [<Property name="CommonAsteroidMinResources" value="20" />]
+
+    Looking for >>> [CommonAsteroidMaxResources] New value will be >>> [[75]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 88[0m, exchanged:    [<Property name="CommonAsteroidMaxResources" value="20" />]    with:     [<Property name="CommonAsteroidMaxResources" value="75" />]
+
+    Looking for >>> [RareAsteroidMinResources] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 82[0m, exchanged:    [<Property name="RareAsteroidMinResources" value="20" />]    with:     [<Property name="RareAsteroidMinResources" value="1" />]
+
+    Looking for >>> [RareAsteroidMaxResources] New value will be >>> [[3]] of type [NUMBER]
+                >>> Searching in lines 3 to 290...
+      [1;32m[1m-- On line 83[0m, exchanged:    [<Property name="RareAsteroidMaxResources" value="100" />]    with:     [<Property name="RareAsteroidMaxResources" value="3" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 42 CHANGE(s) made
+    >>>>> Ended with a total of 42 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 42 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 12[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #13 of 14 [Small Cursor 3.7.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-28 (found 10 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> GCUIGLOBALS.GLOBAL.EXML already exist in MOD and will be COMBINED
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> GCUIGLOBALS.GLOBAL.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 5231
+
+    Looking for >>> [FrontendCursorSize] New value will be >>> [[14]] of type [NUMBER]
+                >>> Searching in lines 3 to 5231...
+      [1;32m[1m-- On line 4144[0m, exchanged:    [<Property name="FrontendCursorSize" value="24" />]        with:     [<Property name="FrontendCursorSize" value="14" />]
+
+    Looking for >>> [FrontendCursorWidth] New value will be >>> [[7]] of type [NUMBER]
+                >>> Searching in lines 3 to 5231...
+      [1;32m[1m-- On line 4149[0m, exchanged:    [<Property name="FrontendCursorWidth" value="9" />]        with:     [<Property name="FrontendCursorWidth" value="7" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 2 CHANGE(s) made
+    >>>>> Ended with a total of 2 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 2 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Combined Mod ACTIVE: Delaying Building MOD...[0m
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 13[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[7;93m >>> Starting to process script #14 of 14 [SpeedIncreaseAnalysis.lua] [0m
+
+>>> Opening User Lua Script, Please wait...
+
+   @@@ **********  Analysing script... **********
+
+   @@@ Checking script using LUAC.exe...
+   @@@ Done without problem
+
+   @@@ Scanning script for container...
+       > CONTAINER found at lines 1-34 (found 14 {} pairs)
+       > CONTAINER will be further analyzed...
+   @@@ Done
+
+   @@@ Basic Syntax Analysis...
+
+   @@@ No other syntax problem detected
+   @@@ Done
+
+>>> Loading script...
+[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
+[1;32m[1m>>> [INFO] Executing now...[0m
+
+[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
+
+>>> Copying script source to MOD
+>>> [INFO] Checking MBIN_FILE_SOURCE validity...
+--------------------------------------------------------------------------------------
+
+>>> GCGAMEPLAYGLOBALS.GLOBAL.EXML already exist in MOD and will be COMBINED
+--------------------------------------------------------------------------------------
+
+[1;31m[1m>>> GCGAMEPLAYGLOBALS.GLOBAL.EXML[0m
+     *** Opening file...
+    MapFileTree creation/update on 2nd thread...
+
+[1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[1;32m[1m                processing EXML_CHANGE_TABLE[1], please wait...[0m
+
+-> No key_word specified, using whole file...
+
+      Section(s) found: 
+                            3 - 1810
+
+    Looking for >>> [BinocTimeBeforeScan] New value will be >>> [[0.2]] of type [NUMBER]
+                >>> Searching in lines 3 to 1810...
+      [1;32m[1m-- On line 410[0m, exchanged:    [<Property name="BinocTimeBeforeScan" value="0.5" />]       with:     [<Property name="BinocTimeBeforeScan" value="0.2" />]
+
+    Looking for >>> [BinocMinScanTime] New value will be >>> [[0.7]] of type [NUMBER]
+                >>> Searching in lines 3 to 1810...
+      [1;32m[1m-- On line 411[0m, exchanged:    [<Property name="BinocMinScanTime" value="3.9" />]          with:     [<Property name="BinocMinScanTime" value="0.7" />]
+
+    Looking for >>> [BinocScanTime] New value will be >>> [[0.7]] of type [NUMBER]
+                >>> Searching in lines 3 to 1810...
+      [1;32m[1m-- On line 412[0m, exchanged:    [<Property name="BinocScanTime" value="3.9" />]             with:     [<Property name="BinocScanTime" value="0.7" />]
+
+    Looking for >>> [BinocCreatureScanTime] New value will be >>> [[0.7]] of type [NUMBER]
+                >>> Searching in lines 3 to 1810...
+      [1;32m[1m-- On line 413[0m, exchanged:    [<Property name="BinocCreatureScanTime" value="3.2" />]     with:     [<Property name="BinocCreatureScanTime" value="0.7" />]
+
+    Looking for >>> [BinocularScanTargetInitialFadeTime] New value will be >>> [[0.2]] of type [NUMBER]
+                >>> Searching in lines 3 to 1810...
+      [1;32m[1m-- On line 417[0m, exchanged:    [<Property name="BinocularScanTargetInitialFadeTime" value="0.5" />]    with:     [<Property name="BinocularScanTargetInitialFadeTime" value="0.2" />]
+
+    Looking for >>> [BinocularScanTargetFadeTime] New value will be >>> [[0.2]] of type [NUMBER]
+                >>> Searching in lines 3 to 1810...
+      [1;32m[1m-- On line 420[0m, exchanged:    [<Property name="BinocularScanTargetFadeTime" value="0.5" />]    with:     [<Property name="BinocularScanTargetFadeTime" value="0.2" />]
+
+[1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
+[1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
+    >>>>> 6 CHANGE(s) made
+    >>>>> Ended with a total of 6 action(s) made
+
+
+*************************************************************************
+    >>>>> Ended all with 6 action(s) made and 0 files added <<<<<
+*************************************************************************
+
+[1;31m[1m>>> [INFO] Using custom DateTime format![0m
+[1;31m[1m>>> [INFO] Reached LAST script of Combined Mod, Building MOD now...[0m
+
+>>>  Compiling EXML file(s) in MOD folder
+>>> MBINCompiler working...
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCDEBUGOPTIONS.GLOBAL.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCGAMEPLAYGLOBALS.GLOBAL.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCSOLARGENERATIONGLOBALS.GLOBAL.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCSPACESHIPGLOBALS.GLOBAL.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCUIGLOBALS.GLOBAL.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCVEHICLEGLOBALS.GLOBAL.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\METADATA\PROJECTILES\PROJECTILETABLE.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\METADATA\REALITY\TABLES\DAMAGETABLE.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\METADATA\REALITY\TABLES\REWARDTABLE.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE.ANIM.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\UI\COMPONENTS\INTERACTION\CINEMATICBARS.EXML
+----- [INFO] F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\UI\HUD\HUDBARS.EXML
+----------------------------------------
+
+>>>  Compressing MBIN (and possibly other) file(s) to PAK(s)
+
+Strip: SteamF/steamapps/common/No Man's Sky/AMUMSS-3.9.5W/MODBUILDER/MOD
+Flags: relative
+NumJobs: 16
+InputFile: ..\input.txt
+Output: ..\..\Builds\IncrementalBuilds\CombinedMod__(5).pak
+Compression: zlib level 9
+Archiving Fast Actions 4.1.lua
+Archiving IntroLogoSkip.lua
+Archiving LearnMoreWords.lua
+Archiving Long Range Freighters 4.0.lua
+Archiving Natural Steering 1.2.lua
+Archiving NaturalFlight.hrv.lua
+Archiving No Black Bars 2.4.lua
+Archiving No Space Dust 1.3.lua
+Archiving No Speed Halo 1.5 - Almost.lua
+Archiving No Speed Lines 1.5.lua
+Archiving Quick Crates 1.7.lua
+Archiving Skip's Asteroid Megamod 1.0.0-PRISMS.lua
+Archiving Small Cursor 3.7.lua
+Archiving SpeedIncreaseAnalysis.lua
+Archiving GCDEBUGOPTIONS.GLOBAL.MBIN
+Archiving GCGAMEPLAYGLOBALS.GLOBAL.MBIN
+Archiving GCSOLARGENERATIONGLOBALS.GLOBAL.MBIN
+Archiving GCSPACESHIPGLOBALS.GLOBAL.MBIN
+Archiving GCUIGLOBALS.GLOBAL.MBIN
+Archiving GCVEHICLEGLOBALS.GLOBAL.MBIN
+Archiving METADATA\PROJECTILES\PROJECTILETABLE.MBIN
+Archiving METADATA\REALITY\TABLES\DAMAGETABLE.MBIN
+Archiving METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.MBIN
+Archiving METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.MBIN
+Archiving METADATA\REALITY\TABLES\REWARDTABLE.MBIN
+Archiving MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.MBIN
+Archiving MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.MBIN
+Archiving MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.MBIN
+Archiving MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE.ANIM.MBIN
+Archiving MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.MBIN
+Archiving UI\COMPONENTS\INTERACTION\CINEMATICBARS.MBIN
+Archiving UI\HUD\HUDBARS.MBIN
+Compressing TOC
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\Fast Actions 4.1.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\IntroLogoSkip.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\LearnMoreWords.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\Long Range Freighters 4.0.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\Natural Steering 1.2.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\NaturalFlight.hrv.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\No Black Bars 2.4.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\No Space Dust 1.3.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\No Speed Halo 1.5 - Almost.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\No Speed Lines 1.5.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\Quick Crates 1.7.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\Skip's Asteroid Megamod 1.0.0-PRISMS.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\Small Cursor 3.7.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\SpeedIncreaseAnalysis.lua
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCDEBUGOPTIONS.GLOBAL.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCGAMEPLAYGLOBALS.GLOBAL.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCSOLARGENERATIONGLOBALS.GLOBAL.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCSPACESHIPGLOBALS.GLOBAL.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCUIGLOBALS.GLOBAL.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\GCVEHICLEGLOBALS.GLOBAL.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\METADATA\PROJECTILES\PROJECTILETABLE.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\METADATA\REALITY\TABLES\DAMAGETABLE.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\METADATA\REALITY\TABLES\REWARDTABLE.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE.ANIM.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\UI\COMPONENTS\INTERACTION\CINEMATICBARS.MBIN
+Compressing F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\UI\HUD\HUDBARS.MBIN
+
+          32: Total Files Archived
+     1521611: Original Size
+        1167: Manifest (uncompressed)
+         512: Manifest (compressed)
+        1122: TOC size
+      121687: Final Size
+        0.9%: Directory Overhead
+       92.0%: Compression Ratio
+           9: Compression Level
+
+
+..\..\Builds\IncrementalBuilds\CombinedMod__(5).pak
+1 File(s) copied
+..\COMBINED_CONTENT_LIST.txt
+1 File(s) copied
+..\..\CreatedModPAKs\CombinedMod__(5).pak
+..\..\CreatedModPAKs\CombinedMod__(5).pak_content.txt
+2 File(s) copied
+-----------------------------------------------------------
+
+[1;90m[1m-----------------------------------------------------------[0m
+[1;31m[1m>>>            Scripts processed: 14[0m
+[1;31m[1m>>>     Total scripts to process: 14[0m
+[1;90m[1m-----------------------------------------------------------[0m
+
+[1;32m[1m>>> Done building ALL scripts[0m
+[1;32m[1m>>> Copying PAK to NMS MOD folder...[0m
+
+>>>  Ending phase...
+
+>>>  Updating EXML_Helper\MODDED...
+>>>      Note that the MODDED files ARE based on the last processed script if individual mods were created
+>>>  Updating EXML_Helper\ORG_EXML and/or EXTRACTED...
+
+[1;90m[1m-----------------------------------------------------[0m
+   [7;93m >>>        AMUMSS v3.9.5.98W finished        <<< [0m
+[1;90m[1m-----------------------------------------------------[0m
+
+>>> Created PAKs are in local folder >>> CreatedModPAKs <<<
+>>> Backups in >>> Builds <<< and >>> Builds\IncrementalBuilds <<<
+
+[1;32m[1m>>> No failed script![0m
+
+  [1;32m[1mWe will check 31 possible conflicting files[0m
+
+>>> Conflict Detection starting...
+
+[1;32m[1m>>> Checking Conflicts in ModScript Scripts/paks and NMS MODS paks. Please wait...[0m
+       Pruning duplicates in 48 files...
+       We have 48 possible conflicting files to process!  WORKING...
+[1;31m[1m       Conflict detection done, found 3 conflict(s)[0m
+[1;31m[1m       See [0m[7;93m REPORT.lua [0m[1;31m[1m for the full list of conflict(s)[0m
+
+              [7;93m >>> FINAL REPORT <<< [0m
+            [7;93m >>> See "REPORT.lua" <<< [0m
+
+     0 ERROR detected
+
+    12 WARNINGS raised
+           WARNINGS may produce good or bad PAK files.  You have to be the judge!
+
+     0 NOTICE raised
+
+     3 CONFLICTS detected in processed Scripts/paks
+           CONFLICTS will prevent the mods involved from expressing their full effect.
+           Some CONFLICTS can be resolved by COMBINING mods...
+           See file 'Creating a Patch for an existing MOD PAK.txt' for further help
+
+            [7;93m >>> See "REPORT.lua" <<< [0m
+
+ ===>>> TOTAL TIME to complete: 00:00:20
+
+
+[7;93m === PRESS ANY KEY and THIS window will close shortly === [0m
+        [7;93m === OR use the 'X' at the top right === [0m
+Press any key to continue . . . 

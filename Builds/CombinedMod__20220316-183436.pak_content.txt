@@ -1,0 +1,49 @@
+This mod contains:
+- Fast Actions 4.1
+- Long Range Freighters 4.0
+- Natural Steering 1.2
+- No Black Bars 2.4
+- Skip's Asteroid Megamod 1.0.0-PRISMS
+- Small Cursor 3.7
+
+Original information:
+   MOD FILENAME: Fast Actions 4.1.pak
+     MOD AUTHOR: Lo2k
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: This mods reduces clicks and keys press duration
+    NMS VERSION: 3.8
+
+Original information:
+   MOD FILENAME: Long Range Freighters 4.0.pak
+     MOD AUTHOR: Lo2k
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: This mod multiply by 10 all freighter warp drive ranges
+    NMS VERSION: 3.84
+
+Original information:
+   MOD FILENAME: Natural Steering 1.2.pak
+     MOD AUTHOR: Lo2k
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: This mods uncouples mouse view from steering
+    NMS VERSION: 3.84
+
+Original information:
+   MOD FILENAME: No Black Bars 2.4.pak
+     MOD AUTHOR: Lo2k (script by MrFisse)
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: No cutscene black bars
+    NMS VERSION: 3.84
+
+Original information:
+   MOD FILENAME: Skip's Asteroid Megamod 1.0.0-PRISMS.pak
+     MOD AUTHOR: Skip
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: This mod vastly improves asteroid draw distance, spreads them out over larger distances, overhauls their resource drops to be more interesting and varied, and lets them spawn closer to space stations.
+    NMS VERSION: 3.53
+
+Original information:
+   MOD FILENAME: Small Cursor 3.7.pak
+     MOD AUTHOR: Lo2k
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: This mods reduces the size of the main game cursor
+    NMS VERSION: 3.8
