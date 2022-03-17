@@ -1,0 +1,5 @@
+CheckScript.lua:273:29: warning[multiple_statements]: only one statement per line is allowed
+Results:
+0 errors
+1 warnings
+0 parse errors
