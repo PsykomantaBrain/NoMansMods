@@ -9,7 +9,7 @@
   <Property name="DockingApproachBrakeHmdMod" value="1" />
   <Property name="LandingDirectionalSideOffsetFactor" value="0.2" />
   <Property name="LandingHoverOffset" value="3" />
-  <Property name="LandingMaxSpeed" value="10" />
+  <Property name="LandingMaxSpeed" value="60" />
   <Property name="LandingMaxAngle" value="45" />
   <Property name="LandingMargin" value="1.4" />
   <Property name="LandingObstacleMinHeight" value="2" />
@@ -105,7 +105,7 @@
   <Property name="WingmanSpeedApproachSpeed" value="50" />
   <Property name="WingmanSpeedApproachSpeedSpace" value="500" />
   <Property name="DockingAttractAlign" value="4" />
-  <Property name="DockingAttractAlignRange" value="30" />
+  <Property name="DockingAttractAlignRange" value="60" />
   <Property name="LandingEffectSpaceColourOverride" value="Colour.xml">
     <Property name="R" value="0.392" />
     <Property name="G" value="0.706" />
@@ -134,7 +134,7 @@
     <Property name="z" value="15" />
   </Property>
   <Property name="OutpostDockSpeedAlignMinDistance" value="20" />
-  <Property name="OutpostDockSpeedAlignRange" value="30" />
+  <Property name="OutpostDockSpeedAlignRange" value="80" />
   <Property name="NearGroundPitchCorrectMinHeight" value="23" />
   <Property name="NearGroundPitchCorrectRange" value="15" />
   <Property name="NearGroundPitchCorrectMinHeightRemote" value="30" />
@@ -223,7 +223,7 @@
   <Property name="PostFreighterWarpTransitionTime" value="1" />
   <Property name="PulseDrivePlanetApproachMinAngle" value="5" />
   <Property name="PulseDrivePlanetApproachMaxAngle" value="10" />
-  <Property name="PulseDrivePlanetApproachHeight" value="1000" />
+  <Property name="PulseDrivePlanetApproachHeight" value="3000" />
   <Property name="TestJetsStage1" value="0" />
   <Property name="TestJetsStage2" value="0" />
   <Property name="TestJetsBoost" value="0" />
@@ -410,9 +410,9 @@
       <Property name="BoostFalloff" value="0" />
       <Property name="BoostingTurnDamp" value="0.1" />
       <Property name="DirectionBrakeMin" value="0.5" />
-      <Property name="DirectionBrake" value="0.7" />
-      <Property name="ReverseBrake" value="0.2" />
-      <Property name="OverspeedBrake" value="0" />
+      <Property name="DirectionBrake" value="0.9" />
+      <Property name="ReverseBrake" value="0.25" />
+      <Property name="OverspeedBrake" value="0.1" />
       <Property name="LowSpeedTurnDamper" value="1" />
       <Property name="TurnBrakeMin" value="0.5" />
       <Property name="TurnBrakeMax" value="1" />
@@ -435,8 +435,8 @@
       <Property name="BoostingTurnDamp" value="0.25" />
       <Property name="DirectionBrakeMin" value="1" />
       <Property name="DirectionBrake" value="1.5" />
-      <Property name="ReverseBrake" value="1" />
-      <Property name="OverspeedBrake" value="0" />
+      <Property name="ReverseBrake" value="0.25" />
+      <Property name="OverspeedBrake" value="0.1" />
       <Property name="LowSpeedTurnDamper" value="0.25" />
       <Property name="TurnBrakeMin" value="2" />
       <Property name="TurnBrakeMax" value="3" />
@@ -502,14 +502,14 @@
       <Property name="MinSpeed" value="0" />
       <Property name="Falloff" value="0" />
       <Property name="MinSpeedForce" value="0" />
-      <Property name="BoostThrustForce" value="100" />
+      <Property name="BoostThrustForce" value="300" />
       <Property name="BoostMaxSpeed" value="2600" />
       <Property name="BoostFalloff" value="0" />
       <Property name="BoostingTurnDamp" value="0.1" />
       <Property name="DirectionBrakeMin" value="0.5" />
-      <Property name="DirectionBrake" value="0.7" />
-      <Property name="ReverseBrake" value="0.01" />
-      <Property name="OverspeedBrake" value="0" />
+      <Property name="DirectionBrake" value="0.9" />
+      <Property name="ReverseBrake" value="0.3" />
+      <Property name="OverspeedBrake" value="0.1" />
       <Property name="LowSpeedTurnDamper" value="1" />
       <Property name="TurnBrakeMin" value="0.5" />
       <Property name="TurnBrakeMax" value="1" />
@@ -532,8 +532,8 @@
       <Property name="BoostingTurnDamp" value="0.3" />
       <Property name="DirectionBrakeMin" value="0.75" />
       <Property name="DirectionBrake" value="1.15" />
-      <Property name="ReverseBrake" value="0.4" />
-      <Property name="OverspeedBrake" value="0" />
+      <Property name="ReverseBrake" value="0.3" />
+      <Property name="OverspeedBrake" value="0.1" />
       <Property name="LowSpeedTurnDamper" value="0.01" />
       <Property name="TurnBrakeMin" value="3" />
       <Property name="TurnBrakeMax" value="4" />
@@ -604,11 +604,11 @@
       <Property name="BoostFalloff" value="0" />
       <Property name="BoostingTurnDamp" value="0.1" />
       <Property name="DirectionBrakeMin" value="0.5" />
-      <Property name="DirectionBrake" value="0.7" />
-      <Property name="ReverseBrake" value="0.01" />
-      <Property name="OverspeedBrake" value="0" />
+      <Property name="DirectionBrake" value="0.9" />
+      <Property name="ReverseBrake" value="0.2" />
+      <Property name="OverspeedBrake" value="0.1" />
       <Property name="LowSpeedTurnDamper" value="1" />
-      <Property name="TurnBrakeMin" value="0.5" />
+      <Property name="TurnBrakeMin" value="0.4" />
       <Property name="TurnBrakeMax" value="1" />
       <Property name="TurnStrength" value="0.6" />
       <Property name="RollAmount" value="1.5" />
@@ -629,7 +629,7 @@
       <Property name="BoostingTurnDamp" value="0.15" />
       <Property name="DirectionBrakeMin" value="0.35" />
       <Property name="DirectionBrake" value="0.8" />
-      <Property name="ReverseBrake" value="1" />
+      <Property name="ReverseBrake" value="0.2" />
       <Property name="OverspeedBrake" value="0" />
       <Property name="LowSpeedTurnDamper" value="0.4" />
       <Property name="TurnBrakeMin" value="1" />
@@ -909,7 +909,7 @@
   <Property name="HoverBrakeStrength" value="10" />
   <Property name="StickyTurnMinAngle" value="0" />
   <Property name="StickyTurnAngleRange" value="0" />
-  <Property name="StickyTurnLow" value="1200" />
+  <Property name="StickyTurnLow" value="0" />
   <Property name="StickyTurnHigh" value="0" />
   <Property name="StickyStickAngle" value="180" />
   <Property name="ShipMotionDeadZone" value="0.01" />
@@ -998,7 +998,7 @@
       <Property name="AimDistanceRange" value="1000" />
     </Property>
   </Property>
-  <Property name="TakeOffCost" value="80" />
+  <Property name="TakeOffCost" value="60" />
   <Property name="LandingCost" value="0" />
   <Property name="GunAimLevel" value="0" />
   <Property name="MissileAim" value="GcPlayerSpaceshipAim.xml">
@@ -1092,7 +1092,7 @@
   <Property name="CollisionDeflectNormalFactor" value="2" />
   <Property name="CollisionAsteroidDamp" value="0.6" />
   <Property name="CollisionGroundDamp" value="0.75" />
-  <Property name="CollisionDistance" value="20" />
+  <Property name="CollisionDistance" value="10" />
   <Property name="CollisionDistanceGround" value="10" />
   <Property name="CollisionDistanceAsteroid" value="17" />
   <Property name="CollisionDistanceAsteroidSide" value="5" />

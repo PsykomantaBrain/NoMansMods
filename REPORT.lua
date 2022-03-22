@@ -1,17 +1,17 @@
-Thu 03/17/2022 13:18:56.60 AMUMSS starting! 
+Mon 03/21/2022 13:26:05.59 AMUMSS starting! 
 
 AMUMSS v3.9.5.98W
 using Lua 5.3
 on Windows 10 Pro 64bit, Build: 19043.1586 with 16 logical CPUs (cp437)
 with MBINCompiler v3.82.0.2
 
-Started MODBUILDER automatic processing at 13:19:05 {
+Started MODBUILDER automatic processing at 13:26:15 {
 
 One or more DISTINCT COMBINED MOD PAK will be created...
 and ALL will be copied to NMS MOD folder
 
 ========================================================================================
-Starting to process script #1 of 14 [Fast Actions 4.1.lua] {
+Starting to process script #1 of 15 [Fast Actions 4.1.lua] {
 Copying script source to MOD
 Getting GCUIGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -43,7 +43,1387 @@ Ended script [Fast Actions 4.1.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #2 of 14 [IntroLogoSkip.lua] {
+Starting to process script #2 of 15 [gCam hrv.lua] {
+Copying script source to MOD
+Getting GCCAMERAGLOBALS.GLOBAL.MBIN from NMS source PAKs
+   SUCCESS Decompiling
+>>>>>>> Loaded script [gCam hrv.lua]
+{>>> GCCAMERAGLOBALS.GLOBAL.EXML
+    MapFileTree creation/update done by 2nd thread
+-> No key_word specified, using whole file...
+    Looking for >>> [PauseThirdPersonCamInPause] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 3 to 6355...
+      -- On line 314, exchanged:    [<Property name="PauseThirdPersonCamInPause" value="False" />]    with:     [<Property name="PauseThirdPersonCamInPause" value="False" />]
+    Looking for >>> [DistanceForFleetInteraction] New value will be >>> [[6000]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3271, exchanged:    [<Property name="DistanceForFleetInteraction" value="3900" />]    with:     [<Property name="DistanceForFleetInteraction" value="6000" />]
+    Looking for >>> [DistanceForFrigateInteraction] New value will be >>> [[2000]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3272, exchanged:    [<Property name="DistanceForFrigateInteraction" value="650" />]    with:     [<Property name="DistanceForFrigateInteraction" value="2000" />]
+    Looking for >>> [DistanceForFrigatePurchaseInteraction] New value will be >>> [[2000]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3273, exchanged:    [<Property name="DistanceForFrigatePurchaseInteraction" value="500" />]    with:     [<Property name="DistanceForFrigatePurchaseInteraction" value="2000" />]
+    Looking for >>> [PhotoModeVelocitySmoothTime] New value will be >>> [[1.5]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3305, exchanged:    [<Property name="PhotoModeVelocitySmoothTime" value="0.5" />]    with:     [<Property name="PhotoModeVelocitySmoothTime" value="1.5" />]
+    Looking for >>> [PhotoModeMoveSpeed] New value will be >>> [[17]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3306, exchanged:    [<Property name="PhotoModeMoveSpeed" value="11" />]        with:     [<Property name="PhotoModeMoveSpeed" value="17" />]
+    Looking for >>> [PhotoModeTurnSpeed] New value will be >>> [[60]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3307, exchanged:    [<Property name="PhotoModeTurnSpeed" value="60" />]        with:     [<Property name="PhotoModeTurnSpeed" value="60" />]
+    Looking for >>> [PhotoModeMaxDistance] New value will be >>> [[99999]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3308, exchanged:    [<Property name="PhotoModeMaxDistance" value="150" />]     with:     [<Property name="PhotoModeMaxDistance" value="99999" />]
+    Looking for >>> [PhotoModeMaxDistanceSpace] New value will be >>> [[99999]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3309, exchanged:    [<Property name="PhotoModeMaxDistanceSpace" value="200" />]    with:     [<Property name="PhotoModeMaxDistanceSpace" value="99999" />]
+    Looking for >>> [BuildingModeMaxDistance] New value will be >>> [[99999]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3326, exchanged:    [<Property name="BuildingModeMaxDistance" value="60" />]    with:     [<Property name="BuildingModeMaxDistance" value="99999" />]
+    Looking for >>> [BinocularFlashTime] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 346, exchanged:    [<Property name="BinocularFlashTime" value="0.24" />]       with:     [<Property name="BinocularFlashTime" value="0" />]
+    Looking for >>> [BinocularFlashStrength] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 347, exchanged:    [<Property name="BinocularFlashStrength" value="0.9" />]    with:     [<Property name="BinocularFlashStrength" value="0" />]
+    Looking for >>> [ModelViewFlashTime] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3217, exchanged:    [<Property name="ModelViewFlashTime" value="0.8" />]       with:     [<Property name="ModelViewFlashTime" value="0" />]
+    Looking for >>> [PhotoModeFlashDuration] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3314, exchanged:    [<Property name="PhotoModeFlashDuration" value="0.5" />]    with:     [<Property name="PhotoModeFlashDuration" value="0" />]
+    Looking for >>> [PhotoModeFlashIntensity] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 3315, exchanged:    [<Property name="PhotoModeFlashIntensity" value="0.5" />]    with:     [<Property name="PhotoModeFlashIntensity" value="0" />]
+    Looking for >>> [VehicleExitFlashTime] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 322, exchanged:    [<Property name="VehicleExitFlashTime" value="0.8" />]      with:     [<Property name="VehicleExitFlashTime" value="0" />]
+    Looking for >>> [VehicleExitFlashStrength] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 323, exchanged:    [<Property name="VehicleExitFlashStrength" value="0.8" />]    with:     [<Property name="VehicleExitFlashStrength" value="0" />]
+    Looking for >>> [FirstPersonFoV] New value will be >>> [[75]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5914, exchanged:    [<Property name="FirstPersonFoV" value="75" />]            with:     [<Property name="FirstPersonFoV" value="75" />]
+    Looking for >>> [ThirdPersonFoV] New value will be >>> [[70]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5915, exchanged:    [<Property name="ThirdPersonFoV" value="70" />]            with:     [<Property name="ThirdPersonFoV" value="70" />]
+    Looking for >>> [FirstPersonZoom1FoV] New value will be >>> [[40]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5917, exchanged:    [<Property name="FirstPersonZoom1FoV" value="40" />]       with:     [<Property name="FirstPersonZoom1FoV" value="40" />]
+    Looking for >>> [FirstPersonZoom2FoV] New value will be >>> [[15]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5918, exchanged:    [<Property name="FirstPersonZoom2FoV" value="15" />]       with:     [<Property name="FirstPersonZoom2FoV" value="15" />]
+    Looking for >>> [ShipFoVMin] New value will be >>> [[75]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5919, exchanged:    [<Property name="ShipFoVMin" value="75" />]                with:     [<Property name="ShipFoVMin" value="75" />]
+    Looking for >>> [ShipFoVMin2] New value will be >>> [[75]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5920, exchanged:    [<Property name="ShipFoVMin2" value="75" />]               with:     [<Property name="ShipFoVMin2" value="75" />]
+    Looking for >>> [ShipFoVMax] New value will be >>> [[90]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5921, exchanged:    [<Property name="ShipFoVMax" value="90" />]                with:     [<Property name="ShipFoVMax" value="90" />]
+    Looking for >>> [ShipWarpFoV] New value will be >>> [[70]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5922, exchanged:    [<Property name="ShipWarpFoV" value="70" />]               with:     [<Property name="ShipWarpFoV" value="70" />]
+    Looking for >>> [ShipFoVMin3rdPerson] New value will be >>> [[95]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5923, exchanged:    [<Property name="ShipFoVMin3rdPerson" value="95" />]       with:     [<Property name="ShipFoVMin3rdPerson" value="95" />]
+    Looking for >>> [ShipFoVMax3rdPerson] New value will be >>> [[115]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5924, exchanged:    [<Property name="ShipFoVMax3rdPerson" value="115" />]      with:     [<Property name="ShipFoVMax3rdPerson" value="115" />]
+    Looking for >>> [ShipFoVBoost] New value will be >>> [[92]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5925, exchanged:    [<Property name="ShipFoVBoost" value="105" />]             with:     [<Property name="ShipFoVBoost" value="92" />]
+    Looking for >>> [ShipFoVMiniJump] New value will be >>> [[94]] of type [NUMBER]
+                >>> Searching in lines 3 to 6355...
+      -- On line 5926, exchanged:    [<Property name="ShipFoVMiniJump" value="110" />]          with:     [<Property name="ShipFoVMiniJump" value="94" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"BeaconTransition"}, <<< 
+    Looking for >>> [Time] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3338 to 3357...
+      -- On line 3339, exchanged:    [<Property name="Time" value="5" />]                       with:     [<Property name="Time" value="1" />]
+    Looking for >>> [AerialViewMode] New value will be >>> [[FaceDownThenOut]] of type [STRING]
+                >>> Searching in lines 3338 to 3357...
+      -- On line 3340, exchanged:    [<Property name="AerialViewMode" value="FaceDownThenOut" />]    with:     [<Property name="AerialViewMode" value="FaceDownThenOut" />]
+    Looking for >>> [TimeBack] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3338 to 3357...
+      -- On line 3341, exchanged:    [<Property name="TimeBack" value="4" />]                   with:     [<Property name="TimeBack" value="1" />]
+    Looking for >>> [StartTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3338 to 3357...
+      -- On line 3342, exchanged:    [<Property name="StartTime" value="1" />]                  with:     [<Property name="StartTime" value="1" />]
+    Looking for >>> [PauseTime] New value will be >>> [[2.5]] of type [NUMBER]
+                >>> Searching in lines 3338 to 3357...
+      -- On line 3343, exchanged:    [<Property name="PauseTime" value="2.5" />]                with:     [<Property name="PauseTime" value="2.5" />]
+    Looking for >>> [Distance] New value will be >>> [[2000]] of type [NUMBER]
+                >>> Searching in lines 3338 to 3357...
+      -- On line 3344, exchanged:    [<Property name="Distance" value="2000" />]                with:     [<Property name="Distance" value="2000" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"SignalTransition"}, <<< 
+    Looking for >>> [Time] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3358 to 3377...
+      -- On line 3359, exchanged:    [<Property name="Time" value="3" />]                       with:     [<Property name="Time" value="1" />]
+    Looking for >>> [AerialViewMode] New value will be >>> [[FaceOut]] of type [STRING]
+                >>> Searching in lines 3358 to 3377...
+      -- On line 3360, exchanged:    [<Property name="AerialViewMode" value="FaceOut" />]       with:     [<Property name="AerialViewMode" value="FaceOut" />]
+    Looking for >>> [TimeBack] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3358 to 3377...
+      -- On line 3361, exchanged:    [<Property name="TimeBack" value="2" />]                   with:     [<Property name="TimeBack" value="1" />]
+    Looking for >>> [StartTime] New value will be >>> [[2.5]] of type [NUMBER]
+                >>> Searching in lines 3358 to 3377...
+      -- On line 3362, exchanged:    [<Property name="StartTime" value="2.5" />]                with:     [<Property name="StartTime" value="2.5" />]
+    Looking for >>> [PauseTime] New value will be >>> [[0.3]] of type [NUMBER]
+                >>> Searching in lines 3358 to 3377...
+      -- On line 3363, exchanged:    [<Property name="PauseTime" value="0.3" />]                with:     [<Property name="PauseTime" value="0.3" />]
+    Looking for >>> [Distance] New value will be >>> [[40]] of type [NUMBER]
+                >>> Searching in lines 3358 to 3377...
+      -- On line 3364, exchanged:    [<Property name="Distance" value="40" />]                  with:     [<Property name="Distance" value="40" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"WaypointTransition"}, <<< 
+    Looking for >>> [Time] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3378 to 3397...
+      -- On line 3379, exchanged:    [<Property name="Time" value="2" />]                       with:     [<Property name="Time" value="1" />]
+    Looking for >>> [AerialViewMode] New value will be >>> [[FaceDown]] of type [STRING]
+                >>> Searching in lines 3378 to 3397...
+      -- On line 3380, exchanged:    [<Property name="AerialViewMode" value="FaceDown" />]      with:     [<Property name="AerialViewMode" value="FaceDown" />]
+    Looking for >>> [TimeBack] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3378 to 3397...
+      -- On line 3381, exchanged:    [<Property name="TimeBack" value="1.5" />]                 with:     [<Property name="TimeBack" value="1" />]
+    Looking for >>> [StartTime] New value will be >>> [[0.4]] of type [NUMBER]
+                >>> Searching in lines 3378 to 3397...
+      -- On line 3382, exchanged:    [<Property name="StartTime" value="0.4" />]                with:     [<Property name="StartTime" value="0.4" />]
+    Looking for >>> [PauseTime] New value will be >>> [[0.2]] of type [NUMBER]
+                >>> Searching in lines 3378 to 3397...
+      -- On line 3383, exchanged:    [<Property name="PauseTime" value="0.2" />]                with:     [<Property name="PauseTime" value="0.2" />]
+    Looking for >>> [Distance] New value will be >>> [[3]] of type [NUMBER]
+                >>> Searching in lines 3378 to 3397...
+      -- On line 3384, exchanged:    [<Property name="Distance" value="3" />]                   with:     [<Property name="Distance" value="3" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"RadioTowerTransition"}, <<< 
+    Looking for >>> [Time] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3398 to 3417...
+      -- On line 3399, exchanged:    [<Property name="Time" value="5" />]                       with:     [<Property name="Time" value="1" />]
+    Looking for >>> [AerialViewMode] New value will be >>> [[FaceDown]] of type [STRING]
+                >>> Searching in lines 3398 to 3417...
+      -- On line 3400, exchanged:    [<Property name="AerialViewMode" value="FaceDown" />]      with:     [<Property name="AerialViewMode" value="FaceDown" />]
+    Looking for >>> [TimeBack] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3398 to 3417...
+      -- On line 3401, exchanged:    [<Property name="TimeBack" value="3.5" />]                 with:     [<Property name="TimeBack" value="1" />]
+    Looking for >>> [StartTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 3398 to 3417...
+      -- On line 3402, exchanged:    [<Property name="StartTime" value="1" />]                  with:     [<Property name="StartTime" value="1" />]
+    Looking for >>> [PauseTime] New value will be >>> [[2]] of type [NUMBER]
+                >>> Searching in lines 3398 to 3417...
+      -- On line 3403, exchanged:    [<Property name="PauseTime" value="2" />]                  with:     [<Property name="PauseTime" value="2" />]
+    Looking for >>> [Distance] New value will be >>> [[8000]] of type [NUMBER]
+                >>> Searching in lines 3398 to 3417...
+      -- On line 3404, exchanged:    [<Property name="Distance" value="8000" />]                with:     [<Property name="Distance" value="8000" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterUnarmedCam"}, <<< 
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 376 to 441...
+      -- On line 380, exchanged:    [<Property name="OffsetX" value="0.8" />]                   with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[-0.3]] of type [NUMBER]
+                >>> Searching in lines 376 to 441...
+      -- On line 381, exchanged:    [<Property name="OffsetY" value="-0.6" />]                  with:     [<Property name="OffsetY" value="-0.3" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 376 to 441...
+      -- On line 386, exchanged:    [<Property name="BackMaxDistance" value="5.2" />]           with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [PanNear] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 376 to 441...
+      -- On line 395, exchanged:    [<Property name="PanNear" value="-1" />]                    with:     [<Property name="PanNear" value="0" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 376 to 441...
+      -- On line 396, exchanged:    [<Property name="PanFar" value="3" />]                      with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 376 to 441...
+      -- On line 400, exchanged:    [<Property name="VertRotationMin" value="-65" />]           with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 376 to 441...
+      -- On line 401, exchanged:    [<Property name="VertRotationMax" value="65" />]            with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [VertRotationSpeed] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 376 to 441...
+      -- On line 399, exchanged:    [<Property name="VertRotationSpeed" value="15" />]          with:     [<Property name="VertRotationSpeed" value="20" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 376 to 441...
+      -- On line 409, exchanged:    [<Property name="SpringSpeed" value="0.18" />]              with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 376 to 441...
+      -- On line 438, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]      with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterRunCam"}, <<< 
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 445, exchanged:    [<Property name="SpeedRange" value="8.8" />]                with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 446, exchanged:    [<Property name="OffsetX" value="0.6" />]                   with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[-0.3]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 447, exchanged:    [<Property name="OffsetY" value="-0.85" />]                 with:     [<Property name="OffsetY" value="-0.3" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[3.5]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 451, exchanged:    [<Property name="BackMinDistance" value="3.5" />]           with:     [<Property name="BackMinDistance" value="3.5" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 452, exchanged:    [<Property name="BackMaxDistance" value="7" />]             with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [PanNear] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 461, exchanged:    [<Property name="PanNear" value="-1" />]                    with:     [<Property name="PanNear" value="0" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 462, exchanged:    [<Property name="PanFar" value="3" />]                      with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [HorizRotationAngleMaxPerFrame] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 464, exchanged:    [<Property name="HorizRotationAngleMaxPerFrame" value="3" />]    with:     [<Property name="HorizRotationAngleMaxPerFrame" value="20" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 466, exchanged:    [<Property name="VertRotationMin" value="-60" />]           with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 467, exchanged:    [<Property name="VertRotationMax" value="60" />]            with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [VertRotationSpeed] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 465, exchanged:    [<Property name="VertRotationSpeed" value="15" />]          with:     [<Property name="VertRotationSpeed" value="20" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 475, exchanged:    [<Property name="SpringSpeed" value="0.08" />]              with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 477, exchanged:    [<Property name="CenterStartTime" value="0.3" />]           with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 478, exchanged:    [<Property name="CenterBlendTime" value="0.5" />]           with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 479, exchanged:    [<Property name="CenterMaxSpring" value="1.2" />]           with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 480, exchanged:    [<Property name="CenterMaxSpeed" value="1.2" />]            with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 484, exchanged:    [<Property name="CenterStartSpeed" value="2.5" />]          with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [LRProbesRange] New value will be >>> [[13]] of type [NUMBER]
+                >>> Searching in lines 442 to 507...
+      -- On line 491, exchanged:    [<Property name="LRProbesRange" value="31" />]              with:     [<Property name="LRProbesRange" value="13" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 442 to 507...
+      -- On line 504, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]      with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterCombatCam"}, <<< 
+    Looking for >>> [MinSpeed] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 510, exchanged:    [<Property name="MinSpeed" value="10" />]                   with:     [<Property name="MinSpeed" value="4" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 512, exchanged:    [<Property name="OffsetX" value="0.7" />]                   with:     [<Property name="OffsetX" value="0.1" />]
+    Looking for >>> [OffsetY] New value will be >>> [[-0.3]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 513, exchanged:    [<Property name="OffsetY" value="-0.45" />]                 with:     [<Property name="OffsetY" value="-0.3" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[3.5]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 517, exchanged:    [<Property name="BackMinDistance" value="1.5" />]           with:     [<Property name="BackMinDistance" value="3.5" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 532, exchanged:    [<Property name="VertRotationMin" value="-75" />]           with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 533, exchanged:    [<Property name="VertRotationMax" value="65" />]            with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [VertRotationSpeed] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 531, exchanged:    [<Property name="VertRotationSpeed" value="15" />]          with:     [<Property name="VertRotationSpeed" value="20" />]
+    Looking for >>> [DistSpeed] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 538, exchanged:    [<Property name="DistSpeed" value="0.9" />]                 with:     [<Property name="DistSpeed" value="5" />]
+    Looking for >>> [DistStiffness] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 540, exchanged:    [<Property name="DistStiffness" value="3" />]               with:     [<Property name="DistStiffness" value="1" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 541, exchanged:    [<Property name="SpringSpeed" value="0.01" />]              with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 543, exchanged:    [<Property name="CenterStartTime" value="1.5" />]           with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 544, exchanged:    [<Property name="CenterBlendTime" value="1.5" />]           with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 545, exchanged:    [<Property name="CenterMaxSpring" value="0" />]             with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 546, exchanged:    [<Property name="CenterMaxSpeed" value="0.5" />]            with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 549, exchanged:    [<Property name="VertMaxSpring" value="0" />]               with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 550, exchanged:    [<Property name="CenterStartSpeed" value="0.1" />]          with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [CloseSpring] New value will be >>> [[3]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 553, exchanged:    [<Property name="CloseSpring" value="0.3" />]               with:     [<Property name="CloseSpring" value="3" />]
+    Looking for >>> [LRProbesRange] New value will be >>> [[13]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 557, exchanged:    [<Property name="LRProbesRange" value="31" />]              with:     [<Property name="LRProbesRange" value="13" />]
+    Looking for >>> [LRProbesRadius] New value will be >>> [[0.3]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 558, exchanged:    [<Property name="LRProbesRadius" value="0.2" />]            with:     [<Property name="LRProbesRadius" value="0.3" />]
+    Looking for >>> [NumUDProbes] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 559, exchanged:    [<Property name="NumUDProbes" value="10" />]                with:     [<Property name="NumUDProbes" value="5" />]
+    Looking for >>> [UDProbesRange] New value will be >>> [[2]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 560, exchanged:    [<Property name="UDProbesRange" value="15" />]              with:     [<Property name="UDProbesRange" value="2" />]
+    Looking for >>> [ProbeCenterY] New value will be >>> [[-0.65]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 562, exchanged:    [<Property name="ProbeCenterY" value="0.5" />]              with:     [<Property name="ProbeCenterY" value="-0.65" />]
+    Looking for >>> [PushForwardDropoffLR] New value will be >>> [[1.6]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 563, exchanged:    [<Property name="PushForwardDropoffLR" value="0.2" />]      with:     [<Property name="PushForwardDropoffLR" value="1.6" />]
+    Looking for >>> [AvoidCollisionLRSpeed] New value will be >>> [[-1]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 565, exchanged:    [<Property name="AvoidCollisionLRSpeed" value="-4" />]      with:     [<Property name="AvoidCollisionLRSpeed" value="-1" />]
+    Looking for >>> [AvoidCollisionUDSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 566, exchanged:    [<Property name="AvoidCollisionUDSpeed" value="3" />]       with:     [<Property name="AvoidCollisionUDSpeed" value="1" />]
+    Looking for >>> [AvoidCollisionPushSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 508 to 573...
+      -- On line 567, exchanged:    [<Property name="AvoidCollisionPushSpeed" value="0.5" />]    with:     [<Property name="AvoidCollisionPushSpeed" value="0.01" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterIndoorCam"}, <<< 
+    Looking for >>> [MinSpeed] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 642, exchanged:    [<Property name="MinSpeed" value="10" />]                   with:     [<Property name="MinSpeed" value="4" />]
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 643, exchanged:    [<Property name="SpeedRange" value="1" />]                  with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 644, exchanged:    [<Property name="OffsetX" value="0.4" />]                   with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[-0.3]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 645, exchanged:    [<Property name="OffsetY" value="-0.8" />]                  with:     [<Property name="OffsetY" value="-0.3" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[3.5]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 649, exchanged:    [<Property name="BackMinDistance" value="2.3" />]           with:     [<Property name="BackMinDistance" value="3.5" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 650, exchanged:    [<Property name="BackMaxDistance" value="2.9" />]           with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [PanNear] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 659, exchanged:    [<Property name="PanNear" value="-2" />]                    with:     [<Property name="PanNear" value="0" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 660, exchanged:    [<Property name="PanFar" value="-1" />]                     with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [HorizRotationAngleMaxPerFrame] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 662, exchanged:    [<Property name="HorizRotationAngleMaxPerFrame" value="15" />]    with:     [<Property name="HorizRotationAngleMaxPerFrame" value="20" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 664, exchanged:    [<Property name="VertRotationMin" value="-65" />]           with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 665, exchanged:    [<Property name="VertRotationMax" value="68" />]            with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [VertRotationSpeed] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 663, exchanged:    [<Property name="VertRotationSpeed" value="15" />]          with:     [<Property name="VertRotationSpeed" value="20" />]
+    Looking for >>> [DistStiffness] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 672, exchanged:    [<Property name="DistStiffness" value="3" />]               with:     [<Property name="DistStiffness" value="1" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 673, exchanged:    [<Property name="SpringSpeed" value="0.1" />]               with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 675, exchanged:    [<Property name="CenterStartTime" value="1.5" />]           with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 676, exchanged:    [<Property name="CenterBlendTime" value="1" />]             with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 677, exchanged:    [<Property name="CenterMaxSpring" value="0.1" />]           with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 678, exchanged:    [<Property name="CenterMaxSpeed" value="0.5" />]            with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 681, exchanged:    [<Property name="VertMaxSpring" value="1" />]               with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 682, exchanged:    [<Property name="CenterStartSpeed" value="3" />]            with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [MinClose] New value will be >>> [[0.4]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 683, exchanged:    [<Property name="MinClose" value="0.5" />]                  with:     [<Property name="MinClose" value="0.4" />]
+    Looking for >>> [MaxClose] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 684, exchanged:    [<Property name="MaxClose" value="2" />]                    with:     [<Property name="MaxClose" value="1" />]
+    Looking for >>> [ProbeCenterX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 693, exchanged:    [<Property name="ProbeCenterX" value="0.3" />]              with:     [<Property name="ProbeCenterX" value="0" />]
+    Looking for >>> [ProbeCenterY] New value will be >>> [[-0.65]] of type [NUMBER]
+                >>> Searching in lines 640 to 705...
+      -- On line 694, exchanged:    [<Property name="ProbeCenterY" value="-0.75" />]            with:     [<Property name="ProbeCenterY" value="-0.65" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterNexusCam"}, <<< 
+    Looking for >>> [MinSpeed] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 840, exchanged:    [<Property name="MinSpeed" value="6" />]                    with:     [<Property name="MinSpeed" value="4" />]
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 841, exchanged:    [<Property name="SpeedRange" value="5" />]                  with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 842, exchanged:    [<Property name="OffsetX" value="0.4" />]                   with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[-0.3]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 843, exchanged:    [<Property name="OffsetY" value="-0.8" />]                  with:     [<Property name="OffsetY" value="-0.3" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[3.5]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 847, exchanged:    [<Property name="BackMinDistance" value="3.5" />]           with:     [<Property name="BackMinDistance" value="3.5" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 848, exchanged:    [<Property name="BackMaxDistance" value="4.2" />]           with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [PanNear] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 857, exchanged:    [<Property name="PanNear" value="1" />]                     with:     [<Property name="PanNear" value="0" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 858, exchanged:    [<Property name="PanFar" value="-3" />]                     with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [HorizRotationAngleMaxPerFrame] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 860, exchanged:    [<Property name="HorizRotationAngleMaxPerFrame" value="15" />]    with:     [<Property name="HorizRotationAngleMaxPerFrame" value="20" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 862, exchanged:    [<Property name="VertRotationMin" value="-65" />]           with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 863, exchanged:    [<Property name="VertRotationMax" value="68" />]            with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [VertRotationSpeed] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 861, exchanged:    [<Property name="VertRotationSpeed" value="15" />]          with:     [<Property name="VertRotationSpeed" value="20" />]
+    Looking for >>> [DistStiffness] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 870, exchanged:    [<Property name="DistStiffness" value="3" />]               with:     [<Property name="DistStiffness" value="1" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 871, exchanged:    [<Property name="SpringSpeed" value="0.1" />]               with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 873, exchanged:    [<Property name="CenterStartTime" value="1.5" />]           with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 874, exchanged:    [<Property name="CenterBlendTime" value="0.4" />]           with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 875, exchanged:    [<Property name="CenterMaxSpring" value="1" />]             with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 876, exchanged:    [<Property name="CenterMaxSpeed" value="0.5" />]            with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 879, exchanged:    [<Property name="VertMaxSpring" value="1" />]               with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 880, exchanged:    [<Property name="CenterStartSpeed" value="3" />]            with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [MinClose] New value will be >>> [[0.4]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 881, exchanged:    [<Property name="MinClose" value="0.5" />]                  with:     [<Property name="MinClose" value="0.4" />]
+    Looking for >>> [MaxClose] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 882, exchanged:    [<Property name="MaxClose" value="2" />]                    with:     [<Property name="MaxClose" value="1" />]
+    Looking for >>> [ProbeCenterX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 891, exchanged:    [<Property name="ProbeCenterX" value="0.3" />]              with:     [<Property name="ProbeCenterX" value="0" />]
+    Looking for >>> [ProbeCenterY] New value will be >>> [[-0.65]] of type [NUMBER]
+                >>> Searching in lines 838 to 903...
+      -- On line 892, exchanged:    [<Property name="ProbeCenterY" value="-0.75" />]            with:     [<Property name="ProbeCenterY" value="-0.65" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 838 to 903...
+      -- On line 900, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]      with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterAirborneCam"}, <<< 
+    Looking for >>> [MinSpeed] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 906, exchanged:    [<Property name="MinSpeed" value="5" />]                    with:     [<Property name="MinSpeed" value="4" />]
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 907, exchanged:    [<Property name="SpeedRange" value="10" />]                 with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 908, exchanged:    [<Property name="OffsetX" value="0.8" />]                   with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 909, exchanged:    [<Property name="OffsetY" value="-0.6" />]                  with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 913, exchanged:    [<Property name="BackMinDistance" value="4.2" />]           with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 914, exchanged:    [<Property name="BackMaxDistance" value="7.2" />]           with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 924, exchanged:    [<Property name="PanFar" value="10" />]                     with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [HorizRotationAngleMaxPerFrame] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 926, exchanged:    [<Property name="HorizRotationAngleMaxPerFrame" value="10" />]    with:     [<Property name="HorizRotationAngleMaxPerFrame" value="20" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 928, exchanged:    [<Property name="VertRotationMin" value="-60" />]           with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 929, exchanged:    [<Property name="VertRotationMax" value="60" />]            with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [DistSpeed] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 934, exchanged:    [<Property name="DistSpeed" value="0.9" />]                 with:     [<Property name="DistSpeed" value="5" />]
+    Looking for >>> [DistStiffness] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 936, exchanged:    [<Property name="DistStiffness" value="3" />]               with:     [<Property name="DistStiffness" value="1" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 937, exchanged:    [<Property name="SpringSpeed" value="0.065" />]             with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 939, exchanged:    [<Property name="CenterStartTime" value="0.4" />]           with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 940, exchanged:    [<Property name="CenterBlendTime" value="2" />]             with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 941, exchanged:    [<Property name="CenterMaxSpring" value="2.2" />]           with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 942, exchanged:    [<Property name="CenterMaxSpeed" value="2.8" />]            with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 945, exchanged:    [<Property name="VertMaxSpring" value="3" />]               with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 946, exchanged:    [<Property name="CenterStartSpeed" value="0.17" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [CloseSpring] New value will be >>> [[3]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 949, exchanged:    [<Property name="CloseSpring" value="0.3" />]               with:     [<Property name="CloseSpring" value="3" />]
+    Looking for >>> [LRProbesRange] New value will be >>> [[13]] of type [NUMBER]
+                >>> Searching in lines 904 to 969...
+      -- On line 953, exchanged:    [<Property name="LRProbesRange" value="31" />]              with:     [<Property name="LRProbesRange" value="13" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 904 to 969...
+      -- On line 966, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]      with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterMeleeBoostCam"}, <<< 
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 973, exchanged:    [<Property name="SpeedRange" value="8.8" />]                with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 974, exchanged:    [<Property name="OffsetX" value="0.6" />]                   with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 975, exchanged:    [<Property name="OffsetY" value="-0.85" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 979, exchanged:    [<Property name="BackMinDistance" value="2.5" />]           with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [PanNear] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 989, exchanged:    [<Property name="PanNear" value="-1" />]                    with:     [<Property name="PanNear" value="0" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 990, exchanged:    [<Property name="PanFar" value="3" />]                      with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [HorizRotationAngleMaxPerFrame] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 992, exchanged:    [<Property name="HorizRotationAngleMaxPerFrame" value="3" />]    with:     [<Property name="HorizRotationAngleMaxPerFrame" value="20" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 994, exchanged:    [<Property name="VertRotationMin" value="-60" />]           with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 995, exchanged:    [<Property name="VertRotationMax" value="60" />]            with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 1003, exchanged:    [<Property name="SpringSpeed" value="0.08" />]             with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 1005, exchanged:    [<Property name="CenterStartTime" value="1.2" />]          with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 1007, exchanged:    [<Property name="CenterMaxSpring" value="1.2" />]          with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 1008, exchanged:    [<Property name="CenterMaxSpeed" value="1.2" />]           with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 1012, exchanged:    [<Property name="CenterStartSpeed" value="2.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [LRProbesRange] New value will be >>> [[13]] of type [NUMBER]
+                >>> Searching in lines 970 to 1035...
+      -- On line 1019, exchanged:    [<Property name="LRProbesRange" value="31" />]             with:     [<Property name="LRProbesRange" value="13" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 970 to 1035...
+      -- On line 1032, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]     with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterRocketBootsCam"}, <<< 
+    Looking for >>> [MinSpeed] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1038, exchanged:    [<Property name="MinSpeed" value="5" />]                   with:     [<Property name="MinSpeed" value="4" />]
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1039, exchanged:    [<Property name="SpeedRange" value="10" />]                with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1040, exchanged:    [<Property name="OffsetX" value="0.6" />]                  with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1041, exchanged:    [<Property name="OffsetY" value="-0.5" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1045, exchanged:    [<Property name="BackMinDistance" value="3.5" />]          with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1046, exchanged:    [<Property name="BackMaxDistance" value="7" />]            with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1056, exchanged:    [<Property name="PanFar" value="10" />]                    with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [HorizRotationAngleMaxPerFrame] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1058, exchanged:    [<Property name="HorizRotationAngleMaxPerFrame" value="10" />]    with:     [<Property name="HorizRotationAngleMaxPerFrame" value="20" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1060, exchanged:    [<Property name="VertRotationMin" value="-30" />]          with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1061, exchanged:    [<Property name="VertRotationMax" value="15" />]           with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [VertRotationOffset] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1062, exchanged:    [<Property name="VertRotationOffset" value="0" />]         with:     [<Property name="VertRotationOffset" value="1" />]
+    Looking for >>> [DistSpeed] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1066, exchanged:    [<Property name="DistSpeed" value="0.9" />]                with:     [<Property name="DistSpeed" value="5" />]
+    Looking for >>> [DistStiffness] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1068, exchanged:    [<Property name="DistStiffness" value="3" />]              with:     [<Property name="DistStiffness" value="1" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1069, exchanged:    [<Property name="SpringSpeed" value="0.065" />]            with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1071, exchanged:    [<Property name="CenterStartTime" value="0.4" />]          with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1072, exchanged:    [<Property name="CenterBlendTime" value="2" />]            with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1073, exchanged:    [<Property name="CenterMaxSpring" value="2.2" />]          with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1074, exchanged:    [<Property name="CenterMaxSpeed" value="2.8" />]           with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1077, exchanged:    [<Property name="VertMaxSpring" value="3" />]              with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1078, exchanged:    [<Property name="CenterStartSpeed" value="0.17" />]        with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [CloseSpring] New value will be >>> [[3]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1081, exchanged:    [<Property name="CloseSpring" value="0.3" />]              with:     [<Property name="CloseSpring" value="3" />]
+    Looking for >>> [LRProbesRange] New value will be >>> [[13]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1085, exchanged:    [<Property name="LRProbesRange" value="31" />]             with:     [<Property name="LRProbesRange" value="13" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1098, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]     with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+    Looking for >>> [UseCustomBlendTime] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1099, exchanged:    [<Property name="UseCustomBlendTime" value="True" />]      with:     [<Property name="UseCustomBlendTime" value="False" />]
+    Looking for >>> [CustomBlendTime] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 1036 to 1101...
+      -- On line 1100, exchanged:    [<Property name="CustomBlendTime" value="0.4" />]          with:     [<Property name="CustomBlendTime" value="0.5" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterRocketBootsChargeCam"}, <<< 
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1106, exchanged:    [<Property name="OffsetX" value="0.8" />]                  with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1107, exchanged:    [<Property name="OffsetY" value="-0.8" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1111, exchanged:    [<Property name="BackMinDistance" value="2.5" />]          with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1112, exchanged:    [<Property name="BackMaxDistance" value="3.5" />]          with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [PanNear] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1121, exchanged:    [<Property name="PanNear" value="-1" />]                   with:     [<Property name="PanNear" value="0" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1122, exchanged:    [<Property name="PanFar" value="3" />]                     with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1126, exchanged:    [<Property name="VertRotationMin" value="-60" />]          with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1127, exchanged:    [<Property name="VertRotationMax" value="60" />]           with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1135, exchanged:    [<Property name="SpringSpeed" value="0.18" />]             with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1164, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]     with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+    Looking for >>> [UseCustomBlendTime] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1165, exchanged:    [<Property name="UseCustomBlendTime" value="True" />]      with:     [<Property name="UseCustomBlendTime" value="False" />]
+    Looking for >>> [CustomBlendTime] New value will be >>> [[0.5]] of type [NUMBER]
+                >>> Searching in lines 1102 to 1167...
+      -- On line 1166, exchanged:    [<Property name="CustomBlendTime" value="0.4" />]          with:     [<Property name="CustomBlendTime" value="0.5" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterFallingCam"}, <<< 
+    Looking for >>> [MinSpeed] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1170, exchanged:    [<Property name="MinSpeed" value="5" />]                   with:     [<Property name="MinSpeed" value="4" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1172, exchanged:    [<Property name="OffsetX" value="0.8" />]                  with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1173, exchanged:    [<Property name="OffsetY" value="-0.6" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1177, exchanged:    [<Property name="BackMinDistance" value="4.2" />]          with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1178, exchanged:    [<Property name="BackMaxDistance" value="20" />]           with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [UpMaxDistance] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1182, exchanged:    [<Property name="UpMaxDistance" value="-5" />]             with:     [<Property name="UpMaxDistance" value="0" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1188, exchanged:    [<Property name="PanFar" value="3" />]                     with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [HorizRotationAngleMaxPerFrame] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1190, exchanged:    [<Property name="HorizRotationAngleMaxPerFrame" value="0" />]    with:     [<Property name="HorizRotationAngleMaxPerFrame" value="20" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1192, exchanged:    [<Property name="VertRotationMin" value="-60" />]          with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1193, exchanged:    [<Property name="VertRotationMax" value="60" />]           with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [DistSpeed] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1198, exchanged:    [<Property name="DistSpeed" value="0.9" />]                with:     [<Property name="DistSpeed" value="5" />]
+    Looking for >>> [DistSpeedOutsideMainRange] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1199, exchanged:    [<Property name="DistSpeedOutsideMainRange" value="15" />]    with:     [<Property name="DistSpeedOutsideMainRange" value="5" />]
+    Looking for >>> [DistStiffness] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1200, exchanged:    [<Property name="DistStiffness" value="3" />]              with:     [<Property name="DistStiffness" value="1" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1201, exchanged:    [<Property name="SpringSpeed" value="0.07" />]             with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1203, exchanged:    [<Property name="CenterStartTime" value="2" />]            with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1204, exchanged:    [<Property name="CenterBlendTime" value="2" />]            with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1205, exchanged:    [<Property name="CenterMaxSpring" value="2.2" />]          with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1206, exchanged:    [<Property name="CenterMaxSpeed" value="2.8" />]           with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1209, exchanged:    [<Property name="VertMaxSpring" value="3" />]              with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1210, exchanged:    [<Property name="CenterStartSpeed" value="0.17" />]        with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [CloseSpring] New value will be >>> [[3]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1213, exchanged:    [<Property name="CloseSpring" value="0.3" />]              with:     [<Property name="CloseSpring" value="3" />]
+    Looking for >>> [LRProbesRange] New value will be >>> [[13]] of type [NUMBER]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1217, exchanged:    [<Property name="LRProbesRange" value="31" />]             with:     [<Property name="LRProbesRange" value="13" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 1168 to 1233...
+      -- On line 1230, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]     with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterAirborneCombatCam"}, <<< 
+    Looking for >>> [MinSpeed] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1236, exchanged:    [<Property name="MinSpeed" value="5" />]                   with:     [<Property name="MinSpeed" value="4" />]
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1237, exchanged:    [<Property name="SpeedRange" value="10" />]                with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1238, exchanged:    [<Property name="OffsetX" value="0.6" />]                  with:     [<Property name="OffsetX" value="0.1" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1239, exchanged:    [<Property name="OffsetY" value="-0.5" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1243, exchanged:    [<Property name="BackMinDistance" value="3.5" />]          with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1244, exchanged:    [<Property name="BackMaxDistance" value="7" />]            with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1254, exchanged:    [<Property name="PanFar" value="10" />]                    with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [HorizRotationAngleMaxPerFrame] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1256, exchanged:    [<Property name="HorizRotationAngleMaxPerFrame" value="10" />]    with:     [<Property name="HorizRotationAngleMaxPerFrame" value="20" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1258, exchanged:    [<Property name="VertRotationMin" value="-60" />]          with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1259, exchanged:    [<Property name="VertRotationMax" value="60" />]           with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [DistSpeed] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1264, exchanged:    [<Property name="DistSpeed" value="0.9" />]                with:     [<Property name="DistSpeed" value="5" />]
+    Looking for >>> [DistStiffness] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1266, exchanged:    [<Property name="DistStiffness" value="3" />]              with:     [<Property name="DistStiffness" value="1" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1267, exchanged:    [<Property name="SpringSpeed" value="0.065" />]            with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1269, exchanged:    [<Property name="CenterStartTime" value="0.4" />]          with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1270, exchanged:    [<Property name="CenterBlendTime" value="2" />]            with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1271, exchanged:    [<Property name="CenterMaxSpring" value="2.2" />]          with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1272, exchanged:    [<Property name="CenterMaxSpeed" value="2.8" />]           with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1275, exchanged:    [<Property name="VertMaxSpring" value="3" />]              with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1276, exchanged:    [<Property name="CenterStartSpeed" value="0.17" />]        with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [CloseSpring] New value will be >>> [[3]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1279, exchanged:    [<Property name="CloseSpring" value="0.3" />]              with:     [<Property name="CloseSpring" value="3" />]
+    Looking for >>> [LRProbesRange] New value will be >>> [[13]] of type [NUMBER]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1283, exchanged:    [<Property name="LRProbesRange" value="31" />]             with:     [<Property name="LRProbesRange" value="13" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 1234 to 1299...
+      -- On line 1296, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]     with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterSpaceCam"}, <<< 
+    Looking for >>> [MinSpeed] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1302, exchanged:    [<Property name="MinSpeed" value="5" />]                   with:     [<Property name="MinSpeed" value="4" />]
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1303, exchanged:    [<Property name="SpeedRange" value="10" />]                with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1304, exchanged:    [<Property name="OffsetX" value="0.6" />]                  with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1305, exchanged:    [<Property name="OffsetY" value="-0.5" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1309, exchanged:    [<Property name="BackMinDistance" value="3.5" />]          with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1310, exchanged:    [<Property name="BackMaxDistance" value="7" />]            with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1320, exchanged:    [<Property name="PanFar" value="10" />]                    with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [HorizRotationAngleMaxPerFrame] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1322, exchanged:    [<Property name="HorizRotationAngleMaxPerFrame" value="10" />]    with:     [<Property name="HorizRotationAngleMaxPerFrame" value="20" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1324, exchanged:    [<Property name="VertRotationMin" value="-60" />]          with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1325, exchanged:    [<Property name="VertRotationMax" value="60" />]           with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [VertRotationOffset] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1326, exchanged:    [<Property name="VertRotationOffset" value="1" />]         with:     [<Property name="VertRotationOffset" value="1" />]
+    Looking for >>> [DistSpeed] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1330, exchanged:    [<Property name="DistSpeed" value="0.9" />]                with:     [<Property name="DistSpeed" value="5" />]
+    Looking for >>> [DistStiffness] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1332, exchanged:    [<Property name="DistStiffness" value="3" />]              with:     [<Property name="DistStiffness" value="1" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1333, exchanged:    [<Property name="SpringSpeed" value="0.065" />]            with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1335, exchanged:    [<Property name="CenterStartTime" value="0.4" />]          with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1336, exchanged:    [<Property name="CenterBlendTime" value="2" />]            with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1337, exchanged:    [<Property name="CenterMaxSpring" value="2.2" />]          with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1338, exchanged:    [<Property name="CenterMaxSpeed" value="2.8" />]           with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1341, exchanged:    [<Property name="VertMaxSpring" value="3" />]              with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1342, exchanged:    [<Property name="CenterStartSpeed" value="0.17" />]        with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [CloseSpring] New value will be >>> [[3]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1345, exchanged:    [<Property name="CloseSpring" value="0.3" />]              with:     [<Property name="CloseSpring" value="3" />]
+    Looking for >>> [LRProbesRange] New value will be >>> [[13]] of type [NUMBER]
+                >>> Searching in lines 1300 to 1365...
+      -- On line 1349, exchanged:    [<Property name="LRProbesRange" value="31" />]             with:     [<Property name="LRProbesRange" value="13" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterSteepSlopeCam"}, <<< 
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1370, exchanged:    [<Property name="OffsetX" value="0.4" />]                  with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1371, exchanged:    [<Property name="OffsetY" value="-1.2" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1375, exchanged:    [<Property name="BackMinDistance" value="3" />]            with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1376, exchanged:    [<Property name="BackMaxDistance" value="6" />]            with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [PanNear] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1385, exchanged:    [<Property name="PanNear" value="-1" />]                   with:     [<Property name="PanNear" value="0" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1386, exchanged:    [<Property name="PanFar" value="3" />]                     with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1390, exchanged:    [<Property name="VertRotationMin" value="-60" />]          with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1391, exchanged:    [<Property name="VertRotationMax" value="60" />]           with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [DistStiffness] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1398, exchanged:    [<Property name="DistStiffness" value="1.2" />]            with:     [<Property name="DistStiffness" value="1" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1399, exchanged:    [<Property name="SpringSpeed" value="0.02" />]             with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 1366 to 1431...
+      -- On line 1428, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]     with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterUnderwaterCam"}, <<< 
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1435, exchanged:    [<Property name="SpeedRange" value="3" />]                 with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1436, exchanged:    [<Property name="OffsetX" value="0.55" />]                 with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1437, exchanged:    [<Property name="OffsetY" value="-0.6" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1441, exchanged:    [<Property name="BackMinDistance" value="3.35" />]         with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1442, exchanged:    [<Property name="BackMaxDistance" value="5.5" />]          with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1456, exchanged:    [<Property name="VertRotationMin" value="-60" />]          with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1457, exchanged:    [<Property name="VertRotationMax" value="60" />]           with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1465, exchanged:    [<Property name="SpringSpeed" value="0.11" />]             with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1468, exchanged:    [<Property name="CenterBlendTime" value="0.6" />]          with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1473, exchanged:    [<Property name="VertMaxSpring" value="0.2" />]            with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [ProbeCenterY] New value will be >>> [[-0.65]] of type [NUMBER]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1486, exchanged:    [<Property name="ProbeCenterY" value="0.65" />]            with:     [<Property name="ProbeCenterY" value="-0.65" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 1432 to 1497...
+      -- On line 1494, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]     with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterUnderwaterCombatCam"}, <<< 
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1501, exchanged:    [<Property name="SpeedRange" value="8" />]                 with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1502, exchanged:    [<Property name="OffsetX" value="0.7" />]                  with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1503, exchanged:    [<Property name="OffsetY" value="-0.6" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1507, exchanged:    [<Property name="BackMinDistance" value="3.6" />]          with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1508, exchanged:    [<Property name="BackMaxDistance" value="8" />]            with:     [<Property name="BackMaxDistance" value="10" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1522, exchanged:    [<Property name="VertRotationMin" value="-75" />]          with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1523, exchanged:    [<Property name="VertRotationMax" value="65" />]           with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1531, exchanged:    [<Property name="SpringSpeed" value="0.08" />]             with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1533, exchanged:    [<Property name="CenterStartTime" value="1.5" />]          with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1534, exchanged:    [<Property name="CenterBlendTime" value="1.5" />]          with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1535, exchanged:    [<Property name="CenterMaxSpring" value="0.2" />]          with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1536, exchanged:    [<Property name="CenterMaxSpeed" value="0.5" />]           with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1539, exchanged:    [<Property name="VertMaxSpring" value="0.2" />]            with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1540, exchanged:    [<Property name="CenterStartSpeed" value="0.3" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [LRProbesRange] New value will be >>> [[13]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1547, exchanged:    [<Property name="LRProbesRange" value="31" />]             with:     [<Property name="LRProbesRange" value="13" />]
+    Looking for >>> [LRProbesRadius] New value will be >>> [[0.3]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1548, exchanged:    [<Property name="LRProbesRadius" value="0.2" />]           with:     [<Property name="LRProbesRadius" value="0.3" />]
+    Looking for >>> [NumUDProbes] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1549, exchanged:    [<Property name="NumUDProbes" value="10" />]               with:     [<Property name="NumUDProbes" value="5" />]
+    Looking for >>> [UDProbesRange] New value will be >>> [[2]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1550, exchanged:    [<Property name="UDProbesRange" value="15" />]             with:     [<Property name="UDProbesRange" value="2" />]
+    Looking for >>> [ProbeCenterY] New value will be >>> [[-0.65]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1552, exchanged:    [<Property name="ProbeCenterY" value="0.6" />]             with:     [<Property name="ProbeCenterY" value="-0.65" />]
+    Looking for >>> [PushForwardDropoffLR] New value will be >>> [[1.6]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1553, exchanged:    [<Property name="PushForwardDropoffLR" value="0.2" />]     with:     [<Property name="PushForwardDropoffLR" value="1.6" />]
+    Looking for >>> [AvoidCollisionLRSpeed] New value will be >>> [[-1]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1555, exchanged:    [<Property name="AvoidCollisionLRSpeed" value="-4" />]     with:     [<Property name="AvoidCollisionLRSpeed" value="-1" />]
+    Looking for >>> [AvoidCollisionUDSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1556, exchanged:    [<Property name="AvoidCollisionUDSpeed" value="3" />]      with:     [<Property name="AvoidCollisionUDSpeed" value="1" />]
+    Looking for >>> [AvoidCollisionPushSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1557, exchanged:    [<Property name="AvoidCollisionPushSpeed" value="0.5" />]    with:     [<Property name="AvoidCollisionPushSpeed" value="0.01" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 1498 to 1563...
+      -- On line 1560, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]     with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterUnderwaterJetpackCam"}, <<< 
+    Looking for >>> [MinSpeed] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1566, exchanged:    [<Property name="MinSpeed" value="5" />]                   with:     [<Property name="MinSpeed" value="4" />]
+    Looking for >>> [SpeedRange] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1567, exchanged:    [<Property name="SpeedRange" value="8" />]                 with:     [<Property name="SpeedRange" value="20" />]
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1568, exchanged:    [<Property name="OffsetX" value="0.6" />]                  with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1569, exchanged:    [<Property name="OffsetY" value="-0.5" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1573, exchanged:    [<Property name="BackMinDistance" value="3.6" />]          with:     [<Property name="BackMinDistance" value="4" />]
+    Looking for >>> [PanFar] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1584, exchanged:    [<Property name="PanFar" value="10" />]                    with:     [<Property name="PanFar" value="0" />]
+    Looking for >>> [HorizRotationAngleMaxPerFrame] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1586, exchanged:    [<Property name="HorizRotationAngleMaxPerFrame" value="10" />]    with:     [<Property name="HorizRotationAngleMaxPerFrame" value="20" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-85]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1588, exchanged:    [<Property name="VertRotationMin" value="-60" />]          with:     [<Property name="VertRotationMin" value="-85" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[85]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1589, exchanged:    [<Property name="VertRotationMax" value="60" />]           with:     [<Property name="VertRotationMax" value="85" />]
+    Looking for >>> [DistSpeed] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1594, exchanged:    [<Property name="DistSpeed" value="0.9" />]                with:     [<Property name="DistSpeed" value="5" />]
+    Looking for >>> [DistStiffness] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1596, exchanged:    [<Property name="DistStiffness" value="3" />]              with:     [<Property name="DistStiffness" value="1" />]
+    Looking for >>> [SpringSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1597, exchanged:    [<Property name="SpringSpeed" value="0.065" />]            with:     [<Property name="SpringSpeed" value="0.01" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[2.2]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1599, exchanged:    [<Property name="CenterStartTime" value="0.4" />]          with:     [<Property name="CenterStartTime" value="2.2" />]
+    Looking for >>> [CenterBlendTime] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1600, exchanged:    [<Property name="CenterBlendTime" value="1" />]            with:     [<Property name="CenterBlendTime" value="1" />]
+    Looking for >>> [CenterMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1601, exchanged:    [<Property name="CenterMaxSpring" value="2.2" />]          with:     [<Property name="CenterMaxSpring" value="1" />]
+    Looking for >>> [CenterMaxSpeed] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1602, exchanged:    [<Property name="CenterMaxSpeed" value="2.8" />]           with:     [<Property name="CenterMaxSpeed" value="0.1" />]
+    Looking for >>> [VertMaxSpring] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1605, exchanged:    [<Property name="VertMaxSpring" value="3" />]              with:     [<Property name="VertMaxSpring" value="1" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1606, exchanged:    [<Property name="CenterStartSpeed" value="0.17" />]        with:     [<Property name="CenterStartSpeed" value="1" />]
+    Looking for >>> [CloseSpring] New value will be >>> [[3]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1609, exchanged:    [<Property name="CloseSpring" value="0.3" />]              with:     [<Property name="CloseSpring" value="3" />]
+    Looking for >>> [LRProbesRange] New value will be >>> [[13]] of type [NUMBER]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1613, exchanged:    [<Property name="LRProbesRange" value="31" />]             with:     [<Property name="LRProbesRange" value="13" />]
+    Looking for >>> [UseSpeedBasedSpring] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 1564 to 1629...
+      -- On line 1626, exchanged:    [<Property name="UseSpeedBasedSpring" value="True" />]     with:     [<Property name="UseSpeedBasedSpring" value="False" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"CharacterSitCam"}, <<< 
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 1696 to 1761...
+      -- On line 1700, exchanged:    [<Property name="OffsetX" value="0.4" />]                  with:     [<Property name="OffsetX" value="0" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"BuggyFollowCam"}, <<< 
+    Looking for >>> [OffsetY] New value will be >>> [[3.5]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2033, exchanged:    [<Property name="OffsetY" value="3.5" />]                  with:     [<Property name="OffsetY" value="3.5" />]
+    Looking for >>> [OffsetZFlat] New value will be >>> [[-0.5]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2036, exchanged:    [<Property name="OffsetZFlat" value="0" />]                with:     [<Property name="OffsetZFlat" value="-0.5" />]
+    Looking for >>> [BackMinDistance] New value will be >>> [[15]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2037, exchanged:    [<Property name="BackMinDistance" value="15" />]           with:     [<Property name="BackMinDistance" value="15" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[27]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2038, exchanged:    [<Property name="BackMaxDistance" value="22.5" />]         with:     [<Property name="BackMaxDistance" value="27" />]
+    Looking for >>> [PanFar] New value will be >>> [[-5]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2048, exchanged:    [<Property name="PanFar" value="-8" />]                    with:     [<Property name="PanFar" value="-5" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-70]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2052, exchanged:    [<Property name="VertRotationMin" value="-25" />]          with:     [<Property name="VertRotationMin" value="-70" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[70]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2053, exchanged:    [<Property name="VertRotationMax" value="30" />]           with:     [<Property name="VertRotationMax" value="70" />]
+    Looking for >>> [VertRotationOffset] New value will be >>> [[2]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2054, exchanged:    [<Property name="VertRotationOffset" value="3" />]         with:     [<Property name="VertRotationOffset" value="2" />]
+    Looking for >>> [VertRotationOffsetMinAngle] New value will be >>> [[-20]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2055, exchanged:    [<Property name="VertRotationOffsetMinAngle" value="-10" />]    with:     [<Property name="VertRotationOffsetMinAngle" value="-20" />]
+    Looking for >>> [VertRotationOffsetMaxAngle] New value will be >>> [[30]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2056, exchanged:    [<Property name="VertRotationOffsetMaxAngle" value="10" />]    with:     [<Property name="VertRotationOffsetMaxAngle" value="30" />]
+    Looking for >>> [LockToObjectOnIdle] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2062, exchanged:    [<Property name="LockToObjectOnIdle" value="True" />]      with:     [<Property name="LockToObjectOnIdle" value="False" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2028 to 2093...
+      -- On line 2063, exchanged:    [<Property name="CenterStartTime" value="1.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"HovercraftFollowCam"}, <<< 
+    Looking for >>> [OffsetZFlat] New value will be >>> [[-1]] of type [NUMBER]
+                >>> Searching in lines 2094 to 2159...
+      -- On line 2102, exchanged:    [<Property name="OffsetZFlat" value="0" />]                with:     [<Property name="OffsetZFlat" value="-1" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-70]] of type [NUMBER]
+                >>> Searching in lines 2094 to 2159...
+      -- On line 2118, exchanged:    [<Property name="VertRotationMin" value="-25" />]          with:     [<Property name="VertRotationMin" value="-70" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[70]] of type [NUMBER]
+                >>> Searching in lines 2094 to 2159...
+      -- On line 2119, exchanged:    [<Property name="VertRotationMax" value="30" />]           with:     [<Property name="VertRotationMax" value="70" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[20]] of type [NUMBER]
+                >>> Searching in lines 2094 to 2159...
+      -- On line 2104, exchanged:    [<Property name="BackMaxDistance" value="18" />]           with:     [<Property name="BackMaxDistance" value="20" />]
+    Looking for >>> [LockToObjectOnIdle] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 2094 to 2159...
+      -- On line 2128, exchanged:    [<Property name="LockToObjectOnIdle" value="True" />]      with:     [<Property name="LockToObjectOnIdle" value="False" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2094 to 2159...
+      -- On line 2129, exchanged:    [<Property name="CenterStartTime" value="1.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"SubmarineFollowCam"}, <<< 
+    Looking for >>> [MinSpeed] New value will be >>> [[10]] of type [NUMBER]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2162, exchanged:    [<Property name="MinSpeed" value="14" />]                  with:     [<Property name="MinSpeed" value="10" />]
+    Looking for >>> [SpeedRange] New value will be >>> [[15]] of type [NUMBER]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2163, exchanged:    [<Property name="SpeedRange" value="20" />]                with:     [<Property name="SpeedRange" value="15" />]
+    Looking for >>> [OffsetY] New value will be >>> [[2.5]] of type [NUMBER]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2165, exchanged:    [<Property name="OffsetY" value="0" />]                    with:     [<Property name="OffsetY" value="2.5" />]
+    Looking for >>> [OffsetYAlt] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2166, exchanged:    [<Property name="OffsetYAlt" value="-2" />]                with:     [<Property name="OffsetYAlt" value="1" />]
+    Looking for >>> [OffsetZFlat] New value will be >>> [[-1]] of type [NUMBER]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2168, exchanged:    [<Property name="OffsetZFlat" value="0" />]                with:     [<Property name="OffsetZFlat" value="-1" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[30]] of type [NUMBER]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2170, exchanged:    [<Property name="BackMaxDistance" value="24.75" />]        with:     [<Property name="BackMaxDistance" value="30" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-70]] of type [NUMBER]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2184, exchanged:    [<Property name="VertRotationMin" value="-25" />]          with:     [<Property name="VertRotationMin" value="-70" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[70]] of type [NUMBER]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2185, exchanged:    [<Property name="VertRotationMax" value="80" />]           with:     [<Property name="VertRotationMax" value="70" />]
+    Looking for >>> [VertRotationOffset] New value will be >>> [[0.25]] of type [NUMBER]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2186, exchanged:    [<Property name="VertRotationOffset" value="0.5" />]       with:     [<Property name="VertRotationOffset" value="0.25" />]
+    Looking for >>> [LockToObjectOnIdle] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2194, exchanged:    [<Property name="LockToObjectOnIdle" value="True" />]      with:     [<Property name="LockToObjectOnIdle" value="False" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2160 to 2225...
+      -- On line 2195, exchanged:    [<Property name="CenterStartTime" value="1.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"BikeFollowCam"}, <<< 
+    Looking for >>> [OffsetY] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2226 to 2291...
+      -- On line 2231, exchanged:    [<Property name="OffsetY" value="1.5" />]                  with:     [<Property name="OffsetY" value="1" />]
+    Looking for >>> [OffsetZFlat] New value will be >>> [[-1]] of type [NUMBER]
+                >>> Searching in lines 2226 to 2291...
+      -- On line 2234, exchanged:    [<Property name="OffsetZFlat" value="0" />]                with:     [<Property name="OffsetZFlat" value="-1" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-70]] of type [NUMBER]
+                >>> Searching in lines 2226 to 2291...
+      -- On line 2250, exchanged:    [<Property name="VertRotationMin" value="-25" />]          with:     [<Property name="VertRotationMin" value="-70" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[70]] of type [NUMBER]
+                >>> Searching in lines 2226 to 2291...
+      -- On line 2251, exchanged:    [<Property name="VertRotationMax" value="30" />]           with:     [<Property name="VertRotationMax" value="70" />]
+    Looking for >>> [LockToObjectOnIdle] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 2226 to 2291...
+      -- On line 2260, exchanged:    [<Property name="LockToObjectOnIdle" value="True" />]      with:     [<Property name="LockToObjectOnIdle" value="False" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2226 to 2291...
+      -- On line 2261, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"WheeledBikeFollowCam"}, <<< 
+    Looking for >>> [OffsetY] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2292 to 2357...
+      -- On line 2297, exchanged:    [<Property name="OffsetY" value="0.2" />]                  with:     [<Property name="OffsetY" value="1" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[25]] of type [NUMBER]
+                >>> Searching in lines 2292 to 2357...
+      -- On line 2302, exchanged:    [<Property name="BackMaxDistance" value="31.5" />]         with:     [<Property name="BackMaxDistance" value="25" />]
+    Looking for >>> [PanNear] New value will be >>> [[-1]] of type [NUMBER]
+                >>> Searching in lines 2292 to 2357...
+      -- On line 2311, exchanged:    [<Property name="PanNear" value="0" />]                    with:     [<Property name="PanNear" value="-1" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-70]] of type [NUMBER]
+                >>> Searching in lines 2292 to 2357...
+      -- On line 2316, exchanged:    [<Property name="VertRotationMin" value="-20" />]          with:     [<Property name="VertRotationMin" value="-70" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[70]] of type [NUMBER]
+                >>> Searching in lines 2292 to 2357...
+      -- On line 2317, exchanged:    [<Property name="VertRotationMax" value="30" />]           with:     [<Property name="VertRotationMax" value="70" />]
+    Looking for >>> [LockToObjectOnIdle] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 2292 to 2357...
+      -- On line 2326, exchanged:    [<Property name="LockToObjectOnIdle" value="True" />]      with:     [<Property name="LockToObjectOnIdle" value="False" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2292 to 2357...
+      -- On line 2327, exchanged:    [<Property name="CenterStartTime" value="1.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"TruckFollowCam"}, <<< 
+    Looking for >>> [OffsetY] New value will be >>> [[3.5]] of type [NUMBER]
+                >>> Searching in lines 2358 to 2423...
+      -- On line 2363, exchanged:    [<Property name="OffsetY" value="2.1" />]                  with:     [<Property name="OffsetY" value="3.5" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[35]] of type [NUMBER]
+                >>> Searching in lines 2358 to 2423...
+      -- On line 2368, exchanged:    [<Property name="BackMaxDistance" value="27" />]           with:     [<Property name="BackMaxDistance" value="35" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-70]] of type [NUMBER]
+                >>> Searching in lines 2358 to 2423...
+      -- On line 2382, exchanged:    [<Property name="VertRotationMin" value="-30" />]          with:     [<Property name="VertRotationMin" value="-70" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[70]] of type [NUMBER]
+                >>> Searching in lines 2358 to 2423...
+      -- On line 2383, exchanged:    [<Property name="VertRotationMax" value="25" />]           with:     [<Property name="VertRotationMax" value="70" />]
+    Looking for >>> [LockToObjectOnIdle] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 2358 to 2423...
+      -- On line 2392, exchanged:    [<Property name="LockToObjectOnIdle" value="True" />]      with:     [<Property name="LockToObjectOnIdle" value="False" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2358 to 2423...
+      -- On line 2393, exchanged:    [<Property name="CenterStartTime" value="1.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"MechFollowCam"}, <<< 
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 2424 to 2489...
+      -- On line 2428, exchanged:    [<Property name="OffsetX" value="2.2" />]                  with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[2]] of type [NUMBER]
+                >>> Searching in lines 2424 to 2489...
+      -- On line 2429, exchanged:    [<Property name="OffsetY" value="-0.5" />]                 with:     [<Property name="OffsetY" value="2" />]
+    Looking for >>> [OffsetYAlt] New value will be >>> [[4]] of type [NUMBER]
+                >>> Searching in lines 2424 to 2489...
+      -- On line 2430, exchanged:    [<Property name="OffsetYAlt" value="2.5" />]               with:     [<Property name="OffsetYAlt" value="4" />]
+    Looking for >>> [OffsetZFlat] New value will be >>> [[-1]] of type [NUMBER]
+                >>> Searching in lines 2424 to 2489...
+      -- On line 2432, exchanged:    [<Property name="OffsetZFlat" value="0" />]                with:     [<Property name="OffsetZFlat" value="-1" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[35]] of type [NUMBER]
+                >>> Searching in lines 2424 to 2489...
+      -- On line 2434, exchanged:    [<Property name="BackMaxDistance" value="14" />]           with:     [<Property name="BackMaxDistance" value="35" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-80]] of type [NUMBER]
+                >>> Searching in lines 2424 to 2489...
+      -- On line 2448, exchanged:    [<Property name="VertRotationMin" value="-45" />]          with:     [<Property name="VertRotationMin" value="-80" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[80]] of type [NUMBER]
+                >>> Searching in lines 2424 to 2489...
+      -- On line 2449, exchanged:    [<Property name="VertRotationMax" value="60" />]           with:     [<Property name="VertRotationMax" value="80" />]
+    Looking for >>> [LockToObjectOnIdle] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 2424 to 2489...
+      -- On line 2458, exchanged:    [<Property name="LockToObjectOnIdle" value="False" />]     with:     [<Property name="LockToObjectOnIdle" value="False" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2424 to 2489...
+      -- On line 2459, exchanged:    [<Property name="CenterStartTime" value="2.2" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2424 to 2489...
+      -- On line 2466, exchanged:    [<Property name="CenterStartSpeed" value="1" />]           with:     [<Property name="CenterStartSpeed" value="1" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"MechJetpackCam"}, <<< 
+    Looking for >>> [OffsetX] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 2556 to 2621...
+      -- On line 2560, exchanged:    [<Property name="OffsetX" value="1" />]                    with:     [<Property name="OffsetX" value="0" />]
+    Looking for >>> [OffsetY] New value will be >>> [[5]] of type [NUMBER]
+                >>> Searching in lines 2556 to 2621...
+      -- On line 2561, exchanged:    [<Property name="OffsetY" value="-0.85" />]                with:     [<Property name="OffsetY" value="5" />]
+    Looking for >>> [OffsetYAlt] New value will be >>> [[7]] of type [NUMBER]
+                >>> Searching in lines 2556 to 2621...
+      -- On line 2562, exchanged:    [<Property name="OffsetYAlt" value="1" />]                 with:     [<Property name="OffsetYAlt" value="7" />]
+    Looking for >>> [OffsetZFlat] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2556 to 2621...
+      -- On line 2564, exchanged:    [<Property name="OffsetZFlat" value="0" />]                with:     [<Property name="OffsetZFlat" value="1" />]
+    Looking for >>> [BackMaxDistance] New value will be >>> [[35]] of type [NUMBER]
+                >>> Searching in lines 2556 to 2621...
+      -- On line 2566, exchanged:    [<Property name="BackMaxDistance" value="20" />]           with:     [<Property name="BackMaxDistance" value="35" />]
+    Looking for >>> [VertRotationMin] New value will be >>> [[-80]] of type [NUMBER]
+                >>> Searching in lines 2556 to 2621...
+      -- On line 2580, exchanged:    [<Property name="VertRotationMin" value="-60" />]          with:     [<Property name="VertRotationMin" value="-80" />]
+    Looking for >>> [VertRotationMax] New value will be >>> [[80]] of type [NUMBER]
+                >>> Searching in lines 2556 to 2621...
+      -- On line 2581, exchanged:    [<Property name="VertRotationMax" value="60" />]           with:     [<Property name="VertRotationMax" value="80" />]
+    Looking for >>> [LockToObjectOnIdle] New value will be >>> [[False]] of type [STRING]
+                >>> Searching in lines 2556 to 2621...
+      -- On line 2590, exchanged:    [<Property name="LockToObjectOnIdle" value="True" />]      with:     [<Property name="LockToObjectOnIdle" value="False" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2556 to 2621...
+      -- On line 2591, exchanged:    [<Property name="CenterStartTime" value="0.1" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2556 to 2621...
+      -- On line 2598, exchanged:    [<Property name="CenterStartSpeed" value="2.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"SpaceshipFollowCam"}, <<< 
+    Looking for >>> [OffsetY] New value will be >>> [[0]] of type [NUMBER]
+                >>> Searching in lines 2622 to 2687...
+      -- On line 2627, exchanged:    [<Property name="OffsetY" value="-0.8" />]                 with:     [<Property name="OffsetY" value="0" />]
+    Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
+                >>> Searching in lines 2622 to 2687...
+      -- On line 2668, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"DropshipFollowCam"}, <<< 
+    Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
+                >>> Searching in lines 2688 to 2753...
+      -- On line 2734, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"ShuttleFollowCam"}, <<< 
+    Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
+                >>> Searching in lines 2754 to 2819...
+      -- On line 2800, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"RoyalShipFollowCam"}, <<< 
+    Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
+                >>> Searching in lines 2820 to 2885...
+      -- On line 2866, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"ScienceShipFollowCam"}, <<< 
+    Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
+                >>> Searching in lines 2886 to 2951...
+      -- On line 2932, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+  Ended processing with [442 CHANGE(s) made]
+     on File: [GCCAMERAGLOBALS.GLOBAL.EXML]
+  Ended with a total of 442 action(s) made }
+
+Ended script processing with [442 action(s), 0 files added]
+
+Using custom DateTime format!
+Combined Mod ACTIVE: Delaying Building MOD...
+Ended script [gCam hrv.lua]
+========================================================================================}
+
+========================================================================================
+Starting to process script #3 of 15 [IntroLogoSkip.lua] {
 Copying script source to MOD
 Getting GCDEBUGOPTIONS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -69,7 +1449,7 @@ Ended script [IntroLogoSkip.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #3 of 14 [LearnMoreWords.lua] {
+Starting to process script #4 of 15 [LearnMoreWords.lua] {
 Copying script source to MOD
 Getting METADATA\REALITY\TABLES\REWARDTABLE.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -176,7 +1556,7 @@ Ended script [LearnMoreWords.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #4 of 14 [Long Range Freighters 4.0.lua] {
+Starting to process script #5 of 15 [Long Range Freighters 4.0.lua] {
 Copying script source to MOD
 Getting METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -295,7 +1675,7 @@ Ended script [Long Range Freighters 4.0.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #5 of 14 [Natural Steering 1.2.lua] {
+Starting to process script #6 of 15 [Natural Steering 1.2.lua] {
 Copying script source to MOD
 Getting GCVEHICLEGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -319,7 +1699,7 @@ Ended script [Natural Steering 1.2.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #6 of 14 [NaturalFlight.hrv.lua] {
+Starting to process script #7 of 15 [NaturalFlight.hrv.lua] {
 Copying script source to MOD
 Getting GCSPACESHIPGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -335,38 +1715,38 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
 {>>> GCSPACESHIPGLOBALS.GLOBAL.EXML
     MapFileTree creation/update done by 2nd thread
 -> No key_word specified, using whole file...
-    Looking for >>> [TakeOffCost] New value will be >>> [[80]] of type [NUMBER]
+    Looking for >>> [TakeOffCost] New value will be >>> [[60]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
-      -- On line 1001, exchanged:    [<Property name="TakeOffCost" value="100" />]              with:     [<Property name="TakeOffCost" value="80" />]
+      -- On line 1001, exchanged:    [<Property name="TakeOffCost" value="100" />]              with:     [<Property name="TakeOffCost" value="60" />]
     Looking for >>> [KBThrustSmoothTime] New value will be >>> [[0.3]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
       -- On line 325, exchanged:    [<Property name="KBThrustSmoothTime" value="0.2" />]        with:     [<Property name="KBThrustSmoothTime" value="0.3" />]
-    Looking for >>> [LandingMaxSpeed] New value will be >>> [[10]] of type [NUMBER]
+    Looking for >>> [LandingMaxSpeed] New value will be >>> [[60]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
-      -- On line 12, exchanged:    [<Property name="LandingMaxSpeed" value="80" />]             with:     [<Property name="LandingMaxSpeed" value="10" />]
+      -- On line 12, exchanged:    [<Property name="LandingMaxSpeed" value="80" />]             with:     [<Property name="LandingMaxSpeed" value="60" />]
     Looking for >>> [DockingAttractAlign] New value will be >>> [[4]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
       -- On line 107, exchanged:    [<Property name="DockingAttractAlign" value="3" />]         with:     [<Property name="DockingAttractAlign" value="4" />]
-    Looking for >>> [DockingAttractAlignRange] New value will be >>> [[30]] of type [NUMBER]
+    Looking for >>> [DockingAttractAlignRange] New value will be >>> [[60]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
-      -- On line 108, exchanged:    [<Property name="DockingAttractAlignRange" value="1000" />]    with:     [<Property name="DockingAttractAlignRange" value="30" />]
+      -- On line 108, exchanged:    [<Property name="DockingAttractAlignRange" value="1000" />]    with:     [<Property name="DockingAttractAlignRange" value="60" />]
     Looking for >>> [OutpostDockSpeedAlignMinDistance] New value will be >>> [[20]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
       -- On line 136, exchanged:    [<Property name="OutpostDockSpeedAlignMinDistance" value="100" />]    with:     [<Property name="OutpostDockSpeedAlignMinDistance" value="20" />]
-    Looking for >>> [OutpostDockSpeedAlignRange] New value will be >>> [[30]] of type [NUMBER]
+    Looking for >>> [OutpostDockSpeedAlignRange] New value will be >>> [[80]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
-      -- On line 137, exchanged:    [<Property name="OutpostDockSpeedAlignRange" value="300" />]    with:     [<Property name="OutpostDockSpeedAlignRange" value="30" />]
-    Looking for >>> [PulseDrivePlanetApproachHeight] New value will be >>> [[1000]] of type [NUMBER]
+      -- On line 137, exchanged:    [<Property name="OutpostDockSpeedAlignRange" value="300" />]    with:     [<Property name="OutpostDockSpeedAlignRange" value="80" />]
+    Looking for >>> [PulseDrivePlanetApproachHeight] New value will be >>> [[3000]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
-      -- On line 226, exchanged:    [<Property name="PulseDrivePlanetApproachHeight" value="6000" />]    with:     [<Property name="PulseDrivePlanetApproachHeight" value="1000" />]
+      -- On line 226, exchanged:    [<Property name="PulseDrivePlanetApproachHeight" value="6000" />]    with:     [<Property name="PulseDrivePlanetApproachHeight" value="3000" />]
     Looking for >>> [HoverSpeedFactor] New value will be >>> [[0]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
@@ -411,10 +1791,10 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
       -- On line 1070, exchanged:    [<Property name="AnomalyStationMaxApproachSpeed" value="60" />]    with:     [<Property name="AnomalyStationMaxApproachSpeed" value="3000" />]
-    Looking for >>> [CollisionDistance] New value will be >>> [[20]] of type [NUMBER]
+    Looking for >>> [CollisionDistance] New value will be >>> [[10]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
-      -- On line 1095, exchanged:    [<Property name="CollisionDistance" value="200" />]        with:     [<Property name="CollisionDistance" value="20" />]
+      -- On line 1095, exchanged:    [<Property name="CollisionDistance" value="200" />]        with:     [<Property name="CollisionDistance" value="10" />]
     Looking for >>> [DeflectDistance] New value will be >>> [[1000]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
@@ -435,10 +1815,10 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
       -- On line 911, exchanged:    [<Property name="StickyTurnAngleRange" value="60" />]       with:     [<Property name="StickyTurnAngleRange" value="0" />]
-    Looking for >>> [StickyTurnLow] New value will be >>> [[1200]] of type [NUMBER]
+    Looking for >>> [StickyTurnLow] New value will be >>> [[0]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
-      -- On line 912, exchanged:    [<Property name="StickyTurnLow" value="1.2" />]             with:     [<Property name="StickyTurnLow" value="1200" />]
+      -- On line 912, exchanged:    [<Property name="StickyTurnLow" value="1.2" />]             with:     [<Property name="StickyTurnLow" value="0" />]
     Looking for >>> [StickyTurnHigh] New value will be >>> [[0]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1263...
@@ -480,15 +1860,16 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Searching in lines 402 to 425...
     [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
       -- On line 412, exchanged:    [<Property name="DirectionBrakeMin" value="1" />]           with:     [<Property name="DirectionBrakeMin" value="0.5" />]
-    Looking for >>> [DirectionBrake] New value will be >>> [[0.7]] of type [NUMBER]
+    Looking for >>> [DirectionBrake] New value will be >>> [[0.9]] of type [NUMBER]
                 >>> Searching in lines 402 to 425...
-      -- On line 413, exchanged:    [<Property name="DirectionBrake" value="1.5" />]            with:     [<Property name="DirectionBrake" value="0.7" />]
-    Looking for >>> [ReverseBrake] New value will be >>> [[0.2]] of type [NUMBER]
+      -- On line 413, exchanged:    [<Property name="DirectionBrake" value="1.5" />]            with:     [<Property name="DirectionBrake" value="0.9" />]
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.25]] of type [NUMBER]
                 >>> Searching in lines 402 to 425...
-      -- On line 414, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.2" />]
-    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
+      -- On line 414, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.25" />]
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0.1]] of type [NUMBER]
                 >>> Searching in lines 402 to 425...
-      -- On line 415, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
+    [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
+      -- On line 415, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0.1" />]
     Looking for >>> [TurnBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
                 >>> Searching in lines 402 to 425...
     [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
@@ -518,9 +1899,14 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 426 to 449...
       -- On line 434, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
-    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.25]] of type [NUMBER]
                 >>> Searching in lines 426 to 449...
-      -- On line 439, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
+    [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
+      -- On line 438, exchanged:    [<Property name="ReverseBrake" value="1" />]                with:     [<Property name="ReverseBrake" value="0.25" />]
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0.1]] of type [NUMBER]
+                >>> Searching in lines 426 to 449...
+    [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
+      -- On line 439, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0.1" />]
     Looking for >>> [RollAutoTime] New value will be >>> [[84600]] of type [NUMBER]
                 >>> Searching in lines 426 to 449...
       -- On line 446, exchanged:    [<Property name="RollAutoTime" value="0.5" />]              with:     [<Property name="RollAutoTime" value="84600" />]
@@ -540,9 +1926,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [MinSpeedForce] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 499 to 522...
       -- On line 504, exchanged:    [<Property name="MinSpeedForce" value="5" />]               with:     [<Property name="MinSpeedForce" value="0" />]
-    Looking for >>> [BoostThrustForce] New value will be >>> [[100]] of type [NUMBER]
+    Looking for >>> [BoostThrustForce] New value will be >>> [[300]] of type [NUMBER]
                 >>> Searching in lines 499 to 522...
-      -- On line 505, exchanged:    [<Property name="BoostThrustForce" value="500" />]          with:     [<Property name="BoostThrustForce" value="100" />]
+      -- On line 505, exchanged:    [<Property name="BoostThrustForce" value="500" />]          with:     [<Property name="BoostThrustForce" value="300" />]
     Looking for >>> [BoostMaxSpeed] New value will be >>> [[2600]] of type [NUMBER]
                 >>> Searching in lines 499 to 522...
       -- On line 506, exchanged:    [<Property name="BoostMaxSpeed" value="1300" />]            with:     [<Property name="BoostMaxSpeed" value="2600" />]
@@ -552,15 +1938,16 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [DirectionBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
                 >>> Searching in lines 499 to 522...
       -- On line 509, exchanged:    [<Property name="DirectionBrakeMin" value="0.8" />]         with:     [<Property name="DirectionBrakeMin" value="0.5" />]
-    Looking for >>> [DirectionBrake] New value will be >>> [[0.7]] of type [NUMBER]
+    Looking for >>> [DirectionBrake] New value will be >>> [[0.9]] of type [NUMBER]
                 >>> Searching in lines 499 to 522...
-      -- On line 510, exchanged:    [<Property name="DirectionBrake" value="1.2" />]            with:     [<Property name="DirectionBrake" value="0.7" />]
-    Looking for >>> [ReverseBrake] New value will be >>> [[0.01]] of type [NUMBER]
+      -- On line 510, exchanged:    [<Property name="DirectionBrake" value="1.2" />]            with:     [<Property name="DirectionBrake" value="0.9" />]
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.3]] of type [NUMBER]
                 >>> Searching in lines 499 to 522...
-      -- On line 511, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.01" />]
-    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
+      -- On line 511, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.3" />]
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0.1]] of type [NUMBER]
                 >>> Searching in lines 499 to 522...
-      -- On line 512, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
+    [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
+      -- On line 512, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0.1" />]
     Looking for >>> [TurnBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
                 >>> Searching in lines 499 to 522...
     [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
@@ -593,13 +1980,14 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 523 to 546...
       -- On line 531, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
-    Looking for >>> [ReverseBrake] New value will be >>> [[0.4]] of type [NUMBER]
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.3]] of type [NUMBER]
                 >>> Searching in lines 523 to 546...
     [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
-      -- On line 535, exchanged:    [<Property name="ReverseBrake" value="1" />]                with:     [<Property name="ReverseBrake" value="0.4" />]
-    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
+      -- On line 535, exchanged:    [<Property name="ReverseBrake" value="1" />]                with:     [<Property name="ReverseBrake" value="0.3" />]
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0.1]] of type [NUMBER]
                 >>> Searching in lines 523 to 546...
-      -- On line 536, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
+    [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
+      -- On line 536, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0.1" />]
     Looking for >>> [RollAutoTime] New value will be >>> [[84600]] of type [NUMBER]
                 >>> Searching in lines 523 to 546...
       -- On line 543, exchanged:    [<Property name="RollAutoTime" value="0.5" />]              with:     [<Property name="RollAutoTime" value="84600" />]
@@ -632,19 +2020,20 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Searching in lines 596 to 619...
     [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
       -- On line 606, exchanged:    [<Property name="DirectionBrakeMin" value="1" />]           with:     [<Property name="DirectionBrakeMin" value="0.5" />]
-    Looking for >>> [DirectionBrake] New value will be >>> [[0.7]] of type [NUMBER]
+    Looking for >>> [DirectionBrake] New value will be >>> [[0.9]] of type [NUMBER]
                 >>> Searching in lines 596 to 619...
-      -- On line 607, exchanged:    [<Property name="DirectionBrake" value="1.5" />]            with:     [<Property name="DirectionBrake" value="0.7" />]
-    Looking for >>> [ReverseBrake] New value will be >>> [[0.01]] of type [NUMBER]
+      -- On line 607, exchanged:    [<Property name="DirectionBrake" value="1.5" />]            with:     [<Property name="DirectionBrake" value="0.9" />]
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.2]] of type [NUMBER]
                 >>> Searching in lines 596 to 619...
-      -- On line 608, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.01" />]
-    Looking for >>> [OverspeedBrake] New value will be >>> [[0]] of type [NUMBER]
-                >>> Searching in lines 596 to 619...
-      -- On line 609, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0" />]
-    Looking for >>> [TurnBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
+      -- On line 608, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.2" />]
+    Looking for >>> [OverspeedBrake] New value will be >>> [[0.1]] of type [NUMBER]
                 >>> Searching in lines 596 to 619...
     [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
-      -- On line 611, exchanged:    [<Property name="TurnBrakeMin" value="1" />]                with:     [<Property name="TurnBrakeMin" value="0.5" />]
+      -- On line 609, exchanged:    [<Property name="OverspeedBrake" value="3" />]              with:     [<Property name="OverspeedBrake" value="0.1" />]
+    Looking for >>> [TurnBrakeMin] New value will be >>> [[0.4]] of type [NUMBER]
+                >>> Searching in lines 596 to 619...
+    [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
+      -- On line 611, exchanged:    [<Property name="TurnBrakeMin" value="1" />]                with:     [<Property name="TurnBrakeMin" value="0.4" />]
     Looking for >>> [TurnBrakeMax] New value will be >>> [[1]] of type [NUMBER]
                 >>> Searching in lines 596 to 619...
       -- On line 612, exchanged:    [<Property name="TurnBrakeMax" value="3" />]                with:     [<Property name="TurnBrakeMax" value="1" />]
@@ -670,6 +2059,10 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [BoostMaxSpeed] New value will be >>> [[400]] of type [NUMBER]
                 >>> Searching in lines 620 to 643...
       -- On line 627, exchanged:    [<Property name="BoostMaxSpeed" value="185" />]             with:     [<Property name="BoostMaxSpeed" value="400" />]
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.2]] of type [NUMBER]
+                >>> Searching in lines 620 to 643...
+    [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
+      -- On line 632, exchanged:    [<Property name="ReverseBrake" value="1" />]                with:     [<Property name="ReverseBrake" value="0.2" />]
     Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 620 to 643...
       -- On line 628, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
@@ -705,9 +2098,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Current line is 955
                 >>> LINE_OFFSET of [+16] forces to look starting at line 971
       -- On line 971, exchanged:    [<Property name="AimDistanceRange" value="1" />]            with:     [<Property name="AimDistanceRange" value="10" />]
-  Ended processing with [107 CHANGE(s) made]
+  Ended processing with [109 CHANGE(s) made]
      on File: [GCSPACESHIPGLOBALS.GLOBAL.EXML]
-  Ended with a total of 107 action(s) made }
+  Ended with a total of 109 action(s) made }
 {>>> GCSOLARGENERATIONGLOBALS.GLOBAL.EXML
     MapFileTree creation/update done by 2nd thread
 -> Based on PRECEDING_KEY_WORDS: >>> {"AsteroidScaleVariance"}, <<< 
@@ -727,9 +2120,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [AsteroidFadeRangeMax] New value will be >>> [[10000]] of type [NUMBER]
                 >>> Searching in lines 3 to 290...
       -- On line 79, exchanged:    [<Property name="AsteroidFadeRangeMax" value="2000" />]      with:     [<Property name="AsteroidFadeRangeMax" value="10000" />]
-    Looking for >>> [AsteroidSpacing] New value will be >>> [[8000]] of type [NUMBER]
+    Looking for >>> [AsteroidSpacing] New value will be >>> [[9000]] of type [NUMBER]
                 >>> Searching in lines 3 to 290...
-      -- On line 80, exchanged:    [<Property name="AsteroidSpacing" value="1000" />]           with:     [<Property name="AsteroidSpacing" value="8000" />]
+      -- On line 80, exchanged:    [<Property name="AsteroidSpacing" value="1000" />]           with:     [<Property name="AsteroidSpacing" value="9000" />]
     Looking for >>> [RareAsteroidMinResources] New value will be >>> [[20]] of type [NUMBER]
                 >>> Searching in lines 3 to 290...
       -- On line 82, exchanged:    [<Property name="RareAsteroidMinResources" value="5" />]     with:     [<Property name="RareAsteroidMinResources" value="20" />]
@@ -861,7 +2254,7 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
      on File: [METADATA\REALITY\TABLES\DAMAGETABLE.EXML]
   Ended with a total of 8 action(s) made }
 
-Ended script processing with [140 action(s), 0 files added]
+Ended script processing with [142 action(s), 0 files added]
 
 Using custom DateTime format!
 Combined Mod ACTIVE: Delaying Building MOD...
@@ -869,7 +2262,7 @@ Ended script [NaturalFlight.hrv.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #7 of 14 [No Black Bars 2.4.lua] {
+Starting to process script #8 of 15 [No Black Bars 2.4.lua] {
 Copying script source to MOD
 Getting UI\COMPONENTS\INTERACTION\CINEMATICBARS.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -912,7 +2305,7 @@ Ended script [No Black Bars 2.4.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #8 of 14 [No Space Dust 1.3.lua] {
+Starting to process script #9 of 15 [No Space Dust 1.3.lua] {
 Copying script source to MOD
 Getting MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -935,7 +2328,7 @@ Ended script [No Space Dust 1.3.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #9 of 14 [No Speed Halo 1.5 - Almost.lua] {
+Starting to process script #10 of 15 [No Speed Halo 1.5 - Almost.lua] {
 Copying script source to MOD
 Getting MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -959,7 +2352,7 @@ Ended script [No Speed Halo 1.5 - Almost.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #10 of 14 [No Speed Lines 1.5.lua] {
+Starting to process script #11 of 15 [No Speed Lines 1.5.lua] {
 Copying script source to MOD
 Getting MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -993,7 +2386,7 @@ Ended script [No Speed Lines 1.5.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #11 of 14 [Quick Crates 1.7.lua] {
+Starting to process script #12 of 15 [Quick Crates 1.7.lua] {
 Copying script source to MOD
 Getting MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -1016,7 +2409,7 @@ Getting MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\C
   Ended with a total of 3 action(s) made }
 
 >>> Adding files:
-     create file in: "F:\SteamF\steamapps\common\No Man's Sky\AMUMSS-3.9.5W\MODBUILDER\MOD\MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE.ANIM.EXML"
+     create file in: "F:\SteamF\steamapps\common\No Man's Sky\NoMansMods - AMUMSS\MODBUILDER\MOD\MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE.ANIM.EXML"
 
     >>>>> Ended with 1 files added <<<<<
 
@@ -1029,7 +2422,7 @@ Ended script [Quick Crates 1.7.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #12 of 14 [Skip's Asteroid Megamod 1.0.0-PRISMS.lua] {
+Starting to process script #13 of 15 [Skip's Asteroid Megamod 1.0.0-PRISMS.lua] {
 Copying script source to MOD
 GCSOLARGENERATIONGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [Skip's Asteroid Megamod 1.0.0-PRISMS.lua]
@@ -1086,7 +2479,7 @@ GCSOLARGENERATIONGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be
 -> No key_word specified, using whole file...
     Looking for >>> [AsteroidSpacing] New value will be >>> [[10000]] of type [NUMBER]
                 >>> Searching in lines 3 to 290...
-      -- On line 80, exchanged:    [<Property name="AsteroidSpacing" value="8000" />]           with:     [<Property name="AsteroidSpacing" value="10000" />]
+      -- On line 80, exchanged:    [<Property name="AsteroidSpacing" value="9000" />]           with:     [<Property name="AsteroidSpacing" value="10000" />]
     Looking for >>> [LargeAsteroidSpacing] New value will be >>> [[60000]] of type [NUMBER]
                 >>> Searching in lines 3 to 290...
       -- On line 102, exchanged:    [<Property name="LargeAsteroidSpacing" value="30000" />]    with:     [<Property name="LargeAsteroidSpacing" value="60000" />]
@@ -1185,7 +2578,7 @@ Ended script [Skip's Asteroid Megamod 1.0.0-PRISMS.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #13 of 14 [Small Cursor 3.7.lua] {
+Starting to process script #14 of 15 [Small Cursor 3.7.lua] {
 Copying script source to MOD
 GCUIGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [Small Cursor 3.7.lua]
@@ -1210,7 +2603,7 @@ Ended script [Small Cursor 3.7.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #14 of 14 [SpeedIncreaseAnalysis.lua] {
+Starting to process script #15 of 15 [SpeedIncreaseAnalysis.lua] {
 Copying script source to MOD
 GCGAMEPLAYGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [SpeedIncreaseAnalysis.lua]
@@ -1245,6 +2638,7 @@ Using custom DateTime format!
 
 
 Starting final MBINCompiler and PAK phase...
+   SUCCESS Compiling GCCAMERAGLOBALS.GLOBAL.EXML
    SUCCESS Compiling GCDEBUGOPTIONS.GLOBAL.EXML
    SUCCESS Compiling GCGAMEPLAYGLOBALS.GLOBAL.EXML
    SUCCESS Compiling GCSOLARGENERATIONGLOBALS.GLOBAL.EXML
@@ -1279,7 +2673,7 @@ Backups in >>> Builds <<< and >>> Builds\IncrementalBuilds <<<
 
 
 END OF PROCESSING
-Total scripts processed: 14
+Total scripts processed: 15
 
 
 }
@@ -1307,7 +2701,7 @@ Checked Conflicts in ModScript Scripts/paks and NMS MODS paks.
 
               0 ERROR detected
 
-    [ATTENTION]     12 WARNINGS raised
+    [ATTENTION]     19 WARNINGS raised
     [ATTENTION]            WARNINGS may produce good or bad PAK files.  You have to be the judge!
 
               0 NOTICE raised
@@ -1317,5 +2711,5 @@ Checked Conflicts in ModScript Scripts/paks and NMS MODS paks.
     [ATTENTION]            Some CONFLICTS can be resolved by COMBINING mods...
     [ATTENTION]            See file 'Creating a Patch for an existing MOD PAK.txt' for further help
 
-Ended AMUMSS automatic processing at 13:19:25
-TOTAL TIME to complete: 00:00:20
+Ended AMUMSS automatic processing at 13:26:49
+TOTAL TIME to complete: 00:00:34
