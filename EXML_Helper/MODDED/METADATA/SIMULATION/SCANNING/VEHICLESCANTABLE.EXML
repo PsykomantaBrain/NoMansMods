@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>		<Data template="GcVehicleScanTable"><Property name="VehicleScanTable">
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="DEPOT" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="TERMINAL" />
+				</Property></Property>
+				<Property name="Name" value="VEHICLE_BUILDING_DEPOT" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.BUILDING.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="DEPOT" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="TERMINAL" />
+				</Property></Property>
+				<Property name="Name" value="VEHICLE_BUILDING_DEPOT" />
+				<Property name="RequiredTech" value="MECH_SCAN" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.BUILDING.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="DROPPOD" />
+				</Property></Property>
+				<Property name="Name" value="VEHICLE_BUILDING_DAMAGEDMACHINE" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN1" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.POD.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="ABANDONED" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="UW_ABANDONED" />
+				</Property></Property>
+				<Property name="Name" value="VEHICLE_BUILDING_ABANDONED" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN1" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.ABANDONED.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="RUIN" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="UW_RUIN" />
+				</Property></Property>
+				<Property name="Name" value="VEHICLE_BUILDING_RUIN" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN2" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.RUINS.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="MONOLITH" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="PLAQUE" />
+				</Property></Property>
+				<Property name="Name" value="VEHICLE_BUILDING_NPC" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN2" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.RUNE.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="UW_SHIPCRASH" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="UW_FREIGHTCRASH" />
+				</Property></Property>
+				<Property name="Name" value="SUB_RADAR_SCAN_CRASH" />
+				<Property name="RequiredTech" value="SUB_BINOCS" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.DISTRESSSIGNAL.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="UW_ABANDONED" />
+				</Property></Property>
+				<Property name="Name" value="SUB_RADAR_SCAN_ABANDON" />
+				<Property name="RequiredTech" value="SUB_BINOCS" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.ABANDONED.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="UW_RUIN" />
+				</Property></Property>
+				<Property name="Name" value="SUB_RADAR_SCAN_RUIN" />
+				<Property name="RequiredTech" value="SUB_BINOCS" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.RUINS.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="SHOP" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="OUTPOST" />
+				</Property></Property>
+				<Property name="Name" value="VEHICLE_BUILDING_OUTPOST" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN1" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.OUTPOST.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="RADIOTOWER" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="OBSERVATORY" />
+				</Property></Property>
+				<Property name="Name" value="BUILDING_RADIOTOWER_L" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.SIGNAL.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="RADIOTOWER" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="OBSERVATORY" />
+				</Property></Property>
+				<Property name="Name" value="BUILDING_RADIOTOWER_L" />
+				<Property name="RequiredTech" value="MECH_SCAN" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.SIGNAL.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="HARVESTER" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="FACTORY" />
+				</Property></Property>
+				<Property name="Name" value="MECH_SCAN_FACT" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN1" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.FACTORY.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="DISTRESS" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="DISTRESS_NPC" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="UW_SHIPCRASH" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="CRASHED_FREIGHTER" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="UW_FREIGHTCRASH" />
+				</Property></Property>
+				<Property name="Name" value="MECH_SCAN_CRASH" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.DISTRESSSIGNAL.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="DISTRESS" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="DISTRESS_NPC" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="UW_SHIPCRASH" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="CRASHED_FREIGHTER" />
+				</Property>				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="UW_FREIGHTCRASH" />
+				</Property></Property>
+				<Property name="Name" value="MECH_SCAN_CRASH" />
+				<Property name="RequiredTech" value="MECH_SCAN" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.DISTRESSSIGNAL.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="LIBRARY" />
+				</Property></Property>
+				<Property name="Name" value="UI_LIBRARY_ENTRANCE_DESC" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN2" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.LIBRARY.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="BASE" />
+				</Property></Property>
+				<Property name="Name" value="INTRCT_CLAIM_BASE" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN2" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.BASE.DDS" />
+				</Property>
+			</Property>
+			<Property value="GcVehicleScanTableEntry.xml">
+				<Property name="ScanList">				<Property value="NMSString0x20.xml">
+					<Property name="Value" value="DRONE_HIVE" />
+				</Property></Property>
+				<Property name="Name" value="UI_SENTINEL_HIVE_NAME" />
+				<Property name="RequiredTech" value="VEHICLE_SCAN2" />
+				<Property name="Icon" value="TkTextureResource.xml">
+					<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.DRONEHIVE.DDS" />
+				</Property>
+			</Property></Property></Data>

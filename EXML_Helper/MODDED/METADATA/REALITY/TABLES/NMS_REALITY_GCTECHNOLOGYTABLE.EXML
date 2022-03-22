@@ -18714,7 +18714,7 @@
       <Property name="RepairTech" value="False" />
       <Property name="Procedural" value="False" />
       <Property name="Category" value="GcTechnologyCategory.xml">
-        <Property name="TechnologyCategory" value="Exocraft" />
+        <Property name="TechnologyCategory" value="AllVehicles" />
       </Property>
       <Property name="Rarity" value="GcTechnologyRarity.xml">
         <Property name="TechnologyRarity" value="Impossible" />
@@ -18827,7 +18827,7 @@
       <Property name="RepairTech" value="False" />
       <Property name="Procedural" value="False" />
       <Property name="Category" value="GcTechnologyCategory.xml">
-        <Property name="TechnologyCategory" value="Exocraft" />
+        <Property name="TechnologyCategory" value="AllVehicles" />
       </Property>
       <Property name="Rarity" value="GcTechnologyRarity.xml">
         <Property name="TechnologyRarity" value="Impossible" />
@@ -18947,7 +18947,7 @@
       <Property name="RepairTech" value="False" />
       <Property name="Procedural" value="False" />
       <Property name="Category" value="GcTechnologyCategory.xml">
-        <Property name="TechnologyCategory" value="Exocraft" />
+        <Property name="TechnologyCategory" value="AllVehicles" />
       </Property>
       <Property name="Rarity" value="GcTechnologyRarity.xml">
         <Property name="TechnologyRarity" value="Impossible" />

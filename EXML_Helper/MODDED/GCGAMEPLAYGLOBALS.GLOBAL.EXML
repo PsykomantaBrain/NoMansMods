@@ -366,7 +366,7 @@
   <Property name="EveryMaintenanceIsBroken" value="False" />
   <Property name="SpawnResourceBlobsOnPartDelete" value="False" />
   <Property name="EnableShootHitEffect" value="True" />
-  <Property name="MaxNumSameGroupTech" value="3" />
+  <Property name="MaxNumSameGroupTech" value="48" />
   <Property name="ShootableArmourHighlightHitTime" value="0.3" />
   <Property name="ShootableAggroMinStartTime" value="0.5" />
   <Property name="ShootableAggroForgetTime" value="3" />

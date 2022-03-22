@@ -454,7 +454,7 @@
         </Property>
       </Property>
       <Property name="FireAudioEvent" value="GcAudioWwiseEvents.xml">
-        <Property name="AkEvent" value="WPN_SHIP_CYCLOTRON_FIRE" />
+        <Property name="AkEvent" value="WPN_PL_SHOTGUN" />
       </Property>
       <Property name="ChargedFireAudioEvent" value="GcAudioWwiseEvents.xml">
         <Property name="AkEvent" value="INVALID_EVENT" />
@@ -2008,7 +2008,7 @@
         <Property name="B" value="1" />
         <Property name="A" value="1" />
       </Property>
-      <Property name="BehaviourFlags" value="None" />
+      <Property name="BehaviourFlags" value="DestroyTerrain" />
       <Property name="Class" value="PlayerShip" />
       <Property name="DefaultImpact" value="PLAYERSHIPHIT" />
       <Property name="CriticalImpact" value="" />
@@ -2121,7 +2121,7 @@
         <Property name="B" value="1" />
         <Property name="A" value="1" />
       </Property>
-      <Property name="BehaviourFlags" value="None" />
+      <Property name="BehaviourFlags" value="DestroyTerrain" />
       <Property name="Class" value="PlayerShip" />
       <Property name="DefaultImpact" value="SHIPGUNHIT" />
       <Property name="CriticalImpact" value="" />
@@ -2234,7 +2234,7 @@
         <Property name="B" value="1" />
         <Property name="A" value="1" />
       </Property>
-      <Property name="BehaviourFlags" value="None" />
+      <Property name="BehaviourFlags" value="DestroyTerrain" />
       <Property name="Class" value="PlayerShip" />
       <Property name="DefaultImpact" value="SHIPMINIGUNHIT" />
       <Property name="CriticalImpact" value="" />
@@ -2347,7 +2347,7 @@
         <Property name="B" value="1" />
         <Property name="A" value="1" />
       </Property>
-      <Property name="BehaviourFlags" value="None" />
+      <Property name="BehaviourFlags" value="DestroyTerrain" />
       <Property name="Class" value="PlayerShip" />
       <Property name="DefaultImpact" value="SHIPPLASMAHIT" />
       <Property name="CriticalImpact" value="" />

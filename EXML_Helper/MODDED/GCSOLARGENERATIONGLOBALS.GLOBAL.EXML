@@ -38,7 +38,7 @@
   <Property name="LocatorScatterChanceOfPirates" value="20" />
   <Property name="DirectorLocatorBusyDistance" value="35000" />
   <Property name="DirectorLocatorBusyAngle" value="45" />
-  <Property name="PlanetInvalidAsteroidZone" value="50000" />
+  <Property name="PlanetInvalidAsteroidZone" value="10000" />
   <Property name="AsteroidsEnabled" value="True" />
   <Property name="AsteroidsCheckNoise" value="True" />
   <Property name="AsteroidNoiseScale" value="30000" />
@@ -54,65 +54,65 @@
   </Property>
   <Property name="AsteroidFadeTime" value="5" />
   <Property name="AsteroidNoiseRange" value="Vector2f.xml">
-    <Property name="x" value="0.1" />
-    <Property name="y" value="0.2" />
+    <Property name="x" value="0.4" />
+    <Property name="y" value="0.55" />
   </Property>
   <Property name="LargeAsteroidNoiseRange" value="Vector2f.xml">
-    <Property name="x" value="0.1" />
-    <Property name="y" value="0.3" />
+    <Property name="x" value="0.3" />
+    <Property name="y" value="0.6" />
   </Property>
   <Property name="RareAsteroidNoiseRangeFewRares" value="Vector2f.xml">
-    <Property name="x" value="0.15" />
-    <Property name="y" value="0.25" />
+    <Property name="x" value="0.512" />
+    <Property name="y" value="0.52" />
   </Property>
   <Property name="RareAsteroidNoiseRangeSomeRares" value="Vector2f.xml">
-    <Property name="x" value="0.10" />
-    <Property name="y" value="0.25" />
+    <Property name="x" value="0.505" />
+    <Property name="y" value="0.52" />
   </Property>
   <Property name="RareAsteroidNoiseRangeLotsOfRares" value="Vector2f.xml">
-    <Property name="x" value="0.05" />
-    <Property name="y" value="0.25" />
+    <Property name="x" value="0.45" />
+    <Property name="y" value="0.52" />
   </Property>
   <Property name="AsteroidSomeRaresOdds" value="0.2" />
-  <Property name="AsteroidLotsOfRaresOdds" value="0.5" />
-  <Property name="AsteroidFadeRangeMin" value="0" />
+  <Property name="AsteroidLotsOfRaresOdds" value="0.75" />
+  <Property name="AsteroidFadeRangeMin" value="10000" />
   <Property name="AsteroidFadeRangeMax" value="5000" />
-  <Property name="AsteroidSpacing" value="10000" />
-  <Property name="RareAsteroidScale" value="2.0" />
-  <Property name="RareAsteroidMinResources" value="1" />
-  <Property name="RareAsteroidMaxResources" value="3" />
-  <Property name="RareAsteroidResource" value="GEODE_SPACE" />
-  <Property name="RareAsteroidHealth" value="5000" />
-  <Property name="CommonAsteroidScale" value="0.4" />
-  <Property name="CommonAsteroidMinResources" value="20" />
-  <Property name="CommonAsteroidMaxResources" value="75" />
-  <Property name="CommonAsteroidResourceFuelMultiplier" value="3" />
-  <Property name="CommonAsteroidResourceFuel" value="LAND1" />
-  <Property name="RareAsteroidResourceFuel" value="GEODE_CRYSTAL" />
-  <Property name="CommonAsteroidResourceProduct" value="GEODE_LAND" />
-  <Property name="CommonAsteroidResourceMain" value="SAND1" />
-  <Property name="CommonAsteroidResourceSecondary" value="ROCKETSUB" />
-  <Property name="RareAsteroidDataProduct" value="GEODE_RARE" />
-  <Property name="CommonAsteroidResourceFuelOdds" value="0.2" />
+  <Property name="AsteroidSpacing" value="15000" />
+  <Property name="RareAsteroidScale" value="1.6" />
+  <Property name="RareAsteroidMinResources" value="20" />
+  <Property name="RareAsteroidMaxResources" value="100" />
+  <Property name="RareAsteroidResource" value="ASTEROID3" />
+  <Property name="RareAsteroidHealth" value="600" />
+  <Property name="CommonAsteroidScale" value="0.3" />
+  <Property name="CommonAsteroidMinResources" value="5" />
+  <Property name="CommonAsteroidMaxResources" value="20" />
+  <Property name="CommonAsteroidResourceFuelMultiplier" value="5" />
+  <Property name="CommonAsteroidResourceFuel" value="ROCKETSUB" />
+  <Property name="RareAsteroidResourceFuel" value="GEODE_SPACE" />
+  <Property name="CommonAsteroidResourceProduct" value="GEODE_ASTEROID" />
+  <Property name="CommonAsteroidResourceMain" value="ASTEROID1" />
+  <Property name="CommonAsteroidResourceSecondary" value="ASTEROID2" />
+  <Property name="RareAsteroidDataProduct" value="POI_LOCATOR" />
+  <Property name="CommonAsteroidResourceFuelOdds" value="0.5" />
   <Property name="RareAsteroidResourceFuelOdds" value="0.2" />
-  <Property name="CommonAsteroidResourceProductOdds" value="0.1" />
-  <Property name="RareAsteroidDataProductOdds" value=".05" />
-  <Property name="CommonAsteroidResourceSecondaryOdds" value="0.5" />
-  <Property name="CommonAsteroidHealth" value="2000" />
-  <Property name="LargeAsteroidSpacing" value="60000" />
+  <Property name="CommonAsteroidResourceProductOdds" value="0.2" />
+  <Property name="RareAsteroidDataProductOdds" value="0.005" />
+  <Property name="CommonAsteroidResourceSecondaryOdds" value="0.2" />
+  <Property name="CommonAsteroidHealth" value="300" />
+  <Property name="LargeAsteroidSpacing" value="30000" />
   <Property name="LargeAsteroidFadeTime" value="0.5" />
-  <Property name="LargeAsteroidFadeRangeMin" value="0" />
-  <Property name="LargeAsteroidFadeRangeMax" value="20000" />
+  <Property name="LargeAsteroidFadeRangeMin" value="100000" />
+  <Property name="LargeAsteroidFadeRangeMax" value="100000" />
   <Property name="LargeAsteroidMoveFadeTime" value="20" />
   <Property name="RingAsteroidScale" value="0.1" />
   <Property name="RingAsteroidSpacing" value="300" />
   <Property name="RingAsteroidFadeRangeMin" value="500" />
   <Property name="RingAsteroidFadeRangeMax" value="2000" />
-  <Property name="AsteroidMaxNumGenerates" value="3500" />
+  <Property name="AsteroidMaxNumGenerates" value="50000" />
   <Property name="AsteroidMaxNumGeneratesPulseJump" value="1000" />
-  <Property name="AsteroidSpaceStationAvoidRadius" value="1000" />
-  <Property name="AsteroidAnomalyAvoidRadius" value="10000" />
-  <Property name="AsteroidWarpInAreaAvoidRadius" value="1000" />
+  <Property name="AsteroidSpaceStationAvoidRadius" value="5000" />
+  <Property name="AsteroidAnomalyAvoidRadius" value="5000" />
+  <Property name="AsteroidWarpInAreaAvoidRadius" value="5000" />
   <Property name="AbandonedSystemProbability">
     <Property name="Yellow" value="0" />
     <Property name="Green" value="0.1" />

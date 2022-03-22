@@ -3066,66 +3066,6 @@
             </Property>
             <Property name="LabelID" value="" />
           </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="None" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="None" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="None" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="None" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
         </Property>
       </Property>
     </Property>
@@ -16639,66 +16579,6 @@
             </Property>
             <Property name="LabelID" value="" />
           </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Traders" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Traders" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Traders" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Traders" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
         </Property>
       </Property>
     </Property>
@@ -16723,66 +16603,6 @@
             </Property>
             <Property name="LabelID" value="" />
           </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Explorers" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Explorers" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Explorers" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Explorers" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
         </Property>
       </Property>
     </Property>
@@ -16792,66 +16612,6 @@
         <Property name="RewardChoice" value="GiveAll" />
         <Property name="OverrideZeroSeed" value="False" />
         <Property name="List">
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Warriors" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Warriors" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Warriors" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Warriors" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
           <Property value="GcRewardTableItem.xml">
             <Property name="PercentageChance" value="100" />
             <Property name="Reward" value="GcRewardTeachWord.xml">
@@ -18261,66 +18021,6 @@
             </Property>
             <Property name="LabelID" value="" />
           </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Explorers" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Explorers" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Explorers" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Explorers" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
         </Property>
       </Property>
     </Property>
@@ -18345,66 +18045,6 @@
             </Property>
             <Property name="LabelID" value="" />
           </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Traders" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Traders" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Traders" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Traders" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
         </Property>
       </Property>
     </Property>
@@ -18414,66 +18054,6 @@
         <Property name="RewardChoice" value="GiveAll" />
         <Property name="OverrideZeroSeed" value="False" />
         <Property name="List">
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Warriors" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Warriors" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Warriors" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Warriors" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
           <Property value="GcRewardTableItem.xml">
             <Property name="PercentageChance" value="100" />
             <Property name="Reward" value="GcRewardTeachWord.xml">
@@ -18805,66 +18385,6 @@
         <Property name="RewardChoice" value="GiveAll" />
         <Property name="OverrideZeroSeed" value="False" />
         <Property name="List">
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Atlas" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Atlas" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Atlas" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
-          <Property value="GcRewardTableItem.xml">
-            <Property name="PercentageChance" value="100" />
-            <Property name="Reward" value="GcRewardTeachWord.xml">
-              <Property name="Race" value="GcAlienRace.xml">
-                <Property name="AlienRace" value="Atlas" />
-              </Property>
-              <Property name="UseCategory" value="False" />
-              <Property name="Category" value="GcWordCategoryTableEnum.xml">
-                <Property name="gcwordcategorytableEnum" value="MISC" />
-              </Property>
-              <Property name="AmountMin" value="1" />
-              <Property name="AmountMax" value="1" />
-            </Property>
-            <Property name="LabelID" value="" />
-          </Property>
           <Property value="GcRewardTableItem.xml">
             <Property name="PercentageChance" value="100" />
             <Property name="Reward" value="GcRewardTeachWord.xml">

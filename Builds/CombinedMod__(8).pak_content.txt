@@ -1,0 +1,49 @@
+This mod contains:
+- Long Range Freighters 4.0
+- NaturalFlight.hrv
+- No Auto Ladder
+- No Black Bars 2.4
+- Quick Crates 1.7
+- SpeedIncreaseAnalysis
+
+Original information:
+   MOD FILENAME: Long Range Freighters 4.0.pak
+     MOD AUTHOR: Lo2k
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: This mod multiply by 10 all freighter warp drive ranges
+    NMS VERSION: 3.84
+
+Original information:
+   MOD FILENAME: NaturalFlight_0.21.pak
+     MOD AUTHOR: Buckaroo_Banzai68 and converted by Mjjstral - hrv edit
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: Unknown
+    NMS VERSION: 1.77
+
+Original information:
+   MOD FILENAME: No Auto Ladder3_82.pak
+     MOD AUTHOR: Methatronc/Jackty89
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: No Auto Ladder
+    NMS VERSION: 3_82
+
+Original information:
+   MOD FILENAME: No Black Bars 2.4.pak
+     MOD AUTHOR: Lo2k (script by MrFisse)
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: No cutscene black bars
+    NMS VERSION: 3.84
+
+Original information:
+   MOD FILENAME: Quick Crates 1.7.pak
+     MOD AUTHOR: Lo2k
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: This mod opens crates in one click
+    NMS VERSION: 3.7
+
+Original information:
+   MOD FILENAME: SpeedIncreaseAnalysis.pak
+     MOD AUTHOR: Unknown
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: Unknown
+    NMS VERSION: 1.77

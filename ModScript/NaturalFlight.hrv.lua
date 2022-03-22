@@ -1,7 +1,7 @@
 NMS_MOD_DEFINITION_CONTAINER = 
 {
 ["MOD_FILENAME"] 			= "NaturalFlight_0.21.pak",
-["MOD_AUTHOR"]				= "Buckaroo_Banzai68 and converted by Mjjstral - hrv edit",
+["MOD_AUTHOR"]				= "Buckaroo_Banzai68 and converted by Mjjstral - hrv edit - moach edit",
 ["NMS_VERSION"]				= "1.77",
 ["MODIFICATIONS"] 			= 
 	{
@@ -17,35 +17,46 @@ NMS_MOD_DEFINITION_CONTAINER =
 							["PRECEDING_KEY_WORDS"] = "",
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "TakeOffCost", 						"80" }, 	--Original "100"
-								{ "KBThrustSmoothTime", 				"0.3" }, 	--Original "0.2"
-								{ "LandingMaxSpeed", 					"10" }, 	--Original "80"
-								{ "DockingAttractAlign", 				"4" }, 		--Original "3"
-								{ "DockingAttractAlignRange", 			"30" }, 	--Original "1000"
-								{ "OutpostDockSpeedAlignMinDistance", 	"20" }, 	--Original "100"
-								{ "OutpostDockSpeedAlignRange", 		"30" }, 	--Original "300"
-								{ "PulseDrivePlanetApproachHeight", 	"1000" }, 	--Original "6000"
+								{ "TakeOffCost", 						"50" }, 	--Original "100"
+								{ "KBThrustSmoothTime", 				"0.32" }, 	--Original "0.2"
+								{ "LandingMaxSpeed", 					"25" }, 	--Original "80"
+								{ "DockingAttractAlign", 				"2" }, 		--Original "3"
+								{ "DockingAttractAlignRange", 			"1000" }, 	--Original "1000"
+								{ "OutpostDockSpeedAlignMinDistance", 	"100" }, 	--Original "100"
+								{ "OutpostDockSpeedAlignRange", 		"300" }, 	--Original "300"
+								{ "PulseDrivePlanetApproachHeight", 	"6000" }, 	--Original "6000"
 								{ "HoverSpeedFactor", 					"0" }, 		--Original "20"
 								{ "NoBoostAnomalyDistance", 			"2000" }, 	--Original "3000"
 								{ "HitAsteroidDamage", 					"1000" }, 	--Original "10000"
-								{ "CruiseHeight", 						"0" }, 		--Original "250"
+								{ "CruiseHeight", 						"50" }, 		--Original "250"
 								{ "HoverMaxSpeed", 						"600" }, 	--Original "150"
+							    { "HoverTakeoffHeight",                            "50"},     --Original "90"
+                                { "HoverAlignTime",                                "0.3"},    --Original "0.7"
 								{ "MiniWarpLinesNum", 					"1" }, 		--Original "4"
 								{ "AimDistanceRange", 					"10" }, 	--Original "1"
-								{ "MiniWarpStationRadius", 				"500" }, 	--Original "700"
-								{ "MiniWarpExitSpeed", 					"4000" }, 	--Original "1000"
+								{ "MiniWarpStationRadius", 				"3000" }, 	--Original "700"
+								{ "MiniWarpExitSpeed", 					"3000" }, 	--Original "1000"
 								{ "MiniWarpExitSpeedStation", 			"3000" }, 	--Original "500"
-								{ "AnomalyStationMaxApproachSpeed", 	"3000" }, 	--Original "60"
-								{ "CollisionDistance", 					"20" }, 	--Original "200"
-								{ "DeflectDistance", 					"1000" }, 	--Original "150"
+								{ "AnomalyStationMaxApproachSpeed", 	"1000" }, 	--Original "60"
+								{ "CollisionDistance", 					"200" }, 	--Original "200"
+								{ "DeflectDistance", 					"150" }, 	--Original "150"
 								{ "CollisionRadiusMultiplier", 			"0.9" }, 	--Original "1.1"								
-								{ "ShipPlanetBrakeForce", 				"30" }, 		--Original "50"
+								{ "ShipPlanetBrakeForce", 				"25" },     --Original "50"
 								{ "StickyTurnMinAngle", 				"0" }, 		--Original "10"
 								{ "StickyTurnAngleRange", 				"0" }, 		--Original "60"
 								{ "StickyTurnLow", 						"1200" }, 		--Original "1.2"
 								{ "StickyTurnHigh", 					"0" }, 		--Original "0.5"
 								{ "StickyStickAngle", 					"180" }, 		--Original "30"
-								{ "ShipMotionDeadZone", 				"0.01" } 		--Original "0.2"
+								{ "ShipMotionDeadZone", 				"0.01" }, 		--Original "0.2"
+								{ "HoverMinSpeed",                                 "0"},      --Original "1"
+                                { "HoverLandManeuvreTimeMin",                      "0.3"},    --Original "0.7"
+                                { "HoverLandManeuvreTimeMax",                      "1"},      --Original "1.2"         							
+                                { "PulseDriveStationApproachSlowdownRangeMin",     "1000"},    --Original "1000"
+                                { "PulseDriveStationApproachSlowdownRange",        "5000"},   --Original "5000"
+                                { "WarpInRange",                                   "10000"},   --Original "10000"
+                                { "WarpInRangeFreighter",                          "5000"},   --Original "5000"
+                                { "WarpOutRange",                                  "1000"},    --Original "1000"
+                                { "WarpInRangeNexus",                              "5000"}   --Original "5000"
 							}
 						},
 						{
@@ -58,11 +69,11 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "Falloff", 							"0" }, 		--Original "0.7"
 								{ "MinSpeedForce", 						"0" }, 		--Original "5"
 								{ "BoostThrustForce", 					"200" }, 	--Original "500"
-								{ "BoostMaxSpeed", 						"1500" }, 	--Original "1200"
+								{ "BoostMaxSpeed", 						"2000" }, 	--Original "1200"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
 								{ "DirectionBrakeMin", 					"0.5" }, 	--Original "1"
 								{ "DirectionBrake", 					"0.7" }, 	--Original "2"
-								{ "ReverseBrake", 						"0.2" }, 	--Original "0.5"
+								{ "ReverseBrake", 						"0.5" }, 	--Original "0.5"
 								{ "OverspeedBrake", 					"0" }, 		--Original "3"
 								{ "TurnBrakeMin", 						"0.5" }, 	--Original "1"
 								{ "TurnBrakeMax", 						"1" }, 		--Original "4"
@@ -77,7 +88,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "MaxSpeed", 							"225" }, 	--Original "125"
 								{ "MinSpeed", 							"0" }, 		--Original "20"
 								{ "Falloff", 							"0" }, 		--Original "0.5"
-								{ "BoostMaxSpeed", 						"355" }, 	--Original "155"
+								{ "BoostMaxSpeed", 						"360" }, 	--Original "155"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
 								{ "OverspeedBrake", 					"0" }, 		--Original "3"
 								{ "RollAutoTime",	 					"84600" } 	--Original "2"
@@ -88,16 +99,16 @@ NMS_MOD_DEFINITION_CONTAINER =
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
 								{ "ThrustForce", 						"50" }, 	--Original "80"
-								{ "MaxSpeed", 							"1600" }, 	--Original "80"
+								{ "MaxSpeed", 							"1000" }, 	--Original "80"
 								{ "MinSpeed", 							"0" }, 	--Original "0"
 								{ "Falloff", 							"0" }, 		--Original "0.7"
 								{ "MinSpeedForce", 						"0" }, 		--Original "5"
-								{ "BoostThrustForce", 					"100" }, 	--Original "500"
-								{ "BoostMaxSpeed", 						"2600" }, 	--Original "1300"
+								{ "BoostThrustForce", 					"250" }, 	--Original "500"
+								{ "BoostMaxSpeed", 						"2500" }, 	--Original "1300"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
 								{ "DirectionBrakeMin", 					"0.5" }, 	--Original "1"
 								{ "DirectionBrake", 					"0.7" }, 	--Original "1.5"
-								{ "ReverseBrake", 						"0.01" }, 	--Original "0.5"
+								{ "ReverseBrake", 						"0.5" }, 	--Original "0.5"
 								{ "OverspeedBrake", 					"0" }, 		--Original "3"
 								{ "TurnBrakeMin", 						"0.5" }, 	--Original "1"
 								{ "TurnBrakeMax", 						"1" }, 		--Original "4"
@@ -109,13 +120,13 @@ NMS_MOD_DEFINITION_CONTAINER =
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
 								{ "ThrustForce", 						"50" }, 	--Original "80"
-								{ "BoostThrustForce", 					"200" }, 	--Original "500"
+								{ "BoostThrustForce", 					"250" }, 	--Original "500"
 								{ "MaxSpeed", 							"228" }, 	--Original "125"
 								{ "MinSpeed", 							"0" }, 		--Original "20"
 								{ "Falloff", 							"0" }, 		--Original "0.5"
-								{ "BoostMaxSpeed", 						"375" }, 	--Original "150"
+								{ "BoostMaxSpeed", 						"200" }, 	--Original "150"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
-								{ "ReverseBrake", 						"0.4" }, 	--Original "0.5"
+								{ "ReverseBrake", 						"0.5" }, 	--Original "0.5"
 								{ "OverspeedBrake", 					"0" }, 		--Original "3"
 								{ "RollAutoTime",	 					"84600" } 	--Original "2"
 							}
@@ -129,12 +140,12 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "MinSpeed", 							"0" }, 	--Original "0"
 								{ "Falloff", 							"0" }, 		--Original "0.7"
 								{ "MinSpeedForce", 						"0" }, 		--Original "5"
-								{ "BoostThrustForce", 					"100" }, 	--Original "500"
-								{ "BoostMaxSpeed", 						"1600" }, 	--Original "1100"
+								{ "BoostThrustForce", 					"300" }, 	--Original "500"
+								{ "BoostMaxSpeed", 						"3000" }, 	--Original "1100"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
 								{ "DirectionBrakeMin", 					"0.5" }, 	--Original "1"
 								{ "DirectionBrake", 					"0.7" }, 	--Original "2"
-								{ "ReverseBrake", 						"0.01" }, 	--Original "0.5"
+								{ "ReverseBrake", 						"0.5" }, 	--Original "0.5"
 								{ "OverspeedBrake", 					"0" }, 		--Original "3"
 								{ "TurnBrakeMin", 						"0.5" }, 	--Original "1"
 								{ "TurnBrakeMax", 						"1" }, 		--Original "4"
@@ -146,11 +157,11 @@ NMS_MOD_DEFINITION_CONTAINER =
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
 								{ "ThrustForce", 						"10" }, 	--Original "40"
-								{ "MaxSpeed", 							"230" }, 	--Original "130"
+								{ "MaxSpeed", 							"100" }, 	--Original "130"
 								{ "MinSpeed", 							"0" }, 		--Original "20"
 								{ "Falloff", 							"0" }, 		--Original "0.5"
-								{ "BoostThrustForce", 					"180" }, 	--Original "20"
-								{ "BoostMaxSpeed", 						"400" }, 	--Original "185"
+								{ "BoostThrustForce", 					"250" }, 	--Original "20"
+								{ "BoostMaxSpeed", 						"500" }, 	--Original "185"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
 								{ "OverspeedBrake", 					"0" }, 		--Original "3"
 								{ "RollAutoTime",	 					"84600" } 	--Original "2"
@@ -206,14 +217,14 @@ NMS_MOD_DEFINITION_CONTAINER =
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
 								{ "AsteroidFadeTime", 					"5" }, 		--Original "2"
-								{ "AsteroidLotsOfRaresOdds", 				"0.5" }, 	--Original "0.9"
+								{ "AsteroidLotsOfRaresOdds", 				"0.75" }, 	--Original "0.9"
 								{ "AsteroidFadeRangeMin", 				"10000" }, 	--Original "1000"
-								{ "AsteroidFadeRangeMax", 				"10000" }, 	--Original "2000"
-								{ "AsteroidSpacing", 					"8000" }, 	--Original "1000"
+								{ "AsteroidFadeRangeMax", 				"5000" }, 	--Original "2000"
+								{ "AsteroidSpacing", 					"15000" }, 	--Original "1000"
 								{ "RareAsteroidMinResources", 			"20" }, 	--Original "5"
 								{ "RareAsteroidMaxResources", 			"100" }, 	--Original "10"
 								{ "RareAsteroidHealth", 				"600" }, 	--Original "1000"
-								{ "CommonAsteroidScale", 				"0.1" }, 	--Original "0.3"
+								{ "CommonAsteroidScale", 				"0.3" }, 	--Original "0.3"
 								{ "CommonAsteroidMinResources", 		"5" }, 		--Original "3"
 								{ "CommonAsteroidMaxResources", 		"20" }, 	--Original "5"
 								{ "CommonAsteroidHealth", 				"300" }, 	--Original "400"
@@ -341,42 +352,42 @@ NMS_MOD_DEFINITION_CONTAINER =
 							["SPECIAL_KEY_WORDS"] = {"Id","IMPACTDAMAGE",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"600" } 	--Original "10"
+								{ "Damage", 							"100" } 	--Original "10"
 							}
 						},
 						{
 							["SPECIAL_KEY_WORDS"] = {"Id","IMPACTGROUND",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"1000" } 	--Original "10"
+								{ "Damage", 							"500" } 	--Original "10"
 							}
 						},
 						{
 							["SPECIAL_KEY_WORDS"] = {"Id","IMPACTINSTANCE",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"600" } 	--Original "30"
+								{ "Damage", 							"30" } 	--Original "30"
 							}
 						},
 						{
 							["SPECIAL_KEY_WORDS"] = {"Id","SMALLASTEROID",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"50" } 	--Original "5"
+								{ "Damage", 							"100" } 	--Original "5"
 							}
 						},
 						{
 							["SPECIAL_KEY_WORDS"] = {"Id","MEDIUMASTEROID",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"100" } 	--Original "15"
+								{ "Damage", 							"250" } 	--Original "15"
 							}
 						},
 						{
 							["SPECIAL_KEY_WORDS"] = {"Id","LARGEASTEROID",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"400" } 	--Original "40"
+								{ "Damage", 							"500" } 	--Original "40"
 							}
 						},
 						{

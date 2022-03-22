@@ -1544,7 +1544,7 @@
   <Property name="RefinerPopupEmptyOutputIcon" value="TkTextureResource.xml">
     <Property name="Filename" value="/TEXTURES/UI/FRONTEND/COMPONENTS/EMPTYSLOTCIRCLE.DDS" />
   </Property>
-  <Property name="RefinerPadStartTime" value="0.5" />
+  <Property name="RefinerPadStartTime" value="1" />
   <Property name="RefinerPadStartDecayTime" value="0.3" />
   <Property name="RefinerBeginDialInnerRadius" value="0.65" />
   <Property name="RefinerProgressDialInnerRadius" value="0.72" />
@@ -4134,19 +4134,19 @@
   </Property>
   <Property name="CursorHoverSlowFactor" value="0.85" />
   <Property name="FrontendBGAlpha" value="1" />
-  <Property name="FrontendConfirmTimeMouseMultiplier" value="1.0" />
+  <Property name="FrontendConfirmTimeMouseMultiplier" value="0.5" />
   <Property name="FrontendConfirmTimeFast" value="0.35" />
-  <Property name="FrontendConfirmTime" value="0.35" />
-  <Property name="FrontendConfirmTimeSlow" value="0.7" />
+  <Property name="FrontendConfirmTime" value="0.7" />
+  <Property name="FrontendConfirmTimeSlow" value="1.6" />
   <Property name="FrontendConfirmCurve" value="TkCurveType.xml">
     <Property name="Curve" value="Squared" />
   </Property>
-  <Property name="FrontendCursorSize" value="14" />
+  <Property name="FrontendCursorSize" value="24" />
   <Property name="FrontendCursorOffset" value="0" />
   <Property name="PopupXClampOffset" value="3" />
   <Property name="PopupXClampOffsetRightAligned" value="20" />
   <Property name="PopupSlotWidthOffset" value="110" />
-  <Property name="FrontendCursorWidth" value="7" />
+  <Property name="FrontendCursorWidth" value="9" />
   <Property name="FrontendDeactivateTime" value="0.4" />
   <Property name="FrontendDeactivateSplit" value="0.2" />
   <Property name="FrontendActivateTime" value="0.4" />
@@ -4870,9 +4870,9 @@
   </Property>
   <Property name="NGuiUseSeparateLayersForModelAndReflection" value="True" />
   <Property name="DiscoveryHelperTimings" value="GcDiscoveryHelperTimings.xml">
-    <Property name="DiscoverPlanetTotalTime" value="10" />
-    <Property name="DiscoverPlanetMessageWait" value="1" />
-    <Property name="DiscoverPlanetMessageTime" value="7" />
+    <Property name="DiscoverPlanetTotalTime" value="5" />
+    <Property name="DiscoverPlanetMessageWait" value="0" />
+    <Property name="DiscoverPlanetMessageTime" value="3" />
   </Property>
   <Property name="IntroTiming" value="GcHUDStartupTable.xml">
     <Property name="FadeInFlashTime" value="12" />
