@@ -11,9 +11,9 @@ rem    KEEP spaces between %_O% and -option Y
 
 set _O=%_O%      -AutoUpdateMBinCompiler Y
 set _O=%_O%      -CheckForModConflicts Y
-set _O=%_O%      -CombinedModType ASK
-set _O=%_O%      -CombineModPak ASK
-set _O=%_O%      -CopyToGamefolder ASK
+set _O=%_O%      -CombinedModType 2
+set _O=%_O%      -CombineModPak Y
+set _O=%_O%      -CopyToGamefolder Y
 set _O=%_O%      -IncludeLuaScriptInPak Y
 set _O=%_O%      -IndividualModPakType P
 set _O=%_O%      -MAPFILETREE LUAPLUS

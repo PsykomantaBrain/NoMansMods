@@ -1,19 +1,28 @@
 This mod contains:
+- 1hr-Days
 - Fast Actions 4.1
+- Fullscreen Warps 2.8
 - gCam hrv
-- IntroLogoSkip
-- LearnMoreWords
-- Long Range Freighters 4.0
+- LearnMoreWordsScript10
+- Long Range Freighters 4.1B
 - Natural Steering 1.2
 - NaturalFlight.hrv
 - No Black Bars 2.4
 - No Space Dust 1.3
 - No Speed Halo 1.5 - Almost
 - No Speed Lines 1.5
-- Quick Crates 1.7
+- Quick Crates 1.8
 - Skip's Asteroid Megamod 1.0.0-PRISMS
-- Small Cursor 3.7
+- Small Cursor 3.9
+- SolarShipNoSails
 - SpeedIncreaseAnalysis
+
+Original information:
+   MOD FILENAME: 1hr-Days.pak
+     MOD AUTHOR: Florian B.
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: Unknown
+    NMS VERSION: 3.68
 
 Original information:
    MOD FILENAME: Fast Actions 4.1.pak
@@ -23,6 +32,13 @@ MOD DESCRIPTION: This mods reduces clicks and keys press duration
     NMS VERSION: 3.8
 
 Original information:
+   MOD FILENAME: Fullscreen Warps 2.8.pak
+     MOD AUTHOR: Lo2k
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: This mods removes ship from warp sequences
+    NMS VERSION: 3.87
+
+Original information:
    MOD FILENAME: gCam Centered 382a.pak
      MOD AUTHOR: Gumsk+Azzinoth
      LUA AUTHOR: Unknown
@@ -30,38 +46,18 @@ MOD DESCRIPTION: Camera modifications
     NMS VERSION: 382
 
 Original information:
-   MOD FILENAME: IntroLogoSkip.pak
-     MOD AUTHOR: Mjjstral
+   MOD FILENAME: LearnMoreWords10.pak
+     MOD AUTHOR: TheJollyDuck with help from AMUMSS and Nexus lua scripts
      LUA AUTHOR: Unknown
-MOD DESCRIPTION: Unknown
-    NMS VERSION: 1.77
+MOD DESCRIPTION: Increases the number of words learned from different sources
+    NMS VERSION: 3.38
 
 Original information:
-   MOD FILENAME: LearnMoreWords.pak
-     MOD AUTHOR: ChoseSauvage converted by Mjjstral
-     LUA AUTHOR: Unknown
-MOD DESCRIPTION: From https://www.nexusmods.com/nomanssky/mods/733
-Last Updated: 10 August 20185:29PM
-by ChoseSauvage
-
-*I will no longer be updating the mod, the way modding is structured in No Man Sky, the upkeep to maintain mods up-to-date is a hassle and takes time. Maybe they will learn from this and NMS2 will allow single lines to be edited like Skyrim. If someone wants to take it from here, be my guest.
-
-Every time you learn a new word, no matter how, you'll learn 2, 5 or 10 words instead (depending on the file you download), including Atlas words.
-It will always be that fixed amount and always from the alien race in that system.
-
-The "You have learned the word X" events will queue up and will appear on screen one after the other, slowly. Be mindful if you intend to visit the mission board on a space station, if you queue a lot of words up and decide to accept or turn a quest, you will have to wait for all of them before getting back to the mission board menu. And if you ask an alien for directions on top of that, the menu might never show up and you'll have to ctrl-alt-del your wait out, just a heads up.
-
-Modify
-METADATA\\REALITY\\TABLES\\REWARDTABLE.MBIN
-
-    NMS VERSION: 2.0
-
-Original information:
-   MOD FILENAME: Long Range Freighters 4.0.pak
+   MOD FILENAME: Long Range Freighters 4.1B.pak
      MOD AUTHOR: Lo2k
      LUA AUTHOR: Unknown
 MOD DESCRIPTION: This mod multiply by 10 all freighter warp drive ranges
-    NMS VERSION: 3.84
+    NMS VERSION: 3.87
 
 Original information:
    MOD FILENAME: Natural Steering 1.2.pak
@@ -106,11 +102,11 @@ MOD DESCRIPTION: This mod removes speed lines
     NMS VERSION: 3.52
 
 Original information:
-   MOD FILENAME: Quick Crates 1.7.pak
+   MOD FILENAME: Quick Crates 1.8.pak
      MOD AUTHOR: Lo2k
      LUA AUTHOR: Unknown
 MOD DESCRIPTION: This mod opens crates in one click
-    NMS VERSION: 3.7
+    NMS VERSION: 3.87
 
 Original information:
    MOD FILENAME: Skip's Asteroid Megamod 1.0.0-PRISMS.pak
@@ -120,11 +116,11 @@ MOD DESCRIPTION: This mod vastly improves asteroid draw distance, spreads them o
     NMS VERSION: 3.53
 
 Original information:
-   MOD FILENAME: Small Cursor 3.7.pak
+   MOD FILENAME: Small Cursor 3.9.pak
      MOD AUTHOR: Lo2k
      LUA AUTHOR: Unknown
 MOD DESCRIPTION: This mods reduces the size of the main game cursor
-    NMS VERSION: 3.8
+    NMS VERSION: 3.87
 
 Original information:
    MOD FILENAME: SpeedIncreaseAnalysis.pak

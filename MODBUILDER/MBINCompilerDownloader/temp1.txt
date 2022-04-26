@@ -1,1 +1,1 @@
-https://github.com/monkeyman192/MBINCompiler/releases/download/v3.82.0-pre2/MBINCompiler.exe
+https://github.com/monkeyman192/MBINCompiler/releases/download/v3.87.0-pre3/MBINCompiler.exe

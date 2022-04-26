@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (3.82.0)-->
+<!--File created using MBINCompiler version (3.87.0)-->
 <Data template="GcUIGlobals">
+  <Property name="UseIntermediateMissionGiverOptions" value="True" />
   <Property name="SentinelsDisabledHUDMessageTime" value="10" />
   <Property name="UseZoomedOutBuildCamRadius" value="3" />
   <Property name="ParagraphScrollSpeed" value="10" />
@@ -370,6 +371,42 @@
   <Property name="HandScreenWeaponHeight" value="460" />
   <Property name="HandScreenWidth" value="1200" />
   <Property name="HandScreenHeight" value="460" />
+  <Property name="DebugEditorAxisColourUpInactive" value="Colour.xml">
+    <Property name="R" value="0.037" />
+    <Property name="G" value="0.507" />
+    <Property name="B" value="0.037" />
+    <Property name="A" value="0.8" />
+  </Property>
+  <Property name="DebugEditorAxisColourUpActive" value="Colour.xml">
+    <Property name="R" value="0.173" />
+    <Property name="G" value="1" />
+    <Property name="B" value="0.173" />
+    <Property name="A" value="0.8" />
+  </Property>
+  <Property name="DebugEditorAxisColourRightInactive" value="Colour.xml">
+    <Property name="R" value="0.583" />
+    <Property name="G" value="0.021" />
+    <Property name="B" value="0.021" />
+    <Property name="A" value="0.8" />
+  </Property>
+  <Property name="DebugEditorAxisColourRightActive" value="Colour.xml">
+    <Property name="R" value="1" />
+    <Property name="G" value="0.141" />
+    <Property name="B" value="0.141" />
+    <Property name="A" value="0.8" />
+  </Property>
+  <Property name="DebugEditorAxisColourAtInactive" value="Colour.xml">
+    <Property name="R" value="0.021" />
+    <Property name="G" value="0.021" />
+    <Property name="B" value="0.603" />
+    <Property name="A" value="0.8" />
+  </Property>
+  <Property name="DebugEditorAxisColourAtActive" value="Colour.xml">
+    <Property name="R" value="0.229" />
+    <Property name="G" value="0.399" />
+    <Property name="B" value="1" />
+    <Property name="A" value="0.8" />
+  </Property>
   <Property name="QuickMenuSelectedItemColour1" value="Colour.xml">
     <Property name="R" value="1" />
     <Property name="G" value="1" />
@@ -1634,6 +1671,7 @@
     <Property name="A" value="1" />
   </Property>
   <Property name="BountyMarkerOffset" value="10" />
+  <Property name="PlanetRaidMarkerOffset" value="15" />
   <Property name="TransitionOffset" value="1001" />
   <Property name="PageTurnTime" value="0.25" />
   <Property name="PageTurnCurve" value="TkCurveType.xml">
@@ -1648,9 +1686,10 @@
   <Property name="MaxDialogCharSizeRomanString" value="..." />
   <Property name="MaxDialogCharSizeIdeographic" value="1000" />
   <Property name="MaxDialogCharSizeIdeographicString" value="..." />
-  <Property name="ShipOverheatSwitchMessageWait" value="0.9" />
+  <Property name="ShipOverheatSwitchMessageWait" value="0" />
   <Property name="ShipOverheatSwitchMessageTime" value="1.6" />
   <Property name="LeadTargetEnabled" value="False" />
+  <Property name="SpaceOnlyLeadTargetEnabled" value="True" />
   <Property name="SaveIconPosition" value="Vector2f.xml">
     <Property name="x" value="92" />
     <Property name="y" value="94" />
@@ -1720,6 +1759,7 @@
   <Property name="SpaceMapCockpitScaleAdjustScientific" value="1" />
   <Property name="SpaceMapCockpitScaleAdjustShuttle" value="0.8" />
   <Property name="SpaceMapCockpitScaleAdjustRoyal" value="1" />
+  <Property name="SpaceMapCockpitScaleAdjustSail" value="1" />
   <Property name="SpaceMapCockpitScaleAdjustAlien" value="0.8" />
   <Property name="SpaceMapCockpitAngle" value="-18" />
   <Property name="TargetDisplayScale" value="0.01" />
@@ -1826,7 +1866,7 @@
   <Property name="DamageImpactMinDistance" value="5" />
   <Property name="DamagePerSecondSampleTime" value="30" />
   <Property name="DamageNumberTime" value="0.7" />
-  <Property name="DamageNumberSizeInShip" value="20" />
+  <Property name="DamageNumberSizeInShip" value="26" />
   <Property name="DamageNumberSize" value="30" />
   <Property name="DamageNumberSizeCritMultiplier" value="1.2" />
   <Property name="DamageNumberSizeLaserMultiplier" value="1.4" />
@@ -2097,10 +2137,6 @@
   <Property name="TrackTimerIconOuterRadius" value="28" />
   <Property name="TrackTimerIconInnerRadius" value="18" />
   <Property name="TrackTimerIconExclaimRadius" value="32" />
-  <Property name="TrackGlowBase" value="0.1" />
-  <Property name="TrackHitPulseTime" value="0.3" />
-  <Property name="TrackGlowCritical" value="6" />
-  <Property name="TrackGlowHit" value="2" />
   <Property name="MissileCentreOffset" value="2" />
   <Property name="TrackMissileTargetPulseRate" value="1" />
   <Property name="TrackScaleCritical" value="1.6" />
@@ -2158,15 +2194,19 @@
   <Property name="HUDPlayerTrackArrowIconPulseWidth1" value="1" />
   <Property name="HUDPlayerTrackArrowIconPulseWidth2" value="4" />
   <Property name="HUDPlayerTrackArrowIconPulse2Alpha" value="0.2" />
+  <Property name="HUDPlayerTrackArrowIconFadeDistShip" value="350" />
   <Property name="HUDPlayerTrackArrowIconFadeDistDrone" value="650" />
   <Property name="HUDPlayerTrackArrowIconFadeDist" value="400" />
   <Property name="HUDPlayerTrackArrowIconFadeRange" value="100" />
+  <Property name="HUDPlayerTrackArrowIconFadeRangeShip" value="200" />
+  <Property name="HUDPlayerTrackArrowIconBorderReducerShip" value="0.5" />
   <Property name="HUDPlayerTrackArrowPulseOffset" value="0.1" />
   <Property name="HUDPlayerTrackArrowPulseRate" value="1.5" />
   <Property name="HUDPlayerTrackIconOffset" value="Vector2f.xml">
     <Property name="x" value="0" />
     <Property name="y" value="-150" />
   </Property>
+  <Property name="ShipFullscreenDamperMin" value="0.3" />
   <Property name="ShipFullscreenDamper" value="0.9" />
   <Property name="ShipDesatDamper" value="0.1" />
   <Property name="ScanEventArrowShipFadeRange" value="50" />
@@ -2228,16 +2268,103 @@
     <Property name="B" value="1" />
     <Property name="A" value="0.9" />
   </Property>
-  <Property name="HUDPlayerTrackArrowHealthOffset" value="40" />
+  <Property name="HUDPlayerTrackArrowHealthOffset" value="47.5" />
   <Property name="HUDPlayerTrackArrowHealthSize" value="Vector2f.xml">
-    <Property name="x" value="60" />
-    <Property name="y" value="5" />
+    <Property name="x" value="80" />
+    <Property name="y" value="7.5" />
   </Property>
-  <Property name="HUDPlayerTrackArrowHealthGlowOffset" value="15" />
-  <Property name="HUDPlayerTrackArrowHealthGlowSize" value="Vector2f.xml">
-    <Property name="x" value="128" />
-    <Property name="y" value="32" />
+  <Property name="HUDPlayerTrackArrowEnergyShieldColour" value="Colour.xml">
+    <Property name="R" value="1" />
+    <Property name="G" value="0.727" />
+    <Property name="B" value="0.025" />
+    <Property name="A" value="1" />
   </Property>
+  <Property name="HUDPlayerTrackArrowEnergyShieldLowColour" value="Colour.xml">
+    <Property name="R" value="1" />
+    <Property name="G" value="1" />
+    <Property name="B" value="1" />
+    <Property name="A" value="1" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowEnergyShieldLowThreshold" value="0" />
+  <Property name="HUDPlayerTrackArrowEnergyShieldOffset" value="40" />
+  <Property name="HUDPlayerTrackArrowEnergyShieldSize" value="Vector2f.xml">
+    <Property name="x" value="80" />
+    <Property name="y" value="7.5" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowGlowBaseOpacity" value="0.1" />
+  <Property name="HUDPlayerTrackArrowDamageGlowHullHitCriticalOpacityScale" value="2" />
+  <Property name="HUDPlayerTrackArrowDamageGlowHullHitOpacityScale" value="1" />
+  <Property name="HUDPlayerTrackArrowDamageGlowHullHitMaxColour" value="Colour.xml">
+    <Property name="R" value="1" />
+    <Property name="G" value="0" />
+    <Property name="B" value="0" />
+    <Property name="A" value="1" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowDamageGlowHullHitMinColour" value="Colour.xml">
+    <Property name="R" value="1" />
+    <Property name="G" value="1" />
+    <Property name="B" value="1" />
+    <Property name="A" value="1" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowDamageGlowShieldHitCriticalOpacityScale" value="2" />
+  <Property name="HUDPlayerTrackArrowDamageGlowShieldHitOpacityScale" value="1" />
+  <Property name="HUDPlayerTrackArrowDamageGlowShieldHitMaxColour" value="Colour.xml">
+    <Property name="R" value="1" />
+    <Property name="G" value="0.727" />
+    <Property name="B" value="0.025" />
+    <Property name="A" value="1" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowDamageGlowShieldHitMinColour" value="Colour.xml">
+    <Property name="R" value="1" />
+    <Property name="G" value="1" />
+    <Property name="B" value="1" />
+    <Property name="A" value="1" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowDamageGlowOffset" value="17.5" />
+  <Property name="HUDPlayerTrackArrowDamageGlowSize" value="Vector2f.xml">
+    <Property name="x" value="110" />
+    <Property name="y" value="45" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowEnergyShieldGlowOffset" value="5" />
+  <Property name="HUDPlayerTrackArrowEnergyShieldGlowSize" value="Vector2f.xml">
+    <Property name="x" value="110" />
+    <Property name="y" value="15" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowEnergyShieldDepletedGlowOpacityScale" value="0" />
+  <Property name="HUDPlayerTrackArrowEnergyShieldDepletedTime" value="1" />
+  <Property name="HUDPlayerTrackArrowEnergyShieldDepletedCurve" value="TkCurveType.xml">
+    <Property name="Curve" value="EaseInQuart" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowEnergyShieldDepletedGlowMaxColour" value="Colour.xml">
+    <Property name="R" value="1" />
+    <Property name="G" value="0.727" />
+    <Property name="B" value="0.025" />
+    <Property name="A" value="1" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowEnergyShieldDepletedGlowMinColour" value="Colour.xml">
+    <Property name="R" value="0.607" />
+    <Property name="G" value="0.413" />
+    <Property name="B" value="0.002" />
+    <Property name="A" value="1" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowEnergyShieldStartChargeGlowOpacityScale" value="10" />
+  <Property name="HUDPlayerTrackArrowEnergyShieldStartChargeTime" value="1" />
+  <Property name="HUDPlayerTrackArrowEnergyShieldStartChargeCurve" value="TkCurveType.xml">
+    <Property name="Curve" value="EaseInQuart" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowEnergyShieldStartChargeGlowMaxColour" value="Colour.xml">
+    <Property name="R" value="1" />
+    <Property name="G" value="0.727" />
+    <Property name="B" value="0.025" />
+    <Property name="A" value="1" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowEnergyShieldStartChargeGlowMinColour" value="Colour.xml">
+    <Property name="R" value="0.987" />
+    <Property name="G" value="0.899" />
+    <Property name="B" value="0.674" />
+    <Property name="A" value="1" />
+  </Property>
+  <Property name="HUDPlayerTrackArrowTargetDistShip" value="50" />
   <Property name="HUDPlayerTrackArrowTargetDist" value="450" />
   <Property name="HUDPlayerTrackArrowOffset" value="0.4" />
   <Property name="HUDPlayerTrackArrowScreenBorder" value="125" />
@@ -2266,6 +2393,12 @@
     <Property name="B" value="0.106" />
     <Property name="A" value="1" />
   </Property>
+  <Property name="HUDPlayerTrackArrowDotColourTrader" value="Colour.xml">
+    <Property name="R" value="0.937" />
+    <Property name="G" value="0.265" />
+    <Property name="B" value="0.053" />
+    <Property name="A" value="1" />
+  </Property>
   <Property name="HUDWarningColour" value="Colour.xml">
     <Property name="R" value="0.75" />
     <Property name="G" value="0" />
@@ -2279,7 +2412,7 @@
     <Property name="A" value="0.5" />
   </Property>
   <Property name="HUDPlayerTrackArrowMinFadeDist" value="600" />
-  <Property name="HUDPlayerTrackArrowFadeRange" value="100" />
+  <Property name="HUDPlayerTrackArrowFadeRange" value="450" />
   <Property name="GalaxyMapRadialBorder" value="125" />
   <Property name="GalaxyMapRadialTargetDist" value="900" />
   <Property name="IconBackgroundAlpha" value="0.7" />
@@ -3064,7 +3197,7 @@
         <Property name="Fov" value="30" />
         <Property name="AspectRatio" value="1.7777" />
         <Property name="ThumbnailMode" value="None" />
-        <Property name="FocusType" value="NodeBoundingBox" />
+        <Property name="FocusType" value="ResourceBounds" />
         <Property name="FocusLocator" value="" />
         <Property name="FocusOffset" value="Vector3f.xml">
           <Property name="x" value="0" />
@@ -4106,6 +4239,120 @@
         <Property name="UseSensibleCameraFocusNodeIsNowOffsetNode" value="True" />
         <Property name="LookForFocusInMasterModel" value="False" />
       </Property>
+      <Property name="SquadronPilotLarge" value="TkModelRendererData.xml">
+        <Property name="Camera" value="TkModelRendererCameraData.xml">
+          <Property name="Distance" value="0.6" />
+          <Property name="Offset" value="Vector3f.xml">
+            <Property name="x" value="0" />
+            <Property name="y" value="0.1" />
+            <Property name="z" value="0" />
+          </Property>
+          <Property name="Roll" value="0" />
+          <Property name="Pitch" value="-3" />
+          <Property name="Rotate" value="165" />
+          <Property name="LightPitch" value="45" />
+          <Property name="LightRotate" value="45" />
+          <Property name="Wander" value="TkCameraWanderData.xml">
+            <Property name="CamWander" value="False" />
+            <Property name="CamWanderPhase" value="0.003" />
+            <Property name="CamWanderAmplitude" value="0.5" />
+          </Property>
+        </Property>
+        <Property name="Fov" value="30" />
+        <Property name="AspectRatio" value="1.7777" />
+        <Property name="ThumbnailMode" value="None" />
+        <Property name="FocusType" value="ResourceBounds" />
+        <Property name="FocusLocator" value="" />
+        <Property name="FocusOffset" value="Vector3f.xml">
+          <Property name="x" value="0" />
+          <Property name="y" value="0" />
+          <Property name="z" value="0" />
+        </Property>
+        <Property name="FocusInterpTime" value="0" />
+        <Property name="BlendInTime" value="0.8" />
+        <Property name="BlendInOffset" value="0" />
+        <Property name="Anim" value="" />
+        <Property name="HeightOffset" value="0.005" />
+        <Property name="UsePlayerCameraInHmd" value="True" />
+        <Property name="UseSensibleCameraFocusNodeIsNowOffsetNode" value="False" />
+        <Property name="LookForFocusInMasterModel" value="False" />
+      </Property>
+      <Property name="SquadronPilotThumbnail" value="TkModelRendererData.xml">
+        <Property name="Camera" value="TkModelRendererCameraData.xml">
+          <Property name="Distance" value="0.3" />
+          <Property name="Offset" value="Vector3f.xml">
+            <Property name="x" value="0" />
+            <Property name="y" value="0.2" />
+            <Property name="z" value="0" />
+          </Property>
+          <Property name="Roll" value="0" />
+          <Property name="Pitch" value="-15" />
+          <Property name="Rotate" value="195" />
+          <Property name="LightPitch" value="45" />
+          <Property name="LightRotate" value="45" />
+          <Property name="Wander" value="TkCameraWanderData.xml">
+            <Property name="CamWander" value="True" />
+            <Property name="CamWanderPhase" value="0.003" />
+            <Property name="CamWanderAmplitude" value="1" />
+          </Property>
+        </Property>
+        <Property name="Fov" value="30" />
+        <Property name="AspectRatio" value="1" />
+        <Property name="ThumbnailMode" value="None" />
+        <Property name="FocusType" value="ResourceBounds" />
+        <Property name="FocusLocator" value="" />
+        <Property name="FocusOffset" value="Vector3f.xml">
+          <Property name="x" value="0" />
+          <Property name="y" value="0" />
+          <Property name="z" value="0" />
+        </Property>
+        <Property name="FocusInterpTime" value="0" />
+        <Property name="BlendInTime" value="0.8" />
+        <Property name="BlendInOffset" value="0" />
+        <Property name="Anim" value="" />
+        <Property name="HeightOffset" value="0.005" />
+        <Property name="UsePlayerCameraInHmd" value="True" />
+        <Property name="UseSensibleCameraFocusNodeIsNowOffsetNode" value="False" />
+        <Property name="LookForFocusInMasterModel" value="False" />
+      </Property>
+      <Property name="SquadronSpaceshipThumbnail" value="TkModelRendererData.xml">
+        <Property name="Camera" value="TkModelRendererCameraData.xml">
+          <Property name="Distance" value="1" />
+          <Property name="Offset" value="Vector3f.xml">
+            <Property name="x" value="0" />
+            <Property name="y" value="0" />
+            <Property name="z" value="0" />
+          </Property>
+          <Property name="Roll" value="0" />
+          <Property name="Pitch" value="10" />
+          <Property name="Rotate" value="25" />
+          <Property name="LightPitch" value="45" />
+          <Property name="LightRotate" value="45" />
+          <Property name="Wander" value="TkCameraWanderData.xml">
+            <Property name="CamWander" value="False" />
+            <Property name="CamWanderPhase" value="0.003" />
+            <Property name="CamWanderAmplitude" value="1" />
+          </Property>
+        </Property>
+        <Property name="Fov" value="40" />
+        <Property name="AspectRatio" value="1" />
+        <Property name="ThumbnailMode" value="None" />
+        <Property name="FocusType" value="ResourceBounds" />
+        <Property name="FocusLocator" value="" />
+        <Property name="FocusOffset" value="Vector3f.xml">
+          <Property name="x" value="0" />
+          <Property name="y" value="0" />
+          <Property name="z" value="0" />
+        </Property>
+        <Property name="FocusInterpTime" value="0" />
+        <Property name="BlendInTime" value="0.8" />
+        <Property name="BlendInOffset" value="0" />
+        <Property name="Anim" value="" />
+        <Property name="HeightOffset" value="0.005" />
+        <Property name="UsePlayerCameraInHmd" value="True" />
+        <Property name="UseSensibleCameraFocusNodeIsNowOffsetNode" value="False" />
+        <Property name="LookForFocusInMasterModel" value="False" />
+      </Property>
     </Property>
   </Property>
   <Property name="CursorColour" value="Colour.xml">
@@ -4510,6 +4757,12 @@
   <Property name="SpaceMapNeutralColour" value="Colour.xml">
     <Property name="R" value="0.903" />
     <Property name="G" value="0.562" />
+    <Property name="B" value="0.162" />
+    <Property name="A" value="0.8" />
+  </Property>
+  <Property name="SpaceMapSquadronColour" value="Colour.xml">
+    <Property name="R" value="0.903" />
+    <Property name="G" value="0.862" />
     <Property name="B" value="0.162" />
     <Property name="A" value="0.8" />
   </Property>
@@ -4924,7 +5177,7 @@
         </Property>
         <Property name="Time" value="8" />
       </Property>
-      <Property name="jetpack" value="GcHUDStartup.xml">
+      <Property name="Jetpack" value="GcHUDStartup.xml">
         <Property name="Audio" value="GcAudioWwiseEvents.xml">
           <Property name="AkEvent" value="SUITBOOT_JETPACK" />
         </Property>
@@ -5228,4 +5481,5 @@
   </Property>
   <Property name="MinimumHoldFill" value="0.05" />
   <Property name="EnableAccessibleUI" value="False" />
+  <Property name="DetailMessageDismissTime" value="0.3" />
 </Data>

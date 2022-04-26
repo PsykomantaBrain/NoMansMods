@@ -746,6 +746,13 @@ NMS_MOD_DEFINITION_CONTAINER = {
 						{"LookStickLimitAngle", "200"}
 					}
 				},
+				{
+					["PRECEDING_KEY_WORDS"] = "OutlawShipFollowCam",
+					["INTEGER_TO_FLOAT"] = "FORCE",
+					["VALUE_CHANGE_TABLE"] = {
+						{"LookStickLimitAngle", "200"}
+					}
+				},
 			}
 		}
 	}

@@ -24,7 +24,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "DockingAttractAlignRange", 			"60" }, 	--Original "1000"
 								{ "OutpostDockSpeedAlignMinDistance", 	"20" }, 	--Original "100"
 								{ "OutpostDockSpeedAlignRange", 		"80" }, 	--Original "300"
-								{ "PulseDrivePlanetApproachHeight", 	"3000" }, 	--Original "6000"
+								{ "PulseDrivePlanetApproachHeight", 	"6000" }, 	--Original "6000"
 								{ "HoverSpeedFactor", 					"0" }, 		--Original "20"
 								{ "NoBoostAnomalyDistance", 			"2000" }, 	--Original "3000"
 								{ "HitAsteroidDamage", 					"1000" }, 	--Original "10000"
@@ -32,6 +32,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "HoverMaxSpeed", 						"600" }, 	--Original "150"
 								{ "MiniWarpLinesNum", 					"1" }, 		--Original "4"
 								{ "AimDistanceRange", 					"10" }, 	--Original "1"
+								{ "MiniWarpChargeTime",					"3"},		-- Original 5
 								{ "MiniWarpStationRadius", 				"500" }, 	--Original "700"
 								{ "MiniWarpExitSpeed", 					"4000" }, 	--Original "1000"
 								{ "MiniWarpExitSpeedStation", 			"3000" }, 	--Original "500"

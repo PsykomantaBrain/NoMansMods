@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (3.82.0)-->
+<!--File created using MBINCompiler version (3.87.0)-->
 <Data template="GcTechnologyTable">
   <Property name="Table">
     <Property value="GcTechnology.xml">
@@ -4703,6 +4703,126 @@
       <Property name="IsTemplate" value="False" />
     </Property>
     <Property value="GcTechnology.xml">
+      <Property name="ID" value="CARGOSHIELD" />
+      <Property name="Group" value="" />
+      <Property name="Name" value="UI_SCAN_BLOCKER_NAME" />
+      <Property name="NameLower" value="UI_SCAN_BLOCKER_NAME_L" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="UI_SCAN_BLOCKER_SUB" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="UI_SCAN_BLOCKER_DESC" />
+      </Property>
+      <Property name="Teach" value="True" />
+      <Property name="HintStart" value="" />
+      <Property name="HintEnd" value="" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.CARGOSHIELD.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.03529412" />
+        <Property name="G" value="0.36078432" />
+        <Property name="B" value="0.46666667" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="Level" value="4" />
+      <Property name="Chargeable" value="False" />
+      <Property name="ChargeAmount" value="100" />
+      <Property name="ChargeType" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="Earth" />
+      </Property>
+      <Property name="ChargeBy" />
+      <Property name="ChargeMultiplier" value="1" />
+      <Property name="BuildFullyCharged" value="True" />
+      <Property name="UsesAmmo" value="False" />
+      <Property name="AmmoId" value="" />
+      <Property name="PrimaryItem" value="True" />
+      <Property name="Upgrade" value="False" />
+      <Property name="Core" value="False" />
+      <Property name="RepairTech" value="False" />
+      <Property name="Procedural" value="False" />
+      <Property name="Category" value="GcTechnologyCategory.xml">
+        <Property name="TechnologyCategory" value="Ship" />
+      </Property>
+      <Property name="Rarity" value="GcTechnologyRarity.xml">
+        <Property name="TechnologyRarity" value="VeryRare" />
+      </Property>
+      <Property name="Value" value="50" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="ILLEGAL_PROD6" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="2" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="MIRROR" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="2" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="ASTEROID3" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="220" />
+        </Property>
+      </Property>
+      <Property name="BaseStat" value="GcStatsTypes.xml">
+        <Property name="StatsType" value="Ship_CargoShield" />
+      </Property>
+      <Property name="StatBonuses">
+        <Property value="GcStatsBonus.xml">
+          <Property name="Stat" value="GcStatsTypes.xml">
+            <Property name="StatsType" value="Ship_CargoShield" />
+          </Property>
+          <Property name="Bonus" value="1" />
+          <Property name="Level" value="4" />
+        </Property>
+      </Property>
+      <Property name="RequiredTech" value="" />
+      <Property name="RequiredLevel" value="0" />
+      <Property name="FocusLocator" value="MAINTENANCESLOT0" />
+      <Property name="UpgradeColour" value="Colour.xml">
+        <Property name="R" value="1" />
+        <Property name="G" value="1" />
+        <Property name="B" value="1" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="LinkColour" value="Colour.xml">
+        <Property name="R" value="0.2" />
+        <Property name="G" value="0.6" />
+        <Property name="B" value="1" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="RewardGroup" value="" />
+      <Property name="BaseValue" value="1" />
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0" />
+        <Property name="HighPriceMod" value="0" />
+        <Property name="BuyBaseMarkup" value="0" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="RequiredRank" value="2" />
+      <Property name="DispensingRace" value="GcAlienRace.xml">
+        <Property name="AlienRace" value="Traders" />
+      </Property>
+      <Property name="FragmentCost" value="240" />
+      <Property name="TechShopRarity" value="GcTechnologyRarity.xml">
+        <Property name="TechnologyRarity" value="Common" />
+      </Property>
+      <Property name="WikiEnabled" value="True" />
+      <Property name="DamagedDescription" value="VariableSizeString.xml">
+        <Property name="Value" value="" />
+      </Property>
+      <Property name="ParentTechId" value="" />
+      <Property name="IsTemplate" value="False" />
+    </Property>
+    <Property value="GcTechnology.xml">
       <Property name="ID" value="SHIPSHIELD" />
       <Property name="Group" value="" />
       <Property name="Name" value="SHIPSHIELD_NAME" />
@@ -5826,7 +5946,7 @@
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Lasers_HeatTime" />
           </Property>
-          <Property name="Bonus" value="1.5" />
+          <Property name="Bonus" value="2.5" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
@@ -5834,6 +5954,13 @@
             <Property name="StatsType" value="Ship_Weapons_Lasers_Damage" />
           </Property>
           <Property name="Bonus" value="250" />
+          <Property name="Level" value="1" />
+        </Property>
+        <Property value="GcStatsBonus.xml">
+          <Property name="Stat" value="GcStatsTypes.xml">
+            <Property name="StatsType" value="Ship_Weapons_ShieldLeech" />
+          </Property>
+          <Property name="Bonus" value="0.2" />
           <Property name="Level" value="1" />
         </Property>
       </Property>
@@ -5949,6 +6076,13 @@
           <Property name="Bonus" value="1.1" />
           <Property name="Level" value="2" />
         </Property>
+        <Property value="GcStatsBonus.xml">
+          <Property name="Stat" value="GcStatsTypes.xml">
+            <Property name="StatsType" value="Ship_Weapons_ShieldLeech" />
+          </Property>
+          <Property name="Bonus" value="0.1" />
+          <Property name="Level" value="1" />
+        </Property>
       </Property>
       <Property name="RequiredTech" value="SHIPLAS1" />
       <Property name="RequiredLevel" value="0" />
@@ -6059,7 +6193,7 @@
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_Rate" />
           </Property>
-          <Property name="Bonus" value="3" />
+          <Property name="Bonus" value="2" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
@@ -6073,14 +6207,14 @@
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_BulletsPerShot" />
           </Property>
-          <Property name="Bonus" value="20" />
+          <Property name="Bonus" value="14" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_HeatTime" />
           </Property>
-          <Property name="Bonus" value="0.75" />
+          <Property name="Bonus" value="1.5" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
@@ -6348,49 +6482,49 @@
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_Rate" />
           </Property>
-          <Property name="Bonus" value="15" />
+          <Property name="Bonus" value="9" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_Dispersion" />
           </Property>
-          <Property name="Bonus" value="0" />
+          <Property name="Bonus" value="0.5" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_BulletsPerShot" />
           </Property>
-          <Property name="Bonus" value="2" />
+          <Property name="Bonus" value="1" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_HeatTime" />
           </Property>
-          <Property name="Bonus" value="4" />
+          <Property name="Bonus" value="3" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_Damage" />
           </Property>
-          <Property name="Bonus" value="160" />
+          <Property name="Bonus" value="205" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_Range" />
           </Property>
-          <Property name="Bonus" value="2000" />
+          <Property name="Bonus" value="2200" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_Scale" />
           </Property>
-          <Property name="Bonus" value="5" />
+          <Property name="Bonus" value="6.5" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
@@ -6637,14 +6771,14 @@
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_Rate" />
           </Property>
-          <Property name="Bonus" value="4" />
+          <Property name="Bonus" value="3" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_Dispersion" />
           </Property>
-          <Property name="Bonus" value="2" />
+          <Property name="Bonus" value="1" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
@@ -6658,7 +6792,7 @@
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_HeatTime" />
           </Property>
-          <Property name="Bonus" value="1" />
+          <Property name="Bonus" value="2" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
@@ -6672,14 +6806,14 @@
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_Range" />
           </Property>
-          <Property name="Bonus" value="1500" />
+          <Property name="Bonus" value="1250" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
           <Property name="Stat" value="GcStatsTypes.xml">
             <Property name="StatsType" value="Ship_Weapons_Guns_Scale" />
           </Property>
-          <Property name="Bonus" value="2.5" />
+          <Property name="Bonus" value="3" />
           <Property name="Level" value="1" />
         </Property>
         <Property value="GcStatsBonus.xml">
@@ -11090,6 +11224,112 @@
       <Property name="IsTemplate" value="False" />
     </Property>
     <Property value="GcTechnology.xml">
+      <Property name="ID" value="T_SHIP_PIRATE" />
+      <Property name="Group" value="" />
+      <Property name="Name" value="UI_SHIPTRAIL_PIRATE_NAME" />
+      <Property name="NameLower" value="UI_SHIPTRAIL_PIRATE_NAME_L" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="UI_SHIPTRAIL_SUB" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="UI_SHIPTRAIL_PIRATE_DESC" />
+      </Property>
+      <Property name="Teach" value="False" />
+      <Property name="HintStart" value="" />
+      <Property name="HintEnd" value="" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL1.SHIPTRAIL.PIRATE.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.101960786" />
+        <Property name="G" value="0.15294118" />
+        <Property name="B" value="0.2" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="Level" value="1" />
+      <Property name="Chargeable" value="False" />
+      <Property name="ChargeAmount" value="100" />
+      <Property name="ChargeType" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="Earth" />
+      </Property>
+      <Property name="ChargeBy" />
+      <Property name="ChargeMultiplier" value="1" />
+      <Property name="BuildFullyCharged" value="True" />
+      <Property name="UsesAmmo" value="False" />
+      <Property name="AmmoId" value="" />
+      <Property name="PrimaryItem" value="False" />
+      <Property name="Upgrade" value="False" />
+      <Property name="Core" value="False" />
+      <Property name="RepairTech" value="False" />
+      <Property name="Procedural" value="False" />
+      <Property name="Category" value="GcTechnologyCategory.xml">
+        <Property name="TechnologyCategory" value="AllShips" />
+      </Property>
+      <Property name="Rarity" value="GcTechnologyRarity.xml">
+        <Property name="TechnologyRarity" value="Impossible" />
+      </Property>
+      <Property name="Value" value="1" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="LAND1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="10" />
+        </Property>
+      </Property>
+      <Property name="BaseStat" value="GcStatsTypes.xml">
+        <Property name="StatsType" value="Ship_Scan" />
+      </Property>
+      <Property name="StatBonuses">
+        <Property value="GcStatsBonus.xml">
+          <Property name="Stat" value="GcStatsTypes.xml">
+            <Property name="StatsType" value="Ship_Boost" />
+          </Property>
+          <Property name="Bonus" value="1.01" />
+          <Property name="Level" value="1" />
+        </Property>
+      </Property>
+      <Property name="RequiredTech" value="" />
+      <Property name="RequiredLevel" value="0" />
+      <Property name="FocusLocator" value="MAINTENANCESLOT1" />
+      <Property name="UpgradeColour" value="Colour.xml">
+        <Property name="R" value="1" />
+        <Property name="G" value="1" />
+        <Property name="B" value="1" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="LinkColour" value="Colour.xml">
+        <Property name="R" value="1" />
+        <Property name="G" value="1" />
+        <Property name="B" value="1" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="RewardGroup" value="" />
+      <Property name="BaseValue" value="1" />
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0" />
+        <Property name="HighPriceMod" value="0" />
+        <Property name="BuyBaseMarkup" value="0" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="RequiredRank" value="1" />
+      <Property name="DispensingRace" value="GcAlienRace.xml">
+        <Property name="AlienRace" value="Traders" />
+      </Property>
+      <Property name="FragmentCost" value="1" />
+      <Property name="TechShopRarity" value="GcTechnologyRarity.xml">
+        <Property name="TechnologyRarity" value="Impossible" />
+      </Property>
+      <Property name="WikiEnabled" value="False" />
+      <Property name="DamagedDescription" value="VariableSizeString.xml">
+        <Property name="Value" value="" />
+      </Property>
+      <Property name="ParentTechId" value="" />
+      <Property name="IsTemplate" value="False" />
+    </Property>
+    <Property value="GcTechnology.xml">
       <Property name="ID" value="LAUNCHER_SPEC" />
       <Property name="Group" value="" />
       <Property name="Name" value="LAUNCHER_SPEC_NAME" />
@@ -11601,6 +11841,140 @@
         </Property>
       </Property>
       <Property name="RequiredTech" value="SHIP_LIFESUP" />
+      <Property name="RequiredLevel" value="0" />
+      <Property name="FocusLocator" value="MAINTENANCESLOT1" />
+      <Property name="UpgradeColour" value="Colour.xml">
+        <Property name="R" value="1" />
+        <Property name="G" value="1" />
+        <Property name="B" value="1" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="LinkColour" value="Colour.xml">
+        <Property name="R" value="0.2" />
+        <Property name="G" value="0.6" />
+        <Property name="B" value="1" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="RewardGroup" value="" />
+      <Property name="BaseValue" value="1" />
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0" />
+        <Property name="HighPriceMod" value="0" />
+        <Property name="BuyBaseMarkup" value="0" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="RequiredRank" value="2" />
+      <Property name="DispensingRace" value="GcAlienRace.xml">
+        <Property name="AlienRace" value="Traders" />
+      </Property>
+      <Property name="FragmentCost" value="1" />
+      <Property name="TechShopRarity" value="GcTechnologyRarity.xml">
+        <Property name="TechnologyRarity" value="Impossible" />
+      </Property>
+      <Property name="WikiEnabled" value="False" />
+      <Property name="DamagedDescription" value="VariableSizeString.xml">
+        <Property name="Value" value="" />
+      </Property>
+      <Property name="ParentTechId" value="" />
+      <Property name="IsTemplate" value="False" />
+    </Property>
+    <Property value="GcTechnology.xml">
+      <Property name="ID" value="SOLAR_SAIL" />
+      <Property name="Group" value="" />
+      <Property name="Name" value="UI_SOLAR_SAIL_NAME" />
+      <Property name="NameLower" value="UI_SOLAR_SAIL_NAME_L" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="UI_SOLAR_SAIL_SUB" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="UI_SOLAR_SAIL_DESC" />
+      </Property>
+      <Property name="Teach" value="True" />
+      <Property name="HintStart" value="" />
+      <Property name="HintEnd" value="" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SOLARSAIL.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.03529412" />
+        <Property name="G" value="0.36078432" />
+        <Property name="B" value="0.46666667" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="Level" value="1" />
+      <Property name="Chargeable" value="False" />
+      <Property name="ChargeAmount" value="100" />
+      <Property name="ChargeType" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="Earth" />
+      </Property>
+      <Property name="ChargeBy" />
+      <Property name="ChargeMultiplier" value="1" />
+      <Property name="BuildFullyCharged" value="True" />
+      <Property name="UsesAmmo" value="False" />
+      <Property name="AmmoId" value="" />
+      <Property name="PrimaryItem" value="False" />
+      <Property name="Upgrade" value="True" />
+      <Property name="Core" value="True" />
+      <Property name="RepairTech" value="False" />
+      <Property name="Procedural" value="False" />
+      <Property name="Category" value="GcTechnologyCategory.xml">
+        <Property name="TechnologyCategory" value="Ship" />
+      </Property>
+      <Property name="Rarity" value="GcTechnologyRarity.xml">
+        <Property name="TechnologyRarity" value="Always" />
+      </Property>
+      <Property name="Value" value="10" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="LAUNCHSUB2" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="125" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="MIRROR" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="3" />
+        </Property>
+      </Property>
+      <Property name="BaseStat" value="GcStatsTypes.xml">
+        <Property name="StatsType" value="Ship_PulseDrive" />
+      </Property>
+      <Property name="StatBonuses">
+        <Property value="GcStatsBonus.xml">
+          <Property name="Stat" value="GcStatsTypes.xml">
+            <Property name="StatsType" value="Ship_PulseDrive_MiniJumpFuelSpending" />
+          </Property>
+          <Property name="Bonus" value="0.2" />
+          <Property name="Level" value="4" />
+        </Property>
+        <Property value="GcStatsBonus.xml">
+          <Property name="Stat" value="GcStatsTypes.xml">
+            <Property name="StatsType" value="Ship_Launcher_AutoCharge" />
+          </Property>
+          <Property name="Bonus" value="1" />
+          <Property name="Level" value="4" />
+        </Property>
+        <Property value="GcStatsBonus.xml">
+          <Property name="Stat" value="GcStatsTypes.xml">
+            <Property name="StatsType" value="Ship_Boost" />
+          </Property>
+          <Property name="Bonus" value="1.15" />
+          <Property name="Level" value="1" />
+        </Property>
+        <Property value="GcStatsBonus.xml">
+          <Property name="Stat" value="GcStatsTypes.xml">
+            <Property name="StatsType" value="Ship_BoostManeuverability" />
+          </Property>
+          <Property name="Bonus" value="1.1" />
+          <Property name="Level" value="1" />
+        </Property>
+      </Property>
+      <Property name="RequiredTech" value="" />
       <Property name="RequiredLevel" value="0" />
       <Property name="FocusLocator" value="MAINTENANCESLOT1" />
       <Property name="UpgradeColour" value="Colour.xml">

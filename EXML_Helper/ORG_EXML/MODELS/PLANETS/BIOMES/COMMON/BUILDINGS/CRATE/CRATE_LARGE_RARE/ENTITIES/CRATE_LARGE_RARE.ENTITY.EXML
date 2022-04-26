@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (3.82.0)-->
+<!--File created using MBINCompiler version (3.87.0)-->
 <Data template="TkAttachmentData">
   <Property name="Components">
     <Property value="TkPhysicsComponentData.xml">
@@ -17,7 +17,7 @@
         <Property name="ChainEnds" />
         <Property name="ExcludeJoints" />
       </Property>
-      <Property name="VolumeTriggerType" value="TkVolumeTriggerType.xml">
+      <Property name="TriggerVolumeType" value="TkVolumeTriggerType.xml">
         <Property name="VolumeTriggerType" value="Open" />
       </Property>
       <Property name="SurfaceProperties" value="None" />
@@ -203,6 +203,7 @@
               <Property name="Event" value="GcStateTimeEvent.xml">
                 <Property name="Seconds" value="0" />
                 <Property name="RandomSeconds" value="0" />
+                <Property name="UseMissionClock" value="False" />
               </Property>
               <Property name="Action">
                 <Property value="GcPlayAudioAction.xml">
