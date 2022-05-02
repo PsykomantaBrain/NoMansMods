@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (3.87.0)-->
+<!--File created using MBINCompiler version (3.88.0)-->
 <Data template="GcTechnologyTable">
   <Property name="Table">
     <Property value="GcTechnology.xml">
@@ -5390,7 +5390,7 @@
       <Property name="AmmoId" value="" />
       <Property name="PrimaryItem" value="True" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Property name="RepairTech" value="False" />
       <Property name="Procedural" value="False" />
       <Property name="Category" value="GcTechnologyCategory.xml">
@@ -13026,7 +13026,7 @@
       <Property name="AmmoId" value="" />
       <Property name="PrimaryItem" value="True" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Property name="RepairTech" value="False" />
       <Property name="Procedural" value="False" />
       <Property name="Category" value="GcTechnologyCategory.xml">

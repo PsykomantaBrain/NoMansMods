@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>		<Data template="TkLocalisationTable">
+			<Property name="Table">		<Property value="TkLocalisationEntry.xml">
+			<Property name="Id" value="UP_FR_CRAFTED_DESC" />
+					<Property name="English" value="VariableSizeString.xml">
+			<Property name="Value" value="A crafted freighter upgrade.&#xA;&#xA;Can be re-deployed into your own capital ship to improve its &lt;TECHNOLOGY&gt;Technology&lt;&gt;." />
+		</Property>
+			<Property name="French" value="VariableSizeString.xml">
+			<Property name="Value" value="Une amélioration de cargo fabriqué.&#xA;&#xA;Peut être redéployée dans votre propre vaisseau amiral pour améliorer sa &lt;TECHNOLOGY&gt;Technologie&lt;&gt;." />
+		</Property>
+			<Property name="Italian" value="VariableSizeString.xml">
+			<Property name="Value" value="Un miglioramento per il mercantile.&#xA;&#xA;Può essere utilizzato sulla propria ammiraglia per migliorarne l'&lt;TECHNOLOGY&gt;Tecnologia&lt;&gt;." />
+		</Property>
+			<Property name="German" value="VariableSizeString.xml">
+			<Property name="Value" value="Ein einsetzbares Frachter-Upgrade.&#xA;&#xA;Kann in dein eigenes Hauptschiff wiedereingebaut werden, um dessen &lt;TECHNOLOGY&gt;Technologie&lt;&gt; zu verbessern." />
+		</Property>
+			<Property name="Spanish" value="VariableSizeString.xml">
+			<Property name="Value" value="Una mejora del carguero hecha a mano.&#xA;&#xA;Se puede volver a desplegar en tu propia nave principal para mejorar su &lt;TECHNOLOGY&gt;Tecnología&lt;&gt;." />
+		</Property>
+			<Property name="Russian" value="VariableSizeString.xml">
+			<Property name="Value" value="Модернизация грузового корабля.&#xA;&#xA;Может быть переоборудована в ваш собственный капитальный корабль для улучшения его &lt;TECHNOLOGY&gt;Technology&lt;&gt;." />
+		</Property>
+			<Property name="Polish" value="VariableSizeString.xml">
+			<Property name="Value" value="Rozmieszczalne ulepszenie frachtowca. MoÅ¼na ponownie zainstalowaÄ na wÅasnym statku gÅównym, aby ulepszyÄ jego &lt;TECHNOLOGY&gt;technologie&lt;&gt;." />
+		</Property>
+			<Property name="Dutch" value="VariableSizeString.xml">
+			<Property name="Value" value="Een upgrade gemaakt voor een vlaggenschip.&#xA;&#xA;Kan worden geïnstalleerd in je eigen vlaggenschip om de &lt;TECHNOLOGY&gt;Technologie&lt;&gt; te verbeteren." />
+		</Property>
+			<Property name="Portuguese" value="VariableSizeString.xml">
+			<Property name="Value" value="Uma atualização do cargueiro implementável.&#xA;&#xA;Pode ser reimplementada na sua própria nave capital para melhorar o &lt;TECHNOLOGY&gt;Tecnologia&lt;&gt;." />
+		</Property>
+			<Property name="LatinAmericanSpanish" value="VariableSizeString.xml">
+			<Property name="Value" value="Una mejora del carguero hecha a mano.&#xA;&#xA;Se puede volver a desplegar en tu propia nave principal para mejorar su &lt;TECHNOLOGY&gt;Tecnología&lt;&gt;." />
+		</Property>
+			<Property name="BrazilianPortuguese" value="VariableSizeString.xml">
+			<Property name="Value" value="Uma atualização implantável de nave cargueira.&#xA;&#xA;Pode ser reimplantada na sua nave capital para melhorar o &lt;TECHNOLOGY&gt;Tecnologia&lt;&gt; dela." />
+		</Property>
+			<Property name="SimplifiedChinese" value="VariableSizeString.xml">
+			<Property name="Value" value="可合成的貨船升級。&#xA;&#xA;可以被移除及重新安裝於星際貨船上，以提升&lt;TECHNOLOGY&gt;科技元件&lt;&gt;效能。" />
+		</Property>
+			<Property name="TraditionalChinese" value="VariableSizeString.xml">
+			<Property name="Value" value="可合成的貨船升級。&#xA;&#xA;可以被移除及重新安裝於星際貨船上，以提升&lt;TECHNOLOGY&gt;科技元件&lt;&gt;效能。" />
+		</Property>
+			<Property name="TencentChinese" value="VariableSizeString.xml">
+			<Property name="Value" value="可合成的貨船升級。&#xA;&#xA;可以被移除及重新安裝於星際貨船上，以提升&lt;TECHNOLOGY&gt;科技元件&lt;&gt;效能。" />
+		</Property>
+			<Property name="Korean" value="VariableSizeString.xml">
+			<Property name="Value" value="" />
+		</Property>
+			<Property name="Japanese" value="VariableSizeString.xml">
+			<Property name="Value" value="" />
+		</Property>
+			<Property name="USEnglish" value="VariableSizeString.xml">
+			<Property name="Value" value="A crafted freighter upgrade.&#xA;&#xA;Can be re-deployed into your own capital ship to improve its &lt;TECHNOLOGY&gt;Technology&lt;&gt;." />
+		</Property>
+			</Property>
+				</Property>
+		</Data>
+	

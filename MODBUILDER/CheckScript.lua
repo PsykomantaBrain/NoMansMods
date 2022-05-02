@@ -1,40 +1,69 @@
 --# selene: allow(unscoped_variables)
 -- selene: allow(unused_variable)
 NMS_MOD_DEFINITION_CONTAINER = {}
-NMS_MOD_DEFINITION_CONTAINER = 
+NANITESADD =
+[[
+        <Property value="NMSString0x10.xml">
+        <Property name="Value" value="TECHFRAG" />
+		</Property>
+]]
+
+NMS_MOD_DEFINITION_CONTAINER =
 {
-["MOD_FILENAME"] 			= "SpeedIncreaseAnalysis.pak",
-["NMS_VERSION"]				= "1.77",
-["MODIFICATIONS"] 			= 
-	{
-		{
-			["PAK_FILE_SOURCE"] 	= "NMSARC.59B126E2.pak",
-			["MBIN_CHANGE_TABLE"] 	= 
-			{ 
-				{
-					["MBIN_FILE_SOURCE"] 	= "GCGAMEPLAYGLOBALS.GLOBAL.MBIN",
-					["EXML_CHANGE_TABLE"] 	= 
-					{
+["MOD_FILENAME"]              = "_Nanites_trade.pak",
+["MOD_AUTHOR"]                = "Bambr44",
+["NMS_VERSION"]               = "3.88",
+["MOD_DESCRIPTION"]           = "Stations and Trade posts sell Nanites.",
+["MODIFICATIONS"]             =
+    {
+        {
+            ["MBIN_CHANGE_TABLE"]     =
+            {
+                {
+                    ["MBIN_FILE_SOURCE"]     = "METADATA\\REALITY\\DEFAULTREALITY.MBIN",
+                    ["EXML_CHANGE_TABLE"]     =
+                    {
+						
+                        {
+                            ["PRECEDING_FIRST"] = "TRUE",
+                            ["PRECEDING_KEY_WORDS"] = {"TradeSettings", "SpaceStation", },
+							["SPECIAL_KEY_WORDS"]   = {"Value", "CATALYST1"},
+							--["LINE_OFFSET"] 		= "+1",
+							["REPLACE_TYPE"]        = "ADDAFTERSECTION",
+							["ADD"]                 = NANITESADD,
+                        },
+                        {
+							["PRECEDING_FIRST"] = "TRUE",
+							["PRECEDING_KEY_WORDS"] = {"TradeSettings", "Shop",},                            
+							["SPECIAL_KEY_WORDS"]   = {"Value", "CATALYST1"},
+							["LINE_OFFSET"] 		= "+1",
+							["ADD"]                 = NANITESADD,
+                        },
 						{
-							["PRECEDING_KEY_WORDS"] = "",
-							["VALUE_CHANGE_TABLE"] 	= 
-							{
-								{"BinocTimeBeforeScan",					"0.2"}, 	-- Original "0.5"
-								{"BinocMinScanTime",					"0.7"},		-- Original "3.9"
-								{"BinocScanTime",						"0.7"}, 	-- Original "3.9"
-								{"BinocCreatureScanTime",				"0.7"},		-- Original "3.2"
-								{"BinocularScanTargetInitialFadeTime",	"0.2"}, 	-- Original "0.5"
-								{"BinocularScanTargetFadeTime",			"0.2"}		-- Original "0.5"
-								--{"TerrainResourceScanTime",				"30"},	-- Original "30"
-								--{"TerrainResourceScanRange",			"1200"}, 	-- Original "1200"								
-							}
-						}
-					} --6 global replacements
-				}
-			}
-		}
-	}	
-}
---NOTE: ANYTHING NOT in table NMS_MOD_DEFINITION_CONTAINER IS IGNORED AFTER THE SCRIPT IS LOADED
---IT IS BETTER TO ADD THINGS AT THE TOP IF YOU NEED TO
---DON'T ADD ANYTHING PASS THIS POINT HERE
+							["PRECEDING_FIRST"] = "TRUE",
+							["PRECEDING_KEY_WORDS"] = {"NeverSellableItems"},							
+							
+							["LINE_OFFSET"] 		= "+14",         
+							["REMOVE"] 				= "LINE",
+							
+						},
+					},
+				},
+
+				{
+                    ["MBIN_FILE_SOURCE"]     = "METADATA\\REALITY\\TABLES\\NMS_REALITY_GCSUBSTANCETABLE.MBIN",
+                    ["EXML_CHANGE_TABLE"]     =
+                    {
+                        {
+                            ["SPECIAL_KEY_WORDS"] = {"ID", "TECHFRAG",},
+                            ["VALUE_CHANGE_TABLE"]     =
+                            {
+                                {"BaseValue",        "10000"},     -- original 20
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}   

@@ -17,38 +17,39 @@
 
 
 
-  <link crossorigin="anonymous" media="all" integrity="sha512-ksfTgQOOnE+FFXf+yNfVjKSlEckJAdufFIYGK7ZjRhWcZgzAGcmZqqArTgMLpu90FwthqcCX4ldDgKXbmVMeuQ==" rel="stylesheet" href="https://github.githubassets.com/assets/light-92c7d381038e.css" /><link crossorigin="anonymous" media="all" integrity="sha512-1KkMNn8M/al/dtzBLupRwkIOgnA9MWkm8oxS+solP87jByEvY/g4BmoxLihRogKcX1obPnf4Yp7dI0ZTWO+ljg==" rel="stylesheet" href="https://github.githubassets.com/assets/dark-d4a90c367f0c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" integrity="sha512-cZa7DZqvMBwD236uzEunO/G1dvw8/QftyT2UtLWKQFEy0z0eq0R5WPwqVME+3NSZG1YaLJAaIqtU+m0zWf/6SQ==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-7196bb0d9aaf.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" integrity="sha512-WVoKqJ4y1nLsdNH4RkRT5qrM9+n9RFe1RHSiTnQkBf5TSZkJEc9GpLpTIS7T15EQaUQBJ8BwmKvwFPVqfpTEIQ==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-595a0aa89e32.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" integrity="sha512-XpAMBMSRZ6RTXgepS8LjKiOeNK3BilRbv8qEiA/M3m+Q4GoqxtHedOI5BAZRikCzfBL4KWYvVzYZSZ8Gp/UnUg==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-5e900c04c491.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" integrity="sha512-3HF2HZ4LgEIQm77yOzoeR20CX1n2cUQlcywscqF4s+5iplolajiHV7E5ranBwkX65jN9TNciHEVSYebQ+8xxEw==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-dc71761d9e0b.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" integrity="sha512-+J8j3T0kbK9/sL3zbkCfPtgYcRD4qQfRbT6xnfOrOTjvz4zhr0M7AXPuE642PpaxGhHs1t77cTtieW9hI2K6Gw==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-f89f23dd3d24.css" /><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" integrity="sha512-AQeAx5wHQAXNf0DmkvVlHYwA3f6BkxunWTI0GGaRN57GqD+H9tW8RKIKlopLS0qGaC54seFsPc601GDlqIuuHg==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-010780c79c07.css" /><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" integrity="sha512-+u5pmgAE0T03d/yI6Ha0NWwz6Pk0W6S6WEfIt8veDVdK8NTjcMbZmQB9XUCkDlrBoAKkABva8HuGJ+SzEpV1Uw==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-faee699a0004.css" />
-    <link crossorigin="anonymous" media="all" integrity="sha512-Q6BI1w8BeqccNEqSfEMLAdK49Gi4JWqmdVesEGEPkZl6eaqnCoHFZsP8J2RegmbcD3K0p4udDlPOo2adIEf82Q==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-43a048d70f01.css" />
-    <link crossorigin="anonymous" media="all" integrity="sha512-VldOLPwfvrVvEED9TSe3IpXFvf5MbZ9cunMIf9NDH9n8ver/X1Bqk62ZrhC1vtTkyGPvh+LwuMIiwEIzHiAmeg==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-56574e2cfc1f.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-x0NblQjWSrf5miTGwN44FlfwzTNzrUn+gzzmgXY4OS98EbbruACKY8exLKmUhVREvGixFavm0hOQ1NDwlBPG7Q==" rel="stylesheet" href="https://github.githubassets.com/assets/github-c7435b9508d6.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-IVVa++hW3DBYJnNsmMMiUwt96BJ1mjUpGNDRWeui5BY1iA04E58M5NujgomnZU9R9DB+H99IlE7a+9b5XlO25g==" rel="stylesheet" href="https://github.githubassets.com/assets/light-21555afbe856.css" /><link crossorigin="anonymous" media="all" integrity="sha512-1KkMNn8M/al/dtzBLupRwkIOgnA9MWkm8oxS+solP87jByEvY/g4BmoxLihRogKcX1obPnf4Yp7dI0ZTWO+ljg==" rel="stylesheet" href="https://github.githubassets.com/assets/dark-d4a90c367f0c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" integrity="sha512-cZa7DZqvMBwD236uzEunO/G1dvw8/QftyT2UtLWKQFEy0z0eq0R5WPwqVME+3NSZG1YaLJAaIqtU+m0zWf/6SQ==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-7196bb0d9aaf.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" integrity="sha512-WVoKqJ4y1nLsdNH4RkRT5qrM9+n9RFe1RHSiTnQkBf5TSZkJEc9GpLpTIS7T15EQaUQBJ8BwmKvwFPVqfpTEIQ==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-595a0aa89e32.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" integrity="sha512-XpAMBMSRZ6RTXgepS8LjKiOeNK3BilRbv8qEiA/M3m+Q4GoqxtHedOI5BAZRikCzfBL4KWYvVzYZSZ8Gp/UnUg==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-5e900c04c491.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" integrity="sha512-3HF2HZ4LgEIQm77yOzoeR20CX1n2cUQlcywscqF4s+5iplolajiHV7E5ranBwkX65jN9TNciHEVSYebQ+8xxEw==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-dc71761d9e0b.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" integrity="sha512-+J8j3T0kbK9/sL3zbkCfPtgYcRD4qQfRbT6xnfOrOTjvz4zhr0M7AXPuE642PpaxGhHs1t77cTtieW9hI2K6Gw==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-f89f23dd3d24.css" /><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" integrity="sha512-AQeAx5wHQAXNf0DmkvVlHYwA3f6BkxunWTI0GGaRN57GqD+H9tW8RKIKlopLS0qGaC54seFsPc601GDlqIuuHg==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-010780c79c07.css" /><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" integrity="sha512-+u5pmgAE0T03d/yI6Ha0NWwz6Pk0W6S6WEfIt8veDVdK8NTjcMbZmQB9XUCkDlrBoAKkABva8HuGJ+SzEpV1Uw==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-faee699a0004.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-BHZKpKCfqE++e87YeMMUjR3VzP9Z20zifMh0TBiEHZY17Ulq4c6cQQtFDMH3u//tGG/2gwpj3tAlnSDdF6drUQ==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-04764aa4a09f.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-EV76ZieZFiFFEwLFrZjI14ZBRFu+3syC3WDO8j4LPOKUYmeuq3tKHdVPDvxzo68NbRm3SsVmdghZZE0gO+s6FQ==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-115efa662799.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-9mDraQpfn89KJ1G0VFXVOiLuVEsdN4owVb+Ayw+ppfs75zTDc1rTXi62jed21GZBnHLz2REzfyY9o+/8Sg545g==" rel="stylesheet" href="https://github.githubassets.com/assets/github-f660eb690a5f.css" />
 
 
 
-  <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-ucZbGXPiWYkit0zWAxOkOAqrRElnV2fsqnUbW0CMlYDW+LuP54NH6GeeT0+JcKeRCHStmfHl19pIsgfpK1Keqg==" src="https://github.githubassets.com/assets/runtime-b9c65b1973e2.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-cECYZkx15xEUWVHQzUNQu3sK+NyZgiz50AJAdapxeWnjI51JAR/K6xI5aPwFvUPjkSyqUoWEdbMeRaW62VVZbQ==" src="https://github.githubassets.com/assets/environment-704098664c75.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-mNt9opq5jyqeZdWMV25dquh3PeAJZk/NFBfdGMUbTN7JB344FlZu6Jr8g/ieGGy+3sy5REA/uZXM0GmGKqOpcw==" src="https://github.githubassets.com/assets/5329-98db7da29ab9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-CofD5SyNyjtWHcgbmNKkAYgtUsWYocS7p14pUWEfQJWXyfsjfdYf8vZaavjp75Qk1Eugl2DVhSZ2pTMik5yjzw==" src="https://github.githubassets.com/assets/8090-0a87c3e52c8d.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-uy2Yj99Phk5YxRBtg7bbVZN5xptZYzUXoZV9eeh+intfPEQ2oUpPEkvShqWqpM+emRJXBbkzmDTeQY+Zput6Bw==" src="https://github.githubassets.com/assets/3706-bb2d988fdf4f.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-waRZe1hYKtwfGJN0q1Txec2M3kpA72RH83cH0p8msN1eGl5LxHuufAIuNtrIVI+aAaWDUigDNByxYYV+L6fbuw==" src="https://github.githubassets.com/assets/github-elements-c1a4597b5858.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-Tk0voilzGX8VPDnoKWve14QPin1s0HGYQXOnjWLuUDCr9esDCE9rLkI97p4duRwa+OckgMc6hYNZZsOjxvM05w==" src="https://github.githubassets.com/assets/element-registry-4e4d2fa22973.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-aynl+fdDvJ7iz4PymdPphO5fol/XSCDfWgkwJH6R6iKCOlaWbCU8R+zbSm5PBO8VsoLLlAuru5zjU1D8JCITMg==" src="https://github.githubassets.com/assets/runtime-6b29e5f9f743.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-SpZgKJyhHfrmO9ZLmJztuQzJ+J7tYz7l2uK0FahNXJpiNvVqiy1b2P1HammIlT0b/yoq6M9ZC88oDEuIBe8X+g==" src="https://github.githubassets.com/assets/environment-4a9660289ca1.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-ZAKZQWCEc6bs9LSQOCPRWq3wqRDkQxG2bPL/pW9Lj/Seap0PV0kF/yKCHske8mW3Zytde9n1Im83jxrCmpaMrA==" src="https://github.githubassets.com/assets/5724-640299416084.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-yIsmzjyBs6Mu12a5shTZVT0Jr80it7wV2yjZs77L3GmHoFP5SPNsWY9P+Swu7lPaWMXMtyaxceBQGP/7/Kyl8w==" src="https://github.githubassets.com/assets/93-c88b26ce3c81.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-WtABWNDgj+0Z+nTC8dZsMxFYSujm/s9SJTsHmFnzg73joAek4tmQ1zXCSLBvgAsgdPE8EQuOuOOW0NNP97Y7UA==" src="https://github.githubassets.com/assets/8630-5ad00158d0e0.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-7ocxdRbeEIuk5x86ryHnbc5GBupcna8GP7PEtAqWS0+sMjp4CX10GV5P0XsN7Grx1XTum3BG1FFOwwpccenxkw==" src="https://github.githubassets.com/assets/5157-ee87317516de.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-7t/qm9rsK1ausz4+qmdD1DVavNT0Ask2sQNGggVw9n82rwMdTe/+k4rO67V4XP0aErLpodj1No8clP63c0AZkw==" src="https://github.githubassets.com/assets/9244-eedfea9bdaec.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-W+9GbCgd9tSXyjPKjIaJwHD2hoMWnttGaw6SD/PdwGYTvaFJZl18dNJ11PYmqGvtRrWvuFPvZuiDj1Jl9DiKPg==" src="https://github.githubassets.com/assets/github-elements-5bef466c281d.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-855puAcN9fPJxxrc8RArfnhHF5f6s+h9u9e7WFteaZm7ZIWpCATY5Ay41VMhcN/L4zS9leU1n6tAGWLdT4Cjkw==" src="https://github.githubassets.com/assets/element-registry-f39e69b8070d.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-Hb8d69V10VxkC90NX3zvjNovHq5vrRv0XCde5qNf5WiQAB6BziCN+gEbKG+fDj8i05B2pBdyGIh+3pmaRvzLJA==" src="https://github.githubassets.com/assets/5388-1dbf1debd575.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-j9tCiIT7h+++Hko9qwRezOfoO32kBBlf6Te9zZyxxmrxG1EA5ji2QCYAIzd5vXB7616gZ5m9J+WMQwv3VEf1wA==" src="https://github.githubassets.com/assets/93-8fdb428884fb.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-JPHg6lXC/kVMbA05VoaD5W739fMUF/ObaJ4NrZWLi91OWI9xEhJ9NtwbGROmxjCm5FGwNOVohY+DXILkO19dtA==" src="https://github.githubassets.com/assets/8932-24f1e0ea55c2.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-heG3JMoQq3ducVj0rke7ixXR6HU4XKtSlNnKQ6uGDD+JjKmcpeXRiBBQnX1biRw9F33Eyqkqv7wifIWv4lEk/Q==" src="https://github.githubassets.com/assets/1717-85e1b724ca10.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-OPEMPpoFBibCrsdtZNvXgFXtk40uepAkIGp73280ajKATzhShSjbsXZjXbzR2MhUzrBZ6ZQzcB7a/DYGbRX6ng==" src="https://github.githubassets.com/assets/8646-38f10c3e9a05.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-6R9/TxzoPUwQ1NL7/h7RqyZ9KrJ4yEOtiSfUrwBRv3VJIS+Xgd2raPaOSZKNOBGE4u6mhKP9nZrcFQ/qasoDeg==" src="https://github.githubassets.com/assets/3682-e91f7f4f1ce8.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-EIceiRH5/XsS9RPMOGlnx37yFBM2TbSNcVWgTjKPmRwjdl/lfKNdColL/PLunshA/attRqdYJVnNNGXNyhx6Zw==" src="https://github.githubassets.com/assets/7077-10871e8911f9.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-Ia/Jml39KUHiAFwWDExMIVGNBJ9KSqQQz5BeyGm/TOovrMSTGWld/n72yGABi5dmxXDwnMEyZyZSfiCC1dKTdQ==" src="https://github.githubassets.com/assets/4862-21afc99a5dfd.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-+rHWkW7Kf8TKzqUg0TPUVMWdAhckvgqxeDt4aZ9cjKY9Tqqlpf3yTUAK5YUVNousaPRWJMqs5ZmoMtBnrmj8cA==" src="https://github.githubassets.com/assets/3682-fab1d6916eca.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-JLnnTPhYd6z7k1g7CjOIUK4YQRvqCzvSNqRq6GH8tenPhyDVVXDp//clwLGS9xZc07/khbn/oI6NNUUUU5viPQ==" src="https://github.githubassets.com/assets/3932-24b9e74cf858.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-avY7kgWZi20dcW5UgNkiKrgbOKvJGW0kArbkQcA9MWQx0SRjJv4JcKHNdMN3o6ML+inGPd8ib1+nJECF5VJ5Kw==" src="https://github.githubassets.com/assets/3826-6af63b920599.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-a4WgZYeVc2aKrHPyOfYm6uY7Vcw96gOwHqRhs6hkNqnhHJuZC4f94uvcomE6JS3HhgCVZTQpvU8PgucLwSkteg==" src="https://github.githubassets.com/assets/5222-6b85a0658795.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-4zTu3hi1c7F1d75j69pelRAbW1UOxcNy6RNRjVX5t5124Oywe1goDxH5kRSt1rU0mNs+vBb/X28GfaPTOnuWRA==" src="https://github.githubassets.com/assets/behaviors-e334eede18b5.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-gy8qIM5ywfZwY9t64qGa3rDcqWJGKXayF+CsUt0owghpz2eqnNX2tMtSRRdOybIIwu6cScH/b8SkXvSHQt5qow==" src="https://github.githubassets.com/assets/7749-832f2a20ce72.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-XrU5iELtQSSz5e+xv08TibnOi4mPUjcpZ+15cFMR3IghxHuI0P7H0pZm+mHCrj4C1PkpM3G7SdSV+0ST9mCNQA==" src="https://github.githubassets.com/assets/716-5eb5398842ed.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-KD+RsLdPSyLNs6dNIpZX3/FoVh0ky9iUK9Ot4/3Y794H2g0TaBxvYEUxhrfDXHmVJqTHaJllb0S9Q0MYGy2QcQ==" src="https://github.githubassets.com/assets/behaviors-283f91b0b74f.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-nZpgXrBvHm7YePk3m1UhdxY43Ra8lTPxsGk7ocBtGBimPanKdybEgnPXXulh7k7tNLnPzPXFEJ5wY7QGowGOdw==" src="https://github.githubassets.com/assets/7749-9d9a605eb06f.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-KKLG+hE5uCMJHxwocsH3WQNYzT3qftRjkNe7L0b5aOMgoS5iT5oWDIwhiy38adTWwg6xdomYeWvi2+wQBjOBAg==" src="https://github.githubassets.com/assets/notifications-global-28a2c6fa1139.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-xyGHYwjeMuGHmOdgy9Kb/p7zpSxjrw197tH6c+PzJj3L9zUCmjXBRbPky6B3Dqc/dN0x6OPF7n2Uh5u5MdbVUw==" src="https://github.githubassets.com/assets/90-c721876308de.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-AYqt3h3e9yBPkTVipsLLUCU2qCv7M31EodfqWxo5UKYyx8iI44MniIvWI5K+skqivkk0Auq3QaWslerlSihYqA==" src="https://github.githubassets.com/assets/6813-018aadde1dde.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-fVWEYrwNiNqMDgK2qU/B+IumJZbvKseQoon/V//Dxcm9+btlS1AEfEWqogm9ZVQtDGEeu+fyazqJuSOxYsqSLA==" src="https://github.githubassets.com/assets/6637-7d558462bc0d.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-u8r8UO/bHE8/YPL9N2X0L6nMIkQcItDfE4Yk2OXciXzzEILnPjRg3I2JrrWpQ2F91UAkptNyDZ0xjVSte65jig==" src="https://github.githubassets.com/assets/6637-bbcafc50efdb.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-AX8yHsBvOrK05g8WTf93Zbc1BLgNv8lm5zW4GHMBmhH0rqS/foQCeEwS0gHO4vjHHYa9pVnGNexyFUEpLRIfhA==" src="https://github.githubassets.com/assets/6791-017f321ec06f.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-qZpSo/6Y+4e/C+8tICE9H351leLD7aQ3Q/EBJ+/h5VGBYqpufDwQS7694rKypak6IYCXrGNa96yp6uU+KP3biA==" src="https://github.githubassets.com/assets/repositories-a99a52a3fe98.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-Ghqu73Bq9qEHR248l/GxWbbYHdvdXWNFSBjTiyVVKXI6HuI/8zOQ9C2cmpdVuhJj7pVaKntZqAA1F2ykKYFxDA==" src="https://github.githubassets.com/assets/repositories-1a1aaeef706a.js"></script>
   
 
   <meta name="viewport" content="width=device-width">
@@ -59,8 +60,8 @@
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
   <meta name="apple-itunes-app" content="app-id=1477376905" />
-    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/53adc652e528c1eb31ee89081ef8bc6eefe2c78cb984487e27cdcd4e9947eaa7/monkeyman192/MBINCompiler" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Releases · monkeyman192/MBINCompiler" /><meta name="twitter:description" content="A tool for decompiling No Man&#39;s Sky .MBIN files to XML format - monkeyman192/MBINCompiler" />
-    <meta property="og:image" content="https://opengraph.githubassets.com/53adc652e528c1eb31ee89081ef8bc6eefe2c78cb984487e27cdcd4e9947eaa7/monkeyman192/MBINCompiler" /><meta property="og:image:alt" content="A tool for decompiling No Man&#39;s Sky .MBIN files to XML format - monkeyman192/MBINCompiler" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Releases · monkeyman192/MBINCompiler" /><meta property="og:url" content="/monkeyman192/MBINCompiler/releases" /><meta property="og:description" content="A tool for decompiling No Man&#39;s Sky .MBIN files to XML format - monkeyman192/MBINCompiler" />
+    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/84359c6634b0a76e4b10ddeff2c963c83947cc3f4f8398f75806d104de32aded/monkeyman192/MBINCompiler" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Releases · monkeyman192/MBINCompiler" /><meta name="twitter:description" content="A tool for decompiling No Man&#39;s Sky .MBIN files to XML format - monkeyman192/MBINCompiler" />
+    <meta property="og:image" content="https://opengraph.githubassets.com/84359c6634b0a76e4b10ddeff2c963c83947cc3f4f8398f75806d104de32aded/monkeyman192/MBINCompiler" /><meta property="og:image:alt" content="A tool for decompiling No Man&#39;s Sky .MBIN files to XML format - monkeyman192/MBINCompiler" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Releases · monkeyman192/MBINCompiler" /><meta property="og:url" content="/monkeyman192/MBINCompiler/releases" /><meta property="og:description" content="A tool for decompiling No Man&#39;s Sky .MBIN files to XML format - monkeyman192/MBINCompiler" />
     
 
 
@@ -71,7 +72,7 @@
   
 
 
-  <meta name="request-id" content="313C:31B0:19A848:388752:6268CB5B" data-pjax-transient="true"/><meta name="html-safe-nonce" content="d1bcd2cb93ac579309d14437a33215537ce2114d00d918a3725e103923a29915" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIzMTNDOjMxQjA6MTlBODQ4OjM4ODc1Mjo2MjY4Q0I1QiIsInZpc2l0b3JfaWQiOiIyODY5MDY3NDA4NDAxMjg4MDI3IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="7647a2bc491121f9f165113c70df1052ed353bf6ff82ec8a8e6fe0d674e30e67" data-pjax-transient="true"/>
+  <meta name="request-id" content="3140:93F4:56804E:84FF37:627005CD" data-pjax-transient="true"/><meta name="html-safe-nonce" content="57d6c26eda8f9134d842667dfbb977957058d6731ce4f64a71dae675cae801fa" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIzMTQwOjkzRjQ6NTY4MDRFOjg0RkYzNzo2MjcwMDVDRCIsInZpc2l0b3JfaWQiOiI0NDIzODA5MzAyODQ5OTE0MzE3IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="62704a60b75ded0d5435eac063b04d6480056897da31a46258457ba875fa3759" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:75017858" data-pjax-transient>
 
@@ -109,10 +110,10 @@
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS">
 
 
-  <meta http-equiv="x-pjax-version" content="11648887b71692f5e0a8a7ef9d270e10a92a65d4e3096de6bf6a492ddf3cd9d2" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-version" content="7bbd3cb14ac2dcf23c1bbe32f7eee0b617a6aeae50537b974eb8ad4b46643fb7" data-turbo-track="reload">
   <meta http-equiv="x-pjax-csp-version" content="ca8f28be2f02ebc697029bdc0646515d9017cf770c4c1ff8414eccd96f6b5a2a" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-css-version" content="5577a5386e06b2539931758495297f02f73540dff7a13b3a28ef64ef8bc60695" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-js-version" content="777b76c83a1a518eb87dbb1e9fbe51ddaac19f26dbfe5b098851264081aade1b" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="b75e09f4591722de6f6b8b48b2286b0e36b3f48709becb4844505186acd33380" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="3df85defd6c8cf56b4ce204a67a10c2531fdeac8d8e9bb376b719fd7438a6133" data-turbo-track="reload">
   <meta name="turbo-cache-control" content="no-preview">
   
 
@@ -145,7 +146,7 @@
 
   </head>
 
-  <body class="logged-out env-production page-responsive global-focus-styles" style="word-wrap: break-word;">
+  <body class="logged-out env-production page-responsive" style="word-wrap: break-word;">
     
 
     <div class="position-relative js-header-wrapper ">
@@ -420,7 +421,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="ay70kHhaLQtY8xjXJTKr5hgOdum45YW+SG00qJhrsoMuww/2t+ji51C6i4koTvQPiU9pP4VKvCW6WE5Rp/nupg==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="039vi5eETNLijRXmlpitpvpYZw6jLb7w92N+WkXsJfndmGAFTq5LyOz6FxTKdGS0pXb1xTJMCYYtZy6/dn+9FA==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -727,7 +728,7 @@
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg><span data-view-component="true" class="d-inline">
           Star
-</span>          <span id="repo-stars-counter-star" aria-label="168 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-pjax-replace="true" title="168" data-view-component="true" class="Counter js-social-count">168</span>
+</span>          <span id="repo-stars-counter-star" aria-label="169 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-pjax-replace="true" title="169" data-view-component="true" class="Counter js-social-count">169</span>
   
 </a>      <button disabled="disabled" aria-label="You must be signed in to add this repository to a list" type="button" data-view-component="true" class="btn-sm btn BtnGroup-item px-2">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
@@ -769,7 +770,7 @@
     <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path>
 </svg>
           <span data-content="Issues">Issues</span>
-            <span id="issues-repo-tab-count" data-pjax-replace="" title="27" data-view-component="true" class="Counter">27</span>
+            <span id="issues-repo-tab-count" data-pjax-replace="" title="28" data-view-component="true" class="Counter">28</span>
 
 
     
@@ -938,6 +939,570 @@
       <div class="d-flex flex-column flex-md-row my-5 flex-justify-center">
     <div class="col-md-2 d-flex flex-md-column flex-row flex-wrap pr-md-6 mb-2 mb-md-0 flex-items-start pt-md-4">
   <div class="mb-2 f4 mr-3 mr-md-0 col-12">
+    <relative-time datetime="2022-04-27T19:16:15Z" class="no-wrap"></relative-time>
+  </div>
+
+    <div class="mb-md-2 mr-3 mr-md-0">
+      <img src="https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4" alt="@github-actions" size="20" height="20" width="20" data-view-component="true" class="avatar avatar-small" />
+      <a class="color-fg-muted wb-break-all" href="/apps/github-actions">github-actions</a>
+    </div>
+
+    <div class="mr-3 mr-md-0 d-flex" data-pjax="#repo-content-pjax-container">
+      <a href="/monkeyman192/MBINCompiler/tree/v3.88.0-pre2" data-view-component="true" class="Link--muted">
+  
+        <div data-view-component="true" class="css-truncate css-truncate-target">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-tag">
+    <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path>
+</svg>
+          <span class="ml-1 wb-break-all">
+            v3.88.0-pre2
+          </span>
+</div>
+  
+</a>      
+    </div>
+    <div style="position: relative; top: 1px;" class="mb-md-2 mr-3 mr-md-0" data-pjax="#repo-content-pjax-container">
+      <a data-hovercard-type="commit" data-hovercard-url="/monkeyman192/MBINCompiler/commit/63241cdb87bb1aa97ce8798a6770c4a6e8597727/hovercard" href="/monkeyman192/MBINCompiler/commit/63241cdb87bb1aa97ce8798a6770c4a6e8597727" data-view-component="true" class="Link--muted mb-2">
+  
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-commit">
+    <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"></path>
+</svg>
+        <code class="f5 ml-1 wb-break-all">63241cd</code>
+  
+</a><details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1">
+    <summary class="color-fg-success"
+    title="Commit signature" >
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-verified">
+    <path fill-rule="evenodd" d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z"></path>
+</svg>
+    </summary>
+
+    <div class="anim-scale-in" style="position: relative; z-index: 200;">
+      <div class="dropdown-menu dropdown-menu-s py-0 color-fg-default text-left">
+
+        <div class="p-3 signed-commit-header d-flex">
+          <div class="pr-1">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-verified mr-2">
+    <path fill-rule="evenodd" d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z"></path>
+</svg>
+          </div>
+          <div class="flex-1">
+                This commit was created on GitHub.com and signed with GitHub’s <strong class="signed-commit-verified-label">verified signature</strong>.
+          </div>
+        </div>
+
+
+        <div class="signed-commit-footer p-3 rounded-bottom-2">
+          <span class="d-block">GPG key ID: <span class="color-fg-muted">4AEE18F83AFDEB23</span></span>
+          <a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits">Learn about vigilant mode</a>.
+        </div>
+
+      </div>
+    </div>
+</details>
+
+    </div>
+    <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
+      
+<details class="details-reset details-overlay " id="tag-select-menu-61178de4-ca34-11ec-9898-014788581c1c">
+  <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
+    <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
+</svg>
+  
+</summary>
+
+  <details-menu class="SelectMenu text-md-left ">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Choose a tag to compare</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-61178de4-ca34-11ec-9898-014788581c1c">
+          <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+        </button>
+      </header>
+
+      <div class="SelectMenu-filter">
+        <input
+          aria-label="Find a tag"
+          autofocus
+          class="SelectMenu-input form-control"
+          data-ref-filter
+          placeholder="Find a tag"
+          type="text"
+          >
+      </div>
+
+      <ref-selector
+        type="tag"
+        query-endpoint="/monkeyman192/MBINCompiler/refs"
+        cache-key="v0:1651086444.155235"
+        current-committish="djMuODguMC1wcmUy"
+        default-branch="ZGV2ZWxvcG1lbnQ="
+        
+        name-with-owner="bW9ua2V5bWFuMTkyL01CSU5Db21waWxlcg=="
+        
+        prefetch-on-mouseover
+      >
+        <template data-target="ref-selector.fetchFailedTemplate">
+          <div class="SelectMenu-message" data-index="{{ index }}">Could not load tags</div>
+        </template>
+
+        <template data-target="ref-selector.noMatchTemplate">
+            <div class="SelectMenu-message" data-index="{{ index }}">Nothing to show</div>
+        </template>
+
+          <template data-target="ref-selector.itemTemplate">
+  <a href="/monkeyman192/MBINCompiler/compare/{{ urlEncodedRefName }}...v3.88.0-pre2" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
+    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
+  </a>
+</template>
+
+
+        <template data-target="ref-selector.hiddenCurrentItemTemplate">
+          <input hidden="hidden" type="radio" value="{{ refName }}" checked="checked" name="" id="" />
+        </template>
+
+        <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list" style="max-height: 330px">
+          <div class="SelectMenu-loading pt-3 pb-0 overflow-hidden" aria-label="Menu is loading">
+            <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+          </div>
+        </div>
+          <footer class="SelectMenu-footer"><a href="/monkeyman192/MBINCompiler/tags">View all tags</a></footer>
+      </ref-selector>
+    </div>
+  </details-menu>
+</details>
+    </div>
+</div>
+
+
+    <div class="col-md-9" data-test-selector="release-card" >
+  <div data-view-component="true" class="Box">
+  
+  <div data-view-component="true" class="Box-body">        <div class="float-right d-none d-md-block">
+                  <div class="d-flex flex-items-center ml-md-5 mt-md-3">
+            </div>
+
+  </div>
+
+<div class="d-flex flex-row mb-3">
+  <div class="flex-1" data-pjax="#repo-content-pjax-container">
+    <h1 data-view-component="true" class="d-inline mr-3"><a href="/monkeyman192/MBINCompiler/releases/tag/v3.88.0-pre2" data-view-component="true" class="Link--primary">
+  v3.88.0-pre2
+  
+</a></h1>
+    <a href="/monkeyman192/MBINCompiler/releases/latest" data-view-component="true" class="v-align-text-bottom d-none d-md-inline-block">
+  <span data-view-component="true" class="Label Label--success Label--large">Latest</span>
+  
+</a>
+      <div class="v-align-text-bottom ml-2 d-none d-md-inline">
+          
+      </div>
+  </div>
+
+  <div class="mt-3 d-md-none">
+    <a href="/monkeyman192/MBINCompiler/releases/latest" data-view-component="true" class="v-align-text-bottom">
+  <span data-view-component="true" class="Label Label--success Label--large">Latest</span>
+  
+</a>
+  </div>
+      <div class="ml-2 mt-3 d-md-none">
+        
+      </div>
+</div>
+
+
+  <div class="d-md-none border-bottom mb-4 pb-4">
+                  <div class="d-flex flex-items-center ml-md-5 mt-md-3">
+            </div>
+
+  </div>
+        <div data-pjax="true" data-test-selector="body-content" data-view-component="true" class="markdown-body my-3"><p>3.88 update.</p>
+<p>You can have a look at the test coverage to understand if a file is known to be passing or not (<a href="https://github.com/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre2/report.json">https://github.com/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre2/report.json</a>)</p>
+<p>Note: This release (and all subsequent ones) requires .net 5 x64 Desktop to run: <a href="https://dotnet.microsoft.com/download/dotnet/5.0/runtime" rel="nofollow">https://dotnet.microsoft.com/download/dotnet/5.0/runtime</a></p></div>
+</div>
+  <div data-view-component="true" class="Box-footer">
+        <div class="mb-3">
+          <details open="open" data-view-component="true">
+  <summary role="button" data-view-component="true">    <h3 class="d-inline">Assets</h3>
+    <span title="7" data-view-component="true" class="Counter ml-1">7</span>
+</summary>
+  <div data-view-component="true">    <div data-view-component="true" class="Box Box--condensed mt-3">
+  
+  
+    <ul>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
+    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre2/libMBIN-dotnet4.dll" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">libMBIN-dotnet4.dll</span>
+            
+          </a>
+            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.11 MB</span>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
+    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre2/libMBIN.dll" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">libMBIN.dll</span>
+            
+          </a>
+            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.11 MB</span>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
+    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre2/mapping.json" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">mapping.json</span>
+            
+          </a>
+            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">30.2 KB</span>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
+    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre2/MBINCompiler.exe" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">MBINCompiler.exe</span>
+            
+          </a>
+            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.53 MB</span>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
+    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre2/report.json" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">report.json</span>
+            
+          </a>
+            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">13.5 KB</span>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip color-fg-muted">
+    <path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/archive/refs/tags/v3.88.0-pre2.zip" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">Source code</span>
+            (zip)
+          </a>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip color-fg-muted">
+    <path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/archive/refs/tags/v3.88.0-pre2.tar.gz" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">Source code</span>
+            (tar.gz)
+          </a>
+</li>
+    </ul>
+  
+</div></div>
+</details>
+        </div>
+
+
+          <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
+              <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container flex-row-reverse flex-justify-end d-flex">
+    <div data-view-component="true" class="color-fg-muted mt-1"></div>
+  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="vDVAIORzis4-2d1mIJDPNHu8kFDJBklqldemq6fXuKGUi7N39SoSmizNl9MJ6wbNW3pffJWmXkdXYfnGLWJbZw" autocomplete="off" />
+    <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4D5446">
+    <div class="comment-reactions-options js-comment-reactions-options d-flex">
+    </div>
+</form>
+</div>
+          </div>
+</div>
+</div></div>
+
+  </div>
+  <div class="d-flex flex-column flex-md-row my-5 flex-justify-center">
+    <div class="col-md-2 d-flex flex-md-column flex-row flex-wrap pr-md-6 mb-2 mb-md-0 flex-items-start pt-md-4">
+  <div class="mb-2 f4 mr-3 mr-md-0 col-12">
+    <relative-time datetime="2022-04-27T16:53:35Z" class="no-wrap"></relative-time>
+  </div>
+
+    <div class="mb-md-2 mr-3 mr-md-0">
+      <img src="https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4" alt="@github-actions" size="20" height="20" width="20" data-view-component="true" class="avatar avatar-small" />
+      <a class="color-fg-muted wb-break-all" href="/apps/github-actions">github-actions</a>
+    </div>
+
+    <div class="mr-3 mr-md-0 d-flex" data-pjax="#repo-content-pjax-container">
+      <a href="/monkeyman192/MBINCompiler/tree/v3.88.0-pre1" data-view-component="true" class="Link--muted">
+  
+        <div data-view-component="true" class="css-truncate css-truncate-target">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-tag">
+    <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path>
+</svg>
+          <span class="ml-1 wb-break-all">
+            v3.88.0-pre1
+          </span>
+</div>
+  
+</a>      
+    </div>
+    <div style="position: relative; top: 1px;" class="mb-md-2 mr-3 mr-md-0" data-pjax="#repo-content-pjax-container">
+      <a data-hovercard-type="commit" data-hovercard-url="/monkeyman192/MBINCompiler/commit/163972a5340d3f7230e56a0987a25eadf57e93c5/hovercard" href="/monkeyman192/MBINCompiler/commit/163972a5340d3f7230e56a0987a25eadf57e93c5" data-view-component="true" class="Link--muted mb-2">
+  
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-commit">
+    <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"></path>
+</svg>
+        <code class="f5 ml-1 wb-break-all">163972a</code>
+  
+</a><details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1">
+    <summary class="color-fg-success"
+    title="Commit signature" >
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-verified">
+    <path fill-rule="evenodd" d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z"></path>
+</svg>
+    </summary>
+
+    <div class="anim-scale-in" style="position: relative; z-index: 200;">
+      <div class="dropdown-menu dropdown-menu-s py-0 color-fg-default text-left">
+
+        <div class="p-3 signed-commit-header d-flex">
+          <div class="pr-1">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-verified mr-2">
+    <path fill-rule="evenodd" d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z"></path>
+</svg>
+          </div>
+          <div class="flex-1">
+                This commit was created on GitHub.com and signed with GitHub’s <strong class="signed-commit-verified-label">verified signature</strong>.
+          </div>
+        </div>
+
+
+        <div class="signed-commit-footer p-3 rounded-bottom-2">
+          <span class="d-block">GPG key ID: <span class="color-fg-muted">4AEE18F83AFDEB23</span></span>
+          <a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits">Learn about vigilant mode</a>.
+        </div>
+
+      </div>
+    </div>
+</details>
+
+    </div>
+    <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
+      
+<details class="details-reset details-overlay " id="tag-select-menu-611be9a2-ca34-11ec-8e14-312af351230e">
+  <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
+    <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
+</svg>
+  
+</summary>
+
+  <details-menu class="SelectMenu text-md-left ">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Choose a tag to compare</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-611be9a2-ca34-11ec-8e14-312af351230e">
+          <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+        </button>
+      </header>
+
+      <div class="SelectMenu-filter">
+        <input
+          aria-label="Find a tag"
+          autofocus
+          class="SelectMenu-input form-control"
+          data-ref-filter
+          placeholder="Find a tag"
+          type="text"
+          >
+      </div>
+
+      <ref-selector
+        type="tag"
+        query-endpoint="/monkeyman192/MBINCompiler/refs"
+        cache-key="v0:1651086444.155235"
+        current-committish="djMuODguMC1wcmUx"
+        default-branch="ZGV2ZWxvcG1lbnQ="
+        
+        name-with-owner="bW9ua2V5bWFuMTkyL01CSU5Db21waWxlcg=="
+        
+        prefetch-on-mouseover
+      >
+        <template data-target="ref-selector.fetchFailedTemplate">
+          <div class="SelectMenu-message" data-index="{{ index }}">Could not load tags</div>
+        </template>
+
+        <template data-target="ref-selector.noMatchTemplate">
+            <div class="SelectMenu-message" data-index="{{ index }}">Nothing to show</div>
+        </template>
+
+          <template data-target="ref-selector.itemTemplate">
+  <a href="/monkeyman192/MBINCompiler/compare/{{ urlEncodedRefName }}...v3.88.0-pre1" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
+    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
+  </a>
+</template>
+
+
+        <template data-target="ref-selector.hiddenCurrentItemTemplate">
+          <input hidden="hidden" type="radio" value="{{ refName }}" checked="checked" name="" id="" />
+        </template>
+
+        <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list" style="max-height: 330px">
+          <div class="SelectMenu-loading pt-3 pb-0 overflow-hidden" aria-label="Menu is loading">
+            <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+          </div>
+        </div>
+          <footer class="SelectMenu-footer"><a href="/monkeyman192/MBINCompiler/tags">View all tags</a></footer>
+      </ref-selector>
+    </div>
+  </details-menu>
+</details>
+    </div>
+</div>
+
+
+    <div class="col-md-9" data-test-selector="release-card" >
+  <div data-view-component="true" class="Box">
+  
+  <div data-view-component="true" class="Box-body">        <div class="float-right d-none d-md-block">
+                  <div class="d-flex flex-items-center ml-md-5 mt-md-3">
+            </div>
+
+  </div>
+
+<div class="d-flex flex-row mb-3">
+  <div class="flex-1" data-pjax="#repo-content-pjax-container">
+    <h1 data-view-component="true" class="d-inline mr-3"><a href="/monkeyman192/MBINCompiler/releases/tag/v3.88.0-pre1" data-view-component="true" class="Link--primary">
+  v3.88.0-pre1
+  
+</a></h1>
+    
+      <div class="v-align-text-bottom ml-2 d-none d-md-inline">
+          
+      </div>
+  </div>
+
+  <div class="mt-3 d-md-none">
+    
+  </div>
+      <div class="ml-2 mt-3 d-md-none">
+        
+      </div>
+</div>
+
+
+  <div class="d-md-none border-bottom mb-4 pb-4">
+                  <div class="d-flex flex-items-center ml-md-5 mt-md-3">
+            </div>
+
+  </div>
+        <div data-pjax="true" data-test-selector="body-content" data-view-component="true" class="markdown-body my-3"><p>3.88 update.</p>
+<p>You can have a look at the test coverage to understand if a file is known to be passing or not (<a href="https://github.com/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre1/report.json">https://github.com/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre1/report.json</a>)</p>
+<p>Note: This release (and all subsequent ones) requires .net 5 x64 Desktop to run: <a href="https://dotnet.microsoft.com/download/dotnet/5.0/runtime" rel="nofollow">https://dotnet.microsoft.com/download/dotnet/5.0/runtime</a></p></div>
+</div>
+  <div data-view-component="true" class="Box-footer">
+        <div class="mb-3">
+          <details data-view-component="true">
+  <summary role="button" data-view-component="true">    <h3 class="d-inline">Assets</h3>
+    <span title="7" data-view-component="true" class="Counter ml-1">7</span>
+</summary>
+  <div data-view-component="true">    <div data-view-component="true" class="Box Box--condensed mt-3">
+  
+  
+    <ul>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
+    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre1/libMBIN-dotnet4.dll" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">libMBIN-dotnet4.dll</span>
+            
+          </a>
+            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.11 MB</span>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
+    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre1/libMBIN.dll" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">libMBIN.dll</span>
+            
+          </a>
+            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.11 MB</span>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
+    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre1/mapping.json" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">mapping.json</span>
+            
+          </a>
+            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">30.1 KB</span>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
+    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre1/MBINCompiler.exe" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">MBINCompiler.exe</span>
+            
+          </a>
+            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.53 MB</span>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
+    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/releases/download/v3.88.0-pre1/report.json" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">report.json</span>
+            
+          </a>
+            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">13.5 KB</span>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip color-fg-muted">
+    <path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/archive/refs/tags/v3.88.0-pre1.zip" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">Source code</span>
+            (zip)
+          </a>
+</li>
+        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip color-fg-muted">
+    <path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
+</svg>
+          <a href="/monkeyman192/MBINCompiler/archive/refs/tags/v3.88.0-pre1.tar.gz" rel="nofollow" data-skip-pjax>
+            <span class="px-1 text-bold">Source code</span>
+            (tar.gz)
+          </a>
+</li>
+    </ul>
+  
+</div></div>
+</details>
+        </div>
+
+
+          <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
+              <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container flex-row-reverse flex-justify-end d-flex">
+    <div data-view-component="true" class="color-fg-muted mt-1"></div>
+  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="FDe7_xXx_ziU5frVSuAaWmT2HbvWacBD7Blt2z_k1eM8iUioBKhnbIbxsGBjm9OjRDDSl4rJ124urzK2tVE2JQ" autocomplete="off" />
+    <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4D51g7">
+    <div class="comment-reactions-options js-comment-reactions-options d-flex">
+    </div>
+</form>
+</div>
+          </div>
+</div>
+</div></div>
+
+  </div>
+  <div class="d-flex flex-column flex-md-row my-5 flex-justify-center">
+    <div class="col-md-2 d-flex flex-md-column flex-row flex-wrap pr-md-6 mb-2 mb-md-0 flex-items-start pt-md-4">
+  <div class="mb-2 f4 mr-3 mr-md-0 col-12">
     <relative-time datetime="2022-04-22T22:41:39Z" class="no-wrap"></relative-time>
   </div>
 
@@ -1003,7 +1568,7 @@
     </div>
     <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
       
-<details class="details-reset details-overlay " id="tag-select-menu-6d85a19a-c5e5-11ec-8cc9-e4352d741808">
+<details class="details-reset details-overlay " id="tag-select-menu-611f038a-ca34-11ec-83d3-ce132d531983">
   <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
@@ -1014,7 +1579,7 @@
     <div class="SelectMenu-modal">
       <header class="SelectMenu-header">
         <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6d85a19a-c5e5-11ec-8cc9-e4352d741808">
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-611f038a-ca34-11ec-83d3-ce132d531983">
           <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
@@ -1035,7 +1600,7 @@
       <ref-selector
         type="tag"
         query-endpoint="/monkeyman192/MBINCompiler/refs"
-        cache-key="v0:1650666795.305046"
+        cache-key="v0:1651086444.155235"
         current-committish="djMuODcuMC1wcmUz"
         default-branch="ZGV2ZWxvcG1lbnQ="
         
@@ -1098,20 +1663,14 @@
   v3.87.0-pre3
   
 </a></h1>
-    <a href="/monkeyman192/MBINCompiler/releases/latest" data-view-component="true" class="v-align-text-bottom d-none d-md-inline-block">
-  <span data-view-component="true" class="Label Label--success Label--large">Latest</span>
-  
-</a>
+    
       <div class="v-align-text-bottom ml-2 d-none d-md-inline">
           
       </div>
   </div>
 
   <div class="mt-3 d-md-none">
-    <a href="/monkeyman192/MBINCompiler/releases/latest" data-view-component="true" class="v-align-text-bottom">
-  <span data-view-component="true" class="Label Label--success Label--large">Latest</span>
-  
-</a>
+    
   </div>
       <div class="ml-2 mt-3 d-md-none">
         
@@ -1137,7 +1696,7 @@
 </div>
   <div data-view-component="true" class="Box-footer">
         <div class="mb-3">
-          <details open="open" data-view-component="true">
+          <details data-view-component="true">
   <summary role="button" data-view-component="true">    <h3 class="d-inline">Assets</h3>
     <span title="7" data-view-component="true" class="Counter ml-1">7</span>
 </summary>
@@ -1216,7 +1775,7 @@
           <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
               <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container flex-row-reverse flex-justify-end d-flex">
     <div data-view-component="true" class="color-fg-muted mt-1"></div>
-  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="2fJIYUrwSn7Bg8zYRrEK5PaI79t9RrqEtj8G1c9cK4OBcR9HIKj3TjCCyY-Kp4ZTPLBUAKYaUXqHtojRggNhTA" autocomplete="off" />
+  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="IIlJDMRoBDxPk_MRIAhY9kWFLL1ISbaVXnN1cjUK1WsIN7pb1TGcaF2HuaQJc5EPZUPjkRTpobicxSofv782rQ" autocomplete="off" />
     <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4D4cor">
     <div class="comment-reactions-options js-comment-reactions-options d-flex">
     </div>
@@ -1295,7 +1854,7 @@
     </div>
     <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
       
-<details class="details-reset details-overlay " id="tag-select-menu-6d89380a-c5e5-11ec-976e-a206e8abcf4b">
+<details class="details-reset details-overlay " id="tag-select-menu-61227b6e-ca34-11ec-8100-708364928110">
   <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
@@ -1306,7 +1865,7 @@
     <div class="SelectMenu-modal">
       <header class="SelectMenu-header">
         <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6d89380a-c5e5-11ec-976e-a206e8abcf4b">
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-61227b6e-ca34-11ec-8100-708364928110">
           <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
@@ -1327,7 +1886,7 @@
       <ref-selector
         type="tag"
         query-endpoint="/monkeyman192/MBINCompiler/refs"
-        cache-key="v0:1650666795.305046"
+        cache-key="v0:1651086444.155235"
         current-committish="djMuODcuMC1wcmUy"
         default-branch="ZGV2ZWxvcG1lbnQ="
         
@@ -1496,7 +2055,7 @@
           <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
               <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container flex-row-reverse flex-justify-end d-flex">
     <div data-view-component="true" class="color-fg-muted mt-1"></div>
-  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="gx-QYoM35pzD7cLZQagssiM-tb2f726u709WGGEd6ajbnMdE6W9brDLsx46NvqAF6QYOZkSzhVDextgcLEKjZw" autocomplete="off" />
+  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="qfvkg0zS9xv0_3W2oUm0VUisuIL7sueFX8gN1cqFNwmBRRfUXYtvT-brPwOIMn2saGp3rqcS8KidflK4QDDUzw" autocomplete="off" />
     <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4D3-jj">
     <div class="comment-reactions-options js-comment-reactions-options d-flex">
     </div>
@@ -1575,7 +2134,7 @@
     </div>
     <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
       
-<details class="details-reset details-overlay " id="tag-select-menu-6d8b4136-c5e5-11ec-98eb-c1d98d6ec5fa">
+<details class="details-reset details-overlay " id="tag-select-menu-61251bc6-ca34-11ec-8d74-6e19e2487b0e">
   <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
@@ -1586,7 +2145,7 @@
     <div class="SelectMenu-modal">
       <header class="SelectMenu-header">
         <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6d8b4136-c5e5-11ec-98eb-c1d98d6ec5fa">
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-61251bc6-ca34-11ec-8d74-6e19e2487b0e">
           <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
@@ -1607,7 +2166,7 @@
       <ref-selector
         type="tag"
         query-endpoint="/monkeyman192/MBINCompiler/refs"
-        cache-key="v0:1650666795.305046"
+        cache-key="v0:1651086444.155235"
         current-committish="djMuODcuMC1wcmUx"
         default-branch="ZGV2ZWxvcG1lbnQ="
         
@@ -1775,21 +2334,21 @@
           <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
               <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container has-reactions flex-row-reverse flex-justify-end d-flex">
     <div data-view-component="true" class="color-fg-muted mt-1">6 people reacted</div>
-  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="YphdN9EpdCtxnaxYcDFBDca3zZnCfFhA9tzfjaHvxHA6GwoRu3HJG4CcqQ-8J826DI92Qhkgs77HVVGJ7LCOvw" autocomplete="off" />
+  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="REvlV_l3AEeLLOoKFskEJcvKHOeRIq7n2hw_VNne0hls9RYA6C6YE5k4oL8_ss3c6wzTy82CucoYqmA5U2sx3w" autocomplete="off" />
     <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4D3MVS">
     <div class="comment-reactions-options js-comment-reactions-options d-flex">
-        <button disabled="disabled" name="input[content]" id="reactions--reaction_button_component-02df95" value="THUMBS_UP react" aria-pressed="false" aria-label="thumbs up (6): github-actions[bot], 01:41AM on April 20" data-button-index-position="0" data-reaction-label="+1" data-reaction-content="+1" type="submit" data-view-component="true" class="social-reaction-summary-item js-reaction-group-button js-optimistic-reaction-render-button btn-link d-flex no-underline color-fg-muted flex-items-baseline mr-2">  <g-emoji alias="+1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" class="social-button-emoji">👍</g-emoji>
+        <button disabled="disabled" name="input[content]" id="reactions--reaction_button_component-98b633" value="THUMBS_UP react" aria-pressed="false" aria-label="thumbs up (6): github-actions[bot], 01:41AM on April 20" data-button-index-position="0" data-reaction-label="+1" data-reaction-content="+1" type="submit" data-view-component="true" class="social-reaction-summary-item js-reaction-group-button js-optimistic-reaction-render-button btn-link d-flex no-underline color-fg-muted flex-items-baseline mr-2">  <g-emoji alias="+1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" class="social-button-emoji">👍</g-emoji>
             <span class="js-discussion-reaction-group-count">6</span>
   
-</button>  <tool-tip hidden="hidden" for="reactions--reaction_button_component-02df95" data-direction="n" data-type="description" data-view-component="true">NooBzPoWaH, N-Verma, Khaoz-Topsy, SpeedySC1978, crypticjunk, and mrfisse reacted with thumbs up emoji</tool-tip>
-        <button disabled="disabled" name="input[content]" id="reactions--reaction_button_component-ce5e4a" value="HOORAY react" aria-pressed="false" aria-label="hooray (2): github-actions[bot], 01:41AM on April 20" data-button-index-position="1" data-reaction-label="Hooray" data-reaction-content="tada" type="submit" data-view-component="true" class="social-reaction-summary-item js-reaction-group-button js-optimistic-reaction-render-button btn-link d-flex no-underline color-fg-muted flex-items-baseline mr-2">  <g-emoji alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" class="social-button-emoji">🎉</g-emoji>
+</button>  <tool-tip hidden="hidden" for="reactions--reaction_button_component-98b633" data-direction="n" data-type="description" data-view-component="true">NooBzPoWaH, N-Verma, Khaoz-Topsy, SpeedySC1978, crypticjunk, and mrfisse reacted with thumbs up emoji</tool-tip>
+        <button disabled="disabled" name="input[content]" id="reactions--reaction_button_component-edd677" value="HOORAY react" aria-pressed="false" aria-label="hooray (2): github-actions[bot], 01:41AM on April 20" data-button-index-position="1" data-reaction-label="Hooray" data-reaction-content="tada" type="submit" data-view-component="true" class="social-reaction-summary-item js-reaction-group-button js-optimistic-reaction-render-button btn-link d-flex no-underline color-fg-muted flex-items-baseline mr-2">  <g-emoji alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" class="social-button-emoji">🎉</g-emoji>
             <span class="js-discussion-reaction-group-count">2</span>
   
-</button>  <tool-tip hidden="hidden" for="reactions--reaction_button_component-ce5e4a" data-direction="n" data-type="description" data-view-component="true">Khaoz-Topsy and mrfisse reacted with hooray emoji</tool-tip>
-        <button disabled="disabled" name="input[content]" id="reactions--reaction_button_component-23b341" value="HEART react" aria-pressed="false" aria-label="heart (1): github-actions[bot], 01:41AM on April 20" data-button-index-position="2" data-reaction-label="Heart" data-reaction-content="heart" type="submit" data-view-component="true" class="social-reaction-summary-item js-reaction-group-button js-optimistic-reaction-render-button btn-link d-flex no-underline color-fg-muted flex-items-baseline mr-2">  <g-emoji alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" class="social-button-emoji">❤️</g-emoji>
+</button>  <tool-tip hidden="hidden" for="reactions--reaction_button_component-edd677" data-direction="n" data-type="description" data-view-component="true">Khaoz-Topsy and mrfisse reacted with hooray emoji</tool-tip>
+        <button disabled="disabled" name="input[content]" id="reactions--reaction_button_component-bb901b" value="HEART react" aria-pressed="false" aria-label="heart (1): github-actions[bot], 01:41AM on April 20" data-button-index-position="2" data-reaction-label="Heart" data-reaction-content="heart" type="submit" data-view-component="true" class="social-reaction-summary-item js-reaction-group-button js-optimistic-reaction-render-button btn-link d-flex no-underline color-fg-muted flex-items-baseline mr-2">  <g-emoji alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" class="social-button-emoji">❤️</g-emoji>
             <span class="js-discussion-reaction-group-count">1</span>
   
-</button>  <tool-tip hidden="hidden" for="reactions--reaction_button_component-23b341" data-direction="n" data-type="description" data-view-component="true">mrfisse reacted with heart emoji</tool-tip>
+</button>  <tool-tip hidden="hidden" for="reactions--reaction_button_component-bb901b" data-direction="n" data-type="description" data-view-component="true">mrfisse reacted with heart emoji</tool-tip>
     </div>
 </form>
 </div>
@@ -1866,7 +2425,7 @@
     </div>
     <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
       
-<details class="details-reset details-overlay " id="tag-select-menu-6d8da89a-c5e5-11ec-856c-32fadcaa307d">
+<details class="details-reset details-overlay " id="tag-select-menu-6127bd86-ca34-11ec-954b-5f792b0d2b5d">
   <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
@@ -1877,7 +2436,7 @@
     <div class="SelectMenu-modal">
       <header class="SelectMenu-header">
         <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6d8da89a-c5e5-11ec-856c-32fadcaa307d">
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6127bd86-ca34-11ec-954b-5f792b0d2b5d">
           <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
@@ -1898,7 +2457,7 @@
       <ref-selector
         type="tag"
         query-endpoint="/monkeyman192/MBINCompiler/refs"
-        cache-key="v0:1650666795.305046"
+        cache-key="v0:1651086444.155235"
         current-committish="djMuODQuMC1wcmUy"
         default-branch="ZGV2ZWxvcG1lbnQ="
         
@@ -2066,7 +2625,7 @@
           <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
               <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container flex-row-reverse flex-justify-end d-flex">
     <div data-view-component="true" class="color-fg-muted mt-1"></div>
-  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="t-YhA4yEKk7nQn2nWK2NG83itlT95W-lBhTteJJOWijvZXYl5tyXfhZDePCUuwGsB9oNjya5hFs3nWN83xEQ5w" autocomplete="off" />
+  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="qgA29CmteNbyJW8O8X4eaLmB6Ya49yvmRUYp0-I5NHSCvsWjOPTgguAxJbvYBdeRmUcmquRXPMuH8Ha-aIzXsg" autocomplete="off" />
     <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4D2MMj">
     <div class="comment-reactions-options js-comment-reactions-options d-flex">
     </div>
@@ -2145,7 +2704,7 @@
     </div>
     <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
       
-<details class="details-reset details-overlay " id="tag-select-menu-6d8fa64a-c5e5-11ec-9265-9526e91d6909">
+<details class="details-reset details-overlay " id="tag-select-menu-6129f09c-ca34-11ec-9db3-85509c6b1648">
   <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
@@ -2156,7 +2715,7 @@
     <div class="SelectMenu-modal">
       <header class="SelectMenu-header">
         <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6d8fa64a-c5e5-11ec-9265-9526e91d6909">
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6129f09c-ca34-11ec-9db3-85509c6b1648">
           <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
@@ -2177,7 +2736,7 @@
       <ref-selector
         type="tag"
         query-endpoint="/monkeyman192/MBINCompiler/refs"
-        cache-key="v0:1650666795.305046"
+        cache-key="v0:1651086444.155235"
         current-committish="djMuODQuMC1wcmUx"
         default-branch="ZGV2ZWxvcG1lbnQ="
         
@@ -2343,7 +2902,7 @@
           <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
               <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container flex-row-reverse flex-justify-end d-flex">
     <div data-view-component="true" class="color-fg-muted mt-1"></div>
-  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="2BYxL8xwDEx98GB7JvaFBbXV8urkrHJgTmVCwDRa2ZeAlWYJpiixfIzxZSzq4Amyf-1JMT_wmZ5_7MzEeQWTWA" autocomplete="off" />
+  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="LxwARFbdav-iqqGD1q8dqF-wl2yGgs_uxVfQzzt3eUYHovMTR4Tyq7C-6zb_1NRRf3ZYQNoi2MMH4Y-iscKagA" autocomplete="off" />
     <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4D1wrF">
     <div class="comment-reactions-options js-comment-reactions-options d-flex">
     </div>
@@ -2391,7 +2950,7 @@
     </div>
     <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
       
-<details class="details-reset details-overlay " id="tag-select-menu-6d91ad8c-c5e5-11ec-9e8d-331917980e70">
+<details class="details-reset details-overlay " id="tag-select-menu-612c3bc2-ca34-11ec-8449-c269d3df35c3">
   <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
@@ -2402,7 +2961,7 @@
     <div class="SelectMenu-modal">
       <header class="SelectMenu-header">
         <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6d91ad8c-c5e5-11ec-9e8d-331917980e70">
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-612c3bc2-ca34-11ec-8449-c269d3df35c3">
           <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
@@ -2423,7 +2982,7 @@
       <ref-selector
         type="tag"
         query-endpoint="/monkeyman192/MBINCompiler/refs"
-        cache-key="v0:1650666795.305046"
+        cache-key="v0:1651086444.155235"
         current-committish="djMuODIuMC1wcmUy"
         default-branch="ZGV2ZWxvcG1lbnQ="
         
@@ -2589,13 +3148,13 @@
           <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
               <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container has-reactions flex-row-reverse flex-justify-end d-flex">
     <div data-view-component="true" class="color-fg-muted mt-1">3 people reacted</div>
-  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="USxcSRD8-uV1EjNCFDlw95e16Fttmhe_7h6uTlLwRUcJrwtveqRH1YQTNhXYL_xAXY1TgLbG_EHflyBKH68PiA" autocomplete="off" />
+  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="YayQC7bTZedC4Dju1U8kQbo687u71Oj3UzZd5tPHK1pJEmNcp4r9s1D0clv8NO24mvw8l-d0_9qRgAKLWXLInA" autocomplete="off" />
     <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4Dn6ni">
     <div class="comment-reactions-options js-comment-reactions-options d-flex">
-        <button disabled="disabled" name="input[content]" id="reactions--reaction_button_component-c8811d" value="THUMBS_UP react" aria-pressed="false" aria-label="thumbs up (3): github-actions[bot], 12:34PM on March 02" data-button-index-position="0" data-reaction-label="+1" data-reaction-content="+1" type="submit" data-view-component="true" class="social-reaction-summary-item js-reaction-group-button js-optimistic-reaction-render-button btn-link d-flex no-underline color-fg-muted flex-items-baseline mr-2">  <g-emoji alias="+1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" class="social-button-emoji">👍</g-emoji>
+        <button disabled="disabled" name="input[content]" id="reactions--reaction_button_component-170053" value="THUMBS_UP react" aria-pressed="false" aria-label="thumbs up (3): github-actions[bot], 12:34PM on March 02" data-button-index-position="0" data-reaction-label="+1" data-reaction-content="+1" type="submit" data-view-component="true" class="social-reaction-summary-item js-reaction-group-button js-optimistic-reaction-render-button btn-link d-flex no-underline color-fg-muted flex-items-baseline mr-2">  <g-emoji alias="+1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" class="social-button-emoji">👍</g-emoji>
             <span class="js-discussion-reaction-group-count">3</span>
   
-</button>  <tool-tip hidden="hidden" for="reactions--reaction_button_component-c8811d" data-direction="n" data-type="description" data-view-component="true">PhilliusAstonix, Khaoz-Topsy, and nightbloodkim reacted with thumbs up emoji</tool-tip>
+</button>  <tool-tip hidden="hidden" for="reactions--reaction_button_component-170053" data-direction="n" data-type="description" data-view-component="true">PhilliusAstonix, Khaoz-Topsy, and nightbloodkim reacted with thumbs up emoji</tool-tip>
     </div>
 </form>
 </div>
@@ -2672,7 +3231,7 @@
     </div>
     <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
       
-<details class="details-reset details-overlay " id="tag-select-menu-6d94e0e2-c5e5-11ec-8874-b1cc052a9b48">
+<details class="details-reset details-overlay " id="tag-select-menu-612ef65a-ca34-11ec-9f60-707b1d6e253e">
   <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
@@ -2683,7 +3242,7 @@
     <div class="SelectMenu-modal">
       <header class="SelectMenu-header">
         <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6d94e0e2-c5e5-11ec-8874-b1cc052a9b48">
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-612ef65a-ca34-11ec-9f60-707b1d6e253e">
           <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
@@ -2704,7 +3263,7 @@
       <ref-selector
         type="tag"
         query-endpoint="/monkeyman192/MBINCompiler/refs"
-        cache-key="v0:1650666795.305046"
+        cache-key="v0:1651086444.155235"
         current-committish="djMuODIuMC1wcmUx"
         default-branch="ZGV2ZWxvcG1lbnQ="
         
@@ -2869,7 +3428,7 @@
           <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
               <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container flex-row-reverse flex-justify-end d-flex">
     <div data-view-component="true" class="color-fg-muted mt-1"></div>
-  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="SJr5QLc797_cm3oKKScjMJWwXChxDxW9K5SiRhYXxvkQGa5m3WNKjy2af13lMa-HX4jn86pT_kMaHSxCW0iMNg" autocomplete="off" />
+  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="hEyTwptH_PwtK1akeabZ1fvGbbUWphMpr3jfs4i3NzKs8mCVih5kqD8_HBFQ3RAs2wCimUoGBARtzoDeAgLU9A" autocomplete="off" />
     <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4Dlsg_">
     <div class="comment-reactions-options js-comment-reactions-options d-flex">
     </div>
@@ -2917,7 +3476,7 @@
     </div>
     <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
       
-<details class="details-reset details-overlay " id="tag-select-menu-6d96de88-c5e5-11ec-8ccb-28be70a88c55">
+<details class="details-reset details-overlay " id="tag-select-menu-6130d1f0-ca34-11ec-98d8-7ab087baf19d">
   <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
@@ -2928,7 +3487,7 @@
     <div class="SelectMenu-modal">
       <header class="SelectMenu-header">
         <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6d96de88-c5e5-11ec-8ccb-28be70a88c55">
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6130d1f0-ca34-11ec-98d8-7ab087baf19d">
           <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
@@ -2949,7 +3508,7 @@
       <ref-selector
         type="tag"
         query-endpoint="/monkeyman192/MBINCompiler/refs"
-        cache-key="v0:1650666795.305046"
+        cache-key="v0:1651086444.155235"
         current-committish="djMuODEuMC1wcmUz"
         default-branch="ZGV2ZWxvcG1lbnQ="
         
@@ -3117,504 +3676,8 @@ Remember that at the time of writing this update will be for the Experimental br
           <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
               <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container flex-row-reverse flex-justify-end d-flex">
     <div data-view-component="true" class="color-fg-muted mt-1"></div>
-  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="DF6iMNt8LERpTN5pXwumkmdtCYdEdMJhOTBaIZ0DXbxU3fUWsSSRdJhN2z6THSolrVWyXJ8oKZ8IudQl0FwXcw" autocomplete="off" />
+  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="aeNBqfrQwuJxLI2PVUJBvRASROvEEN-RHtYzb2skqutBXbL-64latmM4xzp8OYhEMNSLx5iwyLzcYGwC4ZFJLQ" autocomplete="off" />
     <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4DlXpy">
-    <div class="comment-reactions-options js-comment-reactions-options d-flex">
-    </div>
-</form>
-</div>
-          </div>
-</div>
-</div></div>
-
-  </div>
-  <div class="d-flex flex-column flex-md-row my-5 flex-justify-center">
-    <div class="col-md-2 d-flex flex-md-column flex-row flex-wrap pr-md-6 mb-2 mb-md-0 flex-items-start pt-md-4">
-  <div class="mb-2 f4 mr-3 mr-md-0 col-12">
-    <local-time datetime="2022-02-21T13:43:03Z" month="short" day="2-digit" year="numeric" class="no-wrap"></local-time>
-  </div>
-
-    <div class="mb-md-2 mr-3 mr-md-0">
-      <img src="https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4" alt="@github-actions" size="20" height="20" width="20" data-view-component="true" class="avatar avatar-small" />
-      <a class="color-fg-muted wb-break-all" href="/apps/github-actions">github-actions</a>
-    </div>
-
-    <div class="mr-3 mr-md-0 d-flex" data-pjax="#repo-content-pjax-container">
-      <a href="/monkeyman192/MBINCompiler/tree/v3.81.0-pre2" data-view-component="true" class="Link--muted">
-  
-        <div data-view-component="true" class="css-truncate css-truncate-target">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-tag">
-    <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path>
-</svg>
-          <span class="ml-1 wb-break-all">
-            v3.81.0-pre2
-          </span>
-</div>
-  
-</a>      
-    </div>
-    <div style="position: relative; top: 1px;" class="mb-md-2 mr-3 mr-md-0" data-pjax="#repo-content-pjax-container">
-      <a data-hovercard-type="commit" data-hovercard-url="/monkeyman192/MBINCompiler/commit/d6ebe18de3e680c135a943d867b7df606fcbee5a/hovercard" href="/monkeyman192/MBINCompiler/commit/d6ebe18de3e680c135a943d867b7df606fcbee5a" data-view-component="true" class="Link--muted mb-2">
-  
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-commit">
-    <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"></path>
-</svg>
-        <code class="f5 ml-1 wb-break-all">d6ebe18</code>
-  
-</a>
-    </div>
-    <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
-      
-<details class="details-reset details-overlay " id="tag-select-menu-6d99ec2c-c5e5-11ec-8e22-efbd75ab8fef">
-  <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
-    <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
-</svg>
-  
-</summary>
-
-  <details-menu class="SelectMenu text-md-left ">
-    <div class="SelectMenu-modal">
-      <header class="SelectMenu-header">
-        <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6d99ec2c-c5e5-11ec-8e22-efbd75ab8fef">
-          <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-</svg>
-        </button>
-      </header>
-
-      <div class="SelectMenu-filter">
-        <input
-          aria-label="Find a tag"
-          autofocus
-          class="SelectMenu-input form-control"
-          data-ref-filter
-          placeholder="Find a tag"
-          type="text"
-          >
-      </div>
-
-      <ref-selector
-        type="tag"
-        query-endpoint="/monkeyman192/MBINCompiler/refs"
-        cache-key="v0:1650666795.305046"
-        current-committish="djMuODEuMC1wcmUy"
-        default-branch="ZGV2ZWxvcG1lbnQ="
-        
-        name-with-owner="bW9ua2V5bWFuMTkyL01CSU5Db21waWxlcg=="
-        
-        prefetch-on-mouseover
-      >
-        <template data-target="ref-selector.fetchFailedTemplate">
-          <div class="SelectMenu-message" data-index="{{ index }}">Could not load tags</div>
-        </template>
-
-        <template data-target="ref-selector.noMatchTemplate">
-            <div class="SelectMenu-message" data-index="{{ index }}">Nothing to show</div>
-        </template>
-
-          <template data-target="ref-selector.itemTemplate">
-  <a href="/monkeyman192/MBINCompiler/compare/{{ urlEncodedRefName }}...v3.81.0-pre2" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-</svg>
-    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
-    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
-  </a>
-</template>
-
-
-        <template data-target="ref-selector.hiddenCurrentItemTemplate">
-          <input hidden="hidden" type="radio" value="{{ refName }}" checked="checked" name="" id="" />
-        </template>
-
-        <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list" style="max-height: 330px">
-          <div class="SelectMenu-loading pt-3 pb-0 overflow-hidden" aria-label="Menu is loading">
-            <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
-</svg>
-          </div>
-        </div>
-          <footer class="SelectMenu-footer"><a href="/monkeyman192/MBINCompiler/tags">View all tags</a></footer>
-      </ref-selector>
-    </div>
-  </details-menu>
-</details>
-    </div>
-</div>
-
-
-    <div class="col-md-9" data-test-selector="release-card" >
-  <div data-view-component="true" class="Box">
-  
-  <div data-view-component="true" class="Box-body">        <div class="float-right d-none d-md-block">
-                  <div class="d-flex flex-items-center ml-md-5 mt-md-3">
-            </div>
-
-  </div>
-
-<div class="d-flex flex-row mb-3">
-  <div class="flex-1" data-pjax="#repo-content-pjax-container">
-    <h1 data-view-component="true" class="d-inline mr-3"><a href="/monkeyman192/MBINCompiler/releases/tag/v3.81.0-pre2" data-view-component="true" class="Link--primary">
-  v3.81.0-pre2
-  
-</a></h1>
-    
-      <div class="v-align-text-bottom ml-2 d-none d-md-inline">
-          
-      </div>
-  </div>
-
-  <div class="mt-3 d-md-none">
-    
-  </div>
-      <div class="ml-2 mt-3 d-md-none">
-        
-      </div>
-</div>
-
-
-  <div class="d-md-none border-bottom mb-4 pb-4">
-                  <div class="d-flex flex-items-center ml-md-5 mt-md-3">
-            </div>
-
-  </div>
-        <div data-pjax="true" data-test-selector="body-content" data-view-component="true" class="markdown-body my-3"><p>This should fix a good amount of files including about half the broken globals (see current issue list and test report to see which still fail).</p>
-<p>At time of publishing this there was another Experimental update which this update doesn't consider.</p>
-<p>Note: This release (and all subsequent ones) requires .net 5 to run: <a href="https://dotnet.microsoft.com/download/dotnet/5.0/runtime" rel="nofollow">https://dotnet.microsoft.com/download/dotnet/5.0/runtime</a></p></div>
-</div>
-  <div data-view-component="true" class="Box-footer">
-        <div class="mb-3">
-          <details data-view-component="true">
-  <summary role="button" data-view-component="true">    <h3 class="d-inline">Assets</h3>
-    <span title="7" data-view-component="true" class="Counter ml-1">7</span>
-</summary>
-  <div data-view-component="true">    <div data-view-component="true" class="Box Box--condensed mt-3">
-  
-  
-    <ul>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
-    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre2/libMBIN-dotnet4.dll" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">libMBIN-dotnet4.dll</span>
-            
-          </a>
-            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.08 MB</span>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
-    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre2/libMBIN.dll" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">libMBIN.dll</span>
-            
-          </a>
-            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.08 MB</span>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
-    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre2/mapping.json" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">mapping.json</span>
-            
-          </a>
-            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">29.7 KB</span>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
-    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre2/MBINCompiler.exe" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">MBINCompiler.exe</span>
-            
-          </a>
-            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.5 MB</span>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
-    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre2/report.json" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">report.json</span>
-            
-          </a>
-            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">13.3 KB</span>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip color-fg-muted">
-    <path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/archive/refs/tags/v3.81.0-pre2.zip" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">Source code</span>
-            (zip)
-          </a>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip color-fg-muted">
-    <path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/archive/refs/tags/v3.81.0-pre2.tar.gz" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">Source code</span>
-            (tar.gz)
-          </a>
-</li>
-    </ul>
-  
-</div></div>
-</details>
-        </div>
-
-
-          <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
-              <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container flex-row-reverse flex-justify-end d-flex">
-    <div data-view-component="true" class="color-fg-muted mt-1"></div>
-  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="smmo9VMTKBKFp2hgdBjrW14zxnqFEnCwfe4oiQsvrVnq6v_TOUuVInSmbTe4DmfslAt9oV5Om05MZ6aNRnDnlg" autocomplete="off" />
-    <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4DlEC1">
-    <div class="comment-reactions-options js-comment-reactions-options d-flex">
-    </div>
-</form>
-</div>
-          </div>
-</div>
-</div></div>
-
-  </div>
-  <div class="d-flex flex-column flex-md-row my-5 flex-justify-center">
-    <div class="col-md-2 d-flex flex-md-column flex-row flex-wrap pr-md-6 mb-2 mb-md-0 flex-items-start pt-md-4">
-  <div class="mb-2 f4 mr-3 mr-md-0 col-12">
-    <local-time datetime="2022-02-20T13:36:53Z" month="short" day="2-digit" year="numeric" class="no-wrap"></local-time>
-  </div>
-
-    <div class="mb-md-2 mr-3 mr-md-0">
-      <img src="https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4" alt="@github-actions" size="20" height="20" width="20" data-view-component="true" class="avatar avatar-small" />
-      <a class="color-fg-muted wb-break-all" href="/apps/github-actions">github-actions</a>
-    </div>
-
-    <div class="mr-3 mr-md-0 d-flex" data-pjax="#repo-content-pjax-container">
-      <a href="/monkeyman192/MBINCompiler/tree/v3.81.0-pre1" data-view-component="true" class="Link--muted">
-  
-        <div data-view-component="true" class="css-truncate css-truncate-target">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-tag">
-    <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path>
-</svg>
-          <span class="ml-1 wb-break-all">
-            v3.81.0-pre1
-          </span>
-</div>
-  
-</a>      
-    </div>
-    <div style="position: relative; top: 1px;" class="mb-md-2 mr-3 mr-md-0" data-pjax="#repo-content-pjax-container">
-      <a data-hovercard-type="commit" data-hovercard-url="/monkeyman192/MBINCompiler/commit/cb06e61fb3e487ba78963b9e315c0ffe95704f87/hovercard" href="/monkeyman192/MBINCompiler/commit/cb06e61fb3e487ba78963b9e315c0ffe95704f87" data-view-component="true" class="Link--muted mb-2">
-  
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-commit">
-    <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"></path>
-</svg>
-        <code class="f5 ml-1 wb-break-all">cb06e61</code>
-  
-</a>
-    </div>
-    <div class="mb-md-2 mr-3 mr-md-0 hide-sm">
-      
-<details class="details-reset details-overlay " id="tag-select-menu-6d9c6024-c5e5-11ec-95f1-ce6852285c6c">
-  <summary data-view-component="true" class="btn-sm btn text-left">  <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
-    <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
-</svg>
-  
-</summary>
-
-  <details-menu class="SelectMenu text-md-left ">
-    <div class="SelectMenu-modal">
-      <header class="SelectMenu-header">
-        <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-6d9c6024-c5e5-11ec-95f1-ce6852285c6c">
-          <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-</svg>
-        </button>
-      </header>
-
-      <div class="SelectMenu-filter">
-        <input
-          aria-label="Find a tag"
-          autofocus
-          class="SelectMenu-input form-control"
-          data-ref-filter
-          placeholder="Find a tag"
-          type="text"
-          >
-      </div>
-
-      <ref-selector
-        type="tag"
-        query-endpoint="/monkeyman192/MBINCompiler/refs"
-        cache-key="v0:1650666795.305046"
-        current-committish="djMuODEuMC1wcmUx"
-        default-branch="ZGV2ZWxvcG1lbnQ="
-        
-        name-with-owner="bW9ua2V5bWFuMTkyL01CSU5Db21waWxlcg=="
-        
-        prefetch-on-mouseover
-      >
-        <template data-target="ref-selector.fetchFailedTemplate">
-          <div class="SelectMenu-message" data-index="{{ index }}">Could not load tags</div>
-        </template>
-
-        <template data-target="ref-selector.noMatchTemplate">
-            <div class="SelectMenu-message" data-index="{{ index }}">Nothing to show</div>
-        </template>
-
-          <template data-target="ref-selector.itemTemplate">
-  <a href="/monkeyman192/MBINCompiler/compare/{{ urlEncodedRefName }}...v3.81.0-pre1" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-</svg>
-    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
-    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
-  </a>
-</template>
-
-
-        <template data-target="ref-selector.hiddenCurrentItemTemplate">
-          <input hidden="hidden" type="radio" value="{{ refName }}" checked="checked" name="" id="" />
-        </template>
-
-        <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list" style="max-height: 330px">
-          <div class="SelectMenu-loading pt-3 pb-0 overflow-hidden" aria-label="Menu is loading">
-            <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
-</svg>
-          </div>
-        </div>
-          <footer class="SelectMenu-footer"><a href="/monkeyman192/MBINCompiler/tags">View all tags</a></footer>
-      </ref-selector>
-    </div>
-  </details-menu>
-</details>
-    </div>
-</div>
-
-
-    <div class="col-md-9" data-test-selector="release-card" >
-  <div data-view-component="true" class="Box">
-  
-  <div data-view-component="true" class="Box-body">        <div class="float-right d-none d-md-block">
-                  <div class="d-flex flex-items-center ml-md-5 mt-md-3">
-            </div>
-
-  </div>
-
-<div class="d-flex flex-row mb-3">
-  <div class="flex-1" data-pjax="#repo-content-pjax-container">
-    <h1 data-view-component="true" class="d-inline mr-3"><a href="/monkeyman192/MBINCompiler/releases/tag/v3.81.0-pre1" data-view-component="true" class="Link--primary">
-  v3.81.0-pre1
-  
-</a></h1>
-    
-      <div class="v-align-text-bottom ml-2 d-none d-md-inline">
-          
-      </div>
-  </div>
-
-  <div class="mt-3 d-md-none">
-    
-  </div>
-      <div class="ml-2 mt-3 d-md-none">
-        
-      </div>
-</div>
-
-
-  <div class="d-md-none border-bottom mb-4 pb-4">
-                  <div class="d-flex flex-items-center ml-md-5 mt-md-3">
-            </div>
-
-  </div>
-        <div data-pjax="true" data-test-selector="body-content" data-view-component="true" class="markdown-body my-3"><p>First release for 3.8X update.</p>
-<p>This release doesn't really address any globals yet, and there are still a number of files with known issues that may appear crossed off in the update issue list. If in doubt, have a look at the test coverage to understand if a file is known to be passing or not (<a href="https://github.com/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre1/report.json">https://github.com/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre1/report.json</a>)</p>
-<p>Note: This release (and all subsequent ones) requires .net 5 to run: <a href="https://dotnet.microsoft.com/download/dotnet/5.0/runtime" rel="nofollow">https://dotnet.microsoft.com/download/dotnet/5.0/runtime</a></p></div>
-</div>
-  <div data-view-component="true" class="Box-footer">
-        <div class="mb-3">
-          <details data-view-component="true">
-  <summary role="button" data-view-component="true">    <h3 class="d-inline">Assets</h3>
-    <span title="7" data-view-component="true" class="Counter ml-1">7</span>
-</summary>
-  <div data-view-component="true">    <div data-view-component="true" class="Box Box--condensed mt-3">
-  
-  
-    <ul>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
-    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre1/libMBIN-dotnet4.dll" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">libMBIN-dotnet4.dll</span>
-            
-          </a>
-            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.08 MB</span>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
-    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre1/libMBIN.dll" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">libMBIN.dll</span>
-            
-          </a>
-            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.08 MB</span>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
-    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre1/mapping.json" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">mapping.json</span>
-            
-          </a>
-            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">29.7 KB</span>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
-    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre1/MBINCompiler.exe" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">MBINCompiler.exe</span>
-            
-          </a>
-            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">1.5 MB</span>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package color-fg-muted">
-    <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/releases/download/v3.81.0-pre1/report.json" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">report.json</span>
-            
-          </a>
-            <span class="float-right color-fg-muted" data-test-selector="asset-size-label">13.3 KB</span>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip color-fg-muted">
-    <path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/archive/refs/tags/v3.81.0-pre1.zip" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">Source code</span>
-            (zip)
-          </a>
-</li>
-        <li data-view-component="true" class="Box-row">          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip color-fg-muted">
-    <path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
-</svg>
-          <a href="/monkeyman192/MBINCompiler/archive/refs/tags/v3.81.0-pre1.tar.gz" rel="nofollow" data-skip-pjax>
-            <span class="px-1 text-bold">Source code</span>
-            (tar.gz)
-          </a>
-</li>
-    </ul>
-  
-</div></div>
-</details>
-        </div>
-
-
-          <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
-              <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container flex-row-reverse flex-justify-end d-flex">
-    <div data-view-component="true" class="color-fg-muted mt-1"></div>
-  <form class="js-pick-reaction" data-turbo="false" action="/monkeyman192/MBINCompiler/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="oXPirU3PkNSEsDzXiZpyV6ZUrKthc5HrRfuIPkr3H4n58LWLJ5ct5HWxOYBFjP7gbGwXcLovehV0cgY6B6hVRg" autocomplete="off" />
-    <input type="hidden" name="input[subjectId]" value="RE_kwDOBHiugs4Dk3WD">
     <div class="comment-reactions-options js-comment-reactions-options d-flex">
     </div>
 </form>

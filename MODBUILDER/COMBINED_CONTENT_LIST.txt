@@ -1,5 +1,6 @@
 This mod contains:
 - 1hr-Days
+- CraftableUpgradeModsFINAL
 - Fast Actions 4.1
 - Fullscreen Warps 2.8
 - gCam hrv
@@ -12,9 +13,12 @@ This mod contains:
 - No Speed Halo 1.5 - Almost
 - No Speed Lines 1.5
 - Quick Crates 1.8
+- Remove_Tech_Overload_1_1e
 - Skip's Asteroid Megamod 1.0.0-PRISMS
 - Small Cursor 3.9
 - SpeedIncreaseAnalysis
+- UninstallCoreWeapons
+- _nanite trade
 
 Original information:
    MOD FILENAME: 1hr-Days.pak
@@ -22,6 +26,13 @@ Original information:
      LUA AUTHOR: Unknown
 MOD DESCRIPTION: Unknown
     NMS VERSION: 3.68
+
+Original information:
+   MOD FILENAME: CraftableUpgradeMods.pak
+     MOD AUTHOR: jackty89
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: 
+    NMS VERSION: Unknown
 
 Original information:
    MOD FILENAME: Fast Actions 4.1.pak
@@ -108,6 +119,13 @@ MOD DESCRIPTION: This mod opens crates in one click
     NMS VERSION: 3.87
 
 Original information:
+   MOD FILENAME: Remove_Tech_Overload_1_1e.pak
+     MOD AUTHOR: chronicallybored
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: Raises the technology overload cap to 48
+    NMS VERSION: 3.88
+
+Original information:
    MOD FILENAME: Skip's Asteroid Megamod 1.0.0-PRISMS.pak
      MOD AUTHOR: Skip
      LUA AUTHOR: Unknown
@@ -127,3 +145,17 @@ Original information:
      LUA AUTHOR: Unknown
 MOD DESCRIPTION: Unknown
     NMS VERSION: 1.77
+
+Original information:
+   MOD FILENAME: UninstallCoreWeapons.pak
+     MOD AUTHOR: Jackty89
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: UninstallCoreWeapons
+    NMS VERSION: Unknown
+
+Original information:
+   MOD FILENAME: _Nanites_trade.pak
+     MOD AUTHOR: Bambr44
+     LUA AUTHOR: Unknown
+MOD DESCRIPTION: Stations and Trade posts sell Nanites.
+    NMS VERSION: 3.88

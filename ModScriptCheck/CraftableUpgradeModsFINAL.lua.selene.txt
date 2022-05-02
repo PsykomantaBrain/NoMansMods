@@ -1,0 +1,5 @@
+CheckScript.lua:969:11: warning[unused_variable]: Language is assigned a value, but never used
+Results:
+0 errors
+1 warnings
+0 parse errors
