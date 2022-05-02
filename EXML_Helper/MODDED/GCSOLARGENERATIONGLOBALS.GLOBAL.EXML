@@ -49,7 +49,7 @@
   <Property name="AsteroidRotateMin" value="-0.02" />
   <Property name="AsteroidRotateMax" value="0.02" />
   <Property name="AsteroidScaleVariance" value="Vector2f.xml">
-    <Property name="x" value="0.05" />
+    <Property name="x" value="0.35" />
     <Property name="y" value="1.2" />
   </Property>
   <Property name="AsteroidFadeTime" value="5" />

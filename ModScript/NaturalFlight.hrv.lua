@@ -32,10 +32,11 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "HoverMaxSpeed", 						"600" }, 	--Original "150"
 								{ "MiniWarpLinesNum", 					"1" }, 		--Original "4"
 								{ "AimDistanceRange", 					"10" }, 	--Original "1"
-								{ "MiniWarpChargeTime",					"3"},		-- Original 5
+								{ "MiniWarpSpeed",						"30000"},	-- Original v1.24 "20000", 	Original v1.77 ""
+								{ "MiniWarpChargeTime",					"2"},		-- Original 5
 								{ "MiniWarpStationRadius", 				"500" }, 	--Original "700"
 								{ "MiniWarpExitSpeed", 					"4000" }, 	--Original "1000"
-								{ "MiniWarpExitSpeedStation", 			"3000" }, 	--Original "500"
+								{ "MiniWarpExitSpeedStation", 			"2000" }, 	--Original "500"
 								{ "AnomalyStationMaxApproachSpeed", 	"3000" }, 	--Original "60"
 								{ "CollisionDistance", 					"10" }, 	--Original "200"
 								{ "DeflectDistance", 					"1000" }, 	--Original "150"
@@ -117,7 +118,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "Falloff", 							"0" }, 		--Original "0.5"
 								{ "BoostMaxSpeed", 						"375" }, 	--Original "150"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
-								{ "ReverseBrake", 						"0.3" }, 	--Original "0.5"
+								{ "ReverseBrake", 						"0.2" }, 	--Original "0.5"
 								{ "OverspeedBrake", 					"0.1" }, 		--Original "3"
 								{ "RollAutoTime",	 					"84600" } 	--Original "2"
 							}
@@ -201,7 +202,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 							["PRECEDING_KEY_WORDS"] = "AsteroidScaleVariance",
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "x", 									"0.05" } 	--Original "0.5"
+								{ "x", 									"0.35" } 	--Original "0.5"
 							}
 						},
 						{
@@ -244,8 +245,8 @@ NMS_MOD_DEFINITION_CONTAINER =
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
 								{ "AtmosphereEntryTime", 					"1.5" },	--Original "1.5"			
-								{ "AtmosphereEntryFadeTimeFactor", 			"0.0" }, 	--Original "0.25"			
-								{ "AtmosphereEntryOffset", 					"0" }	 	--Original "200"			
+								{ "AtmosphereEntryFadeTimeFactor", 			"0.25" }, 	--Original "0.25"			
+								{ "AtmosphereEntryOffset", 					"200" }	 	--Original "200"			
 							}							
 							
 							-- {

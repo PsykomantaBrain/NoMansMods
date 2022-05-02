@@ -14,7 +14,6 @@ This mod contains:
 - Quick Crates 1.8
 - Skip's Asteroid Megamod 1.0.0-PRISMS
 - Small Cursor 3.9
-- SolarShipNoSails
 - SpeedIncreaseAnalysis
 
 Original information:

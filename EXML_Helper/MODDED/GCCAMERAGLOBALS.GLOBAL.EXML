@@ -2656,14 +2656,14 @@
     <Property name="DistStiffness" value="2" />
     <Property name="SpringSpeed" value="0" />
     <Property name="LockToObjectOnIdle" value="True" />
-    <Property name="CenterStartTime" value="0.5" />
+    <Property name="CenterStartTime" value="84600" />
     <Property name="CenterBlendTime" value="1" />
     <Property name="CenterMaxSpring" value="8" />
     <Property name="CenterMaxSpeed" value="5" />
     <Property name="VelocityAnticipate" value="0.17" />
     <Property name="VelocityAnticipateSpringSpeed" value="0.4" />
     <Property name="VertMaxSpring" value="5.5" />
-    <Property name="CenterStartSpeed" value="0.5" />
+    <Property name="CenterStartSpeed" value="1" />
     <Property name="MinClose" value="0.1" />
     <Property name="MaxClose" value="1" />
     <Property name="CloseSpring" value="6" />
@@ -2722,14 +2722,14 @@
     <Property name="DistStiffness" value="2" />
     <Property name="SpringSpeed" value="0" />
     <Property name="LockToObjectOnIdle" value="True" />
-    <Property name="CenterStartTime" value="0.5" />
+    <Property name="CenterStartTime" value="84600" />
     <Property name="CenterBlendTime" value="1" />
     <Property name="CenterMaxSpring" value="8" />
     <Property name="CenterMaxSpeed" value="5" />
     <Property name="VelocityAnticipate" value="0.17" />
     <Property name="VelocityAnticipateSpringSpeed" value="0.4" />
     <Property name="VertMaxSpring" value="5.5" />
-    <Property name="CenterStartSpeed" value="0.5" />
+    <Property name="CenterStartSpeed" value="1" />
     <Property name="MinClose" value="0.1" />
     <Property name="MaxClose" value="1" />
     <Property name="CloseSpring" value="6" />
@@ -2788,14 +2788,14 @@
     <Property name="DistStiffness" value="2" />
     <Property name="SpringSpeed" value="0" />
     <Property name="LockToObjectOnIdle" value="True" />
-    <Property name="CenterStartTime" value="0.5" />
+    <Property name="CenterStartTime" value="84600" />
     <Property name="CenterBlendTime" value="1" />
     <Property name="CenterMaxSpring" value="8" />
     <Property name="CenterMaxSpeed" value="5" />
     <Property name="VelocityAnticipate" value="0.17" />
     <Property name="VelocityAnticipateSpringSpeed" value="1.4" />
     <Property name="VertMaxSpring" value="5.5" />
-    <Property name="CenterStartSpeed" value="0.5" />
+    <Property name="CenterStartSpeed" value="1" />
     <Property name="MinClose" value="0.1" />
     <Property name="MaxClose" value="1" />
     <Property name="CloseSpring" value="6" />
@@ -2854,14 +2854,14 @@
     <Property name="DistStiffness" value="2" />
     <Property name="SpringSpeed" value="0" />
     <Property name="LockToObjectOnIdle" value="True" />
-    <Property name="CenterStartTime" value="0.5" />
+    <Property name="CenterStartTime" value="84600" />
     <Property name="CenterBlendTime" value="1" />
     <Property name="CenterMaxSpring" value="8" />
     <Property name="CenterMaxSpeed" value="5" />
     <Property name="VelocityAnticipate" value="0.17" />
     <Property name="VelocityAnticipateSpringSpeed" value="0.4" />
     <Property name="VertMaxSpring" value="5.5" />
-    <Property name="CenterStartSpeed" value="0.5" />
+    <Property name="CenterStartSpeed" value="1" />
     <Property name="MinClose" value="0.1" />
     <Property name="MaxClose" value="2" />
     <Property name="CloseSpring" value="6" />
@@ -2893,7 +2893,7 @@
     <Property name="OffsetY" value="1.2" />
     <Property name="OffsetYAlt" value="-1.5" />
     <Property name="OffsetYSlopeExtra" value="0.5" />
-    <Property name="OffsetZFlat" value="8" />
+    <Property name="OffsetZFlat" value="-3" />
     <Property name="BackMinDistance" value="10" />
     <Property name="BackMaxDistance" value="40" />
     <Property name="BackSlopeAdjust" value="0" />
@@ -2920,18 +2920,18 @@
     <Property name="DistStiffness" value="2" />
     <Property name="SpringSpeed" value="0" />
     <Property name="LockToObjectOnIdle" value="True" />
-    <Property name="CenterStartTime" value="0.5" />
+    <Property name="CenterStartTime" value="84600" />
     <Property name="CenterBlendTime" value="1" />
     <Property name="CenterMaxSpring" value="8" />
     <Property name="CenterMaxSpeed" value="5" />
     <Property name="VelocityAnticipate" value="0.17" />
     <Property name="VelocityAnticipateSpringSpeed" value="0.4" />
     <Property name="VertMaxSpring" value="5.5" />
-    <Property name="CenterStartSpeed" value="0.5" />
+    <Property name="CenterStartSpeed" value="1" />
     <Property name="MinClose" value="0.1" />
     <Property name="MaxClose" value="2" />
     <Property name="CloseSpring" value="6" />
-    <Property name="LookStickLimitAngle" value="45" />
+    <Property name="LookStickLimitAngle" value="200" />
     <Property name="EnableCollisionDetection" value="False" />
     <Property name="NumLRProbes" value="10" />
     <Property name="LRProbesRange" value="30" />
@@ -2986,14 +2986,14 @@
     <Property name="DistStiffness" value="2" />
     <Property name="SpringSpeed" value="0" />
     <Property name="LockToObjectOnIdle" value="True" />
-    <Property name="CenterStartTime" value="0.5" />
+    <Property name="CenterStartTime" value="84600" />
     <Property name="CenterBlendTime" value="1" />
     <Property name="CenterMaxSpring" value="8" />
     <Property name="CenterMaxSpeed" value="5" />
     <Property name="VelocityAnticipate" value="0.17" />
     <Property name="VelocityAnticipateSpringSpeed" value="0.4" />
     <Property name="VertMaxSpring" value="5.5" />
-    <Property name="CenterStartSpeed" value="0.5" />
+    <Property name="CenterStartSpeed" value="1" />
     <Property name="MinClose" value="0.1" />
     <Property name="MaxClose" value="2" />
     <Property name="CloseSpring" value="6" />

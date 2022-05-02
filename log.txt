@@ -1,4 +1,4 @@
-  Mon 04/25/2022 22:40:01.09 AMUMSS starting!
+  Tue 04/26/2022 23:49:48.19 AMUMSS starting!
 
   [7m[1;31m[1m                                                                                   [0m
   [7m >>> Note: Please make sure you do not have any accented characters in AMUMSS path [0m
@@ -30,11 +30,14 @@
         [1;32m[1m ==> is up-to-date[0m
 
 >>> Getting list of files from NMS MODS PAK file(s)...
-  - CombinedMod__(9).pak
   - No high Clouds 2.0.pak
+  - SolarShipNoSails.pak
   - _HarvesteR.NoEntryGlow.pak
+  - __MOD_BETTER_TERRAIN.pak
+  - ___MOD_BETTER_PLANET_GENERATION.pak
 
-  [1;32m[1mWe will check 66 possible conflicting files[0m
+  [1;32m[1mWe have 28512 Conflict lines to process, it could add a few minutes to complete...[0m
+[7;93m ??? Do you really want to check your NMS MODS for conflicts ('Y'es, 'N'o, in 'M'ODS or Mod'S'cripts)?[0m [Y,N,M,S]?S
 
 >>> Checking NMS PCBANKS PAK file list existence...
 >>> NMS PAK file list is up-to-date, no need to re-create the list
@@ -43,9 +46,9 @@
 >>> So, we are making one or more DISTINCT COMBINED MOD PAK...	
 ---------------------------------------------------------
 
->>>  Number of scripts to build: 17
+>>>  Number of scripts to build: 16
 
-[7;93m >>> Starting to process script #1 of 17 [1hr-Days.lua] [0m
+[7;93m >>> Starting to process script #1 of 16 [1hr-Days.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -113,10 +116,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 1[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #2 of 17 [Fast Actions 4.1.lua] [0m
+[7;93m >>> Starting to process script #2 of 16 [Fast Actions 4.1.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -196,10 +199,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 2[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #3 of 17 [Fullscreen Warps 2.8.lua] [0m
+[7;93m >>> Starting to process script #3 of 16 [Fullscreen Warps 2.8.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -339,10 +342,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 3[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #4 of 17 [gCam hrv.lua] [0m
+[7;93m >>> Starting to process script #4 of 16 [gCam hrv.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -352,7 +355,7 @@
    @@@ Done without problem
 
    @@@ Scanning script for container...
-       > CONTAINER found at lines 67-760 (found 521 {} pairs)
+       > CONTAINER found at lines 67-773 (found 534 {} pairs)
        > CONTAINER will be further analyzed...
    @@@ Done
 
@@ -2378,6 +2381,14 @@
                 >>> Searching in lines 2624 to 2689...
       [1;32m[1m-- On line 2670[0m, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
 
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2624 to 2689...
+      [1;32m[1m-- On line 2659[0m, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2624 to 2689...
+      [1;32m[1m-- On line 2666[0m, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
+
 [1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
 [1;32m[1m                processing EXML_CHANGE_TABLE[32], please wait...[0m
 
@@ -2389,6 +2400,14 @@
     Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
                 >>> Searching in lines 2690 to 2755...
       [1;32m[1m-- On line 2736[0m, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2690 to 2755...
+      [1;32m[1m-- On line 2725[0m, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2690 to 2755...
+      [1;32m[1m-- On line 2732[0m, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
 
 [1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
 [1;32m[1m                processing EXML_CHANGE_TABLE[33], please wait...[0m
@@ -2402,6 +2421,14 @@
                 >>> Searching in lines 2756 to 2821...
       [1;32m[1m-- On line 2802[0m, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
 
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2756 to 2821...
+      [1;32m[1m-- On line 2791[0m, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2756 to 2821...
+      [1;32m[1m-- On line 2798[0m, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
+
 [1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
 [1;32m[1m                processing EXML_CHANGE_TABLE[34], please wait...[0m
 
@@ -2413,6 +2440,14 @@
     Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
                 >>> Searching in lines 2822 to 2887...
       [1;32m[1m-- On line 2868[0m, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2822 to 2887...
+      [1;32m[1m-- On line 2857[0m, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2822 to 2887...
+      [1;32m[1m-- On line 2864[0m, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
 
 [1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
 [1;32m[1m                processing EXML_CHANGE_TABLE[35], please wait...[0m
@@ -2426,23 +2461,46 @@
                 >>> Searching in lines 2954 to 3019...
       [1;32m[1m-- On line 3000[0m, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
 
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2954 to 3019...
+      [1;32m[1m-- On line 2989[0m, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2954 to 3019...
+      [1;32m[1m-- On line 2996[0m, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
+
 [1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
 [1;32m[1m                processing EXML_CHANGE_TABLE[36], please wait...[0m
 
--> Based on PRECEDING_KEY_WORDS: >>> {"OutlawShipFollowCam"}, <<< 
+-> Based on PRECEDING_KEY_WORDS: >>> {"SailShipFollowCam"}, <<< 
 
-[1;31m[1m>>> [WARNING] NOT found ALL PRECEDING_KEY_WORDS [OutlawShipFollowCam] in the current section, IGNORING IT[0m
-[1;31m[1m>>> [NOTICE] -- >>>>> Could not find ["PRECEDING_KEY_WORDS"] = {"OutlawShipFollowCam"}, <<<<<[0m
-[1;31m[1m>>> [WARNING] Some KEY_WORDS not found, script result may be wrong!, see REPORT.lua[0m
+      Section(s) found: 
+                            2888 - 2953 (2888)
+
+    Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
+                >>> Searching in lines 2888 to 2953...
+      [1;32m[1m-- On line 2934[0m, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+
+    Looking for >>> [OffsetZFlat] New value will be >>> [[-3]] of type [NUMBER]
+                >>> Searching in lines 2888 to 2953...
+      [1;32m[1m-- On line 2896[0m, exchanged:    [<Property name="OffsetZFlat" value="8" />]                with:     [<Property name="OffsetZFlat" value="-3" />]
+
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2888 to 2953...
+      [1;32m[1m-- On line 2923[0m, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2888 to 2953...
+      [1;32m[1m-- On line 2930[0m, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
 
 [1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
 [1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
-    >>>>> 442 CHANGE(s) made
-    >>>>> Ended with a total of 442 action(s) made
+    >>>>> 456 CHANGE(s) made
+    >>>>> Ended with a total of 456 action(s) made
 
 
 *************************************************************************
-    >>>>> Ended all with 442 action(s) made and 0 files added <<<<<
+    >>>>> Ended all with 456 action(s) made and 0 files added <<<<<
 *************************************************************************
 
 [1;31m[1m>>> [INFO] Using custom DateTime format![0m
@@ -2450,10 +2508,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 4[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #5 of 17 [LearnMoreWordsScript10.lua] [0m
+[7;93m >>> Starting to process script #5 of 16 [LearnMoreWordsScript10.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -2520,10 +2578,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 5[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #6 of 17 [Long Range Freighters 4.1B.lua] [0m
+[7;93m >>> Starting to process script #6 of 16 [Long Range Freighters 4.1B.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -2781,10 +2839,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 6[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #7 of 17 [Natural Steering 1.2.lua] [0m
+[7;93m >>> Starting to process script #7 of 16 [Natural Steering 1.2.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -2853,10 +2911,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 7[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #8 of 17 [NaturalFlight.hrv.lua] [0m
+[7;93m >>> Starting to process script #8 of 16 [NaturalFlight.hrv.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -2866,7 +2924,7 @@
    @@@ Done without problem
 
    @@@ Scanning script for container...
-       > CONTAINER found at lines 1-404 (found 247 {} pairs)
+       > CONTAINER found at lines 1-405 (found 248 {} pairs)
        > CONTAINER will be further analyzed...
    @@@ Done
 
@@ -3004,10 +3062,15 @@
                 >>> Searching in lines 3 to 1454...
       [1;32m[1m-- On line 1135[0m, exchanged:    [<Property name="AimDistanceRange" value="1" />]           with:     [<Property name="AimDistanceRange" value="10" />]
 
-    Looking for >>> [MiniWarpChargeTime] New value will be >>> [[3]] of type [NUMBER]
+    Looking for >>> [MiniWarpSpeed] New value will be >>> [[30000]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
-      [1;32m[1m-- On line 1205[0m, exchanged:    [<Property name="MiniWarpChargeTime" value="2" />]         with:     [<Property name="MiniWarpChargeTime" value="3" />]
+      [1;32m[1m-- On line 1206[0m, exchanged:    [<Property name="MiniWarpSpeed" value="30000" />]          with:     [<Property name="MiniWarpSpeed" value="30000" />]
+
+    Looking for >>> [MiniWarpChargeTime] New value will be >>> [[2]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      [1;32m[1m-- On line 1205[0m, exchanged:    [<Property name="MiniWarpChargeTime" value="2" />]         with:     [<Property name="MiniWarpChargeTime" value="2" />]
 
     Looking for >>> [MiniWarpStationRadius] New value will be >>> [[500]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
@@ -3019,10 +3082,10 @@
                 >>> Searching in lines 3 to 1454...
       [1;32m[1m-- On line 1214[0m, exchanged:    [<Property name="MiniWarpExitSpeed" value="1000" />]       with:     [<Property name="MiniWarpExitSpeed" value="4000" />]
 
-    Looking for >>> [MiniWarpExitSpeedStation] New value will be >>> [[3000]] of type [NUMBER]
+    Looking for >>> [MiniWarpExitSpeedStation] New value will be >>> [[2000]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
-      [1;32m[1m-- On line 1215[0m, exchanged:    [<Property name="MiniWarpExitSpeedStation" value="500" />]    with:     [<Property name="MiniWarpExitSpeedStation" value="3000" />]
+      [1;32m[1m-- On line 1215[0m, exchanged:    [<Property name="MiniWarpExitSpeedStation" value="500" />]    with:     [<Property name="MiniWarpExitSpeedStation" value="2000" />]
 
     Looking for >>> [AnomalyStationMaxApproachSpeed] New value will be >>> [[3000]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
@@ -3302,10 +3365,10 @@
                 >>> Searching in lines 596 to 626...
       [1;32m[1m-- On line 604[0m, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
 
-    Looking for >>> [ReverseBrake] New value will be >>> [[0.3]] of type [NUMBER]
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.2]] of type [NUMBER]
                 >>> Searching in lines 596 to 626...
 [1;31m[1m>>> [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)[0m
-      [1;32m[1m-- On line 608[0m, exchanged:    [<Property name="ReverseBrake" value="1" />]                with:     [<Property name="ReverseBrake" value="0.3" />]
+      [1;32m[1m-- On line 608[0m, exchanged:    [<Property name="ReverseBrake" value="1" />]                with:     [<Property name="ReverseBrake" value="0.2" />]
 
     Looking for >>> [OverspeedBrake] New value will be >>> [[0.1]] of type [NUMBER]
                 >>> Searching in lines 596 to 626...
@@ -3498,8 +3561,8 @@
 
 [1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
 [1;32m[1m                Ended processing of MODIFICATIONS[1][1][0m
-    >>>>> 110 CHANGE(s) made
-    >>>>> Ended with a total of 110 action(s) made
+    >>>>> 111 CHANGE(s) made
+    >>>>> Ended with a total of 111 action(s) made
 
 --------------------------------------------------------------------------------------
 
@@ -3515,9 +3578,9 @@
       Section(s) found: 
                             51 - 54 (51)
 
-    Looking for >>> [x] New value will be >>> [[0.05]] of type [NUMBER]
+    Looking for >>> [x] New value will be >>> [[0.35]] of type [NUMBER]
                 >>> Searching in lines 51 to 54...
-      [1;32m[1m-- On line 52[0m, exchanged:    [<Property name="x" value="0.5" />]                          with:     [<Property name="x" value="0.05" />]
+      [1;32m[1m-- On line 52[0m, exchanged:    [<Property name="x" value="0.5" />]                          with:     [<Property name="x" value="0.35" />]
 
 [1;32m[1m   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
 [1;32m[1m                processing EXML_CHANGE_TABLE[2], please wait...[0m
@@ -3615,13 +3678,13 @@
 [1;31m[1m>>> [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)[0m
       [1;32m[1m-- On line 412[0m, exchanged:    [<Property name="AtmosphereEntryTime" value="1" />]         with:     [<Property name="AtmosphereEntryTime" value="1.5" />]
 
-    Looking for >>> [AtmosphereEntryFadeTimeFactor] New value will be >>> [[0.0]] of type [NUMBER]
+    Looking for >>> [AtmosphereEntryFadeTimeFactor] New value will be >>> [[0.25]] of type [NUMBER]
                 >>> Searching in lines 3 to 1901...
-      [1;32m[1m-- On line 413[0m, exchanged:    [<Property name="AtmosphereEntryFadeTimeFactor" value="0.25" />]    with:     [<Property name="AtmosphereEntryFadeTimeFactor" value="0.0" />]
+      [1;32m[1m-- On line 413[0m, exchanged:    [<Property name="AtmosphereEntryFadeTimeFactor" value="0.25" />]    with:     [<Property name="AtmosphereEntryFadeTimeFactor" value="0.25" />]
 
-    Looking for >>> [AtmosphereEntryOffset] New value will be >>> [[0]] of type [NUMBER]
+    Looking for >>> [AtmosphereEntryOffset] New value will be >>> [[200]] of type [NUMBER]
                 >>> Searching in lines 3 to 1901...
-      [1;32m[1m-- On line 414[0m, exchanged:    [<Property name="AtmosphereEntryOffset" value="150" />]     with:     [<Property name="AtmosphereEntryOffset" value="0" />]
+      [1;32m[1m-- On line 414[0m, exchanged:    [<Property name="AtmosphereEntryOffset" value="150" />]     with:     [<Property name="AtmosphereEntryOffset" value="200" />]
 
 [1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
 [1;32m[1m                Ended processing of MODIFICATIONS[2][1][0m
@@ -3847,7 +3910,7 @@
 
 
 *************************************************************************
-    >>>>> Ended all with 143 action(s) made and 0 files added <<<<<
+    >>>>> Ended all with 144 action(s) made and 0 files added <<<<<
 *************************************************************************
 
 [1;31m[1m>>> [INFO] Using custom DateTime format![0m
@@ -3855,10 +3918,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 8[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #9 of 17 [No Black Bars 2.4.lua] [0m
+[7;93m >>> Starting to process script #9 of 16 [No Black Bars 2.4.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -3964,10 +4027,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 9[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #10 of 17 [No Space Dust 1.3.lua] [0m
+[7;93m >>> Starting to process script #10 of 16 [No Space Dust 1.3.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -4035,10 +4098,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 10[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #11 of 17 [No Speed Halo 1.5 - Almost.lua] [0m
+[7;93m >>> Starting to process script #11 of 16 [No Speed Halo 1.5 - Almost.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -4107,10 +4170,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 11[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #12 of 17 [No Speed Lines 1.5.lua] [0m
+[7;93m >>> Starting to process script #12 of 16 [No Speed Lines 1.5.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -4221,10 +4284,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 12[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #13 of 17 [Quick Crates 1.8.lua] [0m
+[7;93m >>> Starting to process script #13 of 16 [Quick Crates 1.8.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -4314,10 +4377,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 13[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #14 of 17 [Skip's Asteroid Megamod 1.0.0-PRISMS.lua] [0m
+[7;93m >>> Starting to process script #14 of 16 [Skip's Asteroid Megamod 1.0.0-PRISMS.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -4631,10 +4694,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 14[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #15 of 17 [Small Cursor 3.9.lua] [0m
+[7;93m >>> Starting to process script #15 of 16 [Small Cursor 3.9.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -4701,46 +4764,10 @@
 
 [1;90m[1m-----------------------------------------------------------[0m
 [1;31m[1m>>>            Scripts processed: 15[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
-[7;93m >>> Starting to process script #16 of 17 [SolarShipNoSails.lua] [0m
-
->>> Opening User Lua Script, Please wait...
-
-   @@@ **********  Analysing script... **********
-
-   @@@ Checking script using LUAC.exe...
-   @@@ Done without problem
-
-   @@@ Scanning script for container...
-       > CONTAINER found at lines 1-42 (found 18 {} pairs)
-       > CONTAINER will be further analyzed...
-   @@@ Done
-
-   @@@ Basic Syntax Analysis...
-
-   @@@ No other syntax problem detected
-   @@@ Done
-
->>> Loading script...
-[1;32m[1m>>> [INFO] Success loading [0mUSER[1;32m[1m script[0m
-[1;32m[1m>>> [INFO] Executing now...[0m
-
-[1;32m[1m              ++++++++++  A Single-PAK script  ++++++++++[0m
-
->>> Copying script source to MOD
->>> [INFO] Checking MBIN_FILE_SOURCE validity...
-[1;31m[1m[WARNING] NMS PAK not found for [MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIPPARTS\SAILSHIPANIMS\SAILSHIP_SHARED\ENTITIES\ROOTJNT.ENTITY.MBIN]. Check your file path/name![0m
-[1;31m[1m[WARNING] NMS PAK not found for [MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIP_PROC.SCENE.MBIN]. Check your file path/name![0m
-[1;31m[1m>>> [INFO] Processing aborted...[0m
-
-[1;90m[1m-----------------------------------------------------------[0m
-[1;31m[1m>>>            Scripts processed: 16[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
-[1;90m[1m-----------------------------------------------------------[0m
-
-[7;93m >>> Starting to process script #17 of 17 [SpeedIncreaseAnalysis.lua] [0m
+[7;93m >>> Starting to process script #16 of 16 [SpeedIncreaseAnalysis.lua] [0m
 
 >>> Opening User Lua Script, Please wait...
 
@@ -4850,7 +4877,7 @@ Strip: SteamGames/steamapps/common/No Man's Sky/NoMansMods/MODBUILDER/MOD
 Flags: relative
 NumJobs: 16
 InputFile: ..\input.txt
-Output: ..\..\Builds\IncrementalBuilds\CombinedMod__(9).pak
+Output: ..\..\Builds\IncrementalBuilds\CombinedMod__(0).pak
 Compression: zlib level 9
 Archiving 1hr-Days.lua
 Archiving Fast Actions 4.1.lua
@@ -4867,7 +4894,6 @@ Archiving No Speed Lines 1.5.lua
 Archiving Quick Crates 1.8.lua
 Archiving Skip's Asteroid Megamod 1.0.0-PRISMS.lua
 Archiving Small Cursor 3.9.lua
-Archiving SolarShipNoSails.lua
 Archiving SpeedIncreaseAnalysis.lua
 Archiving GCCAMERAGLOBALS.GLOBAL.MBIN
 Archiving GCGAMEPLAYGLOBALS.GLOBAL.MBIN
@@ -4904,7 +4930,6 @@ Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MO
 Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\Quick Crates 1.8.lua
 Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\Skip's Asteroid Megamod 1.0.0-PRISMS.lua
 Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\Small Cursor 3.9.lua
-Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\SolarShipNoSails.lua
 Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\SpeedIncreaseAnalysis.lua
 Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\GCCAMERAGLOBALS.GLOBAL.MBIN
 Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\GCGAMEPLAYGLOBALS.GLOBAL.MBIN
@@ -4926,25 +4951,25 @@ Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MO
 Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\UI\COMPONENTS\INTERACTION\CINEMATICBARS.MBIN
 Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\UI\HUD\HUDBARS.MBIN
 
-          36: Total Files Archived
-     1891119: Original Size
-        1257: Manifest (uncompressed)
-        1659: Manifest (compressed)
-        1260: TOC size
-      141558: Final Size
+          35: Total Files Archived
+     1890567: Original Size
+        1236: Manifest (uncompressed)
+         542: Manifest (compressed)
+        1228: TOC size
+      141165: Final Size
         0.9%: Directory Overhead
        92.5%: Compression Ratio
            9: Compression Level
 
 
-..\..\Builds\IncrementalBuilds\CombinedMod__(9).pak
+..\..\Builds\IncrementalBuilds\CombinedMod__(0).pak
 1 File(s) copied
 ..\COMBINED_CONTENT_LIST.txt
 1 File(s) copied
 
 [1;90m[1m-----------------------------------------------------------[0m
-[1;31m[1m>>>            Scripts processed: 17[0m
-[1;31m[1m>>>     Total scripts to process: 17[0m
+[1;31m[1m>>>            Scripts processed: 16[0m
+[1;31m[1m>>>     Total scripts to process: 16[0m
 [1;90m[1m-----------------------------------------------------------[0m
 
 [1;32m[1m>>> Done building ALL scripts[0m
@@ -4963,17 +4988,17 @@ Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MO
 >>> Created PAKs are in local folder >>> CreatedModPAKs <<<
 >>> Backups in >>> Builds <<< and >>> Builds\IncrementalBuilds <<<
 
-[1;31m[1m[ATTENTION] Failed script actions:[0m
-   - SolarShipNoSails.lua: Problem while testing script
+[1;32m[1m>>> No failed script![0m
 
-  [1;32m[1mWe will check 66 possible conflicting files[0m
+  [1;32m[1mWe will check 22 possible conflicting files[0m
 
 >>> Conflict Detection starting...
 
-[1;32m[1m>>> Checking Conflicts in ModScript Scripts/paks and NMS MODS paks. Please wait...[0m
-       Pruning duplicates in 81 files...
-       We have 81 possible conflicting files to process!  WORKING...
-[1;31m[1m       Conflict detection done, found 17 conflict(s)[0m
+===== Conflicts in NMS MODS were NOT checked at user request =====
+>>> Checking Conflicts in ModScript Scripts/paks only. Please wait...
+       Pruning duplicates in 22 files...
+       We have 22 possible conflicting files to process!  WORKING...
+[1;31m[1m       Conflict detection done, found 4 conflict(s)[0m
 [1;31m[1m       See [0m[7;93m REPORT.lua [0m[1;31m[1m for the full list of conflict(s)[0m
 
               [7;93m >>> FINAL REPORT <<< [0m
@@ -4981,19 +5006,19 @@ Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MO
 
      0 ERROR detected
 
-    22 WARNINGS raised
+    19 WARNINGS raised
            WARNINGS may produce good or bad PAK files.  You have to be the judge!
 
      0 NOTICE raised
 
-    17 CONFLICTS detected in processed Scripts/paks
+     4 CONFLICTS detected in processed Scripts/paks
            CONFLICTS will prevent the mods involved from expressing their full effect.
            Some CONFLICTS can be resolved by COMBINING mods...
            See file 'Creating a Patch for an existing MOD PAK.txt' for further help
 
             [7;93m >>> See "REPORT.lua" <<< [0m
 
- ===>>> TOTAL TIME to complete: 00:00:29
+ ===>>> TOTAL TIME to complete: 00:00:24
 
 
 [7;93m === PRESS ANY KEY and THIS window will close shortly === [0m

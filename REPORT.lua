@@ -1,16 +1,16 @@
-Mon 04/25/2022 22:40:01.09 AMUMSS starting! 
+Tue 04/26/2022 23:49:48.19 AMUMSS starting! 
 
 AMUMSS v3.9.5.98W
 using Lua 5.3
 on Windows 10 Pro 64bit, Build: 19043.1645 with 16 logical CPUs (cp437)
 with MBINCompiler v3.87.0.3
 
-Started MODBUILDER automatic processing at 22:40:03 {
+Started MODBUILDER automatic processing at 23:49:58 {
 
 One or more DISTINCT COMBINED MOD PAK will be created...
 
 ========================================================================================
-Starting to process script #1 of 17 [1hr-Days.lua] {
+Starting to process script #1 of 16 [1hr-Days.lua] {
 Copying script source to MOD
 Getting GCSKYGLOBALS.GLOBALS.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -33,7 +33,7 @@ Ended script [1hr-Days.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #2 of 17 [Fast Actions 4.1.lua] {
+Starting to process script #2 of 16 [Fast Actions 4.1.lua] {
 Copying script source to MOD
 Getting GCUIGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -65,7 +65,7 @@ Ended script [Fast Actions 4.1.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #3 of 17 [Fullscreen Warps 2.8.lua] {
+Starting to process script #3 of 16 [Fullscreen Warps 2.8.lua] {
 Copying script source to MOD
 Getting GCCAMERAGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -142,7 +142,7 @@ Ended script [Fullscreen Warps 2.8.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #4 of 17 [gCam hrv.lua] {
+Starting to process script #4 of 16 [gCam hrv.lua] {
 Copying script source to MOD
 GCCAMERAGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [gCam hrv.lua]
@@ -1493,30 +1493,70 @@ GCCAMERAGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
     Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
                 >>> Searching in lines 2624 to 2689...
       -- On line 2670, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2624 to 2689...
+      -- On line 2659, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2624 to 2689...
+      -- On line 2666, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
 -> Based on PRECEDING_KEY_WORDS: >>> {"DropshipFollowCam"}, <<< 
     Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
                 >>> Searching in lines 2690 to 2755...
       -- On line 2736, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2690 to 2755...
+      -- On line 2725, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2690 to 2755...
+      -- On line 2732, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
 -> Based on PRECEDING_KEY_WORDS: >>> {"ShuttleFollowCam"}, <<< 
     Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
                 >>> Searching in lines 2756 to 2821...
       -- On line 2802, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2756 to 2821...
+      -- On line 2791, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2756 to 2821...
+      -- On line 2798, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
 -> Based on PRECEDING_KEY_WORDS: >>> {"RoyalShipFollowCam"}, <<< 
     Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
                 >>> Searching in lines 2822 to 2887...
       -- On line 2868, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2822 to 2887...
+      -- On line 2857, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2822 to 2887...
+      -- On line 2864, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
 -> Based on PRECEDING_KEY_WORDS: >>> {"ScienceShipFollowCam"}, <<< 
     Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
                 >>> Searching in lines 2954 to 3019...
       -- On line 3000, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
--> Based on PRECEDING_KEY_WORDS: >>> {"OutlawShipFollowCam"}, <<< 
-    [WARNING] NOT found ALL PRECEDING_KEY_WORDS [OutlawShipFollowCam] in the current section, IGNORING IT
-       >>>>> Could not find ["PRECEDING_KEY_WORDS"] = {"OutlawShipFollowCam"}, <<<<<
-  Ended processing with [442 CHANGE(s) made]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2954 to 3019...
+      -- On line 2989, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2954 to 3019...
+      -- On line 2996, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
+-> Based on PRECEDING_KEY_WORDS: >>> {"SailShipFollowCam"}, <<< 
+    Looking for >>> [LookStickLimitAngle] New value will be >>> [[200]] of type [NUMBER]
+                >>> Searching in lines 2888 to 2953...
+      -- On line 2934, exchanged:    [<Property name="LookStickLimitAngle" value="45" />]       with:     [<Property name="LookStickLimitAngle" value="200" />]
+    Looking for >>> [OffsetZFlat] New value will be >>> [[-3]] of type [NUMBER]
+                >>> Searching in lines 2888 to 2953...
+      -- On line 2896, exchanged:    [<Property name="OffsetZFlat" value="8" />]                with:     [<Property name="OffsetZFlat" value="-3" />]
+    Looking for >>> [CenterStartTime] New value will be >>> [[84600]] of type [NUMBER]
+                >>> Searching in lines 2888 to 2953...
+      -- On line 2923, exchanged:    [<Property name="CenterStartTime" value="0.5" />]          with:     [<Property name="CenterStartTime" value="84600" />]
+    Looking for >>> [CenterStartSpeed] New value will be >>> [[1]] of type [NUMBER]
+                >>> Searching in lines 2888 to 2953...
+      -- On line 2930, exchanged:    [<Property name="CenterStartSpeed" value="0.5" />]         with:     [<Property name="CenterStartSpeed" value="1" />]
+  Ended processing with [456 CHANGE(s) made]
      on File: [GCCAMERAGLOBALS.GLOBAL.EXML]
-  Ended with a total of 442 action(s) made }
+  Ended with a total of 456 action(s) made }
 
-Ended script processing with [442 action(s), 0 files added]
+Ended script processing with [456 action(s), 0 files added]
 
 Using custom DateTime format!
 Combined Mod ACTIVE: Delaying Building MOD...
@@ -1524,7 +1564,7 @@ Ended script [gCam hrv.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #5 of 17 [LearnMoreWordsScript10.lua] {
+Starting to process script #5 of 16 [LearnMoreWordsScript10.lua] {
 Copying script source to MOD
 Getting METADATA\REALITY\TABLES\REWARDTABLE.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -1546,7 +1586,7 @@ Ended script [LearnMoreWordsScript10.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #6 of 17 [Long Range Freighters 4.1B.lua] {
+Starting to process script #6 of 16 [Long Range Freighters 4.1B.lua] {
 Copying script source to MOD
 Getting METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -1665,7 +1705,7 @@ Ended script [Long Range Freighters 4.1B.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #7 of 17 [Natural Steering 1.2.lua] {
+Starting to process script #7 of 16 [Natural Steering 1.2.lua] {
 Copying script source to MOD
 Getting GCVEHICLEGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -1689,7 +1729,7 @@ Ended script [Natural Steering 1.2.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #8 of 17 [NaturalFlight.hrv.lua] {
+Starting to process script #8 of 16 [NaturalFlight.hrv.lua] {
 Copying script source to MOD
 Getting GCSPACESHIPGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -1765,10 +1805,14 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
       -- On line 1135, exchanged:    [<Property name="AimDistanceRange" value="1" />]           with:     [<Property name="AimDistanceRange" value="10" />]
-    Looking for >>> [MiniWarpChargeTime] New value will be >>> [[3]] of type [NUMBER]
+    Looking for >>> [MiniWarpSpeed] New value will be >>> [[30000]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
-      -- On line 1205, exchanged:    [<Property name="MiniWarpChargeTime" value="2" />]         with:     [<Property name="MiniWarpChargeTime" value="3" />]
+      -- On line 1206, exchanged:    [<Property name="MiniWarpSpeed" value="30000" />]          with:     [<Property name="MiniWarpSpeed" value="30000" />]
+    Looking for >>> [MiniWarpChargeTime] New value will be >>> [[2]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 1205, exchanged:    [<Property name="MiniWarpChargeTime" value="2" />]         with:     [<Property name="MiniWarpChargeTime" value="2" />]
     Looking for >>> [MiniWarpStationRadius] New value will be >>> [[500]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
@@ -1777,10 +1821,10 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
       -- On line 1214, exchanged:    [<Property name="MiniWarpExitSpeed" value="1000" />]       with:     [<Property name="MiniWarpExitSpeed" value="4000" />]
-    Looking for >>> [MiniWarpExitSpeedStation] New value will be >>> [[3000]] of type [NUMBER]
+    Looking for >>> [MiniWarpExitSpeedStation] New value will be >>> [[2000]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
-      -- On line 1215, exchanged:    [<Property name="MiniWarpExitSpeedStation" value="500" />]    with:     [<Property name="MiniWarpExitSpeedStation" value="3000" />]
+      -- On line 1215, exchanged:    [<Property name="MiniWarpExitSpeedStation" value="500" />]    with:     [<Property name="MiniWarpExitSpeedStation" value="2000" />]
     Looking for >>> [AnomalyStationMaxApproachSpeed] New value will be >>> [[3000]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
@@ -1974,10 +2018,10 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 596 to 626...
       -- On line 604, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
-    Looking for >>> [ReverseBrake] New value will be >>> [[0.3]] of type [NUMBER]
+    Looking for >>> [ReverseBrake] New value will be >>> [[0.2]] of type [NUMBER]
                 >>> Searching in lines 596 to 626...
     [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
-      -- On line 608, exchanged:    [<Property name="ReverseBrake" value="1" />]                with:     [<Property name="ReverseBrake" value="0.3" />]
+      -- On line 608, exchanged:    [<Property name="ReverseBrake" value="1" />]                with:     [<Property name="ReverseBrake" value="0.2" />]
     Looking for >>> [OverspeedBrake] New value will be >>> [[0.1]] of type [NUMBER]
                 >>> Searching in lines 596 to 626...
     [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
@@ -2092,15 +2136,15 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Current line is 1135
                 >>> LINE_OFFSET of [+16] forces to look starting at line 1151
       -- On line 1151, exchanged:    [<Property name="AimDistanceRange" value="1" />]           with:     [<Property name="AimDistanceRange" value="10" />]
-  Ended processing with [110 CHANGE(s) made]
+  Ended processing with [111 CHANGE(s) made]
      on File: [GCSPACESHIPGLOBALS.GLOBAL.EXML]
-  Ended with a total of 110 action(s) made }
+  Ended with a total of 111 action(s) made }
 {>>> GCSOLARGENERATIONGLOBALS.GLOBAL.EXML
     MapFileTree creation/update done by 2nd thread
 -> Based on PRECEDING_KEY_WORDS: >>> {"AsteroidScaleVariance"}, <<< 
-    Looking for >>> [x] New value will be >>> [[0.05]] of type [NUMBER]
+    Looking for >>> [x] New value will be >>> [[0.35]] of type [NUMBER]
                 >>> Searching in lines 51 to 54...
-      -- On line 52, exchanged:    [<Property name="x" value="0.5" />]                          with:     [<Property name="x" value="0.05" />]
+      -- On line 52, exchanged:    [<Property name="x" value="0.5" />]                          with:     [<Property name="x" value="0.35" />]
 -> No key_word specified, using whole file...
     Looking for >>> [AsteroidFadeTime] New value will be >>> [[5]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
@@ -2160,12 +2204,12 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Searching in lines 3 to 1901...
     [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
       -- On line 412, exchanged:    [<Property name="AtmosphereEntryTime" value="1" />]         with:     [<Property name="AtmosphereEntryTime" value="1.5" />]
-    Looking for >>> [AtmosphereEntryFadeTimeFactor] New value will be >>> [[0.0]] of type [NUMBER]
+    Looking for >>> [AtmosphereEntryFadeTimeFactor] New value will be >>> [[0.25]] of type [NUMBER]
                 >>> Searching in lines 3 to 1901...
-      -- On line 413, exchanged:    [<Property name="AtmosphereEntryFadeTimeFactor" value="0.25" />]    with:     [<Property name="AtmosphereEntryFadeTimeFactor" value="0.0" />]
-    Looking for >>> [AtmosphereEntryOffset] New value will be >>> [[0]] of type [NUMBER]
+      -- On line 413, exchanged:    [<Property name="AtmosphereEntryFadeTimeFactor" value="0.25" />]    with:     [<Property name="AtmosphereEntryFadeTimeFactor" value="0.25" />]
+    Looking for >>> [AtmosphereEntryOffset] New value will be >>> [[200]] of type [NUMBER]
                 >>> Searching in lines 3 to 1901...
-      -- On line 414, exchanged:    [<Property name="AtmosphereEntryOffset" value="150" />]     with:     [<Property name="AtmosphereEntryOffset" value="0" />]
+      -- On line 414, exchanged:    [<Property name="AtmosphereEntryOffset" value="150" />]     with:     [<Property name="AtmosphereEntryOffset" value="200" />]
   Ended processing with [3 CHANGE(s) made]
      on File: [GCGAMEPLAYGLOBALS.GLOBAL.EXML]
   Ended with a total of 3 action(s) made }
@@ -2248,7 +2292,7 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
      on File: [METADATA\REALITY\TABLES\DAMAGETABLE.EXML]
   Ended with a total of 8 action(s) made }
 
-Ended script processing with [143 action(s), 0 files added]
+Ended script processing with [144 action(s), 0 files added]
 
 Using custom DateTime format!
 Combined Mod ACTIVE: Delaying Building MOD...
@@ -2256,7 +2300,7 @@ Ended script [NaturalFlight.hrv.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #9 of 17 [No Black Bars 2.4.lua] {
+Starting to process script #9 of 16 [No Black Bars 2.4.lua] {
 Copying script source to MOD
 Getting UI\COMPONENTS\INTERACTION\CINEMATICBARS.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -2299,7 +2343,7 @@ Ended script [No Black Bars 2.4.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #10 of 17 [No Space Dust 1.3.lua] {
+Starting to process script #10 of 16 [No Space Dust 1.3.lua] {
 Copying script source to MOD
 Getting MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -2322,7 +2366,7 @@ Ended script [No Space Dust 1.3.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #11 of 17 [No Speed Halo 1.5 - Almost.lua] {
+Starting to process script #11 of 16 [No Speed Halo 1.5 - Almost.lua] {
 Copying script source to MOD
 Getting MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -2346,7 +2390,7 @@ Ended script [No Speed Halo 1.5 - Almost.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #12 of 17 [No Speed Lines 1.5.lua] {
+Starting to process script #12 of 16 [No Speed Lines 1.5.lua] {
 Copying script source to MOD
 Getting MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -2380,7 +2424,7 @@ Ended script [No Speed Lines 1.5.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #13 of 17 [Quick Crates 1.8.lua] {
+Starting to process script #13 of 16 [Quick Crates 1.8.lua] {
 Copying script source to MOD
 Getting MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -2416,7 +2460,7 @@ Ended script [Quick Crates 1.8.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #14 of 17 [Skip's Asteroid Megamod 1.0.0-PRISMS.lua] {
+Starting to process script #14 of 16 [Skip's Asteroid Megamod 1.0.0-PRISMS.lua] {
 Copying script source to MOD
 GCSOLARGENERATIONGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [Skip's Asteroid Megamod 1.0.0-PRISMS.lua]
@@ -2571,7 +2615,7 @@ Ended script [Skip's Asteroid Megamod 1.0.0-PRISMS.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #15 of 17 [Small Cursor 3.9.lua] {
+Starting to process script #15 of 16 [Small Cursor 3.9.lua] {
 Copying script source to MOD
 GCUIGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [Small Cursor 3.9.lua]
@@ -2596,16 +2640,7 @@ Ended script [Small Cursor 3.9.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #16 of 17 [SolarShipNoSails.lua] {
-Copying script source to MOD
-    [WARNING] NMS PAK not found for [MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIPPARTS\SAILSHIPANIMS\SAILSHIP_SHARED\ENTITIES\ROOTJNT.ENTITY.MBIN]. Check your file path/name!
-    [WARNING] NMS PAK not found for [MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIP_PROC.SCENE.MBIN]. Check your file path/name!
-Processing aborted...
-Ended script [SolarShipNoSails.lua]
-========================================================================================}
-
-========================================================================================
-Starting to process script #17 of 17 [SpeedIncreaseAnalysis.lua] {
+Starting to process script #16 of 16 [SpeedIncreaseAnalysis.lua] {
 Copying script source to MOD
 GCGAMEPLAYGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [SpeedIncreaseAnalysis.lua]
@@ -2675,87 +2710,33 @@ Backups in >>> Builds <<< and >>> Builds\IncrementalBuilds <<<
 
 
 END OF PROCESSING
-Total scripts processed: 17
+Total scripts processed: 16
 
 
-    [ATTENTION] Failed scripts:
-    [      >>>]    - SolarShipNoSails.lua: Problem while testing script
+}
 
+No failed script!
+Only checking conflicts in ModScript, at user request
 
-Checked Conflicts in ModScript Scripts/paks and NMS MODS paks.
+===== Conflicts in NMS MODS were NOT checked at user request =====
+ONLY Checked Conflicts in ModScript Scripts/paks.
 
 =================================== CONFLICTS =========================================={
     [CONFLICT] on "GCUIGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
     [     >>>] 	- "Modscript\Fast Actions 4.1.lua"
     [     >>>] 	- "Modscript\Small Cursor 3.9.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
 
     [CONFLICT] on "GCCAMERAGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
     [     >>>] 	- "Modscript\Fullscreen Warps 2.8.lua"
     [     >>>] 	- "Modscript\gCam hrv.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "METADATA\REALITY\TABLES\REWARDTABLE.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\LearnMoreWordsScript10.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\Long Range Freighters 4.1B.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\Long Range Freighters 4.1B.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "GCVEHICLEGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
-    [     >>>] 	- "Modscript\Natural Steering 1.2.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "GCSPACESHIPGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
-    [     >>>] 	- "Modscript\NaturalFlight.hrv.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
 
     [CONFLICT] on "GCSOLARGENERATIONGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
     [     >>>] 	- "Modscript\NaturalFlight.hrv.lua"
     [     >>>] 	- "Modscript\Skip's Asteroid Megamod 1.0.0-PRISMS.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
 
     [CONFLICT] on "GCGAMEPLAYGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
     [     >>>] 	- "Modscript\NaturalFlight.hrv.lua"
     [     >>>] 	- "Modscript\SpeedIncreaseAnalysis.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "METADATA\PROJECTILES\PROJECTILETABLE.MBIN" (NMSARC.86055253.pak)
-    [     >>>] 	- "Modscript\NaturalFlight.hrv.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "METADATA\REALITY\TABLES\DAMAGETABLE.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\NaturalFlight.hrv.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "UI\COMPONENTS\INTERACTION\CINEMATICBARS.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\No Black Bars 2.4.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "UI\HUD\HUDBARS.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\No Black Bars 2.4.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\No Space Dust 1.3.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.MBIN" (NMSARC.86055253.pak)
-    [     >>>] 	- "Modscript\No Speed Halo 1.5 - Almost.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.MBIN" (NMSARC.4C482859.pak)
-    [     >>>] 	- "Modscript\No Speed Lines 1.5.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
-
-    [CONFLICT] on "MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\Quick Crates 1.8.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(9).pak"
 
 ========================================================================================}
 
@@ -2763,15 +2744,15 @@ Checked Conflicts in ModScript Scripts/paks and NMS MODS paks.
 
               0 ERROR detected
 
-    [ATTENTION]     22 WARNINGS raised
+    [ATTENTION]     19 WARNINGS raised
     [ATTENTION]            WARNINGS may produce good or bad PAK files.  You have to be the judge!
 
               0 NOTICE raised
 
-    [ATTENTION]     17 CONFLICTS detected in processed Scripts/paks
+    [ATTENTION]      4 CONFLICTS detected in processed Scripts/paks
     [ATTENTION]            CONFLICTS will prevent the mods involved from expressing their full effect.
     [ATTENTION]            Some CONFLICTS can be resolved by COMBINING mods...
     [ATTENTION]            See file 'Creating a Patch for an existing MOD PAK.txt' for further help
 
-Ended AMUMSS automatic processing at 22:40:32
-TOTAL TIME to complete: 00:00:29
+Ended AMUMSS automatic processing at 23:50:22
+TOTAL TIME to complete: 00:00:24

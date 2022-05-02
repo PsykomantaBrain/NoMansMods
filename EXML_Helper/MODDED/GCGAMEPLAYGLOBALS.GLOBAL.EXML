@@ -410,8 +410,8 @@
     <Property name="A" value="1" />
   </Property>
   <Property name="AtmosphereEntryTime" value="1.5" />
-  <Property name="AtmosphereEntryFadeTimeFactor" value="0.0" />
-  <Property name="AtmosphereEntryOffset" value="0" />
+  <Property name="AtmosphereEntryFadeTimeFactor" value="0.25" />
+  <Property name="AtmosphereEntryOffset" value="200" />
   <Property name="AtmosphereEntryCurve" value="TkCurveType.xml">
     <Property name="Curve" value="EaseInSine" />
   </Property>

@@ -715,42 +715,55 @@ NMS_MOD_DEFINITION_CONTAINER = {
 					["INTEGER_TO_FLOAT"] = "FORCE",
 					["VALUE_CHANGE_TABLE"] = {
 						{"OffsetY", "0"},
-						{"LookStickLimitAngle", "200"}
+						{"LookStickLimitAngle", "200"},
+						{"CenterStartTime",84600},
+						{"CenterStartSpeed",1}
 					}
 				},
 				{
 					["PRECEDING_KEY_WORDS"] = "DropshipFollowCam",
 					["INTEGER_TO_FLOAT"] = "FORCE",
 					["VALUE_CHANGE_TABLE"] = {
-						{"LookStickLimitAngle", "200"}
+						{"LookStickLimitAngle", "200"},
+						{"CenterStartTime",84600},
+						{"CenterStartSpeed",1}
 					}
 				},
 				{
 					["PRECEDING_KEY_WORDS"] = "ShuttleFollowCam",
 					["INTEGER_TO_FLOAT"] = "FORCE",
 					["VALUE_CHANGE_TABLE"] = {
-						{"LookStickLimitAngle", "200"}
+						{"LookStickLimitAngle", "200"},
+						{"CenterStartTime",84600},
+						{"CenterStartSpeed",1}
 					}
 				},
 				{
 					["PRECEDING_KEY_WORDS"] = "RoyalShipFollowCam",
 					["INTEGER_TO_FLOAT"] = "FORCE",
 					["VALUE_CHANGE_TABLE"] = {
-						{"LookStickLimitAngle", "200"}
+						{"LookStickLimitAngle", "200"},
+						{"CenterStartTime",84600},
+						{"CenterStartSpeed",1}
 					}
 				},
 				{
 					["PRECEDING_KEY_WORDS"] = "ScienceShipFollowCam",
 					["INTEGER_TO_FLOAT"] = "FORCE",
 					["VALUE_CHANGE_TABLE"] = {
-						{"LookStickLimitAngle", "200"}
+						{"LookStickLimitAngle", "200"},
+						{"CenterStartTime",84600},
+						{"CenterStartSpeed",1}
 					}
 				},
 				{
-					["PRECEDING_KEY_WORDS"] = "OutlawShipFollowCam",
+					["PRECEDING_KEY_WORDS"] = "SailShipFollowCam",
 					["INTEGER_TO_FLOAT"] = "FORCE",
 					["VALUE_CHANGE_TABLE"] = {
-						{"LookStickLimitAngle", "200"}
+						{"LookStickLimitAngle", "200"},
+						{"OffsetZFlat",-3},		
+						{"CenterStartTime",84600},
+						{"CenterStartSpeed",1}		--Forward/Back
 					}
 				},
 			}
