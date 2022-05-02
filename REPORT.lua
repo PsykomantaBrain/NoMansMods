@@ -1,11 +1,11 @@
-Mon 05/02/2022 11:25:06.75 AMUMSS starting! 
+Mon 05/02/2022 12:32:27.01 AMUMSS starting! 
 
 AMUMSS v3.9.5.98W
 using Lua 5.3
 on Windows 10 Pro 64bit, Build: 19043.1645 with 16 logical CPUs (cp437)
 with MBINCompiler v3.88.0.2
 
-Started MODBUILDER automatic processing at 11:25:08 {
+Started MODBUILDER automatic processing at 12:32:29 {
 
 One or more DISTINCT COMBINED MOD PAK will be created...
 
@@ -2793,22 +2793,22 @@ Getting GCDEBUGOPTIONS.GLOBAL.MBIN from NMS source PAKs
 
 >>> Adding files:
       create folder: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_JAPANESE.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_POLISH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_USENGLISH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_ENGLISH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_PORTUGUESE.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_ITALIAN.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_SIMPLIFIEDCHINESE.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_DUTCH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_LATINAMERAICANSPANISH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_KOREAN.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_RUSSIAN.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_TENCENTCHINESE.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_BRAZILIANPORTUGUESE.EXML"
      create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_GERMAN.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_TRADITIONALCHINESE.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_KOREAN.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_BRAZILIANPORTUGUESE.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_TENCENTCHINESE.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_LATINAMERAICANSPANISH.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_ENGLISH.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_ITALIAN.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_POLISH.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_SIMPLIFIEDCHINESE.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_USENGLISH.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_PORTUGUESE.EXML"
      create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_FRENCH.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_TRADITIONALCHINESE.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_JAPANESE.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_RUSSIAN.EXML"
+     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_DUTCH.EXML"
      create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_SPANISH.EXML"
 
     >>>>> Ended with 17 files added <<<<<
@@ -5540,9 +5540,9 @@ Getting METADATA\REALITY\TABLES\NMS_REALITY_GCSUBSTANCETABLE.MBIN from NMS sourc
 {>>> METADATA\REALITY\TABLES\NMS_REALITY_GCSUBSTANCETABLE.EXML
     MapFileTree creation/update done by 2nd thread
 -> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","TECHFRAG"}, <<< 
-    Looking for >>> [BaseValue] New value will be >>> [[10000]] of type [NUMBER]
+    Looking for >>> [BaseValue] New value will be >>> [[2200]] of type [NUMBER]
                 >>> Searching in lines 1369 to 1430...
-      -- On line 1398, exchanged:    [<Property name="BaseValue" value="20" />]                 with:     [<Property name="BaseValue" value="10000" />]
+      -- On line 1398, exchanged:    [<Property name="BaseValue" value="20" />]                 with:     [<Property name="BaseValue" value="2200" />]
   Ended processing with [1 CHANGE(s) made]
      on File: [METADATA\REALITY\TABLES\NMS_REALITY_GCSUBSTANCETABLE.EXML]
   Ended with a total of 1 action(s) made }
@@ -5620,82 +5620,23 @@ No failed script!
 Checked Conflicts in ModScript Scripts/paks and NMS MODS paks.
 
 =================================== CONFLICTS =========================================={
-    [CONFLICT] on "GCSKYGLOBALS.GLOBALS.MBIN" (NMSARC.59B126E2.pak)
-    [     >>>] 	- "Modscript\1hr-Days.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
     [CONFLICT] on "GCUIGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
     [     >>>] 	- "Modscript\Fast Actions 4.1.lua"
     [     >>>] 	- "Modscript\Small Cursor 3.9.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
+    [     >>>] 	- "MODS\"_hilightnotes_cleanHUD_v10_Vanilla.pak"
 
     [CONFLICT] on "GCCAMERAGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
     [     >>>] 	- "Modscript\Fullscreen Warps 2.8.lua"
     [     >>>] 	- "Modscript\gCam hrv.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "METADATA\REALITY\TABLES\REWARDTABLE.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\LearnMoreWordsScript10.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\Long Range Freighters 4.1B.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\Long Range Freighters 4.1B.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "GCVEHICLEGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
-    [     >>>] 	- "Modscript\Natural Steering 1.2.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "GCSPACESHIPGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
-    [     >>>] 	- "Modscript\NaturalFlight.hrv.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
 
     [CONFLICT] on "GCSOLARGENERATIONGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
     [     >>>] 	- "Modscript\NaturalFlight.hrv.lua"
     [     >>>] 	- "Modscript\Skip's Asteroid Megamod 1.0.0-PRISMS.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
 
     [CONFLICT] on "GCGAMEPLAYGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
     [     >>>] 	- "Modscript\NaturalFlight.hrv.lua"
     [     >>>] 	- "Modscript\Remove_Tech_Overload_1_1e.lua"
     [     >>>] 	- "Modscript\SpeedIncreaseAnalysis.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "METADATA\PROJECTILES\PROJECTILETABLE.MBIN" (NMSARC.86055253.pak)
-    [     >>>] 	- "Modscript\NaturalFlight.hrv.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "METADATA\REALITY\TABLES\DAMAGETABLE.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\NaturalFlight.hrv.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "UI\COMPONENTS\INTERACTION\CINEMATICBARS.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\No Black Bars 2.4.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "UI\HUD\HUDBARS.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\No Black Bars 2.4.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\No Space Dust 1.3.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.MBIN" (NMSARC.86055253.pak)
-    [     >>>] 	- "Modscript\No Speed Halo 1.5 - Almost.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.MBIN" (NMSARC.4C482859.pak)
-    [     >>>] 	- "Modscript\No Speed Lines 1.5.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
-
-    [CONFLICT] on "MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.MBIN" (NMSARC.515F1D3.pak)
-    [     >>>] 	- "Modscript\Quick Crates 1.8.lua"
-    [     >>>] 	- "MODS\"CombinedMod__(0).pak"
 
 ========================================================================================}
 
@@ -5709,10 +5650,10 @@ Checked Conflicts in ModScript Scripts/paks and NMS MODS paks.
     [ATTENTION]      1 NOTICE raised
     [ATTENTION]            NOTICES produce good PAK files but alert you to something.
 
-    [ATTENTION]     18 CONFLICTS detected in processed Scripts/paks
+    [ATTENTION]      4 CONFLICTS detected in processed Scripts/paks
     [ATTENTION]            CONFLICTS will prevent the mods involved from expressing their full effect.
     [ATTENTION]            Some CONFLICTS can be resolved by COMBINING mods...
     [ATTENTION]            See file 'Creating a Patch for an existing MOD PAK.txt' for further help
 
-Ended AMUMSS automatic processing at 11:30:51
-TOTAL TIME to complete: 00:05:43
+Ended AMUMSS automatic processing at 12:38:58
+TOTAL TIME to complete: 00:06:29

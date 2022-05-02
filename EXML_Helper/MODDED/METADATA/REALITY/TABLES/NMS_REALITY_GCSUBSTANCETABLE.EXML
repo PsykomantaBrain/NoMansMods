@@ -1395,7 +1395,7 @@
         <Property name="B" value="0.30588236" />
         <Property name="A" value="1" />
       </Property>
-      <Property name="BaseValue" value="10000" />
+      <Property name="BaseValue" value="2200" />
       <Property name="Category" value="GcRealitySubstanceCategory.xml">
         <Property name="SubstanceCategory" value="Special" />
       </Property>

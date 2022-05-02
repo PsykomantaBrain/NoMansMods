@@ -55,7 +55,7 @@ NMS_MOD_DEFINITION_CONTAINER =
                             ["SPECIAL_KEY_WORDS"] = {"ID", "TECHFRAG",},
                             ["VALUE_CHANGE_TABLE"]     =
                             {
-                                {"BaseValue",        "10000"},     -- original 20
+                                {"BaseValue",        "2200"},     -- original 20
                             }
                         }
                     }

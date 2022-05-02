@@ -1,4 +1,4 @@
-  Mon 05/02/2022 11:25:06.75 AMUMSS starting!
+  Mon 05/02/2022 12:32:27.01 AMUMSS starting!
 
   [7m[1;31m[1m                                                                                   [0m
   [7m >>> Note: Please make sure you do not have any accented characters in AMUMSS path [0m
@@ -30,12 +30,12 @@
         [1;32m[1m ==> is up-to-date[0m
 
 >>> Getting list of files from NMS MODS PAK file(s)...
-  - CombinedMod__(0).pak
   - No high Clouds 2.0.pak
   - SolarShipNoSails.pak
   - _HarvesteR.NoEntryGlow.pak
+  - _hilightnotes_cleanHUD_v10_Vanilla.pak
 
-  [1;32m[1mWe will check 63 possible conflicting files[0m
+  [1;32m[1mWe will check 52 possible conflicting files[0m
 
 >>> Checking NMS PCBANKS PAK file list existence...
 >>> NMS PAK file list is up-to-date, no need to re-create the list
@@ -8199,22 +8199,22 @@
 
 >>> Adding files:
       create folder: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_JAPANESE.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_POLISH.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_USENGLISH.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_ENGLISH.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_PORTUGUESE.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_ITALIAN.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_SIMPLIFIEDCHINESE.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_DUTCH.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_LATINAMERAICANSPANISH.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_KOREAN.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_RUSSIAN.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_TENCENTCHINESE.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_BRAZILIANPORTUGUESE.EXML
      create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_GERMAN.EXML
-     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_TRADITIONALCHINESE.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_KOREAN.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_BRAZILIANPORTUGUESE.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_TENCENTCHINESE.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_LATINAMERAICANSPANISH.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_ENGLISH.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_ITALIAN.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_POLISH.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_SIMPLIFIEDCHINESE.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_USENGLISH.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_PORTUGUESE.EXML
      create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_FRENCH.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_TRADITIONALCHINESE.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_JAPANESE.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_RUSSIAN.EXML
+     create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_DUTCH.EXML
      create file in: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_SPANISH.EXML
 
     >>>>> Ended with 17 files added <<<<<
@@ -13207,9 +13207,9 @@
       Section(s) found: 
                             1369 - 1430 (1372)
 
-    Looking for >>> [BaseValue] New value will be >>> [[10000]] of type [NUMBER]
+    Looking for >>> [BaseValue] New value will be >>> [[2200]] of type [NUMBER]
                 >>> Searching in lines 1369 to 1430...
-      [1;32m[1m-- On line 1398[0m, exchanged:    [<Property name="BaseValue" value="20" />]                 with:     [<Property name="BaseValue" value="10000" />]
+      [1;32m[1m-- On line 1398[0m, exchanged:    [<Property name="BaseValue" value="20" />]                 with:     [<Property name="BaseValue" value="2200" />]
 
 [1;32m[1m   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =[0m
 [1;32m[1m                Ended processing of MODIFICATIONS[1][2][0m
@@ -13402,11 +13402,11 @@ Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MO
 Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\UI\HUD\HUDBARS.MBIN
 
           61: Total Files Archived
-     4318601: Original Size
+     4318600: Original Size
         2351: Manifest (uncompressed)
-        3196: Manifest (compressed)
+        3995: Manifest (compressed)
         2126: TOC size
-      286434: Final Size
+      286436: Final Size
         0.7%: Directory Overhead
        93.4%: Compression Ratio
            9: Compression Level
@@ -13440,14 +13440,14 @@ Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MO
 
 [1;32m[1m>>> No failed script![0m
 
-  [1;32m[1mWe will check 63 possible conflicting files[0m
+  [1;32m[1mWe will check 52 possible conflicting files[0m
 
 >>> Conflict Detection starting...
 
 [1;32m[1m>>> Checking Conflicts in ModScript Scripts/paks and NMS MODS paks. Please wait...[0m
-       Pruning duplicates in 84 files...
-       We have 84 possible conflicting files to process!  WORKING...
-[1;31m[1m       Conflict detection done, found 18 conflict(s)[0m
+       Pruning duplicates in 73 files...
+       We have 73 possible conflicting files to process!  WORKING...
+[1;31m[1m       Conflict detection done, found 4 conflict(s)[0m
 [1;31m[1m       See [0m[7;93m REPORT.lua [0m[1;31m[1m for the full list of conflict(s)[0m
 
               [7;93m >>> FINAL REPORT <<< [0m
@@ -13461,14 +13461,14 @@ Compressing D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MO
      1 NOTICE raised
            NOTICES produce good PAK files but alert you to something.
 
-    18 CONFLICTS detected in processed Scripts/paks
+     4 CONFLICTS detected in processed Scripts/paks
            CONFLICTS will prevent the mods involved from expressing their full effect.
            Some CONFLICTS can be resolved by COMBINING mods...
            See file 'Creating a Patch for an existing MOD PAK.txt' for further help
 
             [7;93m >>> See "REPORT.lua" <<< [0m
 
- ===>>> TOTAL TIME to complete: 00:05:43
+ ===>>> TOTAL TIME to complete: 00:06:29
 
 
 [7;93m === PRESS ANY KEY and THIS window will close shortly === [0m
