@@ -1,16 +1,16 @@
-Mon 05/02/2022 12:32:27.01 AMUMSS starting! 
+Thu 05/05/2022 21:02:45.63 AMUMSS starting! 
 
 AMUMSS v3.9.5.98W
 using Lua 5.3
 on Windows 10 Pro 64bit, Build: 19043.1645 with 16 logical CPUs (cp437)
 with MBINCompiler v3.88.0.2
 
-Started MODBUILDER automatic processing at 12:32:29 {
+Started MODBUILDER automatic processing at 21:02:55 {
 
 One or more DISTINCT COMBINED MOD PAK will be created...
 
 ========================================================================================
-Starting to process script #1 of 20 [1hr-Days.lua] {
+Starting to process script #1 of 23 [1hr-Days.lua] {
 Copying script source to MOD
 Getting GCSKYGLOBALS.GLOBALS.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -33,2796 +33,195 @@ Ended script [1hr-Days.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #2 of 20 [CraftableUpgradeModsFINAL.lua] {
+Starting to process script #2 of 23 [Craftablemodules.lua] {
 Copying script source to MOD
-Getting METADATA\REALITY\TABLES\NMS_REALITY_GCPRODUCTTABLE.MBIN from NMS source PAKs
+Getting LANGUAGE\NMS_LOC5_ENGLISH.MBIN from NMS source PAKs
    SUCCESS Decompiling
-Getting METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.MBIN from NMS source PAKs
+Getting LANGUAGE\NMS_LOC6_ENGLISH.MBIN from NMS source PAKs
+   SUCCESS Decompiling
+Getting LANGUAGE\NMS_LOC5_FRENCH.MBIN from NMS source PAKs
+   SUCCESS Decompiling
+Getting LANGUAGE\NMS_LOC6_FRENCH.MBIN from NMS source PAKs
+   SUCCESS Decompiling
+Getting METADATA\REALITY\TABLES\NMS_REALITY_GCPRODUCTTABLE.MBIN from NMS source PAKs
    SUCCESS Decompiling
 Getting METADATA\REALITY\TABLES\UNLOCKABLEITEMTREES.MBIN from NMS source PAKs
    SUCCESS Decompiling
-Getting GCDEBUGOPTIONS.GLOBAL.MBIN from NMS source PAKs
-   SUCCESS Decompiling
->>>>>>> Loaded script [CraftableUpgradeModsFINAL.lua]
+>>>>>>> Loaded script [Craftablemodules.lua]
+{>>> LANGUAGE\NMS_LOC5_ENGLISH.EXML
+    MapFileTree creation/update done by 2nd thread
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","UI_FRIG_TOKEN_DESC"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"English"}, <<< 
+    Looking for >>> [Value] New value will be >>> [[A technology module crafted from the &lt;STELLAR&gt;proper blueprint&lt;&gt;, or harvested from the remains of a large interstellar starship. May be collected from &lt;STELLAR&gt;freighter crashsites&lt;&gt; or salvaged during &lt;STELLAR&gt;frigate expeditions&lt;&gt;.&#xA;&#xA;Useless in its current form, a &lt;TECHNOLOGY&gt;Research Station&lt;&gt; aboard your freighter may be able to convert it into useable technology.]] of type [STRING]
+                >>> Searching in lines 333889 to 333891...
+      -- On line 333890, exchanged:    [<Property name="Value" value="A technology module harvested from the remains of a large interstellar starship. May be collected from &lt;STELLAR&gt;freighter crashsites&lt;&gt; or salvaged during &lt;STELLAR&gt;frigate expeditions&lt;&gt;.&#xA;&#xA;Useless in its current form, a &lt;TECHNOLOGY&gt;Research Station&lt;&gt; aboard your freighter may be able to convert it into useable technology." />]    with:     [<Property name="Value" value="A technology module crafted from the &lt;STELLAR&gt;proper blueprint&lt;&gt;, or harvested from the remains of a large interstellar starship. May be collected from &lt;STELLAR&gt;freighter crashsites&lt;&gt; or salvaged during &lt;STELLAR&gt;frigate expeditions&lt;&gt;.&#xA;&#xA;Useless in its current form, a &lt;TECHNOLOGY&gt;Research Station&lt;&gt; aboard your freighter may be able to convert it into useable technology." />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","UI_SHIP_INV_TOKEN_DESC"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"English"}, <<< 
+    Looking for >>> [Value] New value will be >>> [[A technology module crafted from the &lt;STELLAR&gt;proper blueprint&lt;&gt;, or harvested from the remains of a &lt;STELLAR&gt;salvaged starship&lt;&gt;. May also be collected from &lt;STELLAR&gt;freighter crash sites&lt;&gt; or salvaged during &lt;STELLAR&gt;frigate expeditions&lt;&gt;.&#xA;&#xA;Can be used to expand starship storage capacity at the Space Station's &lt;TECHNOLOGY&gt;Starship Outfitter&lt;&gt;.]] of type [STRING]
+                >>> Searching in lines 334105 to 334107...
+      -- On line 334106, exchanged:    [<Property name="Value" value="A technology module harvested from the remains of a &lt;STELLAR&gt;salvaged starship&lt;&gt;. May also be collected from &lt;STELLAR&gt;freighter crash sites&lt;&gt; or salvaged during &lt;STELLAR&gt;frigate expeditions&lt;&gt;.&#xA;&#xA;Can be used to expand starship storage capacity at the Space Station's &lt;TECHNOLOGY&gt;Starship Outfitter&lt;&gt;." />]    with:     [<Property name="Value" value="A technology module crafted from the &lt;STELLAR&gt;proper blueprint&lt;&gt;, or harvested from the remains of a &lt;STELLAR&gt;salvaged starship&lt;&gt;. May also be collected from &lt;STELLAR&gt;freighter crash sites&lt;&gt; or salvaged during &lt;STELLAR&gt;frigate expeditions&lt;&gt;.&#xA;&#xA;Can be used to expand starship storage capacity at the Space Station's &lt;TECHNOLOGY&gt;Starship Outfitter&lt;&gt;." />]
+  Ended processing with [2 CHANGE(s) made]
+     on File: [LANGUAGE\NMS_LOC5_ENGLISH.EXML]
+  Ended with a total of 2 action(s) made }
+{>>> LANGUAGE\NMS_LOC6_ENGLISH.EXML
+    MapFileTree creation/update done by 2nd thread
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","UI_FREIGHT_INV_TOKEN_DESC"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"English"}, <<< 
+    Looking for >>> [Value] New value will be >>> [[A technology module crafted from the &lt;STELLAR&gt;proper blueprint&lt;&gt;, or harvested from the remains of an &lt;STELLAR&gt;abandoned freighter&lt;&gt; found floating in space. May also be salvaged during &lt;STELLAR&gt;frigate expeditions&lt;&gt;.&#xA;&#xA;Pre-packed nano-expanders fill out this portable unit and graft it to an existing freighter, increasing its &lt;STELLAR&gt;inventory capacity&lt;&gt;. Apply at your freighter's &lt;TECHNOLOGY&gt;Upgrade Terminal&lt;&gt;.]] of type [STRING]
+                >>> Searching in lines 380329 to 380331...
+      -- On line 380330, exchanged:    [<Property name="Value" value="A technology module harvested from the remains of an &lt;STELLAR&gt;abandoned freighter&lt;&gt; found floating in space. May also be salvaged during &lt;STELLAR&gt;frigate expeditions&lt;&gt;.&#xA;&#xA;Pre-packed nano-expanders fill out this portable unit and graft it to an existing freighter, increasing its &lt;STELLAR&gt;inventory capacity&lt;&gt;. Apply at your freighter's &lt;TECHNOLOGY&gt;Upgrade Terminal&lt;&gt;." />]    with:     [<Property name="Value" value="A technology module crafted from the &lt;STELLAR&gt;proper blueprint&lt;&gt;, or harvested from the remains of an &lt;STELLAR&gt;abandoned freighter&lt;&gt; found floating in space. May also be salvaged during &lt;STELLAR&gt;frigate expeditions&lt;&gt;.&#xA;&#xA;Pre-packed nano-expanders fill out this portable unit and graft it to an existing freighter, increasing its &lt;STELLAR&gt;inventory capacity&lt;&gt;. Apply at your freighter's &lt;TECHNOLOGY&gt;Upgrade Terminal&lt;&gt;." />]
+  Ended processing with [1 CHANGE(s) made]
+     on File: [LANGUAGE\NMS_LOC6_ENGLISH.EXML]
+  Ended with a total of 1 action(s) made }
+{>>> LANGUAGE\NMS_LOC5_FRENCH.EXML
+    MapFileTree creation/update done by 2nd thread
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","UI_FRIG_TOKEN_DESC"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"French"}, <<< 
+    Looking for >>> [Value] New value will be >>> [[Module technologique récupéré sur les vestiges d'un gros vaisseau interstellaire. Peut être obtenu sur les &lt;STELLAR&gt;sites de crash de cargos&lt;&gt; ou au cours d'&lt;STELLAR&gt;expéditions de frégates&lt;&gt;.&#xA;Bien qu'inutile sous sa forme actuelle, une &lt;TECHNOLOGY&gt;station de recherches&lt;&gt; à bord de votre cargo pourrait la convertir en technologie utilisable.]] of type [STRING]
+                >>> Searching in lines 333892 to 333894...
+      -- On line 333893, exchanged:    [<Property name="Value" value="Module technologique récupéré sur les vestiges d'un gros vaisseau interstellaire. Peut être obtenu sur les &lt;STELLAR&gt;sites de crash de cargos&lt;&gt; ou au cours d'&lt;STELLAR&gt;expéditions de frégates&lt;&gt;.&#xA;Bien qu'inutile sous sa forme actuelle, une &lt;TECHNOLOGY&gt;station de recherches&lt;&gt; à bord de votre cargo pourrait la convertir en technologie utilisable." />]    with:     [<Property name="Value" value="Module technologique récupéré sur les vestiges d'un gros vaisseau interstellaire. Peut être obtenu sur les &lt;STELLAR&gt;sites de crash de cargos&lt;&gt; ou au cours d'&lt;STELLAR&gt;expéditions de frégates&lt;&gt;.&#xA;Bien qu'inutile sous sa forme actuelle, une &lt;TECHNOLOGY&gt;station de recherches&lt;&gt; à bord de votre cargo pourrait la convertir en technologie utilisable." />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","UI_SHIP_INV_TOKEN_DESC"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"French"}, <<< 
+    Looking for >>> [Value] New value will be >>> [[Module technologique récolté dans les vestiges d'un &lt;STELLAR&gt;vaisseau récupéré&lt;&gt;. Peut être obtenu sur les &lt;STELLAR&gt;sites de crash de cargos&lt;&gt; ou au cours d'&lt;STELLAR&gt;expéditions de frégates&lt;&gt;.&#xA;&#xA;&#xA;Peut être utilisé pour améliorer la capacité de stockage du vaisseau auprès de l'&lt;TECHNOLOGY&gt;unité d'améliorations de vaisseau&lt;&gt; dans une station spatiale.]] of type [STRING]
+                >>> Searching in lines 334108 to 334110...
+      -- On line 334109, exchanged:    [<Property name="Value" value="Module technologique récolté dans les vestiges d'un &lt;STELLAR&gt;vaisseau récupéré&lt;&gt;. Peut être obtenu sur les &lt;STELLAR&gt;sites de crash de cargos&lt;&gt; ou au cours d'&lt;STELLAR&gt;expéditions de frégates&lt;&gt;.&#xA;&#xA;&#xA;Peut être utilisé pour améliorer la capacité de stockage du vaisseau auprès de l'&lt;TECHNOLOGY&gt;unité d'améliorations de vaisseau&lt;&gt; dans une station spatiale." />]    with:     [<Property name="Value" value="Module technologique récolté dans les vestiges d'un &lt;STELLAR&gt;vaisseau récupéré&lt;&gt;. Peut être obtenu sur les &lt;STELLAR&gt;sites de crash de cargos&lt;&gt; ou au cours d'&lt;STELLAR&gt;expéditions de frégates&lt;&gt;.&#xA;&#xA;&#xA;Peut être utilisé pour améliorer la capacité de stockage du vaisseau auprès de l'&lt;TECHNOLOGY&gt;unité d'améliorations de vaisseau&lt;&gt; dans une station spatiale." />]
+  Ended processing with [2 CHANGE(s) made]
+     on File: [LANGUAGE\NMS_LOC5_FRENCH.EXML]
+  Ended with a total of 2 action(s) made }
+{>>> LANGUAGE\NMS_LOC6_FRENCH.EXML
+    MapFileTree creation/update done by 2nd thread
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","UI_FREIGHT_INV_TOKEN_DESC"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"French"}, <<< 
+    Looking for >>> [Value] New value will be >>> [[Module technologique fabriqué à partir du &lt;STELLAR&gt;plan adéquat&lt;&gt;, ou récupéré sur un &lt;STELLAR&gt;cargo abandonné&lt;&gt; qui dérivait dans l'espace. Peut être obtenu au cours d'&lt;STELLAR&gt;expéditions de frégates&lt;&gt;.&#xA;&#xA;Cette unité portable est remplie de nano-dispositifs d'expansion pré-emballés qui la greffent à un cargo existant, augmentant sa &lt;STELLAR&gt;capacité d'inventaire&lt;&gt;. Appliquez dans le &lt;TECHNOLOGY&gt;terminal d'améliorations&lt;&gt; de votre cargo.]] of type [STRING]
+                >>> Searching in lines 380332 to 380334...
+      -- On line 380333, exchanged:    [<Property name="Value" value="Module technologique récupéré sur un &lt;STELLAR&gt;cargo abandonné&lt;&gt; qui dérivait dans l'espace. Peut être obtenu au cours d'&lt;STELLAR&gt;expéditions de frégates&lt;&gt;.&#xA;&#xA;Cette unité portable est remplie de nano-dispositifs d'expansion pré-emballés qui la greffent à un cargo existant, augmentant sa &lt;STELLAR&gt;capacité d'inventaire&lt;&gt;. Appliquez dans le &lt;TECHNOLOGY&gt;terminal d'améliorations&lt;&gt; de votre cargo." />]    with:     [<Property name="Value" value="Module technologique fabriqué à partir du &lt;STELLAR&gt;plan adéquat&lt;&gt;, ou récupéré sur un &lt;STELLAR&gt;cargo abandonné&lt;&gt; qui dérivait dans l'espace. Peut être obtenu au cours d'&lt;STELLAR&gt;expéditions de frégates&lt;&gt;.&#xA;&#xA;Cette unité portable est remplie de nano-dispositifs d'expansion pré-emballés qui la greffent à un cargo existant, augmentant sa &lt;STELLAR&gt;capacité d'inventaire&lt;&gt;. Appliquez dans le &lt;TECHNOLOGY&gt;terminal d'améliorations&lt;&gt; de votre cargo." />]
+  Ended processing with [1 CHANGE(s) made]
+     on File: [LANGUAGE\NMS_LOC6_FRENCH.EXML]
+  Ended with a total of 1 action(s) made }
 {>>> METADATA\REALITY\TABLES\NMS_REALITY_GCPRODUCTTABLE.EXML
     MapFileTree creation/update done by 2nd thread
--> Based on PRECEDING_KEY_WORDS: >>> {"Table"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [Table] and value [IGNORE] of type [STRING]
-    -- Lines 5 - 2076 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HAZARDX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121103 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HAZARDX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121103 - 121125 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HAZARDX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121056 to 121153...
-      -- On line 121143, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 121056 to 121153...
-      -- On line 121135, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOSTX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121501 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOSTX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121501 - 121523 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOSTX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121454 to 121551...
-      -- On line 121541, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 121454 to 121551...
-      -- On line 121533, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOSTX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121899 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOSTX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121899 - 121921 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOSTX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121852 to 121949...
-      -- On line 121939, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 121852 to 121949...
-      -- On line 121931, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGYX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121028 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGYX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121028 - 121050 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGYX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 120981 to 121078...
-      -- On line 121068, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 120981 to 121078...
-      -- On line 121060, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPERX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124270 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPERX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124270 - 124292 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPERX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124223 to 124320...
-      -- On line 124310, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 124223 to 124320...
-      -- On line 124302, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELDX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124668 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELDX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124668 - 124690 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELDX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124621 to 124718...
-      -- On line 124708, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 124621 to 124718...
-      -- On line 124700, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSEX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123520 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSEX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123520 - 123542 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSEX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123473 to 123570...
-      -- On line 123560, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 123473 to 123570...
-      -- On line 123552, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCHX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123918 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCHX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123918 - 123940 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCHX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123871 to 123968...
-      -- On line 123958, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 123871 to 123968...
-      -- On line 123950, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUNX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125112 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUNX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125112 - 125134 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUNX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 125065 to 125162...
-      -- On line 125152, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 125065 to 125162...
-      -- On line 125144, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINIX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126260 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINIX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126260 - 126282 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINIX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126213 to 126310...
-      -- On line 126300, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 126213 to 126310...
-      -- On line 126292, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOTX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125885 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOTX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125885 - 125907 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOTX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 125838 to 125935...
-      -- On line 125925, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 125838 to 125935...
-      -- On line 125917, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLASX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125510 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLASX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125510 - 125532 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLASX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 125463 to 125560...
-      -- On line 125550, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 125463 to 125560...
-      -- On line 125542, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOBX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126704 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOBX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126704 - 126726 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOBX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126657 to 126754...
-      -- On line 126744, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 126657 to 126754...
-      -- On line 126736, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASERX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 117653 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASERX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 117653 - 117675 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASERX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 117606 to 117703...
-      -- On line 117693, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 117606 to 117703...
-      -- On line 117685, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNERX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118051 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNERX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118051 - 118073 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNERX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118004 to 118101...
-      -- On line 118091, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 118004 to 118101...
-      -- On line 118083, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUNX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119949 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUNX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119949 - 119971 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUNX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119902 to 119999...
-      -- On line 119989, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 119902 to 119999...
-      -- On line 119981, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMGX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 120347 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMGX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 120347 - 120369 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMGX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 120300 to 120397...
-      -- On line 120387, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 120300 to 120397...
-      -- On line 120379, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAILX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119574 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAILX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119574 - 119596 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAILX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119527 to 119624...
-      -- On line 119614, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 119527 to 119624...
-      -- On line 119606, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLTX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118449 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLTX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118449 - 118471 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLTX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118402 to 118499...
-      -- On line 118489, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 118402 to 118499...
-      -- On line 118481, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADEX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119222 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADEX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119222 - 119244 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADEX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119175 to 119272...
-      -- On line 119262, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 119175 to 119272...
-      -- On line 119254, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADEX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118847 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADEX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118847 - 118869 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADEX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118800 to 118897...
-      -- On line 118887, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 118800 to 118897...
-      -- On line 118879, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNONX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 120837 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNONX"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 120837 - 120859 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNONX"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 120790 to 120887...
-      -- On line 120877, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 120790 to 120887...
-      -- On line 120869, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SENTGUN"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 120935 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SENTGUN"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 120935 - 120957 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SENTGUN"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 120888 to 120985...
-      -- On line 120975, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 120888 to 120985...
-      -- On line 120967, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SENTSUIT"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123375 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SENTSUIT"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123375 - 123397 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SENTSUIT"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123328 to 123425...
-      -- On line 123415, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[20]] of type [NUMBER]
-                >>> Searching in lines 123328 to 123425...
-      -- On line 123407, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="20" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 274 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 274 - 296 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 227 to 323...
-      -- On line 313, exchanged:    [<Property name="IsCraftable" value="False" />]             with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 227 to 323...
-      -- On line 305, exchanged:    [<Property name="RecipeCost" value="1" />]                  with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 200 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 200 - 222 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 153 to 249...
-      -- On line 239, exchanged:    [<Property name="IsCraftable" value="False" />]             with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 153 to 249...
-      -- On line 231, exchanged:    [<Property name="RecipeCost" value="1" />]                  with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126 - 148 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 79 to 175...
-      -- On line 165, exchanged:    [<Property name="IsCraftable" value="False" />]             with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 79 to 175...
-      -- On line 157, exchanged:    [<Property name="RecipeCost" value="1" />]                  with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 52 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 52 - 74 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_SPE4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 5 to 101...
-      -- On line 91, exchanged:    [<Property name="IsCraftable" value="False" />]              with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 5 to 101...
-      -- On line 83, exchanged:    [<Property name="RecipeCost" value="1" />]                   with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 662 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 662 - 684 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 615 to 711...
-      -- On line 701, exchanged:    [<Property name="IsCraftable" value="False" />]             with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 615 to 711...
-      -- On line 693, exchanged:    [<Property name="RecipeCost" value="1" />]                  with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 588 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 588 - 610 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 541 to 637...
-      -- On line 627, exchanged:    [<Property name="IsCraftable" value="False" />]             with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 541 to 637...
-      -- On line 619, exchanged:    [<Property name="RecipeCost" value="1" />]                  with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 514 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 514 - 536 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 467 to 563...
-      -- On line 553, exchanged:    [<Property name="IsCraftable" value="False" />]             with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 467 to 563...
-      -- On line 545, exchanged:    [<Property name="RecipeCost" value="1" />]                  with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 440 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 440 - 462 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_COM4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 393 to 489...
-      -- On line 479, exchanged:    [<Property name="IsCraftable" value="False" />]             with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 393 to 489...
-      -- On line 471, exchanged:    [<Property name="RecipeCost" value="1" />]                  with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 1050 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 1050 - 1072 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 1003 to 1099...
-      -- On line 1089, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 1003 to 1099...
-      -- On line 1081, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 976 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 976 - 998 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 929 to 1025...
-      -- On line 1015, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 929 to 1025...
-      -- On line 1007, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 902 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 902 - 924 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 855 to 951...
-      -- On line 941, exchanged:    [<Property name="IsCraftable" value="False" />]             with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 855 to 951...
-      -- On line 933, exchanged:    [<Property name="RecipeCost" value="1" />]                  with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 828 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 828 - 850 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_EXP4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 781 to 877...
-      -- On line 867, exchanged:    [<Property name="IsCraftable" value="False" />]             with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 781 to 877...
-      -- On line 859, exchanged:    [<Property name="RecipeCost" value="1" />]                  with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 1438 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 1438 - 1460 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 1391 to 1487...
-      -- On line 1477, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 1391 to 1487...
-      -- On line 1469, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 1364 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 1364 - 1386 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 1317 to 1413...
-      -- On line 1403, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 1317 to 1413...
-      -- On line 1395, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 1290 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 1290 - 1312 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 1243 to 1339...
-      -- On line 1329, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 1243 to 1339...
-      -- On line 1321, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 1216 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 1216 - 1238 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_FUEL4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 1169 to 1265...
-      -- On line 1255, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 1169 to 1265...
-      -- On line 1247, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 1826 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 1826 - 1848 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 1779 to 1875...
-      -- On line 1865, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 1779 to 1875...
-      -- On line 1857, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 1752 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 1752 - 1774 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 1705 to 1801...
-      -- On line 1791, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 1705 to 1801...
-      -- On line 1783, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 1678 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 1678 - 1700 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 1631 to 1727...
-      -- On line 1717, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 1631 to 1727...
-      -- On line 1709, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 1604 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 1604 - 1626 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_MINE4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 1557 to 1653...
-      -- On line 1643, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 1557 to 1653...
-      -- On line 1635, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 2214 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 2214 - 2236 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 2167 to 2263...
-      -- On line 2253, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 2167 to 2263...
-      -- On line 2245, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 2140 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 2140 - 2162 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 2093 to 2189...
-      -- On line 2179, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 2093 to 2189...
-      -- On line 2171, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 2066 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 2066 - 2088 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 2019 to 2115...
-      -- On line 2105, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 2019 to 2115...
-      -- On line 2097, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 1992 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 1992 - 2014 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_TRA4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 1945 to 2041...
-      -- On line 2031, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 1945 to 2041...
-      -- On line 2023, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 2602 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 2602 - 2624 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 2555 to 2651...
-      -- On line 2641, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 2555 to 2651...
-      -- On line 2633, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 2528 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 2528 - 2550 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 2481 to 2577...
-      -- On line 2567, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 2481 to 2577...
-      -- On line 2559, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 2454 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 2454 - 2476 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 2407 to 2503...
-      -- On line 2493, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 2407 to 2503...
-      -- On line 2485, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 2380 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 2380 - 2402 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_FREIG_HYP4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 2333 to 2429...
-      -- On line 2419, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 2333 to 2429...
-      -- On line 2411, exchanged:    [<Property name="RecipeCost" value="1" />]                 with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124515 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124515 - 124537 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124468 to 124565...
-      -- On line 124555, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 124468 to 124565...
-      -- On line 124547, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124613 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124613 - 124635 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124566 to 124663...
-      -- On line 124653, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 124566 to 124663...
-      -- On line 124645, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124711 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124711 - 124733 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124664 to 124761...
-      -- On line 124751, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 124664 to 124761...
-      -- On line 124743, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124809 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124809 - 124831 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LAUNCH4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124762 to 124859...
-      -- On line 124849, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 124762 to 124859...
-      -- On line 124841, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125005 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125005 - 125027 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124958 to 125055...
-      -- On line 125045, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 124958 to 125055...
-      -- On line 125037, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125103 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125103 - 125125 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 125056 to 125153...
-      -- On line 125143, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 125056 to 125153...
-      -- On line 125135, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125201 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125201 - 125223 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 125154 to 125251...
-      -- On line 125241, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 125154 to 125251...
-      -- On line 125233, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125299 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125299 - 125321 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HYPER4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 125252 to 125349...
-      -- On line 125339, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 125252 to 125349...
-      -- On line 125331, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125495 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125495 - 125517 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 125448 to 125545...
-      -- On line 125535, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 125448 to 125545...
-      -- On line 125527, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125593 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125593 - 125615 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 125546 to 125643...
-      -- On line 125633, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 125546 to 125643...
-      -- On line 125625, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125691 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125691 - 125713 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 125644 to 125741...
-      -- On line 125731, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 125644 to 125741...
-      -- On line 125723, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 125789 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 125789 - 125811 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHIELD4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 125742 to 125839...
-      -- On line 125829, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 125742 to 125839...
-      -- On line 125821, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124117 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124117 - 124139 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124070 to 124167...
-      -- On line 124157, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 124070 to 124167...
-      -- On line 124149, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124215 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124215 - 124237 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124168 to 124265...
-      -- On line 124255, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 124168 to 124265...
-      -- On line 124247, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124313 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124313 - 124335 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124266 to 124363...
-      -- On line 124353, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 124266 to 124363...
-      -- On line 124345, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124411 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124411 - 124433 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_PULSE4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124364 to 124461...
-      -- On line 124451, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 124364 to 124461...
-      -- On line 124443, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126873 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126873 - 126895 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126826 to 126923...
-      -- On line 126913, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 126826 to 126923...
-      -- On line 126905, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126971 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126971 - 126993 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126924 to 127021...
-      -- On line 127011, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 126924 to 127021...
-      -- On line 127003, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 127069 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 127069 - 127091 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 127022 to 127119...
-      -- On line 127109, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 127022 to 127119...
-      -- On line 127101, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 127167 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 127167 - 127189 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPSHOT4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 127120 to 127217...
-      -- On line 127207, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 127120 to 127217...
-      -- On line 127199, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 127363 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 127363 - 127385 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 127316 to 127413...
-      -- On line 127403, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 127316 to 127413...
-      -- On line 127395, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 127461 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 127461 - 127483 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 127414 to 127511...
-      -- On line 127501, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 127414 to 127511...
-      -- On line 127493, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 127559 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 127559 - 127581 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 127512 to 127609...
-      -- On line 127599, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 127512 to 127609...
-      -- On line 127591, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 127657 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 127657 - 127679 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPMINI4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 127610 to 127707...
-      -- On line 127697, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 127610 to 127707...
-      -- On line 127689, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 127853 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 127853 - 127875 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 127806 to 127903...
-      -- On line 127893, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 127806 to 127903...
-      -- On line 127885, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 127951 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 127951 - 127973 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 127904 to 128001...
-      -- On line 127991, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 127904 to 128001...
-      -- On line 127983, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 128049 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 128049 - 128071 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 128002 to 128099...
-      -- On line 128089, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 128002 to 128099...
-      -- On line 128081, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 128147 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 128147 - 128169 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPBLOB4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 128100 to 128197...
-      -- On line 128187, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 128100 to 128197...
-      -- On line 128179, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126077 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126077 - 126099 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126030 to 126127...
-      -- On line 126117, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 126030 to 126127...
-      -- On line 126109, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126175 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126175 - 126197 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126128 to 126225...
-      -- On line 126215, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 126128 to 126225...
-      -- On line 126207, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126273 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126273 - 126295 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126226 to 126323...
-      -- On line 126313, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 126226 to 126323...
-      -- On line 126305, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126371 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126371 - 126393 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPGUN4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126324 to 126421...
-      -- On line 126411, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 126324 to 126421...
-      -- On line 126403, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126567 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126567 - 126589 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126520 to 126617...
-      -- On line 126607, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 126520 to 126617...
-      -- On line 126599, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126665 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126665 - 126687 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126618 to 126715...
-      -- On line 126705, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 126618 to 126715...
-      -- On line 126697, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126763 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126763 - 126785 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126716 to 126813...
-      -- On line 126803, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 126716 to 126813...
-      -- On line 126795, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 126861 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 126861 - 126883 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIPLAS4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 126814 to 126911...
-      -- On line 126901, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 126814 to 126911...
-      -- On line 126893, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_UNW1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122894 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_UNW1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122894 - 122916 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_UNW1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122847 to 122944...
-      -- On line 122934, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 122847 to 122944...
-      -- On line 122926, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_UNW2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122992 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_UNW2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122992 - 123014 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_UNW2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122945 to 123042...
-      -- On line 123032, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 122945 to 123042...
-      -- On line 123024, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_UNW3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123090 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_UNW3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123090 - 123112 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_UNW3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123043 to 123140...
-      -- On line 123130, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 123043 to 123140...
-      -- On line 123122, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TOX1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123413 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TOX1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123413 - 123435 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TOX1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123366 to 123463...
-      -- On line 123453, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 123366 to 123463...
-      -- On line 123445, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TOX2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123511 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TOX2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123511 - 123533 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TOX2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123464 to 123561...
-      -- On line 123551, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 123464 to 123561...
-      -- On line 123543, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TOX3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123609 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TOX3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123609 - 123631 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TOX3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123562 to 123659...
-      -- On line 123649, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 123562 to 123659...
-      -- On line 123641, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_COLDPROT1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123707 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_COLDPROT1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123707 - 123729 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_COLDPROT1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123660 to 123757...
-      -- On line 123747, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 123660 to 123757...
-      -- On line 123739, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_COLDPROT2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123805 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_COLDPROT2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123805 - 123827 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_COLDPROT2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123758 to 123855...
-      -- On line 123845, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 123758 to 123855...
-      -- On line 123837, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_COLDPROT3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123903 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_COLDPROT3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123903 - 123925 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_COLDPROT3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123856 to 123953...
-      -- On line 123943, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 123856 to 123953...
-      -- On line 123935, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HOTPROT1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124001 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HOTPROT1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124001 - 124023 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HOTPROT1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123954 to 124051...
-      -- On line 124041, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 123954 to 124051...
-      -- On line 124033, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HOTPROT2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124099 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HOTPROT2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124099 - 124121 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HOTPROT2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124052 to 124149...
-      -- On line 124139, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 124052 to 124149...
-      -- On line 124131, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HOTPROT3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 124197 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HOTPROT3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 124197 - 124219 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_HOTPROT3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 124150 to 124247...
-      -- On line 124237, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 124150 to 124247...
-      -- On line 124229, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAD1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123188 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAD1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123188 - 123210 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAD1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123141 to 123238...
-      -- On line 123228, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 123141 to 123238...
-      -- On line 123220, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAD2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123286 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAD2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123286 - 123308 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAD2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123239 to 123336...
-      -- On line 123326, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 123239 to 123336...
-      -- On line 123318, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAD3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 123384 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAD3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 123384 - 123406 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAD3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 123337 to 123434...
-      -- On line 123424, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 123337 to 123434...
-      -- On line 123416, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGY1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121677 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGY1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121677 - 121699 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGY1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121630 to 121727...
-      -- On line 121717, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 121630 to 121727...
-      -- On line 121709, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGY2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121775 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGY2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121775 - 121797 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGY2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121728 to 121825...
-      -- On line 121815, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 121728 to 121825...
-      -- On line 121807, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGY3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121873 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGY3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121873 - 121895 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_ENERGY3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121826 to 121923...
-      -- On line 121913, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 121826 to 121923...
-      -- On line 121905, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122565 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122565 - 122587 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122518 to 122615...
-      -- On line 122605, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 122518 to 122615...
-      -- On line 122597, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122663 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122663 - 122685 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122616 to 122713...
-      -- On line 122703, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 122616 to 122713...
-      -- On line 122695, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122761 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122761 - 122783 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122714 to 122811...
-      -- On line 122801, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 122714 to 122811...
-      -- On line 122793, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122859 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122859 - 122881 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHIELDBOOST4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122812 to 122909...
-      -- On line 122899, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 122812 to 122909...
-      -- On line 122891, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122167 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122167 - 122189 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122120 to 122217...
-      -- On line 122207, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 122120 to 122217...
-      -- On line 122199, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122265 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122265 - 122287 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122218 to 122315...
-      -- On line 122305, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 122218 to 122315...
-      -- On line 122297, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122363 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122363 - 122385 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122316 to 122413...
-      -- On line 122403, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 122316 to 122413...
-      -- On line 122395, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122461 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122461 - 122483 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_JETBOOST4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122414 to 122511...
-      -- On line 122501, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 122414 to 122511...
-      -- On line 122493, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119987 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119987 - 120009 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119940 to 120037...
-      -- On line 120027, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 119940 to 120037...
-      -- On line 120019, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 120085 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 120085 - 120107 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 120038 to 120135...
-      -- On line 120125, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 120038 to 120135...
-      -- On line 120117, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 120183 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 120183 - 120205 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 120136 to 120233...
-      -- On line 120223, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 120136 to 120233...
-      -- On line 120215, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 120281 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 120281 - 120303 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_RAIL4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 120234 to 120331...
-      -- On line 120321, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 120234 to 120331...
-      -- On line 120313, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118793 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118793 - 118815 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118746 to 118843...
-      -- On line 118833, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 118746 to 118843...
-      -- On line 118825, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118891 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118891 - 118913 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118844 to 118941...
-      -- On line 118931, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 118844 to 118941...
-      -- On line 118923, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118989 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118989 - 119011 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118942 to 119039...
-      -- On line 119029, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 118942 to 119039...
-      -- On line 119021, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119087 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119087 - 119109 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_BOLT4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119040 to 119137...
-      -- On line 119127, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 119040 to 119137...
-      -- On line 119119, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119681 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119681 - 119703 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119634 to 119731...
-      -- On line 119721, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 119634 to 119731...
-      -- On line 119713, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119779 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119779 - 119801 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119732 to 119829...
-      -- On line 119819, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 119732 to 119829...
-      -- On line 119811, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119877 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119877 - 119899 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119830 to 119927...
-      -- On line 119917, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 119830 to 119927...
-      -- On line 119909, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119975 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119975 - 119997 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_TGRENADE4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119928 to 120025...
-      -- On line 120015, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 119928 to 120025...
-      -- On line 120007, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 117997 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 117997 - 118019 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 117950 to 118047...
-      -- On line 118037, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 117950 to 118047...
-      -- On line 118029, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118095 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118095 - 118117 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118048 to 118145...
-      -- On line 118135, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 118048 to 118145...
-      -- On line 118127, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118193 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118193 - 118215 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118146 to 118243...
-      -- On line 118233, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 118146 to 118243...
-      -- On line 118225, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118291 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118291 - 118313 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_LASER4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118244 to 118341...
-      -- On line 118331, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 118244 to 118341...
-      -- On line 118323, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118487 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118487 - 118509 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118440 to 118537...
-      -- On line 118527, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 118440 to 118537...
-      -- On line 118519, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118585 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118585 - 118607 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118538 to 118635...
-      -- On line 118625, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 118538 to 118635...
-      -- On line 118617, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118683 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118683 - 118705 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118636 to 118733...
-      -- On line 118723, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 118636 to 118733...
-      -- On line 118715, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 118781 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 118781 - 118803 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SCANNER4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 118734 to 118831...
-      -- On line 118821, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 118734 to 118831...
-      -- On line 118813, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119467 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119467 - 119489 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119420 to 119517...
-      -- On line 119507, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 119420 to 119517...
-      -- On line 119499, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119565 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119565 - 119587 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119518 to 119615...
-      -- On line 119605, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 119518 to 119615...
-      -- On line 119597, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119663 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119663 - 119685 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119616 to 119713...
-      -- On line 119703, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 119616 to 119713...
-      -- On line 119695, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 119761 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 119761 - 119783 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_GRENADE4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 119714 to 119811...
-      -- On line 119801, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 119714 to 119811...
-      -- On line 119793, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 120937 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 120937 - 120959 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 120890 to 120987...
-      -- On line 120977, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 120890 to 120987...
-      -- On line 120969, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121035 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121035 - 121057 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 120988 to 121085...
-      -- On line 121075, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 120988 to 121085...
-      -- On line 121067, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121133 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121133 - 121155 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121086 to 121183...
-      -- On line 121173, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 121086 to 121183...
-      -- On line 121165, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121231 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121231 - 121253 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SHOTGUN4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121184 to 121281...
-      -- On line 121271, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 121184 to 121281...
-      -- On line 121263, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121427 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121427 - 121449 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121380 to 121477...
-      -- On line 121467, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 121380 to 121477...
-      -- On line 121459, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121525 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121525 - 121547 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121478 to 121575...
-      -- On line 121565, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 121478 to 121575...
-      -- On line 121557, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121623 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121623 - 121645 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121576 to 121673...
-      -- On line 121663, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 121576 to 121673...
-      -- On line 121655, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121721 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121721 - 121743 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_SMG4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121674 to 121771...
-      -- On line 121761, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 121674 to 121771...
-      -- On line 121753, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 121917 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 121917 - 121939 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121870 to 121967...
-      -- On line 121957, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 121870 to 121967...
-      -- On line 121949, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122015 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122015 - 122037 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 121968 to 122065...
-      -- On line 122055, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 121968 to 122065...
-      -- On line 122047, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122113 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122113 - 122135 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122066 to 122163...
-      -- On line 122153, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 122066 to 122163...
-      -- On line 122145, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 122211 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 122211 - 122233 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_CANNON4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 122164 to 122261...
-      -- On line 122251, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 122164 to 122261...
-      -- On line 122243, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130553 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130553 - 130575 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130506 to 130603...
-      -- On line 130593, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 130506 to 130603...
-      -- On line 130585, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130651 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130651 - 130673 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130604 to 130701...
-      -- On line 130691, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 130604 to 130701...
-      -- On line 130683, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130749 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130749 - 130771 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130702 to 130799...
-      -- On line 130789, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 130702 to 130799...
-      -- On line 130781, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130847 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130847 - 130869 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOBOOST4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130800 to 130897...
-      -- On line 130887, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 130800 to 130897...
-      -- On line 130879, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 129953 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 129953 - 129975 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 129906 to 130003...
-      -- On line 129993, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 129906 to 130003...
-      -- On line 129985, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130051 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130051 - 130073 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130004 to 130101...
-      -- On line 130091, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 130004 to 130101...
-      -- On line 130083, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130149 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130149 - 130171 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130102 to 130199...
-      -- On line 130189, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 130102 to 130199...
-      -- On line 130181, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130247 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130247 - 130269 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOGUN4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130200 to 130297...
-      -- On line 130287, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 130200 to 130297...
-      -- On line 130279, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 131037 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 131037 - 131059 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130990 to 131087...
-      -- On line 131077, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 130990 to 131087...
-      -- On line 131069, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 131135 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 131135 - 131157 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 131088 to 131185...
-      -- On line 131175, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 131088 to 131185...
-      -- On line 131167, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 131233 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 131233 - 131255 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 131186 to 131283...
-      -- On line 131273, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 131186 to 131283...
-      -- On line 131265, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 131331 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 131331 - 131353 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_ENG4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 131284 to 131381...
-      -- On line 131371, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 131284 to 131381...
-      -- On line 131363, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130345 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130345 - 130367 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130298 to 130395...
-      -- On line 130385, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 130298 to 130395...
-      -- On line 130377, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130443 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130443 - 130465 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130396 to 130493...
-      -- On line 130483, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 130396 to 130493...
-      -- On line 130475, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130541 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130541 - 130563 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130494 to 130591...
-      -- On line 130581, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 130494 to 130591...
-      -- On line 130573, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 130639 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 130639 - 130661 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXOLAS4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 130592 to 130689...
-      -- On line 130679, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 130592 to 130689...
-      -- On line 130671, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 131521 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 131521 - 131543 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 131474 to 131571...
-      -- On line 131561, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 131474 to 131571...
-      -- On line 131553, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 131619 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 131619 - 131641 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 131572 to 131669...
-      -- On line 131659, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 131572 to 131669...
-      -- On line 131651, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 131717 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 131717 - 131739 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 131670 to 131767...
-      -- On line 131757, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 131670 to 131767...
-      -- On line 131749, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 131815 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 131815 - 131837 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUB4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 131768 to 131865...
-      -- On line 131855, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 131768 to 131865...
-      -- On line 131847, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 131913 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 131913 - 131935 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 131866 to 131963...
-      -- On line 131953, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 131866 to 131963...
-      -- On line 131945, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132011 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132011 - 132033 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 131964 to 132061...
-      -- On line 132051, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 131964 to 132061...
-      -- On line 132043, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132109 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132109 - 132131 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132062 to 132159...
-      -- On line 132149, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 132062 to 132159...
-      -- On line 132141, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132207 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132207 - 132229 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_EXO_SUBGUN4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132160 to 132257...
-      -- On line 132247, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 132160 to 132257...
-      -- On line 132239, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132755 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132755 - 132777 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHGUN2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132708 to 132805...
-      -- On line 132795, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 132708 to 132805...
-      -- On line 132787, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132853 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132853 - 132875 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHGUN3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132806 to 132903...
-      -- On line 132893, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 132806 to 132903...
-      -- On line 132885, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132951 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132951 - 132973 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHGUN4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132904 to 133001...
-      -- On line 132991, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 132904 to 133001...
-      -- On line 132983, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECH_ENG2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132305 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECH_ENG2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132305 - 132327 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECH_ENG2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132258 to 132355...
-      -- On line 132345, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 132258 to 132355...
-      -- On line 132337, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECH_ENG3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132403 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECH_ENG3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132403 - 132425 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECH_ENG3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132356 to 132453...
-      -- On line 132443, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 132356 to 132453...
-      -- On line 132435, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECH_ENG4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132501 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECH_ENG4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132501 - 132523 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECH_ENG4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132454 to 132551...
-      -- On line 132541, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 132454 to 132551...
-      -- On line 132533, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHLAS2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132599 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHLAS2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132599 - 132621 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHLAS2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132552 to 132649...
-      -- On line 132639, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 132552 to 132649...
-      -- On line 132631, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHLAS3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132697 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHLAS3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132697 - 132719 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHLAS3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132650 to 132747...
-      -- On line 132737, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 132650 to 132747...
-      -- On line 132729, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHLAS4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 132795 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHLAS4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 132795 - 132817 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","U_MECHLAS4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 132748 to 132845...
-      -- On line 132835, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 132748 to 132845...
-      -- On line 132827, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134687 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134687 - 134709 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134640 to 134737...
-      -- On line 134727, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 134640 to 134737...
-      -- On line 134719, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134785 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134785 - 134807 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134738 to 134835...
-      -- On line 134825, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 134738 to 134835...
-      -- On line 134817, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134883 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134883 - 134905 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134836 to 134933...
-      -- On line 134923, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 134836 to 134933...
-      -- On line 134915, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134981 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134981 - 135003 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPLAS4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134934 to 135031...
-      -- On line 135021, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 134934 to 135031...
-      -- On line 135013, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 133487 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 133487 - 133509 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 133440 to 133537...
-      -- On line 133527, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 133440 to 133537...
-      -- On line 133519, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 133585 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 133585 - 133607 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 133538 to 133635...
-      -- On line 133625, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 133538 to 133635...
-      -- On line 133617, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 133683 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 133683 - 133705 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 133636 to 133733...
-      -- On line 133723, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 133636 to 133733...
-      -- On line 133715, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 133781 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 133781 - 133803 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_LAUNCH4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 133734 to 133831...
-      -- On line 133821, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 133734 to 133831...
-      -- On line 133813, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 133187 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 133187 - 133209 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 133140 to 133237...
-      -- On line 133227, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 133140 to 133237...
-      -- On line 133219, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 133285 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 133285 - 133307 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 133238 to 133335...
-      -- On line 133325, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 133238 to 133335...
-      -- On line 133317, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 133383 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 133383 - 133405 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 133336 to 133433...
-      -- On line 133423, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 133336 to 133433...
-      -- On line 133415, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 133481 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 133481 - 133503 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_PULSE4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 133434 to 133531...
-      -- On line 133521, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 133434 to 133531...
-      -- On line 133513, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134271 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134271 - 134293 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134224 to 134321...
-      -- On line 134311, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 134224 to 134321...
-      -- On line 134303, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134369 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134369 - 134391 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134322 to 134419...
-      -- On line 134409, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 134322 to 134419...
-      -- On line 134401, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134467 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134467 - 134489 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134420 to 134517...
-      -- On line 134507, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 134420 to 134517...
-      -- On line 134499, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134565 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134565 - 134587 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPSHIELD4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134518 to 134615...
-      -- On line 134605, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 134518 to 134615...
-      -- On line 134597, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 133971 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 133971 - 133993 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 133924 to 134021...
-      -- On line 134011, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 133924 to 134021...
-      -- On line 134003, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134069 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134069 - 134091 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134022 to 134119...
-      -- On line 134109, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 134022 to 134119...
-      -- On line 134101, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134167 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134167 - 134189 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER3"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134120 to 134217...
-      -- On line 134207, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 134120 to 134217...
-      -- On line 134199, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134265 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER4"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134265 - 134287 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_HYPER4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134218 to 134315...
-      -- On line 134305, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 134218 to 134315...
-      -- On line 134297, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134755 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN1"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134755 - 134777 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN1"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134708 to 134805...
-      -- On line 134795, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Searching in lines 134708 to 134805...
-      -- On line 134787, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="1000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134853 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN2"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134853 - 134875 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN2"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134806 to 134903...
-      -- On line 134893, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Searching in lines 134806 to 134903...
-      -- On line 134885, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="2500" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 134951 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN3"}, {"CraftAmountMultiplier","1"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 134951 - 134973 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN3"}, <<< 
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","BP_SALVAGE"}, <<< 
     Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 134904 to 135001...
-      -- On line 134991, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[5000]] of type [NUMBER]
-                >>> Searching in lines 134904 to 135001...
-      -- On line 134983, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="5000" />]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
+                >>> Searching in lines 6693 to 6767...
+      -- On line 6757, exchanged:    [<Property name="IsCraftable" value="True" />]             with:     [<Property name="IsCraftable" value="True" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","BP_SALVAGE"}, {"CraftAmountMultiplier","1"}, <<< 
     Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
-    -- Line 135049 REMOVED
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN4"}, {"CraftAmountMultiplier","1"}, <<< 
+    -- Line 6740 REMOVED
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","BP_SALVAGE"}, {"CraftAmountMultiplier","1"}, <<< 
     Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
-    -- Lines 135049 - 135071 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","AP_SHIPGUN4"}, <<< 
-    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
-                >>> Searching in lines 135002 to 135099...
-      -- On line 135089, exchanged:    [<Property name="IsCraftable" value="False" />]          with:     [<Property name="IsCraftable" value="True" />]
-    Looking for >>> [RecipeCost] New value will be >>> [[10000]] of type [NUMBER]
-                >>> Searching in lines 135002 to 135099...
-      -- On line 135081, exchanged:    [<Property name="RecipeCost" value="1" />]               with:     [<Property name="RecipeCost" value="10000" />]
-  Ended processing with [208 ADD(s) made]
-  Ended processing with [207 REMOVE(s) made]
-  Ended processing with [414 CHANGE(s) made]
-     on File: [METADATA\REALITY\TABLES\NMS_REALITY_GCPRODUCTTABLE.EXML]
-  Ended with a total of 829 action(s) made }
-{>>> METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.EXML
-    MapFileTree creation/update done by 2nd thread
--> Based on PRECEDING_KEY_WORDS: >>> {"Table"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [Table] and value [IGNORE] of type [STRING]
-    -- Lines 5 - 1230 ADDED using text in ["ADD"]
-  Ended processing with [1 ADD(s) made]
-     on File: [METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.EXML]
-  Ended with a total of 1 action(s) made }
-{>>> METADATA\REALITY\TABLES\UNLOCKABLEITEMTREES.EXML
-    MapFileTree creation/update done by 2nd thread
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Title","UI_FREIGHTER_TREE"}, {"Title","UI_TECH_TREE_SUB"}, <<< 
-    Looking to >>> add some text <<< after SECTION with Property name [Title] and value [IGNORE] of type [STRING]
-    -- Lines 4166 - 4307 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Title","UI_SHIP_TECH_TREE"}, {"Title","UI_TECH_TREE_SUB"}, <<< 
-    Looking to >>> add some text <<< after SECTION with Property name [Title] and value [IGNORE] of type [STRING]
-    -- Lines 3592 - 3771 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Title","UI_SUIT_TECH_TREE"}, {"Title","UI_TECH_TREE_SUB"}, <<< 
-    Looking to >>> add some text <<< after SECTION with Property name [Title] and value [IGNORE] of type [STRING]
-    -- Lines 3451 - 3581 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Title","UI_WEAP_TECH_TREE"}, {"Title","UI_TECH_TREE_SUB"}, <<< 
-    Looking to >>> add some text <<< after SECTION with Property name [Title] and value [IGNORE] of type [STRING]
-    -- Lines 4030 - 4209 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Title","UI_EXOCRAFT_TECH_TREE"}, {"Title","UI_TECH_TREE_SUB"}, <<< 
-    Looking to >>> add some text <<< after SECTION with Property name [Title] and value [IGNORE] of type [STRING]
-    -- Lines 4344 - 4508 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Title","UI_SHIP_TECH_TREE"}, {"Title","UI_TECH_TREE_SUB"}, <<< 
+    -- Lines 6740 - 6762 ADDED using text in ["ADD"]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","NAV_DATA"}, <<< 
        >>>>> Found 2 valid candidate sections.
     [NOTICE] KEY_WORDS located more than one section and REPLACE_TYPE/SECTION_ACTIVE are missing!
        >>>>> 'Only FIRST section will be used'
-    Looking to >>> add some text <<< after SECTION with Property name [Title] and value [IGNORE] of type [STRING]
-    -- Lines 3724 - 3960 ADDED using text in ["ADD"]
--> Based on SPECIAL_KEY_WORDS pairs: >>> {"Title","UI_PRODUCT_TREE"}, {"Title","UI_PRODUCT_TREE_FARM"}, <<< 
-    Looking to >>> add some text <<< after SECTION with Property name [Title] and value [IGNORE] of type [STRING]
-    -- Lines 4997 - 5119 ADDED using text in ["ADD"]
-  Ended processing with [7 ADD(s) made]
-     on File: [METADATA\REALITY\TABLES\UNLOCKABLEITEMTREES.EXML]
-  Ended with a total of 7 action(s) made }
-{>>> GCDEBUGOPTIONS.GLOBAL.EXML
+    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
+                >>> Searching in lines 5929 to 6003...
+      -- On line 5993, exchanged:    [<Property name="IsCraftable" value="False" />]            with:     [<Property name="IsCraftable" value="True" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","NAV_DATA"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
+    -- Line 5976 REMOVED
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","NAV_DATA"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
+    -- Lines 5976 - 5998 ADDED using text in ["ADD"]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","FREI_INV_TOKEN"}, <<< 
+    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
+                >>> Searching in lines 7039 to 7113...
+      -- On line 7103, exchanged:    [<Property name="IsCraftable" value="True" />]             with:     [<Property name="IsCraftable" value="True" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","FREI_INV_TOKEN"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
+    -- Line 7086 REMOVED
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","FREI_INV_TOKEN"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
+    -- Lines 7086 - 7108 ADDED using text in ["ADD"]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","FREI_INV_TOKEN"}, <<< 
+    Looking for >>> [BaseValue] New value will be >>> [[1042042]] of type [NUMBER]
+                >>> Searching in lines 7039 to 7136...
+      -- On line 7054, exchanged:    [<Property name="BaseValue" value="105000" />]             with:     [<Property name="BaseValue" value="1042042" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SHIP_INV_TOKEN"}, <<< 
+    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
+                >>> Searching in lines 6964 to 7038...
+      -- On line 7028, exchanged:    [<Property name="IsCraftable" value="True" />]             with:     [<Property name="IsCraftable" value="True" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SHIP_INV_TOKEN"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
+    -- Line 7011 REMOVED
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SHIP_INV_TOKEN"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
+    -- Lines 7011 - 7033 ADDED using text in ["ADD"]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","FREI_INV_TOKEN"}, <<< 
+    Looking for >>> [BaseValue] New value will be >>> [[1042042]] of type [NUMBER]
+                >>> Searching in lines 7062 to 7159...
+      -- On line 7077, exchanged:    [<Property name="BaseValue" value="1042042" />]            with:     [<Property name="BaseValue" value="1042042" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","FRIG_TOKEN"}, <<< 
+    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
+                >>> Searching in lines 6889 to 6963...
+      -- On line 6953, exchanged:    [<Property name="IsCraftable" value="True" />]             with:     [<Property name="IsCraftable" value="True" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","FRIG_TOKEN"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
+    -- Line 6936 REMOVED
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","FRIG_TOKEN"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
+    -- Lines 6936 - 6958 ADDED using text in ["ADD"]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","FREI_INV_TOKEN"}, <<< 
+    Looking for >>> [BaseValue] New value will be >>> [[1042042]] of type [NUMBER]
+                >>> Searching in lines 7085 to 7182...
+      -- On line 7100, exchanged:    [<Property name="BaseValue" value="1042042" />]            with:     [<Property name="BaseValue" value="1042042" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","REPAIRKIT"}, <<< 
+    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
+                >>> Searching in lines 897 to 971...
+      -- On line 961, exchanged:    [<Property name="IsCraftable" value="True" />]              with:     [<Property name="IsCraftable" value="True" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","REPAIRKIT"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
+    -- Line 944 REMOVED
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","REPAIRKIT"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
+    -- Lines 944 - 966 ADDED using text in ["ADD"]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","WEAP_INV_TOKEN"}, <<< 
+    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
+                >>> Searching in lines 7206 to 7280...
+      -- On line 7270, exchanged:    [<Property name="IsCraftable" value="True" />]             with:     [<Property name="IsCraftable" value="True" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","WEAP_INV_TOKEN"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
+    -- Line 7253 REMOVED
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","WEAP_INV_TOKEN"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
+    -- Lines 7253 - 7275 ADDED using text in ["ADD"]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SUIT_INV_TOKEN"}, <<< 
+    Looking for >>> [IsCraftable] New value will be >>> [[True]] of type [STRING]
+                >>> Searching in lines 7304 to 7378...
+      -- On line 7368, exchanged:    [<Property name="IsCraftable" value="True" />]             with:     [<Property name="IsCraftable" value="True" />]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SUIT_INV_TOKEN"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> remove LINE <<< at Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING] with a LINE_OFFSET of [+1]
+    -- Line 7351 REMOVED
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SUIT_INV_TOKEN"}, {"CraftAmountMultiplier","1"}, <<< 
+    Looking to >>> add some text <<< after LINE with Property name [CraftAmountMultiplier] and value [IGNORE] of type [STRING]
+    -- Lines 7351 - 7373 ADDED using text in ["ADD"]
+  Ended processing with [8 ADD(s) made]
+  Ended processing with [8 REMOVE(s) made]
+  Ended processing with [11 CHANGE(s) made]
+     on File: [METADATA\REALITY\TABLES\NMS_REALITY_GCPRODUCTTABLE.EXML]
+  Ended with a total of 27 action(s) made }
+{>>> METADATA\REALITY\TABLES\UNLOCKABLEITEMTREES.EXML
     MapFileTree creation/update done by 2nd thread
--> Based on PRECEDING_KEY_WORDS: >>> {"LocTableList"}, <<< 
-    Looking to >>> add some text <<< after LINE with Property name [LocTableList] and value [IGNORE] of type [STRING]
-    -- Lines 154 - 156 ADDED using text in ["ADD"]
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Unlockable","PRODFUEL2"}, <<< 
+            and PRECEDING_KEY_WORDS: >>> {"Children"}, <<< 
+       >>>>> Found 6 valid candidate sections.
+    [NOTICE] KEY_WORDS located more than one section and REPLACE_TYPE/SECTION_ACTIVE are missing!
+       >>>>> 'Only FIRST section will be used'
+    Looking to >>> add some text <<< after LINE with Property name [Children] and value [IGNORE] of type [STRING]
+    -- Lines 3861 - 3899 ADDED using text in ["ADD"]
   Ended processing with [1 ADD(s) made]
-     on File: [GCDEBUGOPTIONS.GLOBAL.EXML]
+     on File: [METADATA\REALITY\TABLES\UNLOCKABLEITEMTREES.EXML]
   Ended with a total of 1 action(s) made }
 
->>> Adding files:
-      create folder: D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_GERMAN.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_KOREAN.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_BRAZILIANPORTUGUESE.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_TENCENTCHINESE.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_LATINAMERAICANSPANISH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_ENGLISH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_ITALIAN.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_POLISH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_SIMPLIFIEDCHINESE.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_USENGLISH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_PORTUGUESE.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_FRENCH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_TRADITIONALCHINESE.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_JAPANESE.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_RUSSIAN.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_DUTCH.EXML"
-     create file in: "D:\SteamGames\steamapps\common\No Man's Sky\NoMansMods\MODBUILDER\MOD\LANGUAGE\NMS_CUSTOMFRMODSDESC_SPANISH.EXML"
-
-    >>>>> Ended with 17 files added <<<<<
-
-
-Ended script processing with [838 action(s), 17 files added]
+Ended script processing with [34 action(s), 0 files added]
 
 Using custom DateTime format!
 Combined Mod ACTIVE: Delaying Building MOD...
-Ended script [CraftableUpgradeModsFINAL.lua]
+Ended script [Craftablemodules.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #3 of 20 [Fast Actions 4.1.lua] {
+Starting to process script #3 of 23 [Fast Actions 4.1.lua] {
 Copying script source to MOD
 Getting GCUIGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -2854,7 +253,7 @@ Ended script [Fast Actions 4.1.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #4 of 20 [Fullscreen Warps 2.8.lua] {
+Starting to process script #4 of 23 [Fullscreen Warps 2.8.lua] {
 Copying script source to MOD
 Getting GCCAMERAGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -2931,7 +330,7 @@ Ended script [Fullscreen Warps 2.8.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #5 of 20 [gCam hrv.lua] {
+Starting to process script #5 of 23 [gCam hrv.lua] {
 Copying script source to MOD
 GCCAMERAGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [gCam hrv.lua]
@@ -4353,7 +1752,7 @@ Ended script [gCam hrv.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #6 of 20 [LearnMoreWordsScript10.lua] {
+Starting to process script #6 of 23 [LearnMoreWordsScript10.lua] {
 Copying script source to MOD
 Getting METADATA\REALITY\TABLES\REWARDTABLE.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -4375,11 +1774,12 @@ Ended script [LearnMoreWordsScript10.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #7 of 20 [Long Range Freighters 4.1B.lua] {
+Starting to process script #7 of 23 [Long Range Freighters 4.1B.lua] {
 Copying script source to MOD
 Getting METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.MBIN from NMS source PAKs
    SUCCESS Decompiling
-METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.EXML already exist in MODBUILDER\MOD and will be COMBINED
+Getting METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.MBIN from NMS source PAKs
+   SUCCESS Decompiling
 >>>>>>> Loaded script [Long Range Freighters 4.1B.lua]
 {>>> METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.EXML
     MapFileTree creation/update done by 2nd thread
@@ -4441,46 +1841,46 @@ METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.EXML already exi
             and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
        >>>>> Going UP 1 parent section after all keywords...
     Looking for >>> [ValueMin] New value will be >>> [[500]] of type [NUMBER]
-                >>> Only one PRECEDIND_KEY_WORDS forces line 12533 as base...
-                >>> Searching in lines 12534 to 12544...
-      -- On line 12538, exchanged:    [<Property name="ValueMin" value="50" />]                 with:     [<Property name="ValueMin" value="500" />]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11306 as base...
+                >>> Searching in lines 11307 to 11317...
+      -- On line 11311, exchanged:    [<Property name="ValueMin" value="50" />]                 with:     [<Property name="ValueMin" value="500" />]
     Looking for >>> [ValueMax] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Only one PRECEDIND_KEY_WORDS forces line 12533 as base...
-                >>> Searching in lines 12534 to 12544...
-      -- On line 12539, exchanged:    [<Property name="ValueMax" value="100" />]                with:     [<Property name="ValueMax" value="1000" />]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11306 as base...
+                >>> Searching in lines 11307 to 11317...
+      -- On line 11312, exchanged:    [<Property name="ValueMax" value="100" />]                with:     [<Property name="ValueMax" value="1000" />]
 -> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","UP_FRHYP2"}, <<< 
             and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
        >>>>> Going UP 1 parent section after all keywords...
     Looking for >>> [ValueMin] New value will be >>> [[1000]] of type [NUMBER]
-                >>> Only one PRECEDIND_KEY_WORDS forces line 12576 as base...
-                >>> Searching in lines 12577 to 12587...
-      -- On line 12581, exchanged:    [<Property name="ValueMin" value="100" />]                with:     [<Property name="ValueMin" value="1000" />]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11349 as base...
+                >>> Searching in lines 11350 to 11360...
+      -- On line 11354, exchanged:    [<Property name="ValueMin" value="100" />]                with:     [<Property name="ValueMin" value="1000" />]
     Looking for >>> [ValueMax] New value will be >>> [[1500]] of type [NUMBER]
-                >>> Only one PRECEDIND_KEY_WORDS forces line 12576 as base...
-                >>> Searching in lines 12577 to 12587...
-      -- On line 12582, exchanged:    [<Property name="ValueMax" value="150" />]                with:     [<Property name="ValueMax" value="1500" />]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11349 as base...
+                >>> Searching in lines 11350 to 11360...
+      -- On line 11355, exchanged:    [<Property name="ValueMax" value="150" />]                with:     [<Property name="ValueMax" value="1500" />]
 -> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","UP_FRHYP3"}, <<< 
             and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
        >>>>> Going UP 1 parent section after all keywords...
     Looking for >>> [ValueMin] New value will be >>> [[1500]] of type [NUMBER]
-                >>> Only one PRECEDIND_KEY_WORDS forces line 12619 as base...
-                >>> Searching in lines 12620 to 12630...
-      -- On line 12624, exchanged:    [<Property name="ValueMin" value="150" />]                with:     [<Property name="ValueMin" value="1500" />]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11392 as base...
+                >>> Searching in lines 11393 to 11403...
+      -- On line 11397, exchanged:    [<Property name="ValueMin" value="150" />]                with:     [<Property name="ValueMin" value="1500" />]
     Looking for >>> [ValueMax] New value will be >>> [[2000]] of type [NUMBER]
-                >>> Only one PRECEDIND_KEY_WORDS forces line 12619 as base...
-                >>> Searching in lines 12620 to 12630...
-      -- On line 12625, exchanged:    [<Property name="ValueMax" value="200" />]                with:     [<Property name="ValueMax" value="2000" />]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11392 as base...
+                >>> Searching in lines 11393 to 11403...
+      -- On line 11398, exchanged:    [<Property name="ValueMax" value="200" />]                with:     [<Property name="ValueMax" value="2000" />]
 -> Based on SPECIAL_KEY_WORDS pairs: >>> {"ID","UP_FRHYP4"}, <<< 
             and PRECEDING_KEY_WORDS: >>> {"Freighter_Hyperdrive_JumpDistance"}, <<< 
        >>>>> Going UP 1 parent section after all keywords...
     Looking for >>> [ValueMin] New value will be >>> [[2000]] of type [NUMBER]
-                >>> Only one PRECEDIND_KEY_WORDS forces line 12673 as base...
-                >>> Searching in lines 12674 to 12684...
-      -- On line 12678, exchanged:    [<Property name="ValueMin" value="200" />]                with:     [<Property name="ValueMin" value="2000" />]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11446 as base...
+                >>> Searching in lines 11447 to 11457...
+      -- On line 11451, exchanged:    [<Property name="ValueMin" value="200" />]                with:     [<Property name="ValueMin" value="2000" />]
     Looking for >>> [ValueMax] New value will be >>> [[2500]] of type [NUMBER]
-                >>> Only one PRECEDIND_KEY_WORDS forces line 12673 as base...
-                >>> Searching in lines 12674 to 12684...
-      -- On line 12679, exchanged:    [<Property name="ValueMax" value="250" />]                with:     [<Property name="ValueMax" value="2500" />]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 11446 as base...
+                >>> Searching in lines 11447 to 11457...
+      -- On line 11452, exchanged:    [<Property name="ValueMax" value="250" />]                with:     [<Property name="ValueMax" value="2500" />]
   Ended processing with [8 CHANGE(s) made]
      on File: [METADATA\REALITY\TABLES\NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.EXML]
   Ended with a total of 8 action(s) made }
@@ -4493,7 +1893,7 @@ Ended script [Long Range Freighters 4.1B.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #8 of 20 [Natural Steering 1.2.lua] {
+Starting to process script #8 of 23 [Natural Steering 1.2.lua] {
 Copying script source to MOD
 Getting GCVEHICLEGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -4517,7 +1917,7 @@ Ended script [Natural Steering 1.2.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #9 of 20 [NaturalFlight.hrv.lua] {
+Starting to process script #9 of 23 [NaturalFlight.hrv.lua] {
 Copying script source to MOD
 Getting GCSPACESHIPGLOBALS.GLOBAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -4585,6 +1985,14 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
       -- On line 1081, exchanged:    [<Property name="HoverMaxSpeed" value="150" />]            with:     [<Property name="HoverMaxSpeed" value="600" />]
+    Looking for >>> [HoverTakeoffHeight] New value will be >>> [[50]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 340, exchanged:    [<Property name="HoverTakeoffHeight" value="90" />]         with:     [<Property name="HoverTakeoffHeight" value="50" />]
+    Looking for >>> [HoverAlignTime] New value will be >>> [[0.75]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 342, exchanged:    [<Property name="HoverAlignTime" value="0.7" />]            with:     [<Property name="HoverAlignTime" value="0.75" />]
     Looking for >>> [MiniWarpLinesNum] New value will be >>> [[1]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
@@ -4597,10 +2005,10 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
       -- On line 1206, exchanged:    [<Property name="MiniWarpSpeed" value="30000" />]          with:     [<Property name="MiniWarpSpeed" value="30000" />]
-    Looking for >>> [MiniWarpChargeTime] New value will be >>> [[2]] of type [NUMBER]
+    Looking for >>> [MiniWarpChargeTime] New value will be >>> [[1]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
-      -- On line 1205, exchanged:    [<Property name="MiniWarpChargeTime" value="2" />]         with:     [<Property name="MiniWarpChargeTime" value="2" />]
+      -- On line 1205, exchanged:    [<Property name="MiniWarpChargeTime" value="2" />]         with:     [<Property name="MiniWarpChargeTime" value="1" />]
     Looking for >>> [MiniWarpStationRadius] New value will be >>> [[500]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
@@ -4653,10 +2061,47 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
       -- On line 1094, exchanged:    [<Property name="StickyStickAngle" value="30" />]          with:     [<Property name="StickyStickAngle" value="180" />]
-    Looking for >>> [ShipMotionDeadZone] New value will be >>> [[0.01]] of type [NUMBER]
+    Looking for >>> [ShipMotionDeadZone] New value will be >>> [[0.2]] of type [NUMBER]
                 >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
                 >>> Searching in lines 3 to 1454...
-      -- On line 1095, exchanged:    [<Property name="ShipMotionDeadZone" value="0.2" />]       with:     [<Property name="ShipMotionDeadZone" value="0.01" />]
+      -- On line 1095, exchanged:    [<Property name="ShipMotionDeadZone" value="0.2" />]       with:     [<Property name="ShipMotionDeadZone" value="0.2" />]
+    Looking for >>> [HoverMinSpeed] New value will be >>> [[0.01]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+    [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
+      -- On line 347, exchanged:    [<Property name="HoverMinSpeed" value="1" />]               with:     [<Property name="HoverMinSpeed" value="0.01" />]
+    Looking for >>> [HoverLandManeuvreTimeMin] New value will be >>> [[0.8]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 350, exchanged:    [<Property name="HoverLandManeuvreTimeMin" value="0.7" />]    with:     [<Property name="HoverLandManeuvreTimeMin" value="0.8" />]
+    Looking for >>> [HoverLandManeuvreTimeMax] New value will be >>> [[2.0]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 351, exchanged:    [<Property name="HoverLandManeuvreTimeMax" value="1.2" />]    with:     [<Property name="HoverLandManeuvreTimeMax" value="2.0" />]
+    Looking for >>> [PulseDriveStationApproachSlowdownRangeMin] New value will be >>> [[3000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 42, exchanged:    [<Property name="PulseDriveStationApproachSlowdownRangeMin" value="1000" />]    with:     [<Property name="PulseDriveStationApproachSlowdownRangeMin" value="3000" />]
+    Looking for >>> [PulseDriveStationApproachSlowdownRange] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 43, exchanged:    [<Property name="PulseDriveStationApproachSlowdownRange" value="5000" />]    with:     [<Property name="PulseDriveStationApproachSlowdownRange" value="10000" />]
+    Looking for >>> [WarpInRange] New value will be >>> [[15000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 151, exchanged:    [<Property name="WarpInRange" value="10000" />]             with:     [<Property name="WarpInRange" value="15000" />]
+    Looking for >>> [WarpInRangeFreighter] New value will be >>> [[10000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 155, exchanged:    [<Property name="WarpInRangeFreighter" value="5000" />]     with:     [<Property name="WarpInRangeFreighter" value="10000" />]
+    Looking for >>> [WarpOutRange] New value will be >>> [[1000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 162, exchanged:    [<Property name="WarpOutRange" value="1000" />]             with:     [<Property name="WarpOutRange" value="1000" />]
+    Looking for >>> [WarpInRangeNexus] New value will be >>> [[5000]] of type [NUMBER]
+                >>> Only one PRECEDIND_KEY_WORDS forces line 2 as base...
+                >>> Searching in lines 3 to 1454...
+      -- On line 166, exchanged:    [<Property name="WarpInRangeNexus" value="5000" />]         with:     [<Property name="WarpInRangeNexus" value="5000" />]
 -> Based on PRECEDING_KEY_WORDS: >>> {"Control","SpaceEngine"}, <<< 
     Looking for >>> [ThrustForce] New value will be >>> [[50]] of type [NUMBER]
                 >>> Searching in lines 416 to 446...
@@ -4664,9 +2109,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [MaxSpeed] New value will be >>> [[1500]] of type [NUMBER]
                 >>> Searching in lines 416 to 446...
       -- On line 418, exchanged:    [<Property name="MaxSpeed" value="180" />]                  with:     [<Property name="MaxSpeed" value="1500" />]
-    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+    Looking for >>> [MinSpeed] New value will be >>> [[-22]] of type [NUMBER]
                 >>> Searching in lines 416 to 446...
-      -- On line 419, exchanged:    [<Property name="MinSpeed" value="1" />]                    with:     [<Property name="MinSpeed" value="0" />]
+      -- On line 419, exchanged:    [<Property name="MinSpeed" value="1" />]                    with:     [<Property name="MinSpeed" value="-22" />]
     Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 416 to 446...
       -- On line 420, exchanged:    [<Property name="Falloff" value="0.7" />]                   with:     [<Property name="Falloff" value="0" />]
@@ -4686,9 +2131,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Searching in lines 416 to 446...
     [WARNING] ORIGINAL and NEW number value have mismatched types (INTEGER->FLOAT) or (STRING vs NUMBER)
       -- On line 426, exchanged:    [<Property name="DirectionBrakeMin" value="1" />]           with:     [<Property name="DirectionBrakeMin" value="0.5" />]
-    Looking for >>> [DirectionBrake] New value will be >>> [[0.9]] of type [NUMBER]
+    Looking for >>> [DirectionBrake] New value will be >>> [[1.0]] of type [NUMBER]
                 >>> Searching in lines 416 to 446...
-      -- On line 427, exchanged:    [<Property name="DirectionBrake" value="1.5" />]            with:     [<Property name="DirectionBrake" value="0.9" />]
+      -- On line 427, exchanged:    [<Property name="DirectionBrake" value="1.5" />]            with:     [<Property name="DirectionBrake" value="1.0" />]
     Looking for >>> [ReverseBrake] New value will be >>> [[0.25]] of type [NUMBER]
                 >>> Searching in lines 416 to 446...
       -- On line 428, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.25" />]
@@ -4713,9 +2158,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [MaxSpeed] New value will be >>> [[225]] of type [NUMBER]
                 >>> Searching in lines 447 to 477...
       -- On line 449, exchanged:    [<Property name="MaxSpeed" value="125" />]                  with:     [<Property name="MaxSpeed" value="225" />]
-    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+    Looking for >>> [MinSpeed] New value will be >>> [[-12]] of type [NUMBER]
                 >>> Searching in lines 447 to 477...
-      -- On line 450, exchanged:    [<Property name="MinSpeed" value="20" />]                   with:     [<Property name="MinSpeed" value="0" />]
+      -- On line 450, exchanged:    [<Property name="MinSpeed" value="20" />]                   with:     [<Property name="MinSpeed" value="-12" />]
     Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 447 to 477...
       -- On line 451, exchanged:    [<Property name="Falloff" value="0.5" />]                   with:     [<Property name="Falloff" value="0" />]
@@ -4743,9 +2188,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [MaxSpeed] New value will be >>> [[1600]] of type [NUMBER]
                 >>> Searching in lines 565 to 595...
       -- On line 567, exchanged:    [<Property name="MaxSpeed" value="180" />]                  with:     [<Property name="MaxSpeed" value="1600" />]
-    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+    Looking for >>> [MinSpeed] New value will be >>> [[-20]] of type [NUMBER]
                 >>> Searching in lines 565 to 595...
-      -- On line 568, exchanged:    [<Property name="MinSpeed" value="1" />]                    with:     [<Property name="MinSpeed" value="0" />]
+      -- On line 568, exchanged:    [<Property name="MinSpeed" value="1" />]                    with:     [<Property name="MinSpeed" value="-20" />]
     Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 565 to 595...
       -- On line 569, exchanged:    [<Property name="Falloff" value="0.7" />]                   with:     [<Property name="Falloff" value="0" />]
@@ -4761,12 +2206,12 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [BoostFalloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 565 to 595...
       -- On line 573, exchanged:    [<Property name="BoostFalloff" value="0.7" />]              with:     [<Property name="BoostFalloff" value="0" />]
-    Looking for >>> [DirectionBrakeMin] New value will be >>> [[0.5]] of type [NUMBER]
+    Looking for >>> [DirectionBrakeMin] New value will be >>> [[0.7]] of type [NUMBER]
                 >>> Searching in lines 565 to 595...
-      -- On line 575, exchanged:    [<Property name="DirectionBrakeMin" value="0.8" />]         with:     [<Property name="DirectionBrakeMin" value="0.5" />]
-    Looking for >>> [DirectionBrake] New value will be >>> [[0.9]] of type [NUMBER]
+      -- On line 575, exchanged:    [<Property name="DirectionBrakeMin" value="0.8" />]         with:     [<Property name="DirectionBrakeMin" value="0.7" />]
+    Looking for >>> [DirectionBrake] New value will be >>> [[1.0]] of type [NUMBER]
                 >>> Searching in lines 565 to 595...
-      -- On line 576, exchanged:    [<Property name="DirectionBrake" value="1.2" />]            with:     [<Property name="DirectionBrake" value="0.9" />]
+      -- On line 576, exchanged:    [<Property name="DirectionBrake" value="1.2" />]            with:     [<Property name="DirectionBrake" value="1.0" />]
     Looking for >>> [ReverseBrake] New value will be >>> [[0.3]] of type [NUMBER]
                 >>> Searching in lines 565 to 595...
       -- On line 577, exchanged:    [<Property name="ReverseBrake" value="0.5" />]              with:     [<Property name="ReverseBrake" value="0.3" />]
@@ -4794,9 +2239,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [MaxSpeed] New value will be >>> [[228]] of type [NUMBER]
                 >>> Searching in lines 596 to 626...
       -- On line 598, exchanged:    [<Property name="MaxSpeed" value="125" />]                  with:     [<Property name="MaxSpeed" value="228" />]
-    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+    Looking for >>> [MinSpeed] New value will be >>> [[-8]] of type [NUMBER]
                 >>> Searching in lines 596 to 626...
-      -- On line 599, exchanged:    [<Property name="MinSpeed" value="20" />]                   with:     [<Property name="MinSpeed" value="0" />]
+      -- On line 599, exchanged:    [<Property name="MinSpeed" value="20" />]                   with:     [<Property name="MinSpeed" value="-8" />]
     Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 596 to 626...
       -- On line 600, exchanged:    [<Property name="Falloff" value="0.5" />]                   with:     [<Property name="Falloff" value="0" />]
@@ -4824,9 +2269,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [MaxSpeed] New value will be >>> [[1280]] of type [NUMBER]
                 >>> Searching in lines 714 to 744...
       -- On line 716, exchanged:    [<Property name="MaxSpeed" value="180" />]                  with:     [<Property name="MaxSpeed" value="1280" />]
-    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+    Looking for >>> [MinSpeed] New value will be >>> [[-16]] of type [NUMBER]
                 >>> Searching in lines 714 to 744...
-      -- On line 717, exchanged:    [<Property name="MinSpeed" value="1" />]                    with:     [<Property name="MinSpeed" value="0" />]
+      -- On line 717, exchanged:    [<Property name="MinSpeed" value="1" />]                    with:     [<Property name="MinSpeed" value="-16" />]
     Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 714 to 744...
       -- On line 718, exchanged:    [<Property name="Falloff" value="0.7" />]                   with:     [<Property name="Falloff" value="0" />]
@@ -4873,9 +2318,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [MaxSpeed] New value will be >>> [[230]] of type [NUMBER]
                 >>> Searching in lines 745 to 775...
       -- On line 747, exchanged:    [<Property name="MaxSpeed" value="130" />]                  with:     [<Property name="MaxSpeed" value="230" />]
-    Looking for >>> [MinSpeed] New value will be >>> [[0]] of type [NUMBER]
+    Looking for >>> [MinSpeed] New value will be >>> [[-4]] of type [NUMBER]
                 >>> Searching in lines 745 to 775...
-      -- On line 748, exchanged:    [<Property name="MinSpeed" value="20" />]                   with:     [<Property name="MinSpeed" value="0" />]
+      -- On line 748, exchanged:    [<Property name="MinSpeed" value="20" />]                   with:     [<Property name="MinSpeed" value="-4" />]
     Looking for >>> [Falloff] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 745 to 775...
       -- On line 749, exchanged:    [<Property name="Falloff" value="0.5" />]                   with:     [<Property name="Falloff" value="0" />]
@@ -4924,9 +2369,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Current line is 1135
                 >>> LINE_OFFSET of [+16] forces to look starting at line 1151
       -- On line 1151, exchanged:    [<Property name="AimDistanceRange" value="1" />]           with:     [<Property name="AimDistanceRange" value="10" />]
-  Ended processing with [111 CHANGE(s) made]
+  Ended processing with [122 CHANGE(s) made]
      on File: [GCSPACESHIPGLOBALS.GLOBAL.EXML]
-  Ended with a total of 111 action(s) made }
+  Ended with a total of 122 action(s) made }
 {>>> GCSOLARGENERATIONGLOBALS.GLOBAL.EXML
     MapFileTree creation/update done by 2nd thread
 -> Based on PRECEDING_KEY_WORDS: >>> {"AsteroidScaleVariance"}, <<< 
@@ -4943,12 +2388,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [AsteroidFadeRangeMin] New value will be >>> [[10000]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
       -- On line 78, exchanged:    [<Property name="AsteroidFadeRangeMin" value="1000" />]      with:     [<Property name="AsteroidFadeRangeMin" value="10000" />]
-    Looking for >>> [AsteroidFadeRangeMax] New value will be >>> [[10000]] of type [NUMBER]
+    Looking for >>> [AsteroidFadeRangeMax] New value will be >>> [[20000]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
-      -- On line 79, exchanged:    [<Property name="AsteroidFadeRangeMax" value="2000" />]      with:     [<Property name="AsteroidFadeRangeMax" value="10000" />]
-    Looking for >>> [AsteroidSpacing] New value will be >>> [[9000]] of type [NUMBER]
-                >>> Searching in lines 3 to 305...
-      -- On line 80, exchanged:    [<Property name="AsteroidSpacing" value="1000" />]           with:     [<Property name="AsteroidSpacing" value="9000" />]
+      -- On line 79, exchanged:    [<Property name="AsteroidFadeRangeMax" value="2000" />]      with:     [<Property name="AsteroidFadeRangeMax" value="20000" />]
     Looking for >>> [RareAsteroidMinResources] New value will be >>> [[20]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
       -- On line 82, exchanged:    [<Property name="RareAsteroidMinResources" value="5" />]     with:     [<Property name="RareAsteroidMinResources" value="20" />]
@@ -4958,9 +2400,9 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [RareAsteroidHealth] New value will be >>> [[600]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
       -- On line 85, exchanged:    [<Property name="RareAsteroidHealth" value="1000" />]        with:     [<Property name="RareAsteroidHealth" value="600" />]
-    Looking for >>> [CommonAsteroidScale] New value will be >>> [[0.1]] of type [NUMBER]
+    Looking for >>> [CommonAsteroidScale] New value will be >>> [[0.3]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
-      -- On line 86, exchanged:    [<Property name="CommonAsteroidScale" value="0.3" />]        with:     [<Property name="CommonAsteroidScale" value="0.1" />]
+      -- On line 86, exchanged:    [<Property name="CommonAsteroidScale" value="0.3" />]        with:     [<Property name="CommonAsteroidScale" value="0.3" />]
     Looking for >>> [CommonAsteroidMinResources] New value will be >>> [[5]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
       -- On line 87, exchanged:    [<Property name="CommonAsteroidMinResources" value="3" />]    with:     [<Property name="CommonAsteroidMinResources" value="5" />]
@@ -4976,15 +2418,15 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
     Looking for >>> [LargeAsteroidFadeTime] New value will be >>> [[0.5]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
       -- On line 103, exchanged:    [<Property name="LargeAsteroidFadeTime" value="0.1" />]     with:     [<Property name="LargeAsteroidFadeTime" value="0.5" />]
-    Looking for >>> [LargeAsteroidFadeRangeMin] New value will be >>> [[100000]] of type [NUMBER]
+    Looking for >>> [LargeAsteroidFadeRangeMin] New value will be >>> [[50000]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
-      -- On line 104, exchanged:    [<Property name="LargeAsteroidFadeRangeMin" value="4000" />]    with:     [<Property name="LargeAsteroidFadeRangeMin" value="100000" />]
-    Looking for >>> [LargeAsteroidFadeRangeMax] New value will be >>> [[100000]] of type [NUMBER]
+      -- On line 104, exchanged:    [<Property name="LargeAsteroidFadeRangeMin" value="4000" />]    with:     [<Property name="LargeAsteroidFadeRangeMin" value="50000" />]
+    Looking for >>> [LargeAsteroidFadeRangeMax] New value will be >>> [[30000]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
-      -- On line 105, exchanged:    [<Property name="LargeAsteroidFadeRangeMax" value="4000" />]    with:     [<Property name="LargeAsteroidFadeRangeMax" value="100000" />]
-  Ended processing with [17 CHANGE(s) made]
+      -- On line 105, exchanged:    [<Property name="LargeAsteroidFadeRangeMax" value="4000" />]    with:     [<Property name="LargeAsteroidFadeRangeMax" value="30000" />]
+  Ended processing with [16 CHANGE(s) made]
      on File: [GCSOLARGENERATIONGLOBALS.GLOBAL.EXML]
-  Ended with a total of 17 action(s) made }
+  Ended with a total of 16 action(s) made }
 {>>> GCGAMEPLAYGLOBALS.GLOBAL.EXML
     MapFileTree creation/update done by 2nd thread
 -> No key_word specified, using whole file...
@@ -5045,21 +2487,21 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
 {>>> METADATA\REALITY\TABLES\DAMAGETABLE.EXML
     MapFileTree creation/update done by 2nd thread
 -> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","IMPACTDAMAGE"}, <<< 
-    Looking for >>> [Damage] New value will be >>> [[600]] of type [NUMBER]
+    Looking for >>> [Damage] New value will be >>> [[200]] of type [NUMBER]
                 >>> Searching in lines 194 to 220...
-      -- On line 210, exchanged:    [<Property name="Damage" value="10" />]                     with:     [<Property name="Damage" value="600" />]
+      -- On line 210, exchanged:    [<Property name="Damage" value="10" />]                     with:     [<Property name="Damage" value="200" />]
 -> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","IMPACTGROUND"}, <<< 
-    Looking for >>> [Damage] New value will be >>> [[1000]] of type [NUMBER]
+    Looking for >>> [Damage] New value will be >>> [[500]] of type [NUMBER]
                 >>> Searching in lines 248 to 274...
-      -- On line 264, exchanged:    [<Property name="Damage" value="10" />]                     with:     [<Property name="Damage" value="1000" />]
+      -- On line 264, exchanged:    [<Property name="Damage" value="10" />]                     with:     [<Property name="Damage" value="500" />]
 -> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","IMPACTINSTANCE"}, <<< 
-    Looking for >>> [Damage] New value will be >>> [[600]] of type [NUMBER]
+    Looking for >>> [Damage] New value will be >>> [[30]] of type [NUMBER]
                 >>> Searching in lines 275 to 301...
-      -- On line 291, exchanged:    [<Property name="Damage" value="30" />]                     with:     [<Property name="Damage" value="600" />]
+      -- On line 291, exchanged:    [<Property name="Damage" value="30" />]                     with:     [<Property name="Damage" value="30" />]
 -> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","SMALLASTEROID"}, <<< 
-    Looking for >>> [Damage] New value will be >>> [[50]] of type [NUMBER]
+    Looking for >>> [Damage] New value will be >>> [[100]] of type [NUMBER]
                 >>> Searching in lines 1058 to 1084...
-      -- On line 1074, exchanged:    [<Property name="Damage" value="5" />]                     with:     [<Property name="Damage" value="50" />]
+      -- On line 1074, exchanged:    [<Property name="Damage" value="5" />]                     with:     [<Property name="Damage" value="100" />]
 -> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","MEDIUMASTEROID"}, <<< 
     Looking for >>> [Damage] New value will be >>> [[100]] of type [NUMBER]
                 >>> Searching in lines 1085 to 1111...
@@ -5073,14 +2515,14 @@ Getting METADATA\REALITY\TABLES\DAMAGETABLE.MBIN from NMS source PAKs
                 >>> Searching in lines 1139 to 1165...
       -- On line 1155, exchanged:    [<Property name="Damage" value="80" />]                    with:     [<Property name="Damage" value="100" />]
 -> Based on SPECIAL_KEY_WORDS pairs: >>> {"Id","MPPLAYER_SHIP"}, <<< 
-    Looking for >>> [Damage] New value will be >>> [[100]] of type [NUMBER]
+    Looking for >>> [Damage] New value will be >>> [[150]] of type [NUMBER]
                 >>> Searching in lines 1409 to 1435...
-      -- On line 1425, exchanged:    [<Property name="Damage" value="45" />]                    with:     [<Property name="Damage" value="100" />]
+      -- On line 1425, exchanged:    [<Property name="Damage" value="45" />]                    with:     [<Property name="Damage" value="150" />]
   Ended processing with [8 CHANGE(s) made]
      on File: [METADATA\REALITY\TABLES\DAMAGETABLE.EXML]
   Ended with a total of 8 action(s) made }
 
-Ended script processing with [144 action(s), 0 files added]
+Ended script processing with [154 action(s), 0 files added]
 
 Using custom DateTime format!
 Combined Mod ACTIVE: Delaying Building MOD...
@@ -5088,7 +2530,7 @@ Ended script [NaturalFlight.hrv.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #10 of 20 [No Black Bars 2.4.lua] {
+Starting to process script #10 of 23 [No Black Bars 2.4.lua] {
 Copying script source to MOD
 Getting UI\COMPONENTS\INTERACTION\CINEMATICBARS.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -5131,7 +2573,7 @@ Ended script [No Black Bars 2.4.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #11 of 20 [No Space Dust 1.3.lua] {
+Starting to process script #11 of 23 [No Space Dust 1.3.lua] {
 Copying script source to MOD
 Getting MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -5154,7 +2596,7 @@ Ended script [No Space Dust 1.3.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #12 of 20 [No Speed Halo 1.5 - Almost.lua] {
+Starting to process script #12 of 23 [No Speed Halo 1.5 - Almost.lua] {
 Copying script source to MOD
 Getting MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -5178,7 +2620,7 @@ Ended script [No Speed Halo 1.5 - Almost.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #13 of 20 [No Speed Lines 1.5.lua] {
+Starting to process script #13 of 23 [No Speed Lines 1.5.lua] {
 Copying script source to MOD
 Getting MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -5212,7 +2654,59 @@ Ended script [No Speed Lines 1.5.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #14 of 20 [Quick Crates 1.8.lua] {
+Starting to process script #14 of 23 [No Trade Routes 2.0.lua] {
+Copying script source to MOD
+Getting GCAISPACESHIPGLOBALS.GLOBAL.MBIN from NMS source PAKs
+   SUCCESS Decompiling
+>>>>>>> Loaded script [No Trade Routes 2.0.lua]
+{>>> GCAISPACESHIPGLOBALS.GLOBAL.EXML
+    MapFileTree creation/update done by 2nd thread
+-> Based on PRECEDING_KEY_WORDS: >>> {"TradeRouteColours"}, <<< 
+    Looking for >>> [R] New value will be >>> [[0.0]] of type [NUMBER]
+                >>> Replace operation is [ALL] based on key_words: {"TradeRouteColours"},
+                >>> Searching in lines 717 to 748...
+      -- On line 719, exchanged:    [<Property name="R" value="1" />]                           with:     [<Property name="R" value="0.0" />]
+      -- On line 725, exchanged:    [<Property name="R" value="0.761" />]                       with:     [<Property name="R" value="0.0" />]
+      -- On line 731, exchanged:    [<Property name="R" value="0.947" />]                       with:     [<Property name="R" value="0.0" />]
+      -- On line 737, exchanged:    [<Property name="R" value="0.838" />]                       with:     [<Property name="R" value="0.0" />]
+      -- On line 743, exchanged:    [<Property name="R" value="0.832" />]                       with:     [<Property name="R" value="0.0" />]
+    Looking for >>> [G] New value will be >>> [[0.0]] of type [NUMBER]
+                >>> Replace operation is [ALL] based on key_words: {"TradeRouteColours"},
+                >>> Searching in lines 717 to 748...
+      -- On line 720, exchanged:    [<Property name="G" value="0.451" />]                       with:     [<Property name="G" value="0.0" />]
+      -- On line 726, exchanged:    [<Property name="G" value="0.904" />]                       with:     [<Property name="G" value="0.0" />]
+      -- On line 732, exchanged:    [<Property name="G" value="1" />]                           with:     [<Property name="G" value="0.0" />]
+      -- On line 738, exchanged:    [<Property name="G" value="0.599" />]                       with:     [<Property name="G" value="0.0" />]
+      -- On line 744, exchanged:    [<Property name="G" value="1" />]                           with:     [<Property name="G" value="0.0" />]
+    Looking for >>> [B] New value will be >>> [[0.0]] of type [NUMBER]
+                >>> Replace operation is [ALL] based on key_words: {"TradeRouteColours"},
+                >>> Searching in lines 717 to 748...
+      -- On line 721, exchanged:    [<Property name="B" value="0.451" />]                       with:     [<Property name="B" value="0.0" />]
+      -- On line 727, exchanged:    [<Property name="B" value="1" />]                           with:     [<Property name="B" value="0.0" />]
+      -- On line 733, exchanged:    [<Property name="B" value="0.574" />]                       with:     [<Property name="B" value="0.0" />]
+      -- On line 739, exchanged:    [<Property name="B" value="1" />]                           with:     [<Property name="B" value="0.0" />]
+      -- On line 745, exchanged:    [<Property name="B" value="0.768" />]                       with:     [<Property name="B" value="0.0" />]
+    Looking for >>> [A] New value will be >>> [[0.0]] of type [NUMBER]
+                >>> Replace operation is [ALL] based on key_words: {"TradeRouteColours"},
+                >>> Searching in lines 717 to 748...
+      -- On line 722, exchanged:    [<Property name="A" value="0.02" />]                        with:     [<Property name="A" value="0.0" />]
+      -- On line 728, exchanged:    [<Property name="A" value="0.02" />]                        with:     [<Property name="A" value="0.0" />]
+      -- On line 734, exchanged:    [<Property name="A" value="0.02" />]                        with:     [<Property name="A" value="0.0" />]
+      -- On line 740, exchanged:    [<Property name="A" value="0.02" />]                        with:     [<Property name="A" value="0.0" />]
+      -- On line 746, exchanged:    [<Property name="A" value="0.02" />]                        with:     [<Property name="A" value="0.0" />]
+  Ended processing with [20 CHANGE(s) made]
+     on File: [GCAISPACESHIPGLOBALS.GLOBAL.EXML]
+  Ended with a total of 20 action(s) made }
+
+Ended script processing with [20 action(s), 0 files added]
+
+Using custom DateTime format!
+Combined Mod ACTIVE: Delaying Building MOD...
+Ended script [No Trade Routes 2.0.lua]
+========================================================================================}
+
+========================================================================================
+Starting to process script #15 of 23 [Quick Crates 1.8.lua] {
 Copying script source to MOD
 Getting MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -5248,7 +2742,7 @@ Ended script [Quick Crates 1.8.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #15 of 20 [Remove_Tech_Overload_1_1e.lua] {
+Starting to process script #16 of 23 [Remove_Tech_Overload_1_1e.lua] {
 Copying script source to MOD
 GCGAMEPLAYGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [Remove_Tech_Overload_1_1e.lua]
@@ -5270,7 +2764,7 @@ Ended script [Remove_Tech_Overload_1_1e.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #16 of 20 [Skip's Asteroid Megamod 1.0.0-PRISMS.lua] {
+Starting to process script #17 of 23 [Skip's Asteroid Megamod 1.0.0-PRISMS.lua] {
 Copying script source to MOD
 GCSOLARGENERATIONGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [Skip's Asteroid Megamod 1.0.0-PRISMS.lua]
@@ -5317,17 +2811,17 @@ GCSOLARGENERATIONGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be
       -- On line 78, exchanged:    [<Property name="AsteroidFadeRangeMin" value="10000" />]     with:     [<Property name="AsteroidFadeRangeMin" value="0" />]
     Looking for >>> [AsteroidFadeRangeMax] New value will be >>> [[5000]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
-      -- On line 79, exchanged:    [<Property name="AsteroidFadeRangeMax" value="10000" />]     with:     [<Property name="AsteroidFadeRangeMax" value="5000" />]
+      -- On line 79, exchanged:    [<Property name="AsteroidFadeRangeMax" value="20000" />]     with:     [<Property name="AsteroidFadeRangeMax" value="5000" />]
     Looking for >>> [LargeAsteroidFadeRangeMin] New value will be >>> [[0]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
-      -- On line 104, exchanged:    [<Property name="LargeAsteroidFadeRangeMin" value="100000" />]    with:     [<Property name="LargeAsteroidFadeRangeMin" value="0" />]
+      -- On line 104, exchanged:    [<Property name="LargeAsteroidFadeRangeMin" value="50000" />]    with:     [<Property name="LargeAsteroidFadeRangeMin" value="0" />]
     Looking for >>> [LargeAsteroidFadeRangeMax] New value will be >>> [[20000]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
-      -- On line 105, exchanged:    [<Property name="LargeAsteroidFadeRangeMax" value="100000" />]    with:     [<Property name="LargeAsteroidFadeRangeMax" value="20000" />]
+      -- On line 105, exchanged:    [<Property name="LargeAsteroidFadeRangeMax" value="30000" />]    with:     [<Property name="LargeAsteroidFadeRangeMax" value="20000" />]
 -> No key_word specified, using whole file...
     Looking for >>> [AsteroidSpacing] New value will be >>> [[10000]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
-      -- On line 80, exchanged:    [<Property name="AsteroidSpacing" value="9000" />]           with:     [<Property name="AsteroidSpacing" value="10000" />]
+      -- On line 80, exchanged:    [<Property name="AsteroidSpacing" value="1000" />]           with:     [<Property name="AsteroidSpacing" value="10000" />]
     Looking for >>> [LargeAsteroidSpacing] New value will be >>> [[60000]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
       -- On line 102, exchanged:    [<Property name="LargeAsteroidSpacing" value="30000" />]    with:     [<Property name="LargeAsteroidSpacing" value="60000" />]
@@ -5355,7 +2849,7 @@ GCSOLARGENERATIONGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be
       -- On line 85, exchanged:    [<Property name="RareAsteroidHealth" value="600" />]         with:     [<Property name="RareAsteroidHealth" value="5000" />]
     Looking for >>> [CommonAsteroidScale] New value will be >>> [[0.4]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
-      -- On line 86, exchanged:    [<Property name="CommonAsteroidScale" value="0.1" />]        with:     [<Property name="CommonAsteroidScale" value="0.4" />]
+      -- On line 86, exchanged:    [<Property name="CommonAsteroidScale" value="0.3" />]        with:     [<Property name="CommonAsteroidScale" value="0.4" />]
     Looking for >>> [RareAsteroidScale] New value will be >>> [[2.0]] of type [NUMBER]
                 >>> Searching in lines 3 to 305...
       -- On line 81, exchanged:    [<Property name="RareAsteroidScale" value="1.6" />]          with:     [<Property name="RareAsteroidScale" value="2.0" />]
@@ -5425,7 +2919,7 @@ Ended script [Skip's Asteroid Megamod 1.0.0-PRISMS.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #17 of 20 [Small Cursor 3.9.lua] {
+Starting to process script #18 of 23 [Small Cursor 3.9.lua] {
 Copying script source to MOD
 GCUIGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [Small Cursor 3.9.lua]
@@ -5450,7 +2944,46 @@ Ended script [Small Cursor 3.9.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #18 of 20 [SpeedIncreaseAnalysis.lua] {
+Starting to process script #19 of 23 [SolarShipNoSails.lua] {
+Copying script source to MOD
+Getting MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIPPARTS\SAILSHIPANIMS\SAILSHIP_SHARED\ENTITIES\ROOTJNT.ENTITY.MBIN from NMS source PAKs
+   SUCCESS Decompiling
+Getting MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIP_PROC.SCENE.MBIN from NMS source PAKs
+   SUCCESS Decompiling
+>>>>>>> Loaded script [SolarShipNoSails.lua]
+{>>> MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIPPARTS\SAILSHIPANIMS\SAILSHIP_SHARED\ENTITIES\ROOTJNT.ENTITY.EXML
+    MapFileTree creation/update done by 2nd thread
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Anim","LOWALTITUDE"}, <<< 
+    Looking for >>> [Filename] New value will be >>> [[]] of type [STRING]
+                >>> Searching in lines 88 to 118...
+      -- On line 90, exchanged:    [<Property name="Filename" value="MODELS/COMMON/SPACECRAFT/SAILSHIP/SAILSHIPPARTS/SAILSHIPANIMS/SAILSHIP_SAILSUNFOLD.ANIM.MBIN" />]    with:     [<Property name="Filename" value="" />]
+  Ended processing with [1 CHANGE(s) made]
+     on File: [MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIPPARTS\SAILSHIPANIMS\SAILSHIP_SHARED\ENTITIES\ROOTJNT.ENTITY.EXML]
+  Ended with a total of 1 action(s) made }
+{>>> MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIP_PROC.SCENE.EXML
+    MapFileTree creation/update done by 2nd thread
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Name","_Sails_A"}, <<< 
+    Looking to >>> remove SECTION <<< at Property name [Name] and value [IGNORE] of type [STRING]
+    -- Lines 83345 - 84340 REMOVED
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Name","_Sails_B"}, <<< 
+    Looking to >>> remove SECTION <<< at Property name [Name] and value [IGNORE] of type [STRING]
+    -- Lines 83345 - 84378 REMOVED
+-> Based on SPECIAL_KEY_WORDS pairs: >>> {"Name","_Sails_C"}, <<< 
+    Looking to >>> remove SECTION <<< at Property name [Name] and value [IGNORE] of type [STRING]
+    -- Lines 83345 - 84412 REMOVED
+  Ended processing with [3 REMOVE(s) made]
+     on File: [MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIP_PROC.SCENE.EXML]
+  Ended with a total of 3 action(s) made }
+
+Ended script processing with [4 action(s), 0 files added]
+
+Using custom DateTime format!
+Combined Mod ACTIVE: Delaying Building MOD...
+Ended script [SolarShipNoSails.lua]
+========================================================================================}
+
+========================================================================================
+Starting to process script #20 of 23 [SpeedIncreaseAnalysis.lua] {
 Copying script source to MOD
 GCGAMEPLAYGLOBALS.GLOBAL.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [SpeedIncreaseAnalysis.lua]
@@ -5487,7 +3020,7 @@ Ended script [SpeedIncreaseAnalysis.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #19 of 20 [UninstallCoreWeapons.lua] {
+Starting to process script #21 of 23 [UninstallCoreWeapons.lua] {
 Copying script source to MOD
 METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.EXML already exist in MODBUILDER\MOD and will be COMBINED
 >>>>>>> Loaded script [UninstallCoreWeapons.lua]
@@ -5513,7 +3046,111 @@ Ended script [UninstallCoreWeapons.lua]
 ========================================================================================}
 
 ========================================================================================
-Starting to process script #20 of 20 [_nanite trade.lua] {
+Starting to process script #22 of 23 [_Exo's Expanse Black Edition.lua] {
+Copying script source to MOD
+Getting METADATA\SIMULATION\SOLARSYSTEM\WEATHER\SKYSETTINGS\SPACESKYCOLOURS.MBIN from NMS source PAKs
+   SUCCESS Decompiling
+Getting METADATA\SIMULATION\SOLARSYSTEM\WEATHER\SKYSETTINGS\SPACERARESKYCOLOURS.MBIN from NMS source PAKs
+   SUCCESS Decompiling
+>>>>>>> Loaded script [_Exo's Expanse Black Edition.lua]
+{>>> METADATA\SIMULATION\SOLARSYSTEM\WEATHER\SKYSETTINGS\SPACESKYCOLOURS.EXML
+    MapFileTree creation/update done by 2nd thread
+-> Based on PRECEDING_KEY_WORDS: >>> {"GcSolarSystemSkyColourData.xml"}, <<< 
+       >>>>> Found 10 valid candidate sections.
+       >>>>> using ALL valid sections as requested
+    Looking to >>> remove SECTION <<< at Property name [GcSolarSystemSkyColourData.xml] and value [IGNORE] of type [STRING]
+               >>> Replace operation is [ALL] based on key_words: {"GcSolarSystemSkyColourData.xml"},
+       >>>>> Processing Groups in reverse order for ADD/REMOVE <<<<<
+    -- Lines 725 - 804 REMOVED
+    -- Lines 645 - 724 REMOVED
+    -- Lines 565 - 644 REMOVED
+    -- Lines 485 - 564 REMOVED
+    -- Lines 405 - 484 REMOVED
+    -- Lines 325 - 404 REMOVED
+    -- Lines 245 - 324 REMOVED
+    -- Lines 165 - 244 REMOVED
+    -- Lines 85 - 164 REMOVED
+    -- Lines 5 - 84 REMOVED
+-> Based on PRECEDING_KEY_WORDS: >>> {"Settings"}, <<< 
+    Looking to >>> add some text <<< after LINE with Property name [Settings] and value [IGNORE] of type [STRING]
+    -- Lines 5 - 30724 ADDED using text in ["ADD"]
+  Ended processing with [1 ADD(s) made]
+  Ended processing with [10 REMOVE(s) made]
+     on File: [METADATA\SIMULATION\SOLARSYSTEM\WEATHER\SKYSETTINGS\SPACESKYCOLOURS.EXML]
+  Ended with a total of 11 action(s) made }
+{>>> METADATA\SIMULATION\SOLARSYSTEM\WEATHER\SKYSETTINGS\SPACERARESKYCOLOURS.EXML
+    MapFileTree creation/update done by 2nd thread
+-> Based on PRECEDING_KEY_WORDS: >>> {"GcSolarSystemSkyColourData.xml"}, <<< 
+       >>>>> Found 48 valid candidate sections.
+       >>>>> using ALL valid sections as requested
+    Looking to >>> remove SECTION <<< at Property name [GcSolarSystemSkyColourData.xml] and value [IGNORE] of type [STRING]
+               >>> Replace operation is [ALL] based on key_words: {"GcSolarSystemSkyColourData.xml"},
+       >>>>> Processing Groups in reverse order for ADD/REMOVE <<<<<
+    -- Lines 3765 - 3844 REMOVED
+    -- Lines 3685 - 3764 REMOVED
+    -- Lines 3605 - 3684 REMOVED
+    -- Lines 3525 - 3604 REMOVED
+    -- Lines 3445 - 3524 REMOVED
+    -- Lines 3365 - 3444 REMOVED
+    -- Lines 3285 - 3364 REMOVED
+    -- Lines 3205 - 3284 REMOVED
+    -- Lines 3125 - 3204 REMOVED
+    -- Lines 3045 - 3124 REMOVED
+    -- Lines 2965 - 3044 REMOVED
+    -- Lines 2885 - 2964 REMOVED
+    -- Lines 2805 - 2884 REMOVED
+    -- Lines 2725 - 2804 REMOVED
+    -- Lines 2645 - 2724 REMOVED
+    -- Lines 2565 - 2644 REMOVED
+    -- Lines 2485 - 2564 REMOVED
+    -- Lines 2405 - 2484 REMOVED
+    -- Lines 2325 - 2404 REMOVED
+    -- Lines 2245 - 2324 REMOVED
+    -- Lines 2165 - 2244 REMOVED
+    -- Lines 2085 - 2164 REMOVED
+    -- Lines 2005 - 2084 REMOVED
+    -- Lines 1925 - 2004 REMOVED
+    -- Lines 1845 - 1924 REMOVED
+    -- Lines 1765 - 1844 REMOVED
+    -- Lines 1685 - 1764 REMOVED
+    -- Lines 1605 - 1684 REMOVED
+    -- Lines 1525 - 1604 REMOVED
+    -- Lines 1445 - 1524 REMOVED
+    -- Lines 1365 - 1444 REMOVED
+    -- Lines 1285 - 1364 REMOVED
+    -- Lines 1205 - 1284 REMOVED
+    -- Lines 1125 - 1204 REMOVED
+    -- Lines 1045 - 1124 REMOVED
+    -- Lines 965 - 1044 REMOVED
+    -- Lines 885 - 964 REMOVED
+    -- Lines 805 - 884 REMOVED
+    -- Lines 725 - 804 REMOVED
+    -- Lines 645 - 724 REMOVED
+    -- Lines 565 - 644 REMOVED
+    -- Lines 485 - 564 REMOVED
+    -- Lines 405 - 484 REMOVED
+    -- Lines 325 - 404 REMOVED
+    -- Lines 245 - 324 REMOVED
+    -- Lines 165 - 244 REMOVED
+    -- Lines 85 - 164 REMOVED
+    -- Lines 5 - 84 REMOVED
+-> Based on PRECEDING_KEY_WORDS: >>> {"Settings"}, <<< 
+    Looking to >>> add some text <<< after LINE with Property name [Settings] and value [IGNORE] of type [STRING]
+    -- Lines 5 - 30724 ADDED using text in ["ADD"]
+  Ended processing with [1 ADD(s) made]
+  Ended processing with [48 REMOVE(s) made]
+     on File: [METADATA\SIMULATION\SOLARSYSTEM\WEATHER\SKYSETTINGS\SPACERARESKYCOLOURS.EXML]
+  Ended with a total of 49 action(s) made }
+
+Ended script processing with [60 action(s), 0 files added]
+
+Using custom DateTime format!
+Combined Mod ACTIVE: Delaying Building MOD...
+Ended script [_Exo's Expanse Black Edition.lua]
+========================================================================================}
+
+========================================================================================
+Starting to process script #23 of 23 [_nanite trade.lua] {
 Copying script source to MOD
 Getting METADATA\REALITY\DEFAULTREALITY.MBIN from NMS source PAKs
    SUCCESS Decompiling
@@ -5553,31 +3190,18 @@ Using custom DateTime format!
 
 
 Starting final MBINCompiler and PAK phase...
+   SUCCESS Compiling GCAISPACESHIPGLOBALS.GLOBAL.EXML
    SUCCESS Compiling GCCAMERAGLOBALS.GLOBAL.EXML
-   SUCCESS Compiling GCDEBUGOPTIONS.GLOBAL.EXML
    SUCCESS Compiling GCGAMEPLAYGLOBALS.GLOBAL.EXML
    SUCCESS Compiling GCSKYGLOBALS.GLOBALS.EXML
    SUCCESS Compiling GCSOLARGENERATIONGLOBALS.GLOBAL.EXML
    SUCCESS Compiling GCSPACESHIPGLOBALS.GLOBAL.EXML
    SUCCESS Compiling GCUIGLOBALS.GLOBAL.EXML
    SUCCESS Compiling GCVEHICLEGLOBALS.GLOBAL.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_BRAZILIANPORTUGUESE.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_DUTCH.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_ENGLISH.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_FRENCH.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_GERMAN.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_ITALIAN.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_JAPANESE.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_KOREAN.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_LATINAMERAICANSPANISH.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_POLISH.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_PORTUGUESE.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_RUSSIAN.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_SIMPLIFIEDCHINESE.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_SPANISH.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_TENCENTCHINESE.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_TRADITIONALCHINESE.EXML
-   SUCCESS Compiling LANGUAGE\NMS_CUSTOMFRMODSDESC_USENGLISH.EXML
+   SUCCESS Compiling LANGUAGE\NMS_LOC5_ENGLISH.EXML
+   SUCCESS Compiling LANGUAGE\NMS_LOC5_FRENCH.EXML
+   SUCCESS Compiling LANGUAGE\NMS_LOC6_ENGLISH.EXML
+   SUCCESS Compiling LANGUAGE\NMS_LOC6_FRENCH.EXML
    SUCCESS Compiling METADATA\PROJECTILES\PROJECTILETABLE.EXML
    SUCCESS Compiling METADATA\REALITY\DEFAULTREALITY.EXML
    SUCCESS Compiling METADATA\REALITY\TABLES\DAMAGETABLE.EXML
@@ -5587,6 +3211,10 @@ Starting final MBINCompiler and PAK phase...
    SUCCESS Compiling METADATA\REALITY\TABLES\NMS_REALITY_GCTECHNOLOGYTABLE.EXML
    SUCCESS Compiling METADATA\REALITY\TABLES\REWARDTABLE.EXML
    SUCCESS Compiling METADATA\REALITY\TABLES\UNLOCKABLEITEMTREES.EXML
+   SUCCESS Compiling METADATA\SIMULATION\SOLARSYSTEM\WEATHER\SKYSETTINGS\SPACERARESKYCOLOURS.EXML
+   SUCCESS Compiling METADATA\SIMULATION\SOLARSYSTEM\WEATHER\SKYSETTINGS\SPACESKYCOLOURS.EXML
+   SUCCESS Compiling MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIP_PROC.SCENE.EXML
+   SUCCESS Compiling MODELS\COMMON\SPACECRAFT\SAILSHIP\SAILSHIPPARTS\SAILSHIPANIMS\SAILSHIP_SHARED\ENTITIES\ROOTJNT.ENTITY.EXML
    SUCCESS Compiling MODELS\EFFECTS\HEAVYAIR\SPACE\SPACE2.HEAVYAIR.EXML
    SUCCESS Compiling MODELS\EFFECTS\SPEEDLINES\SPEEDLINE.SCENE.EXML
    SUCCESS Compiling MODELS\EFFECTS\WARP\SPEEDTUNNEL\SPEEDTUNNELMAT.MATERIAL.EXML
@@ -5610,20 +3238,21 @@ Backups in >>> Builds <<< and >>> Builds\IncrementalBuilds <<<
 
 
 END OF PROCESSING
-Total scripts processed: 20
+Total scripts processed: 23
 
 
 }
 
 No failed script!
+Only checking conflicts in ModScript, at user request
 
-Checked Conflicts in ModScript Scripts/paks and NMS MODS paks.
+===== Conflicts in NMS MODS were NOT checked at user request =====
+ONLY Checked Conflicts in ModScript Scripts/paks.
 
 =================================== CONFLICTS =========================================={
     [CONFLICT] on "GCUIGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
     [     >>>] 	- "Modscript\Fast Actions 4.1.lua"
     [     >>>] 	- "Modscript\Small Cursor 3.9.lua"
-    [     >>>] 	- "MODS\"_hilightnotes_cleanHUD_v10_Vanilla.pak"
 
     [CONFLICT] on "GCCAMERAGLOBALS.GLOBAL.MBIN" (NMSARC.59B126E2.pak)
     [     >>>] 	- "Modscript\Fullscreen Warps 2.8.lua"
@@ -5644,10 +3273,10 @@ Checked Conflicts in ModScript Scripts/paks and NMS MODS paks.
 
               0 ERROR detected
 
-    [ATTENTION]     19 WARNINGS raised
+    [ATTENTION]     20 WARNINGS raised
     [ATTENTION]            WARNINGS may produce good or bad PAK files.  You have to be the judge!
 
-    [ATTENTION]      1 NOTICE raised
+    [ATTENTION]      2 NOTICES raised
     [ATTENTION]            NOTICES produce good PAK files but alert you to something.
 
     [ATTENTION]      4 CONFLICTS detected in processed Scripts/paks
@@ -5655,5 +3284,5 @@ Checked Conflicts in ModScript Scripts/paks and NMS MODS paks.
     [ATTENTION]            Some CONFLICTS can be resolved by COMBINING mods...
     [ATTENTION]            See file 'Creating a Patch for an existing MOD PAK.txt' for further help
 
-Ended AMUMSS automatic processing at 12:38:58
-TOTAL TIME to complete: 00:06:29
+Ended AMUMSS automatic processing at 21:04:06
+TOTAL TIME to complete: 00:01:11

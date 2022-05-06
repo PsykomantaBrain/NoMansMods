@@ -1,4 +1,4 @@
->>> MapFileTree: MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.EXML (NMSARC.515F1D3.pak) "2022/03/16-19:02:39"
+>>> MapFileTree: MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.EXML (NMSARC.515F1D3.pak) "2022/05/04-23:29:25"
  [WARNING] Lower case 's/u' are Special/Unique with 'True', 'False' or a number
  TYPE = 'P'receding, 'S/s'pecial, 'U/u'nique
  TYPE:FILELINE:LEVEL     KEYWORDS
@@ -17,7 +17,7 @@
 :[.su:      15: 4]  | | | {"Density","1",},
 :[.s.:      16: 4]  | | | {"Gravity","20",},
 :[   :      19: 3]  | | <<< }
-{[PSU:      20: 3]  | | "VolumeTriggerType", / {"VolumeTriggerType","TkVolumeTriggerType.xml",},
+{[PSU:      20: 3]  | | "TriggerVolumeType", / {"TriggerVolumeType","TkVolumeTriggerType.xml",},
 :[.SU:      21: 4]  | | | {"VolumeTriggerType","Open",},
 :[   :      22: 3]  | | <<< }
 :[.SU:      23: 3]  | | {"SurfaceProperties","None",},
@@ -178,150 +178,151 @@
 {[PSU:     203: 7]  | | | | | | "Event", / {"Event","GcStateTimeEvent.xml",},
 :[.su:     204: 8]  | | | | | | | {"Seconds","0",},
 :[.su:     205: 8]  | | | | | | | {"RandomSeconds","0",},
-:[   :     206: 7]  | | | | | | <<< }
-{[P..:     207: 7]  | | | | | | "Action",
-{[P..:     208: 8]  | | | | | | | "GcPlayAudioAction.xml",
-:[.SU:     209: 9]  | | | | | | | | {"Sound","Obj_Crate_Large",},
-:[.su:     210: 9]  | | | | | | | | {"UseOcclusion","False",},
-:[.su:     211: 9]  | | | | | | | | {"OcclusionRadius","2",},
-:[   :     212: 8]  | | | | | | | <<< }
-{[P..:     213: 8]  | | | | | | | "GcPlayAnimAction.xml",
-:[.S.:     214: 9]  | | | | | | | | {"Anim","OPEN",},
-:[   :     215: 8]  | | | | | | | <<< }
-:[   :     216: 7]  | | | | | | <<< }
-:[   :     217: 6]  | | | | | <<< }
-:[   :     218: 5]  | | | | <<< }
-:[   :     219: 4]  | | | <<< }
-:[   :     220: 3]  | | <<< }
-:[.su:     221: 3]  | | {"Persistent","False",},
-:[.su:     223: 3]  | | {"ResetShotTimeOnStateChange","False",},
-:[.su:     224: 3]  | | {"LinkStateToBaseGrid","False",},
-:[   :     225: 2]  | <<< }
-{[P..:     226: 2]  | "GcMaintenanceComponentData.xml",
-{[P..:     227: 3]  | | "PreInstalledTech",
-{[P..:     228: 4]  | | | "GcMaintenanceElement.xml",
-{[PSU:     229: 5]  | | | | "ItemGroupOverride", / {"ItemGroupOverride","GcMaintenanceElementGroups.xml",},
-:[.SU:     230: 6]  | | | | | {"MaintenanceGroup","Custom",},
-:[   :     231: 5]  | | | | <<< }
-{[PSU:     232: 5]  | | | | "Type", / {"Type","GcInventoryType.xml",},
-:[.SU:     233: 6]  | | | | | {"InventoryType","Substance",},
-:[   :     234: 5]  | | | | <<< }
-:[.SU:     235: 5]  | | | | {"Id","SPACEGUNK3",},
-:[.su:     236: 5]  | | | | {"MinRandAmount","50",},
-:[.su:     237: 5]  | | | | {"MaxRandAmount","100",},
-:[.su:     238: 5]  | | | | {"MaxCapactiy","-1",},
-:[.su:     239: 5]  | | | | {"AmountEmptyTimePeriod","0",},
-:[.SU:     240: 5]  | | | | {"UpdateType","UpdatesAlways",},
-:[.su:     241: 5]  | | | | {"DamagedAfterTimePeriodMin","0",},
-:[.su:     242: 5]  | | | | {"DamagedAfterTimePeriodMax","0",},
-:[.SU:     243: 5]  | | | | {"DamageStatus","Damaged",},
-:[.SU:     244: 5]  | | | | {"CompletionRequirement","EmptySlot",},
-:[   :     245: 4]  | | | <<< }
-:[   :     246: 3]  | | <<< }
-:[.su:     247: 3]  | | {"VisibleMaintenanceSlots","-1",},
-:[.su:     248: 3]  | | {"AllowRepair","False",},
-:[.su:     249: 3]  | | {"AllowCharge","False",},
-:[.su:     250: 3]  | | {"AllowDismantle","True",},
-:[.su:     251: 3]  | | {"AllowInstallTech","False",},
-:[.su:     252: 3]  | | {"AllowCraftProduct","False",},
-:[.su:     253: 3]  | | {"AllowTransfer","True",},
-:[.su:     254: 3]  | | {"AllowMoveAndStack","False",},
-:[.su:     255: 3]  | | {"AllowTransferIn","False",},
-:[.su:     256: 3]  | | {"AutoCompleteOnStart","False",},
-:[.su:     257: 3]  | | {"UseModelResourceRenderer","False",},
-:[.su:     258: 3]  | | {"UseBoundsForIconCentre","True",},
-:[.SU:     259: 3]  | | {"Interactable","OnlyWhenNotComplete",},
-:[.su:     260: 3]  | | {"ForceNoninteraction","False",},
-:[.su:     261: 3]  | | {"CompletedTransitionDelay","2",},
-:[.su:     262: 3]  | | {"ShareInteractionModelRender","True",},
-{[PSU:     263: 3]  | | "ModelRendererData", / {"ModelRendererData","TkModelRendererData.xml",},
-{[PS.:     264: 4]  | | | "Camera", / {"Camera","TkModelRendererCameraData.xml",},
-:[.su:     265: 5]  | | | | {"Distance","3",},
-{[PS.:     266: 5]  | | | | "Offset", / {"Offset","Vector3f.xml",},
-:[.su:     267: 6]  | | | | | {"x","0.15",},
-:[.su:     268: 6]  | | | | | {"y","0.5",},
-:[.s.:     269: 6]  | | | | | {"z","0",},
-:[   :     270: 5]  | | | | <<< }
-:[.s.:     271: 5]  | | | | {"Roll","0",},
-:[.su:     272: 5]  | | | | {"Pitch","31",},
-:[.s.:     273: 5]  | | | | {"Rotate","0",},
-:[.s.:     274: 5]  | | | | {"LightPitch","45",},
-:[.s.:     275: 5]  | | | | {"LightRotate","45",},
-{[PS.:     276: 5]  | | | | "Wander", / {"Wander","TkCameraWanderData.xml",},
-:[.s.:     277: 6]  | | | | | {"CamWander","False",},
-:[.s.:     278: 6]  | | | | | {"CamWanderPhase","0.003",},
-:[.s.:     279: 6]  | | | | | {"CamWanderAmplitude","0.5",},
-:[   :     280: 5]  | | | | <<< }
-:[   :     281: 4]  | | | <<< }
-:[.s.:     282: 4]  | | | {"Fov","30",},
-:[.s.:     283: 4]  | | | {"AspectRatio","1.7777",},
-:[.S.:     284: 4]  | | | {"ThumbnailMode","None",},
-:[.S.:     285: 4]  | | | {"FocusType","ResourceBounds",},
-{[PS.:     287: 4]  | | | "FocusOffset", / {"FocusOffset","Vector3f.xml",},
-:[.s.:     288: 5]  | | | | {"x","0",},
-:[.s.:     289: 5]  | | | | {"y","0",},
-:[.s.:     290: 5]  | | | | {"z","0",},
-:[   :     291: 4]  | | | <<< }
-:[.s.:     292: 4]  | | | {"FocusInterpTime","0",},
-:[.s.:     293: 4]  | | | {"BlendInTime","0.8",},
-:[.s.:     294: 4]  | | | {"BlendInOffset","0",},
-:[.s.:     296: 4]  | | | {"HeightOffset","0.005",},
-:[.su:     297: 4]  | | | {"UsePlayerCameraInHmd","True",},
-:[.s.:     298: 4]  | | | {"UseSensibleCameraFocusNodeIsNowOffsetNode","False",},
-:[.s.:     299: 4]  | | | {"LookForFocusInMasterModel","False",},
-:[   :     300: 3]  | | <<< }
-{[PSU:     301: 3]  | | "ModelRendererDataAlt", / {"ModelRendererDataAlt","TkModelRendererData.xml",},
-{[PS.:     302: 4]  | | | "Camera", / {"Camera","TkModelRendererCameraData.xml",},
-:[.su:     303: 5]  | | | | {"Distance","2.25",},
-{[PS.:     304: 5]  | | | | "Offset", / {"Offset","Vector3f.xml",},
-:[.s.:     305: 6]  | | | | | {"x","0",},
-:[.su:     306: 6]  | | | | | {"y","1.75",},
-:[.s.:     307: 6]  | | | | | {"z","0",},
-:[   :     308: 5]  | | | | <<< }
-:[.s.:     309: 5]  | | | | {"Roll","0",},
-:[.su:     310: 5]  | | | | {"Pitch","0",},
-:[.s.:     311: 5]  | | | | {"Rotate","0",},
-:[.s.:     312: 5]  | | | | {"LightPitch","45",},
-:[.s.:     313: 5]  | | | | {"LightRotate","45",},
-{[PS.:     314: 5]  | | | | "Wander", / {"Wander","TkCameraWanderData.xml",},
-:[.s.:     315: 6]  | | | | | {"CamWander","False",},
-:[.s.:     316: 6]  | | | | | {"CamWanderPhase","0.003",},
-:[.s.:     317: 6]  | | | | | {"CamWanderAmplitude","0.5",},
-:[   :     318: 5]  | | | | <<< }
-:[   :     319: 4]  | | | <<< }
-:[.s.:     320: 4]  | | | {"Fov","30",},
-:[.s.:     321: 4]  | | | {"AspectRatio","1.7777",},
-:[.S.:     322: 4]  | | | {"ThumbnailMode","None",},
-:[.S.:     323: 4]  | | | {"FocusType","ResourceBounds",},
-{[PS.:     325: 4]  | | | "FocusOffset", / {"FocusOffset","Vector3f.xml",},
-:[.s.:     326: 5]  | | | | {"x","0",},
-:[.s.:     327: 5]  | | | | {"y","0",},
-:[.s.:     328: 5]  | | | | {"z","0",},
-:[   :     329: 4]  | | | <<< }
-:[.s.:     330: 4]  | | | {"FocusInterpTime","0",},
-:[.s.:     331: 4]  | | | {"BlendInTime","0.8",},
-:[.s.:     332: 4]  | | | {"BlendInOffset","0",},
-:[.s.:     334: 4]  | | | {"HeightOffset","0.005",},
-:[.su:     335: 4]  | | | {"UsePlayerCameraInHmd","False",},
-:[.s.:     336: 4]  | | | {"UseSensibleCameraFocusNodeIsNowOffsetNode","False",},
-:[.s.:     337: 4]  | | | {"LookForFocusInMasterModel","False",},
-:[   :     338: 3]  | | <<< }
-:[.SU:     339: 3]  | | {"ModelRendererResource","ModelNode",},
-{[PSU:     340: 3]  | | "BroadcastLevel", / {"BroadcastLevel","GcBroadcastLevel.xml",},
-:[.SU:     341: 4]  | | | {"BroadcastLevel","Scene",},
-:[   :     342: 3]  | | <<< }
-:[.SU:     344: 3]  | | {"Description","UI_MAINTAIN_CRATE_SUB",},
-:[.SU:     345: 3]  | | {"ActionButtonOverride","REPAIR",},
-:[.SU:     346: 3]  | | {"ActionDescriptionOverride","REPAIR_DESC",},
-:[.SU:     347: 3]  | | {"ActionWarningOverride","WARN_TECH_DAMAGED",},
-:[.su:     348: 3]  | | {"InWorldUIScaler","0",},
-:[.su:     349: 3]  | | {"InteractionRequiresPower","False",},
-:[   :     350: 2]  | <<< }
-:[   :     351: 1]  <<< }
-{[P..:     352: 1]  "LodDistances",
-:[   :     358: 1]  <<< }
-:[   :     359: 0]/Data } --Do not use, NOT a KEYWORD
+:[.su:     206: 8]  | | | | | | | {"UseMissionClock","False",},
+:[   :     207: 7]  | | | | | | <<< }
+{[P..:     208: 7]  | | | | | | "Action",
+{[P..:     209: 8]  | | | | | | | "GcPlayAudioAction.xml",
+:[.SU:     210: 9]  | | | | | | | | {"Sound","Obj_Crate_Large",},
+:[.su:     211: 9]  | | | | | | | | {"UseOcclusion","False",},
+:[.su:     212: 9]  | | | | | | | | {"OcclusionRadius","2",},
+:[   :     213: 8]  | | | | | | | <<< }
+{[P..:     214: 8]  | | | | | | | "GcPlayAnimAction.xml",
+:[.S.:     215: 9]  | | | | | | | | {"Anim","OPEN",},
+:[   :     216: 8]  | | | | | | | <<< }
+:[   :     217: 7]  | | | | | | <<< }
+:[   :     218: 6]  | | | | | <<< }
+:[   :     219: 5]  | | | | <<< }
+:[   :     220: 4]  | | | <<< }
+:[   :     221: 3]  | | <<< }
+:[.su:     222: 3]  | | {"Persistent","False",},
+:[.su:     224: 3]  | | {"ResetShotTimeOnStateChange","False",},
+:[.su:     225: 3]  | | {"LinkStateToBaseGrid","False",},
+:[   :     226: 2]  | <<< }
+{[P..:     227: 2]  | "GcMaintenanceComponentData.xml",
+{[P..:     228: 3]  | | "PreInstalledTech",
+{[P..:     229: 4]  | | | "GcMaintenanceElement.xml",
+{[PSU:     230: 5]  | | | | "ItemGroupOverride", / {"ItemGroupOverride","GcMaintenanceElementGroups.xml",},
+:[.SU:     231: 6]  | | | | | {"MaintenanceGroup","Custom",},
+:[   :     232: 5]  | | | | <<< }
+{[PSU:     233: 5]  | | | | "Type", / {"Type","GcInventoryType.xml",},
+:[.SU:     234: 6]  | | | | | {"InventoryType","Substance",},
+:[   :     235: 5]  | | | | <<< }
+:[.SU:     236: 5]  | | | | {"Id","SPACEGUNK3",},
+:[.su:     237: 5]  | | | | {"MinRandAmount","50",},
+:[.su:     238: 5]  | | | | {"MaxRandAmount","100",},
+:[.su:     239: 5]  | | | | {"MaxCapactiy","-1",},
+:[.su:     240: 5]  | | | | {"AmountEmptyTimePeriod","0",},
+:[.SU:     241: 5]  | | | | {"UpdateType","UpdatesAlways",},
+:[.su:     242: 5]  | | | | {"DamagedAfterTimePeriodMin","0",},
+:[.su:     243: 5]  | | | | {"DamagedAfterTimePeriodMax","0",},
+:[.SU:     244: 5]  | | | | {"DamageStatus","Damaged",},
+:[.SU:     245: 5]  | | | | {"CompletionRequirement","EmptySlot",},
+:[   :     246: 4]  | | | <<< }
+:[   :     247: 3]  | | <<< }
+:[.su:     248: 3]  | | {"VisibleMaintenanceSlots","-1",},
+:[.su:     249: 3]  | | {"AllowRepair","False",},
+:[.su:     250: 3]  | | {"AllowCharge","False",},
+:[.su:     251: 3]  | | {"AllowDismantle","True",},
+:[.su:     252: 3]  | | {"AllowInstallTech","False",},
+:[.su:     253: 3]  | | {"AllowCraftProduct","False",},
+:[.su:     254: 3]  | | {"AllowTransfer","True",},
+:[.su:     255: 3]  | | {"AllowMoveAndStack","False",},
+:[.su:     256: 3]  | | {"AllowTransferIn","False",},
+:[.su:     257: 3]  | | {"AutoCompleteOnStart","False",},
+:[.su:     258: 3]  | | {"UseModelResourceRenderer","False",},
+:[.su:     259: 3]  | | {"UseBoundsForIconCentre","True",},
+:[.SU:     260: 3]  | | {"Interactable","OnlyWhenNotComplete",},
+:[.su:     261: 3]  | | {"ForceNoninteraction","False",},
+:[.su:     262: 3]  | | {"CompletedTransitionDelay","2",},
+:[.su:     263: 3]  | | {"ShareInteractionModelRender","True",},
+{[PSU:     264: 3]  | | "ModelRendererData", / {"ModelRendererData","TkModelRendererData.xml",},
+{[PS.:     265: 4]  | | | "Camera", / {"Camera","TkModelRendererCameraData.xml",},
+:[.su:     266: 5]  | | | | {"Distance","3",},
+{[PS.:     267: 5]  | | | | "Offset", / {"Offset","Vector3f.xml",},
+:[.su:     268: 6]  | | | | | {"x","0.15",},
+:[.su:     269: 6]  | | | | | {"y","0.5",},
+:[.s.:     270: 6]  | | | | | {"z","0",},
+:[   :     271: 5]  | | | | <<< }
+:[.s.:     272: 5]  | | | | {"Roll","0",},
+:[.su:     273: 5]  | | | | {"Pitch","31",},
+:[.s.:     274: 5]  | | | | {"Rotate","0",},
+:[.s.:     275: 5]  | | | | {"LightPitch","45",},
+:[.s.:     276: 5]  | | | | {"LightRotate","45",},
+{[PS.:     277: 5]  | | | | "Wander", / {"Wander","TkCameraWanderData.xml",},
+:[.s.:     278: 6]  | | | | | {"CamWander","False",},
+:[.s.:     279: 6]  | | | | | {"CamWanderPhase","0.003",},
+:[.s.:     280: 6]  | | | | | {"CamWanderAmplitude","0.5",},
+:[   :     281: 5]  | | | | <<< }
+:[   :     282: 4]  | | | <<< }
+:[.s.:     283: 4]  | | | {"Fov","30",},
+:[.s.:     284: 4]  | | | {"AspectRatio","1.7777",},
+:[.S.:     285: 4]  | | | {"ThumbnailMode","None",},
+:[.S.:     286: 4]  | | | {"FocusType","ResourceBounds",},
+{[PS.:     288: 4]  | | | "FocusOffset", / {"FocusOffset","Vector3f.xml",},
+:[.s.:     289: 5]  | | | | {"x","0",},
+:[.s.:     290: 5]  | | | | {"y","0",},
+:[.s.:     291: 5]  | | | | {"z","0",},
+:[   :     292: 4]  | | | <<< }
+:[.s.:     293: 4]  | | | {"FocusInterpTime","0",},
+:[.s.:     294: 4]  | | | {"BlendInTime","0.8",},
+:[.s.:     295: 4]  | | | {"BlendInOffset","0",},
+:[.s.:     297: 4]  | | | {"HeightOffset","0.005",},
+:[.su:     298: 4]  | | | {"UsePlayerCameraInHmd","True",},
+:[.s.:     299: 4]  | | | {"UseSensibleCameraFocusNodeIsNowOffsetNode","False",},
+:[.s.:     300: 4]  | | | {"LookForFocusInMasterModel","False",},
+:[   :     301: 3]  | | <<< }
+{[PSU:     302: 3]  | | "ModelRendererDataAlt", / {"ModelRendererDataAlt","TkModelRendererData.xml",},
+{[PS.:     303: 4]  | | | "Camera", / {"Camera","TkModelRendererCameraData.xml",},
+:[.su:     304: 5]  | | | | {"Distance","2.25",},
+{[PS.:     305: 5]  | | | | "Offset", / {"Offset","Vector3f.xml",},
+:[.s.:     306: 6]  | | | | | {"x","0",},
+:[.su:     307: 6]  | | | | | {"y","1.75",},
+:[.s.:     308: 6]  | | | | | {"z","0",},
+:[   :     309: 5]  | | | | <<< }
+:[.s.:     310: 5]  | | | | {"Roll","0",},
+:[.su:     311: 5]  | | | | {"Pitch","0",},
+:[.s.:     312: 5]  | | | | {"Rotate","0",},
+:[.s.:     313: 5]  | | | | {"LightPitch","45",},
+:[.s.:     314: 5]  | | | | {"LightRotate","45",},
+{[PS.:     315: 5]  | | | | "Wander", / {"Wander","TkCameraWanderData.xml",},
+:[.s.:     316: 6]  | | | | | {"CamWander","False",},
+:[.s.:     317: 6]  | | | | | {"CamWanderPhase","0.003",},
+:[.s.:     318: 6]  | | | | | {"CamWanderAmplitude","0.5",},
+:[   :     319: 5]  | | | | <<< }
+:[   :     320: 4]  | | | <<< }
+:[.s.:     321: 4]  | | | {"Fov","30",},
+:[.s.:     322: 4]  | | | {"AspectRatio","1.7777",},
+:[.S.:     323: 4]  | | | {"ThumbnailMode","None",},
+:[.S.:     324: 4]  | | | {"FocusType","ResourceBounds",},
+{[PS.:     326: 4]  | | | "FocusOffset", / {"FocusOffset","Vector3f.xml",},
+:[.s.:     327: 5]  | | | | {"x","0",},
+:[.s.:     328: 5]  | | | | {"y","0",},
+:[.s.:     329: 5]  | | | | {"z","0",},
+:[   :     330: 4]  | | | <<< }
+:[.s.:     331: 4]  | | | {"FocusInterpTime","0",},
+:[.s.:     332: 4]  | | | {"BlendInTime","0.8",},
+:[.s.:     333: 4]  | | | {"BlendInOffset","0",},
+:[.s.:     335: 4]  | | | {"HeightOffset","0.005",},
+:[.su:     336: 4]  | | | {"UsePlayerCameraInHmd","False",},
+:[.s.:     337: 4]  | | | {"UseSensibleCameraFocusNodeIsNowOffsetNode","False",},
+:[.s.:     338: 4]  | | | {"LookForFocusInMasterModel","False",},
+:[   :     339: 3]  | | <<< }
+:[.SU:     340: 3]  | | {"ModelRendererResource","ModelNode",},
+{[PSU:     341: 3]  | | "BroadcastLevel", / {"BroadcastLevel","GcBroadcastLevel.xml",},
+:[.SU:     342: 4]  | | | {"BroadcastLevel","Scene",},
+:[   :     343: 3]  | | <<< }
+:[.SU:     345: 3]  | | {"Description","UI_MAINTAIN_CRATE_SUB",},
+:[.SU:     346: 3]  | | {"ActionButtonOverride","REPAIR",},
+:[.SU:     347: 3]  | | {"ActionDescriptionOverride","REPAIR_DESC",},
+:[.SU:     348: 3]  | | {"ActionWarningOverride","WARN_TECH_DAMAGED",},
+:[.su:     349: 3]  | | {"InWorldUIScaler","0",},
+:[.su:     350: 3]  | | {"InteractionRequiresPower","False",},
+:[   :     351: 2]  | <<< }
+:[   :     352: 1]  <<< }
+{[P..:     353: 1]  "LodDistances",
+:[   :     359: 1]  <<< }
+:[   :     360: 0]/Data } --Do not use, NOT a KEYWORD
  TYPE:FILELINE:LEVEL     KEYWORDS
  TYPE = 'P'receding, 'S/s'pecial, 'U/u'nique
  [WARNING] Lower case 's/u' are Special/Unique with 'True', 'False' or a number
->>> MapFileTree: MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.EXML (NMSARC.515F1D3.pak) "2022/03/16-19:02:39"
+>>> MapFileTree: MODELS\PLANETS\BIOMES\COMMON\BUILDINGS\CRATE\CRATE_LARGE_RARE\ENTITIES\CRATE_LARGE_RARE.ENTITY.EXML (NMSARC.515F1D3.pak) "2022/05/04-23:29:25"

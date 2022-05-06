@@ -30,10 +30,12 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "HitAsteroidDamage", 					"1000" }, 	--Original "10000"
 								{ "CruiseHeight", 						"0" }, 		--Original "250"
 								{ "HoverMaxSpeed", 						"600" }, 	--Original "150"
+							    { "HoverTakeoffHeight",                            "50"},     --Original "90"
+                                { "HoverAlignTime",                                "0.75"},    --Original "0.7"
 								{ "MiniWarpLinesNum", 					"1" }, 		--Original "4"
 								{ "AimDistanceRange", 					"10" }, 	--Original "1"
 								{ "MiniWarpSpeed",						"30000"},	-- Original v1.24 "20000", 	Original v1.77 ""
-								{ "MiniWarpChargeTime",					"2"},		-- Original 5
+								{ "MiniWarpChargeTime",					"1"},		-- Original 5
 								{ "MiniWarpStationRadius", 				"500" }, 	--Original "700"
 								{ "MiniWarpExitSpeed", 					"4000" }, 	--Original "1000"
 								{ "MiniWarpExitSpeedStation", 			"2000" }, 	--Original "500"
@@ -47,7 +49,16 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "StickyTurnLow", 						"0" }, 		--Original "1.2"
 								{ "StickyTurnHigh", 					"0" }, 		--Original "0.5"
 								{ "StickyStickAngle", 					"180" }, 		--Original "30"
-								{ "ShipMotionDeadZone", 				"0.01" } 		--Original "0.2"
+								{ "ShipMotionDeadZone", 				"0.2" }, 		--Original "0.2"
+								{ "HoverMinSpeed",                                 "0.01"},      --Original "1"
+                                { "HoverLandManeuvreTimeMin",                      "0.8"},    --Original "0.7"
+                                { "HoverLandManeuvreTimeMax",                      "2.0"},      --Original "1.2"         							
+                                { "PulseDriveStationApproachSlowdownRangeMin",     "3000"},    --Original "1000"
+                                { "PulseDriveStationApproachSlowdownRange",        "10000"},   --Original "5000"
+                                { "WarpInRange",                                   "15000"},   --Original "10000"
+                                { "WarpInRangeFreighter",                          "10000"},   --Original "5000"
+                                { "WarpOutRange",                                  "1000"},    --Original "1000"
+                                { "WarpInRangeNexus",                              "5000"}   --Original "5000"
 							}
 						},
 						{
@@ -56,14 +67,14 @@ NMS_MOD_DEFINITION_CONTAINER =
 							{
 								{ "ThrustForce", 						"50" }, 	--Original "40"
 								{ "MaxSpeed", 							"1500" }, 	--Original "80"
-								{ "MinSpeed", 							"0" }, 	--Original "0"
+								{ "MinSpeed", 							"-22" }, 	--Original "0"
 								{ "Falloff", 							"0" }, 		--Original "0.7"
 								{ "MinSpeedForce", 						"0" }, 		--Original "5"
 								{ "BoostThrustForce", 					"200" }, 	--Original "500"
 								{ "BoostMaxSpeed", 						"1500" }, 	--Original "1200"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
 								{ "DirectionBrakeMin", 					"0.5" }, 	--Original "1"
-								{ "DirectionBrake", 					"0.9" }, 	--Original "2"
+								{ "DirectionBrake", 					"1.0" }, 	--Original "2"
 								{ "ReverseBrake", 						"0.25" }, 	--Original "0.5"
 								{ "OverspeedBrake", 					"0.1" }, 		--Original "3"
 								{ "TurnBrakeMin", 						"0.5" }, 	--Original "1"
@@ -77,7 +88,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 							{
 								{ "ThrustForce", 						"40" }, 	--Original "20"
 								{ "MaxSpeed", 							"225" }, 	--Original "125"
-								{ "MinSpeed", 							"0" }, 		--Original "20"
+								{ "MinSpeed", 							"-12" }, 		--Original "20"
 								{ "Falloff", 							"0" }, 		--Original "0.5"
 								{ "BoostMaxSpeed", 						"355" }, 	--Original "155"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
@@ -92,14 +103,14 @@ NMS_MOD_DEFINITION_CONTAINER =
 							{
 								{ "ThrustForce", 						"50" }, 	--Original "80"
 								{ "MaxSpeed", 							"1600" }, 	--Original "80"
-								{ "MinSpeed", 							"0" }, 		--Original "0"
+								{ "MinSpeed", 							"-20" }, 		--Original "0"
 								{ "Falloff", 							"0" }, 		--Original "0.7"
 								{ "MinSpeedForce", 						"0" }, 		--Original "5"
 								{ "BoostThrustForce", 					"300" }, 	--Original "500"
 								{ "BoostMaxSpeed", 						"2600" }, 	--Original "1300"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
-								{ "DirectionBrakeMin", 					"0.5" }, 	--Original "1"
-								{ "DirectionBrake", 					"0.9" }, 	--Original "1.5"
+								{ "DirectionBrakeMin", 					"0.7" }, 	--Original "1"
+								{ "DirectionBrake", 					"1.0" }, 	--Original "1.5"
 								{ "ReverseBrake", 						"0.3" }, 	--Original "0.5"
 								{ "OverspeedBrake", 					"0.1" }, 		--Original "3"
 								{ "TurnBrakeMin", 						"0.5" }, 	--Original "1"
@@ -114,7 +125,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "ThrustForce", 						"50" }, 	--Original "80"
 								{ "BoostThrustForce", 					"200" }, 	--Original "500"
 								{ "MaxSpeed", 							"228" }, 	--Original "125"
-								{ "MinSpeed", 							"0" }, 		--Original "20"
+								{ "MinSpeed", 							"-8" }, 		--Original "20"
 								{ "Falloff", 							"0" }, 		--Original "0.5"
 								{ "BoostMaxSpeed", 						"375" }, 	--Original "150"
 								{ "BoostFalloff", 						"0" }, 		--Original "0.7"
@@ -129,7 +140,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 							{
 								{ "ThrustForce", 						"20" }, 	--Original "40"
 								{ "MaxSpeed", 							"1280" }, 	--Original "80"
-								{ "MinSpeed", 							"0" }, 	--Original "0"
+								{ "MinSpeed", 							"-16" }, 	--Original "0"
 								{ "Falloff", 							"0" }, 		--Original "0.7"
 								{ "MinSpeedForce", 						"0" }, 		--Original "5"
 								{ "BoostThrustForce", 					"100" }, 	--Original "500"
@@ -150,7 +161,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 							{
 								{ "ThrustForce", 						"10" }, 	--Original "40"
 								{ "MaxSpeed", 							"230" }, 	--Original "130"
-								{ "MinSpeed", 							"0" }, 		--Original "20"
+								{ "MinSpeed", 							"-4" }, 		--Original "20"
 								{ "Falloff", 							"0" }, 		--Original "0.5"
 								{ "BoostThrustForce", 					"180" }, 	--Original "20"
 								{ "BoostMaxSpeed", 						"400" }, 	--Original "185"
@@ -212,19 +223,19 @@ NMS_MOD_DEFINITION_CONTAINER =
 								{ "AsteroidFadeTime", 					"5" }, 		--Original "2"
 								{ "AsteroidLotsOfRaresOdds", 				"0.5" }, 	--Original "0.9"
 								{ "AsteroidFadeRangeMin", 				"10000" }, 	--Original "1000"
-								{ "AsteroidFadeRangeMax", 				"10000" }, 	--Original "2000"
-								{ "AsteroidSpacing", 					"9000" }, 	--Original "1000"
+								{ "AsteroidFadeRangeMax", 				"20000" }, 	--Original "2000"
+							--	{ "AsteroidSpacing", 					"15000" }, 	--Original "1000"
 								{ "RareAsteroidMinResources", 			"20" }, 	--Original "5"
 								{ "RareAsteroidMaxResources", 			"100" }, 	--Original "10"
 								{ "RareAsteroidHealth", 				"600" }, 	--Original "1000"
-								{ "CommonAsteroidScale", 				"0.1" }, 	--Original "0.3"
+								{ "CommonAsteroidScale", 				"0.3" }, 	--Original "0.3"
 								{ "CommonAsteroidMinResources", 		"5" }, 		--Original "3"
 								{ "CommonAsteroidMaxResources", 		"20" }, 	--Original "5"
 								{ "CommonAsteroidHealth", 				"300" }, 	--Original "400"
 								{ "LargeAsteroidSpacing", 				"30000" }, 	--Original "3000"
 								{ "LargeAsteroidFadeTime", 				"0.5" }, 	--Original "0.1"
-								{ "LargeAsteroidFadeRangeMin", 			"100000" }, --Original "4000"
-								{ "LargeAsteroidFadeRangeMax", 			"100000" }  --Original "4000"
+								{ "LargeAsteroidFadeRangeMin", 			"50000" }, --Original "4000"
+								{ "LargeAsteroidFadeRangeMax", 			"30000" }  --Original "4000"
 							}
 						}
 					} --17 replacements
@@ -345,28 +356,28 @@ NMS_MOD_DEFINITION_CONTAINER =
 							["SPECIAL_KEY_WORDS"] = {"Id","IMPACTDAMAGE",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"600" } 	--Original "10"
+								{ "Damage", 							"200" } 	--Original "10"
 							}
 						},
 						{
 							["SPECIAL_KEY_WORDS"] = {"Id","IMPACTGROUND",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"1000" } 	--Original "10"
+								{ "Damage", 							"500" } 	--Original "10"
 							}
 						},
 						{
 							["SPECIAL_KEY_WORDS"] = {"Id","IMPACTINSTANCE",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"600" } 	--Original "30"
+								{ "Damage", 							"30" } 	--Original "30"
 							}
 						},
 						{
 							["SPECIAL_KEY_WORDS"] = {"Id","SMALLASTEROID",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"50" } 	--Original "5"
+								{ "Damage", 							"100" } 	--Original "5"
 							}
 						},
 						{
@@ -394,7 +405,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 							["SPECIAL_KEY_WORDS"] = {"Id","MPPLAYER_SHIP",},
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{ "Damage", 							"100" }, 	--Original "45"
+								{ "Damage", 							"150" }, 	--Original "45"
 							}
 						}
 					} --8 replacements
